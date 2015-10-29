@@ -1,0 +1,307 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>DisplayPipeline.DrawArrow Method (Line, Color, Double, Double)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Rhino.Display.DisplayPipeline.DrawArrow(Rhino.Geometry.Line,System.Drawing.Color,System.Double,System.Double)" /><meta name="Description" content="Draws a single arrow object. An arrow consists of a Shaft and an Arrow head at the end of the shaft." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Display" /><meta name="file" content="M_Rhino_Display_DisplayPipeline_DrawArrow_1" /><meta name="guid" content="M_Rhino_Display_DisplayPipeline_DrawArrow_1" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Display.htm" title="Rhino.Display" tocid="N_Rhino_Display">Rhino.Display</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Display_DisplayPipeline.htm" title="DisplayPipeline Class" tocid="T_Rhino_Display_DisplayPipeline">DisplayPipeline Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Display_DisplayPipeline.htm" title="DisplayPipeline Methods" tocid="Methods_T_Rhino_Display_DisplayPipeline">DisplayPipeline Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Display_DisplayPipeline_DrawArrow.htm" title="DrawArrow Method " tocid="Overload_Rhino_Display_DisplayPipeline_DrawArrow">DrawArrow Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Display_DisplayPipeline_DrawArrow.htm" title="DrawArrow Method (Line, Color)" tocid="M_Rhino_Display_DisplayPipeline_DrawArrow">DrawArrow Method (Line, Color)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Display_DisplayPipeline_DrawArrow_1.htm" title="DrawArrow Method (Line, Color, Double, Double)" tocid="M_Rhino_Display_DisplayPipeline_DrawArrow_1">DrawArrow Method (Line, Color, Double, Double)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">DisplayPipeline<span id="LSTD458E523_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD458E523_0?cpp=::|nu=.");</script>DrawArrow Method (Line, Color, Double, Double)</td></tr></table><span class="introStyle">Rhino for Mac 5.1</span><div class="summary">
+            Draws a single arrow object.
+            An arrow consists of a Shaft and an Arrow head at the end of the shaft.
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Display.htm">Rhino.Display</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.50000.0 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">DrawArrow</span>(
+	<span class="identifier">Line</span> <span class="parameter">line</span>,
+	<span class="identifier">Color</span> <span class="parameter">color</span>,
+	<span class="identifier">double</span> <span class="parameter">screenSize</span>,
+	<span class="identifier">double</span> <span class="parameter">relativeSize</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">DrawArrow</span> ( 
+	<span class="parameter">line</span> <span class="keyword">As</span> <span class="identifier">Line</span>,
+	<span class="parameter">color</span> <span class="keyword">As</span> <span class="identifier">Color</span>,
+	<span class="parameter">screenSize</span> <span class="keyword">As</span> <span class="identifier">Double</span>,
+	<span class="parameter">relativeSize</span> <span class="keyword">As</span> <span class="identifier">Double</span>
+)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">line</span></dt><dd>Type: <a href="T_Rhino_Geometry_Line.htm">Rhino.Geometry<span id="LSTD458E523_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD458E523_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Line</a><br />Arrow shaft.</dd><dt><span class="parameter">color</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/14w97wkc" target="_blank">System.Drawing<span id="LSTD458E523_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD458E523_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Color</a><br />Color of arrow.</dd><dt><span class="parameter">screenSize</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTD458E523_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD458E523_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />If screenSize != 0.0 then the size (in screen pixels) of the arrow head will be equal to screenSize.</dd><dt><span class="parameter">relativeSize</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LSTD458E523_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTD458E523_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />If relativeSize != 0.0 and screensize == 0.0 the size of the arrow head will be proportional to the arrow shaft length.</dd></dl></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Rhino;
+<span class="highlight-keyword">using</span> Rhino.Commands;
+<span class="highlight-keyword">using</span> Rhino.Geometry;
+<span class="highlight-keyword">using</span> Rhino.Input.Custom;
+
+<span class="highlight-keyword">namespace</span> examples_cs
+{
+  <span class="highlight-keyword">class</span> DrawArrowHeadsConduit : Rhino.Display.DisplayConduit
+  {
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> Line m_line;
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> <span class="highlight-keyword">int</span> m_screen_size;
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">readonly</span> <span class="highlight-keyword">double</span> m_world_size;
+
+    <span class="highlight-keyword">public</span> DrawArrowHeadsConduit(Line line, <span class="highlight-keyword">int</span> screenSize, <span class="highlight-keyword">double</span> worldSize)
+    {
+      m_line = line;
+      m_screen_size = screenSize;
+      m_world_size = worldSize;
+    }
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> DrawForeground(Rhino.Display.DrawEventArgs e)
+    {
+      e.Display.DrawArrow(m_line, System.Drawing.Color.Black, m_screen_size, m_world_size);
+    }
+  }
+
+
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> DrawArrowheadsCommand : Command
+  {
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> EnglishName { <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"csDrawArrowHeads"</span>; } }
+
+    DrawArrowHeadsConduit m_draw_conduit;
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> Result RunCommand(RhinoDoc doc, RunMode mode)
+    {
+      <span class="highlight-keyword">if</span> (m_draw_conduit != <span class="highlight-keyword">null</span>)
+      {
+        RhinoApp.WriteLine(<span class="highlight-literal">"Turn off existing arrowhead conduit"</span>);
+        m_draw_conduit.Enabled = <span class="highlight-keyword">false</span>;
+        m_draw_conduit = <span class="highlight-keyword">null</span>;
+      }
+      <span class="highlight-keyword">else</span>
+      {
+        <span class="highlight-comment">// get arrow head size</span>
+        <span class="highlight-keyword">var</span> go = <span class="highlight-keyword">new</span> GetOption();
+        go.SetCommandPrompt(<span class="highlight-literal">"ArrowHead length in screen size (pixels) or world size (percentage of arrow length)?"</span>);
+        go.AddOption(<span class="highlight-literal">"screen"</span>);
+        go.AddOption(<span class="highlight-literal">"world"</span>);
+        go.Get();
+        <span class="highlight-keyword">if</span> (go.CommandResult() != Result.Success)
+          <span class="highlight-keyword">return</span> go.CommandResult();
+
+        <span class="highlight-keyword">int</span> screen_size = <span class="highlight-number">0</span>;
+        <span class="highlight-keyword">double</span> world_size = <span class="highlight-number">0.0</span>;
+        <span class="highlight-keyword">if</span> (go.Option().EnglishName == <span class="highlight-literal">"screen"</span>)
+        {
+          <span class="highlight-keyword">var</span> gi = <span class="highlight-keyword">new</span> GetInteger();
+          gi.SetLowerLimit(<span class="highlight-number">0</span>, <span class="highlight-keyword">true</span>);
+          gi.SetCommandPrompt(<span class="highlight-literal">"Length of arrow head in pixels"</span>);
+          gi.Get();
+          <span class="highlight-keyword">if</span> (gi.CommandResult() != Result.Success)
+            <span class="highlight-keyword">return</span> gi.CommandResult();
+          screen_size = gi.Number();
+        }
+        <span class="highlight-keyword">else</span>
+        {
+          <span class="highlight-keyword">var</span> gi = <span class="highlight-keyword">new</span> GetInteger();
+          gi.SetLowerLimit(<span class="highlight-number">0</span>, <span class="highlight-keyword">true</span>);
+          gi.SetUpperLimit(<span class="highlight-number">100</span>, <span class="highlight-keyword">false</span>);
+          gi.SetCommandPrompt(<span class="highlight-literal">"Length of arrow head in percentage of total arrow length"</span>);
+          gi.Get();
+          <span class="highlight-keyword">if</span> (gi.CommandResult() != Result.Success)
+            <span class="highlight-keyword">return</span> gi.CommandResult();
+          world_size = gi.Number() / <span class="highlight-number">100.0</span>;
+        }
+
+
+        <span class="highlight-comment">// get arrow start and end points</span>
+        <span class="highlight-keyword">var</span> gp = <span class="highlight-keyword">new</span> GetPoint();
+        gp.SetCommandPrompt(<span class="highlight-literal">"Start of line"</span>);
+        gp.Get();
+        <span class="highlight-keyword">if</span> (gp.CommandResult() != Result.Success)
+          <span class="highlight-keyword">return</span> gp.CommandResult();
+        <span class="highlight-keyword">var</span> start_point = gp.Point();
+
+        gp.SetCommandPrompt(<span class="highlight-literal">"End of line"</span>);
+        gp.SetBasePoint(start_point, <span class="highlight-keyword">false</span>);
+        gp.DrawLineFromPoint(start_point, <span class="highlight-keyword">true</span>);
+        gp.Get();
+        <span class="highlight-keyword">if</span> (gp.CommandResult() != Result.Success)
+          <span class="highlight-keyword">return</span> gp.CommandResult();
+        <span class="highlight-keyword">var</span> end_point = gp.Point();
+
+        <span class="highlight-keyword">var</span> v = end_point - start_point;
+        <span class="highlight-keyword">if</span> (v.IsTiny(Rhino.RhinoMath.ZeroTolerance))
+          <span class="highlight-keyword">return</span> Result.Nothing;
+
+        <span class="highlight-keyword">var</span> line = <span class="highlight-keyword">new</span> Line(start_point, end_point);
+
+        m_draw_conduit = <span class="highlight-keyword">new</span> DrawArrowHeadsConduit(line, screen_size, world_size);
+        <span class="highlight-comment">// toggle conduit on/off</span>
+        m_draw_conduit.Enabled = <span class="highlight-keyword">true</span>;
+        RhinoApp.WriteLine(<span class="highlight-literal">"Draw arrowheads conduit enabled."</span>);
+      }
+      doc.Views.Redraw();
+      <span class="highlight-keyword">return</span> Result.Success;
+    }
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Rhino
+<span class="highlight-keyword">Imports</span> Rhino.Commands
+<span class="highlight-keyword">Imports</span> Rhino.Geometry
+<span class="highlight-keyword">Imports</span> System.Collections.Generic
+<span class="highlight-keyword">Imports</span> Rhino.Input.Custom
+
+<span class="highlight-keyword">Namespace</span> examples_vb
+  <span class="highlight-keyword">Class</span> DrawArrowHeadsConduit
+    <span class="highlight-keyword">Inherits</span> Rhino.Display.DisplayConduit
+    <span class="highlight-keyword">Private</span> _line <span class="highlight-keyword">As</span> Line
+    <span class="highlight-keyword">Private</span> _screenSize <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span>
+    <span class="highlight-keyword">Private</span> _worldSize <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>
+
+    <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Sub</span> <span class="highlight-keyword">New</span>(line <span class="highlight-keyword">As</span> Line, screenSize <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span>, worldSize <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>)
+      _line = line
+      _screenSize = screenSize
+      _worldSize = worldSize
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> DrawForeground(e <span class="highlight-keyword">As</span> Rhino.Display.DrawEventArgs)
+      e.Display.DrawArrow(_line, System.Drawing.Color.Black, _screenSize, _worldSize)
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span>
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> DrawArrowheadsCommand
+    <span class="highlight-keyword">Inherits</span> Command
+    <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> EnglishName() <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span>
+      <span class="highlight-keyword">Get</span>
+        <span class="highlight-keyword">Return</span> <span class="highlight-literal">"vbDrawArrowHeads"</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> RunCommand(doc <span class="highlight-keyword">As</span> RhinoDoc, mode <span class="highlight-keyword">As</span> RunMode) <span class="highlight-keyword">As</span> Result
+      <span class="highlight-comment">' get arrow head size</span>
+      <span class="highlight-keyword">Dim</span> go = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetOption()
+      go.SetCommandPrompt(<span class="highlight-literal">"ArrowHead length in screen size (pixles) or world size (percentage of arrow lenght)?"</span>)
+      go.AddOption(<span class="highlight-literal">"screen"</span>)
+      go.AddOption(<span class="highlight-literal">"world"</span>)
+      go.[<span class="highlight-keyword">Get</span>]()
+      <span class="highlight-keyword">If</span> go.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> go.CommandResult()
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">Dim</span> screenSize <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">0</span>
+      <span class="highlight-keyword">Dim</span> worldSize <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = <span class="highlight-number">0.0</span>
+      <span class="highlight-keyword">If</span> go.[<span class="highlight-keyword">Option</span>]().EnglishName = <span class="highlight-literal">"screen"</span> <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Dim</span> gi = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetInteger()
+        gi.SetLowerLimit(<span class="highlight-number">0</span>, <span class="highlight-keyword">True</span>)
+        gi.SetCommandPrompt(<span class="highlight-literal">"Length of arrow head in pixels"</span>)
+        gi.[<span class="highlight-keyword">Get</span>]()
+        <span class="highlight-keyword">If</span> gi.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+          <span class="highlight-keyword">Return</span> gi.CommandResult()
+        <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+        screenSize = gi.Number()
+      <span class="highlight-keyword">Else</span>
+        <span class="highlight-keyword">Dim</span> gi = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetInteger()
+        gi.SetLowerLimit(<span class="highlight-number">0</span>, <span class="highlight-keyword">True</span>)
+        gi.SetUpperLimit(<span class="highlight-number">100</span>, <span class="highlight-keyword">False</span>)
+        gi.SetCommandPrompt(<span class="highlight-literal">"Lenght of arrow head in percentage of total arrow lenght"</span>)
+        gi.[<span class="highlight-keyword">Get</span>]()
+        <span class="highlight-keyword">If</span> gi.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+          <span class="highlight-keyword">Return</span> gi.CommandResult()
+        <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+        worldSize = gi.Number() / <span class="highlight-number">100.0</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+
+      <span class="highlight-comment">' get arrow start and end points</span>
+      <span class="highlight-keyword">Dim</span> gp = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetPoint()
+      gp.SetCommandPrompt(<span class="highlight-literal">"Start of line"</span>)
+      gp.[<span class="highlight-keyword">Get</span>]()
+      <span class="highlight-keyword">If</span> gp.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> gp.CommandResult()
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">Dim</span> startPoint = gp.Point()
+
+      gp.SetCommandPrompt(<span class="highlight-literal">"End of line"</span>)
+      gp.SetBasePoint(startPoint, <span class="highlight-keyword">False</span>)
+      gp.DrawLineFromPoint(startPoint, <span class="highlight-keyword">True</span>)
+      gp.[<span class="highlight-keyword">Get</span>]()
+      <span class="highlight-keyword">If</span> gp.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> gp.CommandResult()
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">Dim</span> endPoint = gp.Point()
+
+      <span class="highlight-keyword">Dim</span> v = endPoint - startPoint
+      <span class="highlight-keyword">If</span> v.IsTiny(Rhino.RhinoMath.ZeroTolerance) <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> Result.[<span class="highlight-keyword">Nothing</span>]
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">Dim</span> line = <span class="highlight-keyword">New</span> Line(startPoint, endPoint)
+
+      <span class="highlight-keyword">Dim</span> conduit = <span class="highlight-keyword">New</span> DrawArrowHeadsConduit(line, screenSize, worldSize)
+      <span class="highlight-comment">' toggle conduit on/off</span>
+      conduit.Enabled = <span class="highlight-keyword">Not</span> conduit.Enabled
+      RhinoApp.WriteLine(<span class="highlight-literal">"draw arrowheads conduit enabled = {0}"</span>, conduit.Enabled)
+
+      doc.Views.Redraw()
+      <span class="highlight-keyword">Return</span> Result.Success
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Namespace</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">import</span> Rhino
+<span class="highlight-keyword">import</span> System.Drawing
+<span class="highlight-keyword">import</span> scriptcontext
+<span class="highlight-keyword">import</span> rhinoscriptsyntax <span class="highlight-keyword">as</span> rs
+
+<span class="highlight-keyword">class</span> DrawArrowHeadsConduit(Rhino.Display.DisplayConduit):
+  <span class="highlight-keyword">def</span> __init__(self, line, screenSize, worldSize):
+    self.line = line
+    self.screenSize = screenSize
+    self.worldSize = worldSize
+
+  <span class="highlight-keyword">def</span> DrawForeground(self, e):
+    e.Display.DrawArrow(self.line, System.Drawing.Color.Black, self.screenSize, self.worldSize)
+
+<span class="highlight-keyword">def</span> RunCommand():
+  <span class="highlight-comment"># get arrow head size</span>
+  go = Rhino.Input.Custom.GetOption()
+  go.SetCommandPrompt(<span class="highlight-literal">"ArrowHead length in screen size (pixles) or world size (percentage of arrow lenght)?"</span>)
+  go.AddOption(<span class="highlight-literal">"screen"</span>)
+  go.AddOption(<span class="highlight-literal">"world"</span>)
+  go.Get()
+  <span class="highlight-keyword">if</span> (go.CommandResult() != Rhino.Commands.Result.Success):
+    <span class="highlight-keyword">return</span> go.CommandResult()
+
+  screenSize = <span class="highlight-number">0</span>
+  worldSize = <span class="highlight-number">0.0</span>
+  <span class="highlight-keyword">if</span> (go.Option().EnglishName == <span class="highlight-literal">"screen"</span>):
+    gi = Rhino.Input.Custom.GetInteger()
+    gi.SetLowerLimit(<span class="highlight-number">0</span>,True)
+    gi.SetCommandPrompt(<span class="highlight-literal">"Length of arrow head in pixels"</span>)
+    gi.Get()
+    <span class="highlight-keyword">if</span> (gi.CommandResult() != Rhino.Commands.Result.Success):
+      <span class="highlight-keyword">return</span> gi.CommandResult()
+    screenSize = gi.Number()
+  <span class="highlight-keyword">else</span>:
+    gi = Rhino.Input.Custom.GetInteger()
+    gi.SetLowerLimit(<span class="highlight-number">0</span>, True)
+    gi.SetUpperLimit(<span class="highlight-number">100</span>, False)
+    gi.SetCommandPrompt(<span class="highlight-literal">"Lenght of arrow head in percentage of total arrow lenght"</span>)
+    gi.Get()
+    <span class="highlight-keyword">if</span> (gi.CommandResult() != Rhino.Commands.Result.Success):
+      <span class="highlight-keyword">return</span> gi.CommandResult()
+    worldSize = gi.Number()/<span class="highlight-number">100.0</span>
+
+
+  <span class="highlight-comment"># get arrow start and end points</span>
+  gp = Rhino.Input.Custom.GetPoint()
+  gp.SetCommandPrompt(<span class="highlight-literal">"Start of line"</span>)
+  gp.Get()
+  <span class="highlight-keyword">if</span> (gp.CommandResult() != Rhino.Commands.Result.Success):
+    <span class="highlight-keyword">return</span> gp.CommandResult()
+  ptStart = gp.Point()
+
+  gp.SetCommandPrompt(<span class="highlight-literal">"End of line"</span>)
+  gp.SetBasePoint(ptStart, False)
+  gp.DrawLineFromPoint(ptStart, True)
+  gp.Get()
+  <span class="highlight-keyword">if</span> (gp.CommandResult() != Rhino.Commands.Result.Success):
+    <span class="highlight-keyword">return</span> gp.CommandResult()
+  ptEnd = gp.Point()
+
+
+  v = ptEnd - ptStart
+  <span class="highlight-keyword">if</span> (v.IsTiny(Rhino.RhinoMath.ZeroTolerance)):
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing
+
+  line = Rhino.Geometry.Line(ptStart, ptEnd)
+
+  conduit = DrawArrowHeadsConduit(line, screenSize, worldSize)
+  conduit.Enabled = True
+  scriptcontext.doc.Views.Redraw()
+  rs.GetString(<span class="highlight-literal">"Pausing for user input"</span>)
+  conduit.Enabled = False
+  scriptcontext.doc.Views.Redraw()
+
+  <span class="highlight-keyword">return</span> Rhino.Commands.Result.Success
+
+<span class="highlight-keyword">if</span> __name__==<span class="highlight-literal">"__main__"</span>:
+  RunCommand()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Display_DisplayPipeline.htm">DisplayPipeline Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_Display_DisplayPipeline_DrawArrow.htm">DrawArrow Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Display.htm">Rhino.Display Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 4 October 2015 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

@@ -1,0 +1,164 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Curve.IsLinear Method </title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Rhino.Geometry.Curve.IsLinear" /><meta name="Description" content="Test a curve to see if it is linear to within RhinoMath.ZeroTolerance units (1e-12)." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Geometry" /><meta name="file" content="M_Rhino_Geometry_Curve_IsLinear" /><meta name="guid" content="M_Rhino_Geometry_Curve_IsLinear" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Geometry.htm" title="Rhino.Geometry" tocid="N_Rhino_Geometry">Rhino.Geometry</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Geometry_Curve.htm" title="Curve Class" tocid="T_Rhino_Geometry_Curve">Curve Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Geometry_Curve.htm" title="Curve Methods" tocid="Methods_T_Rhino_Geometry_Curve">Curve Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Curve_IsLinear.htm" title="IsLinear Method " tocid="Overload_Rhino_Geometry_Curve_IsLinear">IsLinear Method </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Curve_IsLinear.htm" title="IsLinear Method " tocid="M_Rhino_Geometry_Curve_IsLinear">IsLinear Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Curve_IsLinear_1.htm" title="IsLinear Method (Double)" tocid="M_Rhino_Geometry_Curve_IsLinear_1">IsLinear Method (Double)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Curve<span id="LST3319EDA9_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST3319EDA9_0?cpp=::|nu=.");</script>IsLinear Method </td></tr></table><span class="introStyle">Rhino for Mac 5.1</span><div class="summary">
+            Test a curve to see if it is linear to within RhinoMath.ZeroTolerance units (1e-12).
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Geometry.htm">Rhino.Geometry</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.50000.0 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">bool</span> <span class="identifier">IsLinear</span>()</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">IsLinear</span> <span class="keyword">As</span> <span class="identifier">Boolean</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a><br />true if the curve is linear.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Rhino;
+<span class="highlight-keyword">using</span> Rhino.DocObjects;
+<span class="highlight-keyword">using</span> Rhino.Commands;
+<span class="highlight-keyword">using</span> Rhino.Geometry;
+<span class="highlight-keyword">using</span> Rhino.Input;
+
+<span class="highlight-keyword">namespace</span> examples_cs
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> AddRadialDimensionCommand : Rhino.Commands.Command
+  {
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> EnglishName
+    {
+      <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"csAddRadialDimension"</span>; }
+    }
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> Result RunCommand(RhinoDoc doc, RunMode mode)
+    {
+      ObjRef obj_ref;
+      <span class="highlight-keyword">var</span> rc = RhinoGet.GetOneObject(<span class="highlight-literal">"Select curve for radius dimension"</span>, 
+        <span class="highlight-keyword">true</span>, ObjectType.Curve, <span class="highlight-keyword">out</span> obj_ref);
+      <span class="highlight-keyword">if</span> (rc != Result.Success)
+        <span class="highlight-keyword">return</span> rc;
+      <span class="highlight-keyword">double</span> curve_parameter;
+      <span class="highlight-keyword">var</span> curve = obj_ref.CurveParameter(<span class="highlight-keyword">out</span> curve_parameter);
+      <span class="highlight-keyword">if</span> (curve == <span class="highlight-keyword">null</span>)
+        <span class="highlight-keyword">return</span> Result.Failure;
+
+      <span class="highlight-keyword">if</span> (curve.IsLinear() || curve.IsPolyline())
+      {
+        RhinoApp.WriteLine(<span class="highlight-literal">"Curve must be non-linear."</span>);
+        <span class="highlight-keyword">return</span> Result.Nothing;
+      }
+
+      <span class="highlight-comment">// in this example just deal with planar curves</span>
+      <span class="highlight-keyword">if</span> (!curve.IsPlanar())
+      {
+        RhinoApp.WriteLine(<span class="highlight-literal">"Curve must be planar."</span>);
+        <span class="highlight-keyword">return</span> Result.Nothing;
+      }
+
+      <span class="highlight-keyword">var</span> point_on_curve = curve.PointAt(curve_parameter);
+      <span class="highlight-keyword">var</span> curvature_vector = curve.CurvatureAt(curve_parameter);
+      <span class="highlight-keyword">var</span> len = curvature_vector.Length;
+      <span class="highlight-keyword">if</span> (len &lt; RhinoMath.SqrtEpsilon)
+      {
+        RhinoApp.WriteLine(<span class="highlight-literal">"Curve is almost linear and therefore has no curvature."</span>);
+        <span class="highlight-keyword">return</span> Result.Nothing;
+      }
+
+      <span class="highlight-keyword">var</span> center = point_on_curve + (curvature_vector/(len*len));
+      Plane plane;
+      curve.TryGetPlane(<span class="highlight-keyword">out</span> plane);
+      <span class="highlight-keyword">var</span> radial_dimension = 
+        <span class="highlight-keyword">new</span> RadialDimension(center, point_on_curve, plane.XAxis, plane.Normal, <span class="highlight-number">5.0</span>);
+      doc.Objects.AddRadialDimension(radial_dimension);
+      doc.Views.Redraw();
+      <span class="highlight-keyword">return</span> Result.Success;
+    }
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Rhino
+<span class="highlight-keyword">Imports</span> Rhino.DocObjects
+<span class="highlight-keyword">Imports</span> Rhino.Commands
+<span class="highlight-keyword">Imports</span> Rhino.Geometry
+<span class="highlight-keyword">Imports</span> Rhino.Input
+
+<span class="highlight-keyword">Namespace</span> examples_vb
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> AddRadialDimensionCommand
+    <span class="highlight-keyword">Inherits</span> Rhino.Commands.Command
+    <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> EnglishName() <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span>
+      <span class="highlight-keyword">Get</span>
+        <span class="highlight-keyword">Return</span> <span class="highlight-literal">"vbAddRadialDimension"</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> RunCommand(doc <span class="highlight-keyword">As</span> RhinoDoc, mode <span class="highlight-keyword">As</span> RunMode) <span class="highlight-keyword">As</span> Result
+      <span class="highlight-keyword">Dim</span> obj_ref <span class="highlight-keyword">As</span> ObjRef = <span class="highlight-keyword">Nothing</span>
+      <span class="highlight-keyword">Dim</span> rc = RhinoGet.GetOneObject(<span class="highlight-literal">"Select curve for radius dimension"</span>, <span class="highlight-keyword">True</span>, ObjectType.Curve, obj_ref)
+      <span class="highlight-keyword">If</span> rc &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> rc
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">Dim</span> curve_parameter <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>
+      <span class="highlight-keyword">Dim</span> curve = obj_ref.CurveParameter(curve_parameter)
+      <span class="highlight-keyword">If</span> curve <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> Result.Failure
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">If</span> curve.IsLinear() <span class="highlight-keyword">OrElse</span> curve.IsPolyline() <span class="highlight-keyword">Then</span>
+        RhinoApp.WriteLine(<span class="highlight-literal">"Curve must be non-linear."</span>)
+        <span class="highlight-keyword">Return</span> Result.[<span class="highlight-keyword">Nothing</span>]
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-comment">' in this example just deal with planar curves</span>
+      <span class="highlight-keyword">If</span> <span class="highlight-keyword">Not</span> curve.IsPlanar() <span class="highlight-keyword">Then</span>
+        RhinoApp.WriteLine(<span class="highlight-literal">"Curve must be planar."</span>)
+        <span class="highlight-keyword">Return</span> Result.[<span class="highlight-keyword">Nothing</span>]
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">Dim</span> point_on_curve = curve.PointAt(curve_parameter)
+      <span class="highlight-keyword">Dim</span> curvature_vector = curve.CurvatureAt(curve_parameter)
+      <span class="highlight-keyword">Dim</span> len = curvature_vector.Length
+      <span class="highlight-keyword">If</span> len &lt; RhinoMath.SqrtEpsilon <span class="highlight-keyword">Then</span>
+        RhinoApp.WriteLine(<span class="highlight-literal">"Curve is almost linear and therefore has no curvature."</span>)
+        <span class="highlight-keyword">Return</span> Result.[<span class="highlight-keyword">Nothing</span>]
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">Dim</span> center = point_on_curve + (curvature_vector / (len * len))
+      <span class="highlight-keyword">Dim</span> plane <span class="highlight-keyword">As</span> Plane
+      curve.TryGetPlane(plane)
+      <span class="highlight-keyword">Dim</span> radial_dimension = <span class="highlight-keyword">New</span> RadialDimension(center, point_on_curve, plane.XAxis, plane.Normal, <span class="highlight-number">5.0</span>)
+      doc.Objects.AddRadialDimension(radial_dimension)
+      doc.Views.Redraw()
+      <span class="highlight-keyword">Return</span> Result.Success
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Namespace</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">from</span> Rhino <span class="highlight-keyword">import</span> *
+<span class="highlight-keyword">from</span> Rhino.DocObjects <span class="highlight-keyword">import</span> *
+<span class="highlight-keyword">from</span> Rhino.Commands <span class="highlight-keyword">import</span> *
+<span class="highlight-keyword">from</span> Rhino.Geometry <span class="highlight-keyword">import</span> *
+<span class="highlight-keyword">from</span> Rhino.Input <span class="highlight-keyword">import</span> *
+<span class="highlight-keyword">from</span> scriptcontext <span class="highlight-keyword">import</span> doc
+
+<span class="highlight-keyword">def</span> RunCommand():
+  rc, obj_ref = RhinoGet.GetOneObject(<span class="highlight-literal">"Select curve for radius dimension"</span>, 
+    True, ObjectType.Curve)
+  <span class="highlight-keyword">if</span> rc != Result.Success:
+    <span class="highlight-keyword">return</span> rc
+  curve, curve_parameter = obj_ref.CurveParameter()
+  <span class="highlight-keyword">if</span> curve == None:
+    <span class="highlight-keyword">return</span> Result.Failure
+
+  <span class="highlight-keyword">if</span> curve.IsLinear() <span class="highlight-keyword">or</span> curve.IsPolyline():
+    <span class="highlight-keyword">print</span> <span class="highlight-literal">"Curve must be non-linear."</span>
+    <span class="highlight-keyword">return</span> Result.Nothing
+
+  <span class="highlight-comment"># in this example just deal with planar curves</span>
+  <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> curve.IsPlanar():
+    <span class="highlight-keyword">print</span> <span class="highlight-literal">"Curve must be planar."</span>
+    <span class="highlight-keyword">return</span> Result.Nothing
+
+  point_on_curve = curve.PointAt(curve_parameter)
+  curvature_vector = curve.CurvatureAt(curve_parameter)
+  len = curvature_vector.Length
+  <span class="highlight-keyword">if</span> len &lt; RhinoMath.SqrtEpsilon:
+    <span class="highlight-keyword">print</span> <span class="highlight-literal">"Curve is almost linear and therefore has no curvature."</span>
+    <span class="highlight-keyword">return</span> Result.Nothing
+
+  center = point_on_curve + (curvature_vector/(len*len))
+  _, plane = curve.TryGetPlane()
+  radial_dimension = \
+    RadialDimension(center, point_on_curve, plane.XAxis, plane.Normal, <span class="highlight-number">5.0</span>)
+  doc.Objects.AddRadialDimension(radial_dimension)
+  doc.Views.Redraw()
+  <span class="highlight-keyword">return</span> Result.Success
+
+<span class="highlight-keyword">if</span> __name__==<span class="highlight-literal">"__main__"</span>:
+  RunCommand()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Geometry_Curve.htm">Curve Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_Geometry_Curve_IsLinear.htm">IsLinear Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 4 October 2015 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

@@ -1,0 +1,209 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>InstanceDefinitionTable.Add Method (String, String, Point3d, IEnumerable(GeometryBase), IEnumerable(ObjectAttributes))</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Add(System.String,System.String,Rhino.Geometry.Point3d,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.IEnumerable{Rhino.DocObjects.ObjectAttributes})" /><meta name="Description" content="Adds an instance definition to the instance definition table." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.DocObjects.Tables" /><meta name="file" content="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_2" /><meta name="guid" content="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_2" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_DocObjects_Tables.htm" title="Rhino.DocObjects.Tables" tocid="N_Rhino_DocObjects_Tables">Rhino.DocObjects.Tables</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_DocObjects_Tables_InstanceDefinitionTable.htm" title="InstanceDefinitionTable Class" tocid="T_Rhino_DocObjects_Tables_InstanceDefinitionTable">InstanceDefinitionTable Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_DocObjects_Tables_InstanceDefinitionTable.htm" title="InstanceDefinitionTable Methods" tocid="Methods_T_Rhino_DocObjects_Tables_InstanceDefinitionTable">InstanceDefinitionTable Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add.htm" title="Add Method " tocid="Overload_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add">Add Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_1.htm" title="Add Method (String, String, Point3d, IEnumerable(GeometryBase))" tocid="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_1">Add Method (String, String, Point3d, IEnumerable(GeometryBase))</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add.htm" title="Add Method (String, String, Point3d, GeometryBase, ObjectAttributes)" tocid="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add">Add Method (String, String, Point3d, GeometryBase, ObjectAttributes)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_2.htm" title="Add Method (String, String, Point3d, IEnumerable(GeometryBase), IEnumerable(ObjectAttributes))" tocid="M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_2">Add Method (String, String, Point3d, IEnumerable(GeometryBase), IEnumerable(ObjectAttributes))</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">InstanceDefinitionTable<span id="LSTE4941924_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_0?cpp=::|nu=.");</script>Add Method (String, String, Point3d, IEnumerable<span id="LSTE4941924_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_1?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>GeometryBase<span id="LSTE4941924_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_2?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, IEnumerable<span id="LSTE4941924_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>ObjectAttributes<span id="LSTE4941924_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</td></tr></table><span class="introStyle">Rhino for Mac 5.1</span><div class="summary">
+            Adds an instance definition to the instance definition table.
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_DocObjects_Tables.htm">Rhino.DocObjects.Tables</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.50000.0 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">int</span> <span class="identifier">Add</span>(
+	<span class="identifier">string</span> <span class="parameter">name</span>,
+	<span class="identifier">string</span> <span class="parameter">description</span>,
+	<span class="identifier">Point3d</span> <span class="parameter">basePoint</span>,
+	<span class="identifier">IEnumerable</span>&lt;<span class="identifier">GeometryBase</span>&gt; <span class="parameter">geometry</span>,
+	<span class="identifier">IEnumerable</span>&lt;<span class="identifier">ObjectAttributes</span>&gt; <span class="parameter">attributes</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">Add</span> ( 
+	<span class="parameter">name</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">description</span> <span class="keyword">As</span> <span class="identifier">String</span>,
+	<span class="parameter">basePoint</span> <span class="keyword">As</span> <span class="identifier">Point3d</span>,
+	<span class="parameter">geometry</span> <span class="keyword">As</span> <span class="identifier">IEnumerable</span>(<span class="keyword">Of</span> <span class="identifier">GeometryBase</span>),
+	<span class="parameter">attributes</span> <span class="keyword">As</span> <span class="identifier">IEnumerable</span>(<span class="keyword">Of</span> <span class="identifier">ObjectAttributes</span>)
+) <span class="keyword">As</span> <span class="identifier">Integer</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">name</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="LSTE4941924_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</a><br />The definition name.</dd><dt><span class="parameter">description</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/s1wwdcbf" target="_blank">System<span id="LSTE4941924_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</a><br />The definition description.</dd><dt><span class="parameter">basePoint</span></dt><dd>Type: <a href="T_Rhino_Geometry_Point3d.htm">Rhino.Geometry<span id="LSTE4941924_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Point3d</a><br />A base point.</dd><dt><span class="parameter">geometry</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic<span id="LSTE4941924_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IEnumerable</a><span id="LSTE4941924_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a><span id="LSTE4941924_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />An array, a list or any enumerable set of geometry.</dd><dt><span class="parameter">attributes</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/9eekhta0" target="_blank">System.Collections.Generic<span id="LSTE4941924_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>IEnumerable</a><span id="LSTE4941924_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_12?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script><a href="T_Rhino_DocObjects_ObjectAttributes.htm">ObjectAttributes</a><span id="LSTE4941924_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE4941924_13?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><br />An array, a list or any enumerable set of attributes.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/td2s409d" target="_blank">Int32</a><br />
+            &gt;=0  index of instance definition in the instance definition table. -1 on failure.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Rhino.DocObjects;
+
+<span class="highlight-keyword">partial</span> <span class="highlight-keyword">class</span> Examples
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> Rhino.Commands.Result CreateBlock(Rhino.RhinoDoc doc)
+  {
+    <span class="highlight-comment">// Select objects to define block</span>
+    <span class="highlight-keyword">var</span> go = <span class="highlight-keyword">new</span> Rhino.Input.Custom.GetObject();
+    go.SetCommandPrompt( <span class="highlight-literal">"Select objects to define block"</span> );
+    go.ReferenceObjectSelect = <span class="highlight-keyword">false</span>;
+    go.SubObjectSelect = <span class="highlight-keyword">false</span>;
+    go.GroupSelect = <span class="highlight-keyword">true</span>;
+
+    <span class="highlight-comment">// Phantoms, grips, lights, etc., cannot be in blocks.</span>
+    <span class="highlight-keyword">const</span> ObjectType forbidden_geometry_filter = Rhino.DocObjects.ObjectType.Light |
+                                                 Rhino.DocObjects.ObjectType.Grip | Rhino.DocObjects.ObjectType.Phantom;
+    <span class="highlight-keyword">const</span> ObjectType geometry_filter = forbidden_geometry_filter ^ Rhino.DocObjects.ObjectType.AnyObject;
+    go.GeometryFilter = geometry_filter;
+    go.GetMultiple(<span class="highlight-number">1</span>, <span class="highlight-number">0</span>);
+    <span class="highlight-keyword">if</span> (go.CommandResult() != Rhino.Commands.Result.Success)
+      <span class="highlight-keyword">return</span> go.CommandResult();
+
+    <span class="highlight-comment">// Block base point</span>
+    Rhino.Geometry.Point3d base_point;
+    <span class="highlight-keyword">var</span> rc = Rhino.Input.RhinoGet.GetPoint(<span class="highlight-literal">"Block base point"</span>, <span class="highlight-keyword">false</span>, <span class="highlight-keyword">out</span> base_point);
+    <span class="highlight-keyword">if</span> (rc != Rhino.Commands.Result.Success)
+      <span class="highlight-keyword">return</span> rc;
+
+    <span class="highlight-comment">// Block definition name</span>
+    <span class="highlight-keyword">string</span> idef_name = <span class="highlight-literal">""</span>;
+    rc = Rhino.Input.RhinoGet.GetString(<span class="highlight-literal">"Block definition name"</span>, <span class="highlight-keyword">false</span>, <span class="highlight-keyword">ref</span> idef_name);
+    <span class="highlight-keyword">if</span> (rc != Rhino.Commands.Result.Success)
+      <span class="highlight-keyword">return</span> rc;
+    <span class="highlight-comment">// Validate block name</span>
+    idef_name = idef_name.Trim();
+    <span class="highlight-keyword">if</span> (<span class="highlight-keyword">string</span>.IsNullOrEmpty(idef_name))
+      <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing;
+
+    <span class="highlight-comment">// See if block name already exists</span>
+    Rhino.DocObjects.InstanceDefinition existing_idef = doc.InstanceDefinitions.Find(idef_name, <span class="highlight-keyword">true</span>);
+    <span class="highlight-keyword">if</span> (existing_idef != <span class="highlight-keyword">null</span>)
+    {
+      Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Block definition {0} already exists"</span>, idef_name);
+      <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing;
+    }
+
+    <span class="highlight-comment">// Gather all of the selected objects</span>
+    <span class="highlight-keyword">var</span> geometry = <span class="highlight-keyword">new</span> System.Collections.Generic.List&lt;Rhino.Geometry.GeometryBase&gt;();
+    <span class="highlight-keyword">var</span> attributes = <span class="highlight-keyword">new</span> System.Collections.Generic.List&lt;Rhino.DocObjects.ObjectAttributes&gt;();
+    <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">0</span>; i &lt; go.ObjectCount; i++)
+    {
+      <span class="highlight-keyword">var</span> rhinoObject = go.Object(i).Object();
+      <span class="highlight-keyword">if</span> (rhinoObject != <span class="highlight-keyword">null</span>)
+      {
+        geometry.Add(rhinoObject.Geometry);
+        attributes.Add(rhinoObject.Attributes);
+      }
+    }
+
+    <span class="highlight-comment">// Gather all of the selected objects</span>
+    <span class="highlight-keyword">int</span> idef_index = doc.InstanceDefinitions.Add(idef_name, <span class="highlight-keyword">string</span>.Empty, base_point, geometry, attributes);
+
+    <span class="highlight-keyword">if</span>( idef_index &lt; <span class="highlight-number">0</span> )
+    {
+      Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Unable to create block definition"</span>, idef_name);
+      <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure;
+    }
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure;
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Rhino.DocObjects
+
+<span class="highlight-keyword">Partial</span> <span class="highlight-keyword">Class</span> Examples
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Shared</span> <span class="highlight-keyword">Function</span> CreateBlock(doc <span class="highlight-keyword">As</span> Rhino.RhinoDoc) <span class="highlight-keyword">As</span> Rhino.Commands.Result
+    <span class="highlight-comment">' Select objects to define block</span>
+    <span class="highlight-keyword">Dim</span> go = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetObject()
+    go.SetCommandPrompt(<span class="highlight-literal">"Select objects to define block"</span>)
+    go.ReferenceObjectSelect = <span class="highlight-keyword">False</span>
+    go.SubObjectSelect = <span class="highlight-keyword">False</span>
+    go.GroupSelect = <span class="highlight-keyword">True</span>
+
+    <span class="highlight-comment">' Phantoms, grips, lights, etc., cannot be in blocks.</span>
+    <span class="highlight-keyword">Const</span> forbidden_geometry_filter <span class="highlight-keyword">As</span> ObjectType = Rhino.DocObjects.ObjectType.Light <span class="highlight-keyword">Or</span> Rhino.DocObjects.ObjectType.Grip <span class="highlight-keyword">Or</span> Rhino.DocObjects.ObjectType.Phantom
+    <span class="highlight-keyword">Const</span> geometry_filter <span class="highlight-keyword">As</span> ObjectType = forbidden_geometry_filter <span class="highlight-keyword">Xor</span> Rhino.DocObjects.ObjectType.AnyObject
+    go.GeometryFilter = geometry_filter
+    go.GetMultiple(<span class="highlight-number">1</span>, <span class="highlight-number">0</span>)
+    <span class="highlight-keyword">If</span> go.CommandResult() &lt;&gt; Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> go.CommandResult()
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-comment">' Block base point</span>
+    <span class="highlight-keyword">Dim</span> base_point <span class="highlight-keyword">As</span> Rhino.Geometry.Point3d
+    <span class="highlight-keyword">Dim</span> rc = Rhino.Input.RhinoGet.GetPoint(<span class="highlight-literal">"Block base point"</span>, <span class="highlight-keyword">False</span>, base_point)
+    <span class="highlight-keyword">If</span> rc &lt;&gt; Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> rc
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-comment">' Block definition name</span>
+    <span class="highlight-keyword">Dim</span> idef_name <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span> = <span class="highlight-literal">""</span>
+    rc = Rhino.Input.RhinoGet.GetString(<span class="highlight-literal">"Block definition name"</span>, <span class="highlight-keyword">False</span>, idef_name)
+    <span class="highlight-keyword">If</span> rc &lt;&gt; Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> rc
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-comment">' Validate block name</span>
+    idef_name = idef_name.Trim()
+    <span class="highlight-keyword">If</span> <span class="highlight-keyword">String</span>.IsNullOrEmpty(idef_name) <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> Rhino.Commands.Result.[<span class="highlight-keyword">Nothing</span>]
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-comment">' See if block name already exists</span>
+    <span class="highlight-keyword">Dim</span> existing_idef <span class="highlight-keyword">As</span> Rhino.DocObjects.InstanceDefinition = doc.InstanceDefinitions.Find(idef_name, <span class="highlight-keyword">True</span>)
+    <span class="highlight-keyword">If</span> existing_idef <span class="highlight-keyword">IsNot</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+      Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Block definition {0} already exists"</span>, idef_name)
+      <span class="highlight-keyword">Return</span> Rhino.Commands.Result.[<span class="highlight-keyword">Nothing</span>]
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-comment">' Gather all of the selected objects</span>
+    <span class="highlight-keyword">Dim</span> geometry = <span class="highlight-keyword">New</span> System.Collections.Generic.List(<span class="highlight-keyword">Of</span> Rhino.Geometry.GeometryBase)()
+    <span class="highlight-keyword">Dim</span> attributes = <span class="highlight-keyword">New</span> System.Collections.Generic.List(<span class="highlight-keyword">Of</span> Rhino.DocObjects.ObjectAttributes)()
+    <span class="highlight-keyword">For</span> i <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">0</span> <span class="highlight-keyword">To</span> go.ObjectCount - <span class="highlight-number">1</span>
+      <span class="highlight-keyword">Dim</span> rhinoObject = go.<span class="highlight-keyword">Object</span>(i).[<span class="highlight-keyword">Object</span>]()
+      <span class="highlight-keyword">If</span> rhinoObject <span class="highlight-keyword">IsNot</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+        geometry.Add(rhinoObject.Geometry)
+        attributes.Add(rhinoObject.Attributes)
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">Next</span>
+
+    <span class="highlight-comment">' Gather all of the selected objects</span>
+    <span class="highlight-keyword">Dim</span> idef_index <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = doc.InstanceDefinitions.Add(idef_name, <span class="highlight-keyword">String</span>.Empty, base_point, geometry, attributes)
+
+    <span class="highlight-keyword">If</span> idef_index &lt; <span class="highlight-number">0</span> <span class="highlight-keyword">Then</span>
+      Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Unable to create block definition"</span>, idef_name)
+      <span class="highlight-keyword">Return</span> Rhino.Commands.Result.Failure
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">Return</span> Rhino.Commands.Result.Failure
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">import</span> Rhino
+<span class="highlight-keyword">import</span> scriptcontext
+
+<span class="highlight-keyword">def</span> CreateBlock():
+    <span class="highlight-comment"># Select objects to define block</span>
+    go = Rhino.Input.Custom.GetObject()
+    go.SetCommandPrompt( <span class="highlight-literal">"Select objects to define block"</span> )
+    go.ReferenceObjectSelect = False
+    go.SubObjectSelect = False
+    go.GroupSelect = True
+
+    <span class="highlight-comment"># Phantoms, grips, lights, etc., cannot be in blocks.</span>
+    forbidden_geometry_filter = Rhino.DocObjects.ObjectType.Light | Rhino.DocObjects.ObjectType.Grip | Rhino.DocObjects.ObjectType.Phantom
+    geometry_filter = forbidden_geometry_filter ^ Rhino.DocObjects.ObjectType.AnyObject
+    go.GeometryFilter = geometry_filter
+    go.GetMultiple(<span class="highlight-number">1</span>, <span class="highlight-number">0</span>)
+    <span class="highlight-keyword">if</span> go.CommandResult() != Rhino.Commands.Result.Success:
+        <span class="highlight-keyword">return</span> go.CommandResult()
+
+    <span class="highlight-comment"># Block base point</span>
+    rc, base_point = Rhino.Input.RhinoGet.GetPoint(<span class="highlight-literal">"Block base point"</span>, False)
+    <span class="highlight-keyword">if</span> rc != Rhino.Commands.Result.Success: <span class="highlight-keyword">return</span> rc
+
+    <span class="highlight-comment"># Block definition name</span>
+    rc, idef_name = Rhino.Input.RhinoGet.GetString(<span class="highlight-literal">"Block definition name"</span>, False, <span class="highlight-literal">""</span>)
+    <span class="highlight-keyword">if</span> rc != Rhino.Commands.Result.Success: <span class="highlight-keyword">return</span> rc
+    <span class="highlight-comment"># Validate block name</span>
+    idef_name = idef_name.strip()
+    <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> idef_name: <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing
+
+    <span class="highlight-comment"># See if block name already exists</span>
+    existing_idef = scriptcontext.doc.InstanceDefinitions.Find(idef_name, True)
+    <span class="highlight-keyword">if</span> existing_idef:
+        <span class="highlight-keyword">print</span> <span class="highlight-literal">"Block definition"</span>, idef_name, <span class="highlight-literal">"already exists"</span>
+        <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing
+
+    <span class="highlight-comment"># Gather all of the selected objects</span>
+    objrefs = go.Objects()
+    geometry = [item.Object().Geometry <span class="highlight-keyword">for</span> item <span class="highlight-keyword">in</span> objrefs]
+    attributes = [item.Object().Attributes <span class="highlight-keyword">for</span> item <span class="highlight-keyword">in</span> objrefs]
+
+    <span class="highlight-comment"># Add the instance definition</span>
+    idef_index = scriptcontext.doc.InstanceDefinitions.Add(idef_name, <span class="highlight-literal">""</span>, base_point, geometry, attributes)
+
+    <span class="highlight-keyword">if</span> idef_index&lt;<span class="highlight-number">0</span>:
+        <span class="highlight-keyword">print</span> <span class="highlight-literal">"Unable to create block definition"</span>, idef_name
+        <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure
+
+
+<span class="highlight-keyword">if</span> __name__==<span class="highlight-literal">"__main__"</span>:
+    CreateBlock()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_DocObjects_Tables_InstanceDefinitionTable.htm">InstanceDefinitionTable Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add.htm">Add Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_DocObjects_Tables.htm">Rhino.DocObjects.Tables Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 4 October 2015 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>
