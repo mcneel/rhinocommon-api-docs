@@ -1,0 +1,334 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>FieldDictionary Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="FieldDictionary class" /><meta name="System.Keywords" content="Rhino.Render.Fields.FieldDictionary class" /><meta name="System.Keywords" content="FieldDictionary class, about FieldDictionary class" /><meta name="Microsoft.Help.F1" content="Rhino.Render.Fields.FieldDictionary" /><meta name="Microsoft.Help.Id" content="T:Rhino.Render.Fields.FieldDictionary" /><meta name="Description" content="Dictionary containing RenderContent data fields, add fields to this dictionary in your derived RenderContent classes constructor. Get field values using the TryGet[data type]() methods and set them using the Set() method." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Render.Fields" /><meta name="file" content="T_Rhino_Render_Fields_FieldDictionary" /><meta name="guid" content="T_Rhino_Render_Fields_FieldDictionary" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Render_Fields.htm" title="Rhino.Render.Fields" tocid="N_Rhino_Render_Fields">Rhino.Render.Fields</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Render_Fields_FieldDictionary.htm" title="FieldDictionary Class" tocid="T_Rhino_Render_Fields_FieldDictionary">FieldDictionary Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Render_Fields_FieldDictionary.htm" title="FieldDictionary Methods" tocid="Methods_T_Rhino_Render_Fields_FieldDictionary">FieldDictionary Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">FieldDictionary Class</td></tr></table><span class="introStyle">Rhino 5 for Windows</span><div class="summary">
+            Dictionary containing RenderContent data fields, add fields to this
+            dictionary in your derived RenderContent classes constructor.  Get field
+            values using the TryGet[data type]() methods and set them using the Set()
+            method.
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">System<span id="LST2C24F2AB_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a><br />  <span class="selflink">Rhino.Render.Fields<span id="LST2C24F2AB_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>FieldDictionary</span><br /></div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Render_Fields.htm">Rhino.Render.Fields</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.30000.16 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">sealed</span> <span class="keyword">class</span> <span class="identifier">FieldDictionary</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">FieldDictionary</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">FieldDictionary</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add.htm">Add(String, Color4f)</a></td><td><div class="summary">
+            Add a new Color4fField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_2.htm">Add(String, Point2d)</a></td><td><div class="summary">
+            Add a new Point2dField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_4.htm">Add(String, Point3d)</a></td><td><div class="summary">
+            Add a new Point3dField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_6.htm">Add(String, Point4d)</a></td><td><div class="summary">
+            Add a new Point4dField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_8.htm">Add(String, Transform)</a></td><td><div class="summary">
+            Add a new TransformField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_10.htm">Add(String, Vector2d)</a></td><td><div class="summary">
+            Add a new Vector2dField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_12.htm">Add(String, Vector3d)</a></td><td><div class="summary">
+            Add a new Vector3dField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_14.htm">Add(String, Boolean)</a></td><td><div class="summary">
+            Add a new BoolField to the dictionary. This will be a data only field
+            and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_16.htm">Add(String, <span id="LST2C24F2AB_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_2?cpp=array&lt;");</script>Byte<span id="LST2C24F2AB_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            AddField a new ByteArrayField to the dictionary. This will be a data
+            only field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_17.htm">Add(String, DateTime)</a></td><td><div class="summary">
+            Add a new DateTimeField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_19.htm">Add(String, Double)</a></td><td><div class="summary">
+            AddField a new DoubleField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_21.htm">Add(String, Color)</a></td><td><div class="summary">
+            Add a new Color4fField to the dictionary. This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_23.htm">Add(String, Guid)</a></td><td><div class="summary">
+            Add a new GuidField to the dictionary. This will be a data only field
+            and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_25.htm">Add(String, Int32)</a></td><td><div class="summary">
+            Add a new IntField to the dictionary. This will be a data only field
+            and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_27.htm">Add(String, Single)</a></td><td><div class="summary">
+            Add a new FloatField to the dictionary. This will be a data only field
+            and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_29.htm">Add(String, String)</a></td><td><div class="summary">
+            Add a new StringField to the dictionary.  This will be a data only
+            field and not show up in the content browsers.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_1.htm">Add(String, Color4f, String)</a></td><td><div class="summary">
+            Add a new Color4fField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_3.htm">Add(String, Point2d, String)</a></td><td><div class="summary">
+            Add a new Point2dField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_5.htm">Add(String, Point3d, String)</a></td><td><div class="summary">
+            Add a new Point3dField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_7.htm">Add(String, Point4d, String)</a></td><td><div class="summary">
+            Add a new Point4dField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_9.htm">Add(String, Transform, String)</a></td><td><div class="summary">
+            Add a new TransformField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_11.htm">Add(String, Vector2d, String)</a></td><td><div class="summary">
+            Add a new Vector2dField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_13.htm">Add(String, Vector3d, String)</a></td><td><div class="summary">
+            Add a new Vector3dField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_15.htm">Add(String, Boolean, String)</a></td><td><div class="summary">
+            Add a new BoolField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_18.htm">Add(String, DateTime, String)</a></td><td><div class="summary">
+            Add a new DateTimeField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_20.htm">Add(String, Double, String)</a></td><td><div class="summary">
+            Add a new DoubleField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_22.htm">Add(String, Color, String)</a></td><td><div class="summary">
+            Add a new Color4fField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_24.htm">Add(String, Guid, String)</a></td><td><div class="summary">
+            Add a new GuidField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_26.htm">Add(String, Int32, String)</a></td><td><div class="summary">
+            Add a new IntField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_28.htm">Add(String, Single, String)</a></td><td><div class="summary">
+            AddField a new FloatField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Add_30.htm">Add(String, String, String)</a></td><td><div class="summary">
+            Add a new StringField to the dictionary.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured.htm">AddTextured(String, Color4f, String)</a></td><td><div class="summary">
+            Add a new Color4fField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_1.htm">AddTextured(String, Point2d, String)</a></td><td><div class="summary">
+            Add a new Point2dField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_2.htm">AddTextured(String, Point3d, String)</a></td><td><div class="summary">
+            Add a new Point3dField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_3.htm">AddTextured(String, Point4d, String)</a></td><td><div class="summary">
+            Add a new Point4dField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_4.htm">AddTextured(String, Transform, String)</a></td><td><div class="summary">
+            Add a new TransformField to the dictionary. This overload will cause
+            the field to be tagged as "textured" so that the texturing UI will
+            appear in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_5.htm">AddTextured(String, Vector2d, String)</a></td><td><div class="summary">
+            Add a new Vector2dField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_6.htm">AddTextured(String, Vector3d, String)</a></td><td><div class="summary">
+            Add a new Vector3dField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_7.htm">AddTextured(String, Boolean, String)</a></td><td><div class="summary">
+            Add a new BoolField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_8.htm">AddTextured(String, DateTime, String)</a></td><td><div class="summary">
+            Add a new DateTimeField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_9.htm">AddTextured(String, Double, String)</a></td><td><div class="summary">
+            Add a new DoubleField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_10.htm">AddTextured(String, Color, String)</a></td><td><div class="summary">
+            Add a new Color4fField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_11.htm">AddTextured(String, Guid, String)</a></td><td><div class="summary">
+            Add a new GuidField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_12.htm">AddTextured(String, Int32, String)</a></td><td><div class="summary">
+            Add a new IntField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_13.htm">AddTextured(String, Single, String)</a></td><td><div class="summary">
+            Add a new FloatField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_AddTextured_14.htm">AddTextured(String, String, String)</a></td><td><div class="summary">
+            Add a new StringField to the dictionary. This overload will cause the
+            field to be tagged as "textured" so that the texturing UI will appear
+            in automatic UIs.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_ContainsField.htm">ContainsField</a></td><td><div class="summary">
+            Call this method to determine if a this FieldsList contains a field
+            with the specified field name.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/bsc2ak47" target="_blank">Equals</a></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_GetField.htm">GetField</a></td><td><div class="summary">
+            Call this method to get the field with the matching name.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/zdee4b3y" target="_blank">GetHashCode</a></td><td><div class="summary">Serves as the default hash function. </div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/dfwy45w9" target="_blank">GetType</a></td><td><div class="summary">Gets the <a href="http://msdn2.microsoft.com/en-us/library/42892f65" target="_blank">Type</a> of the current instance.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set.htm">Set(String, Color4f)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_2.htm">Set(String, Point2d)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_4.htm">Set(String, Point3d)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_6.htm">Set(String, Point4d)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_8.htm">Set(String, Transform)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_10.htm">Set(String, Vector2d)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_12.htm">Set(String, Vector3d)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_14.htm">Set(String, Boolean)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_16.htm">Set(String, <span id="LST2C24F2AB_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_4?cpp=array&lt;");</script>Byte<span id="LST2C24F2AB_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_18.htm">Set(String, DateTime)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_20.htm">Set(String, Double)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_22.htm">Set(String, Color)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_24.htm">Set(String, Guid)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_26.htm">Set(String, Int32)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_28.htm">Set(String, Single)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_30.htm">Set(String, String)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_1.htm">Set(String, Color4f, RenderContent<span id="LST2C24F2AB_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_3.htm">Set(String, Point2d, RenderContent<span id="LST2C24F2AB_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_5.htm">Set(String, Point3d, RenderContent<span id="LST2C24F2AB_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_8?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_7.htm">Set(String, Point4d, RenderContent<span id="LST2C24F2AB_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_9.htm">Set(String, Transform, RenderContent<span id="LST2C24F2AB_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_10?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_11.htm">Set(String, Vector2d, RenderContent<span id="LST2C24F2AB_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_11?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_13.htm">Set(String, Vector3d, RenderContent<span id="LST2C24F2AB_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_12?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_15.htm">Set(String, Boolean, RenderContent<span id="LST2C24F2AB_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_13?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_17.htm">Set(String, <span id="LST2C24F2AB_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_14?cpp=array&lt;");</script>Byte<span id="LST2C24F2AB_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_15?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>, RenderContent<span id="LST2C24F2AB_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_16?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_19.htm">Set(String, DateTime, RenderContent<span id="LST2C24F2AB_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_17?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_21.htm">Set(String, Double, RenderContent<span id="LST2C24F2AB_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_18?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_23.htm">Set(String, Color, RenderContent<span id="LST2C24F2AB_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_19?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_25.htm">Set(String, Guid, RenderContent<span id="LST2C24F2AB_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_20?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_27.htm">Set(String, Int32, RenderContent<span id="LST2C24F2AB_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_21?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_29.htm">Set(String, Single, RenderContent<span id="LST2C24F2AB_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_22?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_Set_31.htm">Set(String, String, RenderContent<span id="LST2C24F2AB_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_23?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
+            Set the field value and send the appropriate change notification to the
+            render SDK.  Will throw a InvalidOperationException exception if the key
+            name is not valid.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_SetTag.htm">SetTag</a></td><td><div class="summary">
+            Sets an object that contains data to associate with the field.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="http://msdn2.microsoft.com/en-us/library/7bxwbwt2" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="http://msdn2.microsoft.com/en-us/library/e5kfa45b" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetTag.htm">TryGetTag</a></td><td><div class="summary">
+            Gets object that contains data associate with a field.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue.htm">TryGetValue(String, Color4f<span id="LST2C24F2AB_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_24?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_1.htm">TryGetValue(String, Point2d<span id="LST2C24F2AB_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_25?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_2.htm">TryGetValue(String, Point3d<span id="LST2C24F2AB_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_26?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_3.htm">TryGetValue(String, Point4d<span id="LST2C24F2AB_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_27?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_4.htm">TryGetValue(String, Transform<span id="LST2C24F2AB_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_28?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_5.htm">TryGetValue(String, Vector2d<span id="LST2C24F2AB_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_29?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_6.htm">TryGetValue(String, Vector3d<span id="LST2C24F2AB_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_30?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_7.htm">TryGetValue(String, Boolean<span id="LST2C24F2AB_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_31?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_8.htm">TryGetValue(String, <span id="LST2C24F2AB_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_32?cpp=array&lt;");</script>Byte<span id="LST2C24F2AB_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_33?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script><span id="LST2C24F2AB_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_34?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_9.htm">TryGetValue(String, DateTime<span id="LST2C24F2AB_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_35?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_10.htm">TryGetValue(String, Double<span id="LST2C24F2AB_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_36?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_11.htm">TryGetValue(String, Color<span id="LST2C24F2AB_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_37?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_12.htm">TryGetValue(String, Guid<span id="LST2C24F2AB_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_38?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_13.htm">TryGetValue(String, Int32<span id="LST2C24F2AB_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_39?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_14.htm">TryGetValue(String, Single<span id="LST2C24F2AB_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_40?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_Fields_FieldDictionary_TryGetValue_15.htm">TryGetValue(String, String<span id="LST2C24F2AB_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2C24F2AB_41?cpp=%");</script>)</a></td><td><div class="summary">
+            Find a field with the specified key and get its value if found.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID4RBSection" class="collapsibleSection">
+            [System.Runtime.InteropServices.Guid("ABE4059B-9BD7-451C-91B2-67C2F188860A")]
+            public class CustomMaterial : RenderMaterial
+            {
+              public override string TypeName { get { return "CSharp Custom Material"; } }
+              public override string TypeDescription { get { return "My first custom .NET material"; } }
+            
+              public CustomMaterial()
+              {
+                Fields.AddField("bool", false, "Yes/No");
+                Fields.AddField("color", Rhino.Display.Color4f.White, "Color");
+              }
+            }
+            </div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID5RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Render_Fields.htm">Rhino.Render.Fields Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 10 March 2016 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

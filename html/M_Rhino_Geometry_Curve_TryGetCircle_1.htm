@@ -1,0 +1,102 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Curve.TryGetCircle Method (Circle, Double)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Rhino.Geometry.Curve.TryGetCircle(Rhino.Geometry.Circle@,System.Double)" /><meta name="Description" content="Try to convert this curve into a Circle using a custom tolerance." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Geometry" /><meta name="file" content="M_Rhino_Geometry_Curve_TryGetCircle_1" /><meta name="guid" content="M_Rhino_Geometry_Curve_TryGetCircle_1" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Geometry.htm" title="Rhino.Geometry" tocid="N_Rhino_Geometry">Rhino.Geometry</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Geometry_Curve.htm" title="Curve Class" tocid="T_Rhino_Geometry_Curve">Curve Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Geometry_Curve.htm" title="Curve Methods" tocid="Methods_T_Rhino_Geometry_Curve">Curve Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Curve_TryGetCircle.htm" title="TryGetCircle Method " tocid="Overload_Rhino_Geometry_Curve_TryGetCircle">TryGetCircle Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Curve_TryGetCircle.htm" title="TryGetCircle Method (Circle)" tocid="M_Rhino_Geometry_Curve_TryGetCircle">TryGetCircle Method (Circle)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Curve_TryGetCircle_1.htm" title="TryGetCircle Method (Circle, Double)" tocid="M_Rhino_Geometry_Curve_TryGetCircle_1">TryGetCircle Method (Circle, Double)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Curve<span id="LST6372E824_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6372E824_0?cpp=::|nu=.");</script>TryGetCircle Method (Circle<span id="LST6372E824_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6372E824_1?cpp=%");</script>, Double)</td></tr></table><span class="introStyle">Rhino 5 for Windows</span><div class="summary">
+            Try to convert this curve into a Circle using a custom tolerance.
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Geometry.htm">Rhino.Geometry</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.30000.16 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="identifier">bool</span> <span class="identifier">TryGetCircle</span>(
+	<span class="keyword">out</span> <span class="identifier">Circle</span> <span class="parameter">circle</span>,
+	<span class="identifier">double</span> <span class="parameter">tolerance</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Function</span> <span class="identifier">TryGetCircle</span> ( 
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">circle</span> <span class="keyword">As</span> <span class="identifier">Circle</span>,
+	<span class="parameter">tolerance</span> <span class="keyword">As</span> <span class="identifier">Double</span>
+) <span class="keyword">As</span> <span class="identifier">Boolean</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">circle</span></dt><dd>Type: <a href="T_Rhino_Geometry_Circle.htm">Rhino.Geometry<span id="LST6372E824_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6372E824_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Circle</a><span id="LST6372E824_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6372E824_3?cpp=%");</script><br />On success, the Circle will be filled in.</dd><dt><span class="parameter">tolerance</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST6372E824_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6372E824_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />Tolerance to use when checking.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a><br />true if the curve could be converted into a Circle within tolerance.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">partial</span> <span class="highlight-keyword">class</span> Examples
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">static</span> Rhino.Commands.Result CircleCenter(Rhino.RhinoDoc doc)
+  {
+    Rhino.Input.Custom.GetObject go = <span class="highlight-keyword">new</span> Rhino.Input.Custom.GetObject();
+    go.SetCommandPrompt(<span class="highlight-literal">"Select objects"</span>);
+    go.GeometryFilter = Rhino.DocObjects.ObjectType.Curve;
+    go.GeometryAttributeFilter = Rhino.Input.Custom.GeometryAttributeFilter.ClosedCurve;
+    go.GetMultiple(<span class="highlight-number">1</span>, <span class="highlight-number">0</span>);
+    <span class="highlight-keyword">if</span>( go.CommandResult() != Rhino.Commands.Result.Success )
+      <span class="highlight-keyword">return</span> go.CommandResult();
+
+    Rhino.DocObjects.ObjRef[] objrefs = go.Objects();
+    <span class="highlight-keyword">if</span>( objrefs==<span class="highlight-keyword">null</span> )
+      <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing;
+
+    <span class="highlight-keyword">double</span> tolerance = doc.ModelAbsoluteTolerance;
+    <span class="highlight-keyword">for</span>( <span class="highlight-keyword">int</span> i=<span class="highlight-number">0</span>; i&lt;objrefs.Length; i++ )
+    {
+      <span class="highlight-comment">// get the curve geometry</span>
+      Rhino.Geometry.Curve curve = objrefs[i].Curve();
+      <span class="highlight-keyword">if</span>( curve==<span class="highlight-keyword">null</span> )
+        <span class="highlight-keyword">continue</span>;
+      Rhino.Geometry.Circle circle;
+      <span class="highlight-keyword">if</span>( curve.TryGetCircle(<span class="highlight-keyword">out</span> circle, tolerance) )
+      {
+        Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Circle{0}: center = {1}"</span>, i<span class="highlight-number">+1</span>, circle.Center);
+      }
+    }
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Success;
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Partial</span> <span class="highlight-keyword">Class</span> Examples
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Shared</span> <span class="highlight-keyword">Function</span> CircleCenter(<span class="highlight-keyword">ByVal</span> doc <span class="highlight-keyword">As</span> Rhino.RhinoDoc) <span class="highlight-keyword">As</span> Rhino.Commands.Result
+    <span class="highlight-keyword">Dim</span> go <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetObject()
+    go.SetCommandPrompt(<span class="highlight-literal">"Select objects"</span>)
+    go.GeometryFilter = Rhino.DocObjects.ObjectType.Curve
+    go.GeometryAttributeFilter = Rhino.Input.[Custom].GeometryAttributeFilter.ClosedCurve
+    go.GetMultiple(<span class="highlight-number">1</span>, <span class="highlight-number">0</span>)
+    <span class="highlight-keyword">If</span> go.CommandResult() &lt;&gt; Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> go.CommandResult()
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-keyword">Dim</span> objrefs <span class="highlight-keyword">As</span> Rhino.DocObjects.ObjRef() = go.Objects()
+    <span class="highlight-keyword">If</span> objrefs <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> Rhino.Commands.Result.[<span class="highlight-keyword">Nothing</span>]
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-keyword">Dim</span> tolerance <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = doc.ModelAbsoluteTolerance
+    <span class="highlight-keyword">For</span> i <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">0</span> <span class="highlight-keyword">To</span> objrefs.Length - <span class="highlight-number">1</span>
+      <span class="highlight-comment">' get the curve geometry</span>
+      <span class="highlight-keyword">Dim</span> curve <span class="highlight-keyword">As</span> Rhino.Geometry.Curve = objrefs(i).Curve()
+      <span class="highlight-keyword">If</span> curve <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Continue</span> <span class="highlight-keyword">For</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">Dim</span> circle <span class="highlight-keyword">As</span> Rhino.Geometry.Circle
+      <span class="highlight-keyword">If</span> curve.TryGetCircle(circle, tolerance) <span class="highlight-keyword">Then</span>
+        Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Circle{0}: center = {1}"</span>, i + <span class="highlight-number">1</span>, circle.Center)
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">Next</span>
+    <span class="highlight-keyword">Return</span> Rhino.Commands.Result.Success
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">import</span> Rhino
+<span class="highlight-keyword">import</span> scriptcontext
+
+<span class="highlight-keyword">def</span> CircleCenter():
+    go = Rhino.Input.Custom.GetObject()
+    go.SetCommandPrompt(<span class="highlight-literal">"Select objects"</span>)
+    go.GeometryFilter = Rhino.DocObjects.ObjectType.Curve
+    go.GeometryAttributeFilter = Rhino.Input.Custom.GeometryAttributeFilter.ClosedCurve
+    go.GetMultiple(<span class="highlight-number">1</span>, <span class="highlight-number">0</span>)
+    <span class="highlight-keyword">if</span> go.CommandResult()!=Rhino.Commands.Result.Success:
+        <span class="highlight-keyword">return</span> go.CommandResult()
+
+    objrefs = go.Objects()
+    <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> objrefs: <span class="highlight-keyword">return</span> Rhino.Commands.Result.Nothing
+
+    tolerance = scriptcontext.doc.ModelAbsoluteTolerance
+    <span class="highlight-keyword">for</span> i, objref <span class="highlight-keyword">in</span> enumerate(objrefs):
+        <span class="highlight-comment"># get the curve geometry</span>
+        curve = objref.Curve()
+        <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> curve: <span class="highlight-keyword">continue</span>
+        rc, circle = curve.TryGetCircle( tolerance )
+        <span class="highlight-keyword">if</span> rc:
+            <span class="highlight-keyword">print</span> <span class="highlight-literal">"Circle"</span>, i<span class="highlight-number">+1</span>, <span class="highlight-literal">": center = "</span>, circle.Center
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Success
+
+<span class="highlight-keyword">if</span> __name__==<span class="highlight-literal">"__main__"</span>:
+    CircleCenter()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Geometry_Curve.htm">Curve Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_Geometry_Curve_TryGetCircle.htm">TryGetCircle Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 10 March 2016 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

@@ -1,0 +1,256 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>DisplayPipeline.DrawMeshWires Method (Mesh, Color)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="M:Rhino.Display.DisplayPipeline.DrawMeshWires(Rhino.Geometry.Mesh,System.Drawing.Color)" /><meta name="Description" content="Draws all the wires in a given mesh." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Display" /><meta name="file" content="M_Rhino_Display_DisplayPipeline_DrawMeshWires" /><meta name="guid" content="M_Rhino_Display_DisplayPipeline_DrawMeshWires" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Display.htm" title="Rhino.Display" tocid="N_Rhino_Display">Rhino.Display</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Display_DisplayPipeline.htm" title="DisplayPipeline Class" tocid="T_Rhino_Display_DisplayPipeline">DisplayPipeline Class</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Display_DisplayPipeline.htm" title="DisplayPipeline Methods" tocid="Methods_T_Rhino_Display_DisplayPipeline">DisplayPipeline Methods</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Display_DisplayPipeline_DrawMeshWires.htm" title="DrawMeshWires Method " tocid="Overload_Rhino_Display_DisplayPipeline_DrawMeshWires">DrawMeshWires Method </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Display_DisplayPipeline_DrawMeshWires.htm" title="DrawMeshWires Method (Mesh, Color)" tocid="M_Rhino_Display_DisplayPipeline_DrawMeshWires">DrawMeshWires Method (Mesh, Color)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Display_DisplayPipeline_DrawMeshWires_1.htm" title="DrawMeshWires Method (Mesh, Color, Int32)" tocid="M_Rhino_Display_DisplayPipeline_DrawMeshWires_1">DrawMeshWires Method (Mesh, Color, Int32)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">DisplayPipeline<span id="LST7D2A922E_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7D2A922E_0?cpp=::|nu=.");</script>DrawMeshWires Method (Mesh, Color)</td></tr></table><span class="introStyle">Rhino 5 for Windows</span><div class="summary">
+            Draws all the wires in a given mesh.
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Display.htm">Rhino.Display</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.30000.16 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">DrawMeshWires</span>(
+	<span class="identifier">Mesh</span> <span class="parameter">mesh</span>,
+	<span class="identifier">Color</span> <span class="parameter">color</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">DrawMeshWires</span> ( 
+	<span class="parameter">mesh</span> <span class="keyword">As</span> <span class="identifier">Mesh</span>,
+	<span class="parameter">color</span> <span class="keyword">As</span> <span class="identifier">Color</span>
+)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">mesh</span></dt><dd>Type: <a href="T_Rhino_Geometry_Mesh.htm">Rhino.Geometry<span id="LST7D2A922E_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7D2A922E_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Mesh</a><br />Mesh for wire drawing.</dd><dt><span class="parameter">color</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/14w97wkc" target="_blank">System.Drawing<span id="LST7D2A922E_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7D2A922E_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Color</a><br />Color of mesh wires.</dd></dl></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Rhino;
+<span class="highlight-keyword">using</span> Rhino.Commands;
+<span class="highlight-keyword">using</span> Rhino.Display;
+<span class="highlight-keyword">using</span> Rhino.Geometry;
+<span class="highlight-keyword">using</span> Rhino.Input.Custom;
+<span class="highlight-keyword">using</span> Rhino.DocObjects;
+<span class="highlight-keyword">using</span> System.Drawing;
+
+<span class="highlight-keyword">namespace</span> examples_cs
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> MeshDrawingCommand : Command
+  {
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> EnglishName { <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"csDrawMesh"</span>; } }
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> Result RunCommand(RhinoDoc doc, RunMode mode)
+    {
+      <span class="highlight-keyword">var</span> gs = <span class="highlight-keyword">new</span> GetObject();
+      gs.SetCommandPrompt(<span class="highlight-literal">"select sphere"</span>);
+      gs.GeometryFilter = ObjectType.Surface;
+      gs.DisablePreSelect();
+      gs.SubObjectSelect = <span class="highlight-keyword">false</span>;
+      gs.Get();
+      <span class="highlight-keyword">if</span> (gs.CommandResult() != Result.Success)
+        <span class="highlight-keyword">return</span> gs.CommandResult();
+
+      Sphere sphere;
+      gs.Object(<span class="highlight-number">0</span>).Surface().TryGetSphere(<span class="highlight-keyword">out</span> sphere);
+      <span class="highlight-keyword">if</span> (sphere.IsValid)
+      {
+        <span class="highlight-keyword">var</span> mesh = Mesh.CreateFromSphere(sphere, <span class="highlight-number">10</span>, <span class="highlight-number">10</span>);
+        <span class="highlight-keyword">if</span> (mesh == <span class="highlight-keyword">null</span>)
+          <span class="highlight-keyword">return</span> Result.Failure;
+
+        <span class="highlight-keyword">var</span> conduit = <span class="highlight-keyword">new</span> DrawBlueMeshConduit(mesh) {Enabled = <span class="highlight-keyword">true</span>};
+        doc.Views.Redraw();
+
+        <span class="highlight-keyword">var</span> in_str = <span class="highlight-literal">""</span>;
+        Rhino.Input.RhinoGet.GetString(<span class="highlight-literal">"press &lt;Enter&gt; to continue"</span>, <span class="highlight-keyword">true</span>, <span class="highlight-keyword">ref</span> in_str);
+
+        conduit.Enabled = <span class="highlight-keyword">false</span>;
+        doc.Views.Redraw();
+        <span class="highlight-keyword">return</span> Result.Success;
+      }
+      <span class="highlight-keyword">else</span>
+        <span class="highlight-keyword">return</span> Result.Failure;
+    }
+  }
+
+  <span class="highlight-keyword">class</span> DrawBlueMeshConduit : DisplayConduit
+  {
+    <span class="highlight-keyword">readonly</span> Mesh m_mesh;
+    <span class="highlight-keyword">readonly</span> Color m_color;
+    <span class="highlight-keyword">readonly</span> DisplayMaterial m_material;
+    <span class="highlight-keyword">readonly</span> BoundingBox m_bbox;
+
+    <span class="highlight-keyword">public</span> DrawBlueMeshConduit(Mesh mesh)
+    {
+      <span class="highlight-comment">// set up as much data as possible so we do the minimum amount of work possible inside</span>
+      <span class="highlight-comment">// the actual display code</span>
+      m_mesh = mesh;
+      m_color = System.Drawing.Color.Blue;
+      m_material = <span class="highlight-keyword">new</span> DisplayMaterial();
+      m_material.Diffuse = m_color;
+      <span class="highlight-keyword">if</span> (m_mesh != <span class="highlight-keyword">null</span> &amp;&amp; m_mesh.IsValid)
+        m_bbox = m_mesh.GetBoundingBox(<span class="highlight-keyword">true</span>);
+    }
+
+    <span class="highlight-comment">// this is called every frame inside the drawing code so try to do as little as possible</span>
+    <span class="highlight-comment">// in order to not degrade display speed. Don't create new objects if you don't have to as this</span>
+    <span class="highlight-comment">// will incur an overhead on the heap and garbage collection.</span>
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> CalculateBoundingBox(CalculateBoundingBoxEventArgs e)
+    {
+      <span class="highlight-keyword">base</span>.CalculateBoundingBox(e);
+      <span class="highlight-comment">// Since we are dynamically drawing geometry, we needed to override</span>
+      <span class="highlight-comment">// CalculateBoundingBox. Otherwise, there is a good chance that our</span>
+      <span class="highlight-comment">// dynamically drawing geometry would get clipped.</span>
+
+      <span class="highlight-comment">// Union the mesh's bbox with the scene's bounding box</span>
+      e.BoundingBox.Union(m_bbox);
+    }
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> PreDrawObjects(DrawEventArgs e)
+    {
+      <span class="highlight-keyword">base</span>.PreDrawObjects(e);
+      <span class="highlight-keyword">var</span> vp = e.Display.Viewport;
+      <span class="highlight-keyword">if</span> (vp.DisplayMode.EnglishName.ToLower() == <span class="highlight-literal">"wireframe"</span>)
+        e.Display.DrawMeshWires(m_mesh, m_color);
+      <span class="highlight-keyword">else</span>
+        e.Display.DrawMeshShaded(m_mesh, m_material);
+    }
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Rhino
+<span class="highlight-keyword">Imports</span> Rhino.Commands
+<span class="highlight-keyword">Imports</span> Rhino.Display
+<span class="highlight-keyword">Imports</span> Rhino.Geometry
+<span class="highlight-keyword">Imports</span> Rhino.Input.Custom
+<span class="highlight-keyword">Imports</span> Rhino.DocObjects
+<span class="highlight-keyword">Imports</span> System.Drawing
+
+<span class="highlight-keyword">Namespace</span> examples_vb
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MeshDrawingCommand
+    <span class="highlight-keyword">Inherits</span> Command
+    <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> EnglishName() <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span>
+      <span class="highlight-keyword">Get</span>
+        <span class="highlight-keyword">Return</span> <span class="highlight-literal">"vbDrawMesh"</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> RunCommand(doc <span class="highlight-keyword">As</span> RhinoDoc, mode <span class="highlight-keyword">As</span> RunMode) <span class="highlight-keyword">As</span> Result
+      <span class="highlight-keyword">Dim</span> gs = <span class="highlight-keyword">New</span> GetObject()
+      gs.SetCommandPrompt(<span class="highlight-literal">"select sphere"</span>)
+      gs.GeometryFilter = ObjectType.Surface
+      gs.DisablePreSelect()
+      gs.SubObjectSelect = <span class="highlight-keyword">False</span>
+      gs.[<span class="highlight-keyword">Get</span>]()
+      <span class="highlight-keyword">If</span> gs.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> gs.CommandResult()
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">Dim</span> sphere <span class="highlight-keyword">As</span> Sphere
+      gs.[<span class="highlight-keyword">Object</span>](<span class="highlight-number">0</span>).Surface().TryGetSphere(sphere)
+      <span class="highlight-keyword">If</span> sphere.IsValid <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Dim</span> mesh__1 = Mesh.CreateFromSphere(sphere, <span class="highlight-number">10</span>, <span class="highlight-number">10</span>)
+        <span class="highlight-keyword">If</span> mesh__1 <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+          <span class="highlight-keyword">Return</span> Result.Failure
+        <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+        <span class="highlight-keyword">Dim</span> conduit = <span class="highlight-keyword">New</span> DrawBlueMeshConduit(mesh__1)
+        conduit.Enabled = <span class="highlight-keyword">True</span>
+
+        doc.Views.Redraw()
+
+        <span class="highlight-keyword">Dim</span> inStr <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span> = <span class="highlight-literal">""</span>
+        Rhino.Input.RhinoGet.GetString(<span class="highlight-literal">"press &lt;Enter&gt; to continue"</span>, <span class="highlight-keyword">True</span>, inStr)
+
+        conduit.Enabled = <span class="highlight-keyword">False</span>
+        doc.Views.Redraw()
+        <span class="highlight-keyword">Return</span> Result.Success
+      <span class="highlight-keyword">Else</span>
+        <span class="highlight-keyword">Return</span> Result.Failure
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span>
+
+  <span class="highlight-keyword">Class</span> DrawBlueMeshConduit
+    <span class="highlight-keyword">Inherits</span> DisplayConduit
+    <span class="highlight-keyword">Private</span> _mesh <span class="highlight-keyword">As</span> Mesh = <span class="highlight-keyword">Nothing</span>
+    <span class="highlight-keyword">Private</span> _color <span class="highlight-keyword">As</span> Color
+    <span class="highlight-keyword">Private</span> _material <span class="highlight-keyword">As</span> DisplayMaterial = <span class="highlight-keyword">Nothing</span>
+    <span class="highlight-keyword">Private</span> _bbox <span class="highlight-keyword">As</span> BoundingBox
+
+    <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Sub</span> <span class="highlight-keyword">New</span>(mesh <span class="highlight-keyword">As</span> Mesh)
+      <span class="highlight-comment">' set up as much data as possible so we do the minimum amount of work possible inside</span>
+      <span class="highlight-comment">' the actual display code</span>
+      _mesh = mesh
+      _color = System.Drawing.Color.Blue
+      _material = <span class="highlight-keyword">New</span> DisplayMaterial()
+      _material.Diffuse = _color
+      <span class="highlight-keyword">If</span> _mesh <span class="highlight-keyword">IsNot</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">AndAlso</span> _mesh.IsValid <span class="highlight-keyword">Then</span>
+        _bbox = _mesh.GetBoundingBox(<span class="highlight-keyword">True</span>)
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+    <span class="highlight-comment">' this is called every frame inside the drawing code so try to do as little as possible</span>
+    <span class="highlight-comment">' in order to not degrade display speed. Don't create new objects if you don't have to as this</span>
+    <span class="highlight-comment">' will incur an overhead on the heap and garbage collection.</span>
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> CalculateBoundingBox(e <span class="highlight-keyword">As</span> CalculateBoundingBoxEventArgs)
+      <span class="highlight-keyword">MyBase</span>.CalculateBoundingBox(e)
+      <span class="highlight-comment">' Since we are dynamically drawing geometry, we needed to override</span>
+      <span class="highlight-comment">' CalculateBoundingBox. Otherwise, there is a good chance that our</span>
+      <span class="highlight-comment">' dynamically drawing geometry would get clipped.</span>
+
+      <span class="highlight-comment">' Union the mesh's bbox with the scene's bounding box</span>
+      e.BoundingBox.Union(_bbox)
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> PreDrawObjects(e <span class="highlight-keyword">As</span> DrawEventArgs)
+      <span class="highlight-keyword">MyBase</span>.PreDrawObjects(e)
+      <span class="highlight-keyword">Dim</span> vp = e.Display.Viewport
+      <span class="highlight-keyword">If</span> vp.DisplayMode.EnglishName.ToLower() = <span class="highlight-literal">"wireframe"</span> <span class="highlight-keyword">Then</span>
+        e.Display.DrawMeshWires(_mesh, _color)
+      <span class="highlight-keyword">Else</span>
+        e.Display.DrawMeshShaded(_mesh, _material)
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Namespace</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">import</span> rhinoscriptsyntax <span class="highlight-keyword">as</span> rs
+<span class="highlight-keyword">from</span> scriptcontext <span class="highlight-keyword">import</span> doc
+<span class="highlight-keyword">import</span> Rhino
+<span class="highlight-keyword">import</span> System
+<span class="highlight-keyword">import</span> System.Drawing
+
+<span class="highlight-keyword">def</span> RunCommand():
+  gs = Rhino.Input.Custom.GetObject()
+  gs.SetCommandPrompt(<span class="highlight-literal">"select sphere"</span>)
+  gs.GeometryFilter = Rhino.DocObjects.ObjectType.Surface
+  gs.DisablePreSelect()
+  gs.SubObjectSelect = False
+  gs.Get()
+  <span class="highlight-keyword">if</span> gs.CommandResult() != Rhino.Commands.Result.Success:
+    <span class="highlight-keyword">return</span> gs.CommandResult()
+
+  b, sphere = gs.Object(<span class="highlight-number">0</span>).Surface().TryGetSphere()
+  <span class="highlight-keyword">if</span> sphere.IsValid:
+    mesh = Rhino.Geometry.Mesh.CreateFromSphere(sphere, <span class="highlight-number">10</span>, <span class="highlight-number">10</span>)
+    <span class="highlight-keyword">if</span> mesh == None:
+      <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure
+
+    conduit = DrawBlueMeshConduit(mesh)
+    conduit.Enabled = True
+    doc.Views.Redraw()
+
+    inStr = rs.GetString(<span class="highlight-literal">"press &lt;Enter&gt; to continue"</span>)
+
+    conduit.Enabled = False
+    doc.Views.Redraw()
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Success
+  <span class="highlight-keyword">else</span>:
+    <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure
+
+<span class="highlight-keyword">class</span> DrawBlueMeshConduit(Rhino.Display.DisplayConduit):
+  <span class="highlight-keyword">def</span> __init__(self, mesh):
+    self.mesh = mesh
+    self.color = System.Drawing.Color.Blue
+    self.material = Rhino.Display.DisplayMaterial()
+    self.material.Diffuse = self.color
+    <span class="highlight-keyword">if</span> mesh != None <span class="highlight-keyword">and</span> mesh.IsValid:
+      self.bbox = mesh.GetBoundingBox(True)
+
+  <span class="highlight-keyword">def</span> CalculateBoundingBox(self, calculateBoundingBoxEventArgs):
+    <span class="highlight-comment">#super.CalculateBoundingBox(calculateBoundingBoxEventArgs)</span>
+    calculateBoundingBoxEventArgs.BoundingBox.Union(self.bbox)
+
+  <span class="highlight-keyword">def</span> PreDrawObjects(self, drawEventArgs):
+    <span class="highlight-comment">#base.PreDrawObjects(rawEventArgs)</span>
+    gvp = drawEventArgs.Display.Viewport
+    <span class="highlight-keyword">if</span> gvp.DisplayMode.EnglishName.ToLower() == <span class="highlight-literal">"wireframe"</span>:
+      drawEventArgs.Display.DrawMeshWires(self.mesh, self.color)
+    <span class="highlight-keyword">else</span>:
+      drawEventArgs.Display.DrawMeshShaded(self.mesh, self.material)
+
+<span class="highlight-keyword">if</span> __name__ == <span class="highlight-literal">"__main__"</span>:
+    RunCommand()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Display_DisplayPipeline.htm">DisplayPipeline Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_Display_DisplayPipeline_DrawMeshWires.htm">DrawMeshWires Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Display.htm">Rhino.Display Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 10 March 2016 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

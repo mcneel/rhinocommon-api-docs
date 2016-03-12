@@ -1,0 +1,272 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Intersection.CurveBrep Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="CurveBrep method" /><meta name="System.Keywords" content="Intersection.CurveBrep method" /><meta name="Microsoft.Help.F1" content="Rhino.Geometry.Intersect.Intersection.CurveBrep" /><meta name="Microsoft.Help.Id" content="M:Rhino.Geometry.Intersect.Intersection.CurveBrep(Rhino.Geometry.Curve,Rhino.Geometry.Brep,System.Double,Rhino.Geometry.Curve[]@,Rhino.Geometry.Point3d[]@)" /><meta name="Description" content="Intersects a curve with a Brep. This function returns the 3D points of intersection and 3D overlap curves. If an error occurs while processing overlap curves, this function will return false, but it will still provide partial results." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Geometry.Intersect" /><meta name="file" content="M_Rhino_Geometry_Intersect_Intersection_CurveBrep" /><meta name="guid" content="M_Rhino_Geometry_Intersect_Intersection_CurveBrep" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Geometry_Intersect.htm" title="Rhino.Geometry.Intersect" tocid="N_Rhino_Geometry_Intersect">Rhino.Geometry.Intersect</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Geometry_Intersect_Intersection.htm" title="Intersection Class" tocid="T_Rhino_Geometry_Intersect_Intersection">Intersection Class</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Geometry_Intersect_Intersection.htm" title="Intersection Methods" tocid="Methods_T_Rhino_Geometry_Intersect_Intersection">Intersection Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_BrepBrep.htm" title="BrepBrep Method " tocid="M_Rhino_Geometry_Intersect_Intersection_BrepBrep">BrepBrep Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_BrepPlane.htm" title="BrepPlane Method " tocid="M_Rhino_Geometry_Intersect_Intersection_BrepPlane">BrepPlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_BrepSurface.htm" title="BrepSurface Method " tocid="M_Rhino_Geometry_Intersect_Intersection_BrepSurface">BrepSurface Method </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_CurveBrep.htm" title="CurveBrep Method " tocid="M_Rhino_Geometry_Intersect_Intersection_CurveBrep">CurveBrep Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_CurveBrepFace.htm" title="CurveBrepFace Method " tocid="M_Rhino_Geometry_Intersect_Intersection_CurveBrepFace">CurveBrepFace Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_CurveCurve.htm" title="CurveCurve Method " tocid="M_Rhino_Geometry_Intersect_Intersection_CurveCurve">CurveCurve Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_CurvePlane.htm" title="CurvePlane Method " tocid="M_Rhino_Geometry_Intersect_Intersection_CurvePlane">CurvePlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_CurveSelf.htm" title="CurveSelf Method " tocid="M_Rhino_Geometry_Intersect_Intersection_CurveSelf">CurveSelf Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Intersect_Intersection_CurveSurface.htm" title="CurveSurface Method " tocid="Overload_Rhino_Geometry_Intersect_Intersection_CurveSurface">CurveSurface Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Intersect_Intersection_LineBox.htm" title="LineBox Method " tocid="Overload_Rhino_Geometry_Intersect_Intersection_LineBox">LineBox Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_LineCircle.htm" title="LineCircle Method " tocid="M_Rhino_Geometry_Intersect_Intersection_LineCircle">LineCircle Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_LineCylinder.htm" title="LineCylinder Method " tocid="M_Rhino_Geometry_Intersect_Intersection_LineCylinder">LineCylinder Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Intersect_Intersection_LineLine.htm" title="LineLine Method " tocid="Overload_Rhino_Geometry_Intersect_Intersection_LineLine">LineLine Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_LinePlane.htm" title="LinePlane Method " tocid="M_Rhino_Geometry_Intersect_Intersection_LinePlane">LinePlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_LineSphere.htm" title="LineSphere Method " tocid="M_Rhino_Geometry_Intersect_Intersection_LineSphere">LineSphere Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_MeshLine.htm" title="MeshLine Method " tocid="M_Rhino_Geometry_Intersect_Intersection_MeshLine">MeshLine Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_MeshMeshAccurate.htm" title="MeshMeshAccurate Method " tocid="M_Rhino_Geometry_Intersect_Intersection_MeshMeshAccurate">MeshMeshAccurate Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_MeshMeshFast.htm" title="MeshMeshFast Method " tocid="M_Rhino_Geometry_Intersect_Intersection_MeshMeshFast">MeshMeshFast Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Intersect_Intersection_MeshPlane.htm" title="MeshPlane Method " tocid="Overload_Rhino_Geometry_Intersect_Intersection_MeshPlane">MeshPlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_MeshPolyline.htm" title="MeshPolyline Method " tocid="M_Rhino_Geometry_Intersect_Intersection_MeshPolyline">MeshPolyline Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Geometry_Intersect_Intersection_MeshRay.htm" title="MeshRay Method " tocid="Overload_Rhino_Geometry_Intersect_Intersection_MeshRay">MeshRay Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_PlaneCircle.htm" title="PlaneCircle Method " tocid="M_Rhino_Geometry_Intersect_Intersection_PlaneCircle">PlaneCircle Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_PlanePlane.htm" title="PlanePlane Method " tocid="M_Rhino_Geometry_Intersect_Intersection_PlanePlane">PlanePlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_PlanePlanePlane.htm" title="PlanePlanePlane Method " tocid="M_Rhino_Geometry_Intersect_Intersection_PlanePlanePlane">PlanePlanePlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_PlaneSphere.htm" title="PlaneSphere Method " tocid="M_Rhino_Geometry_Intersect_Intersection_PlaneSphere">PlaneSphere Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToBreps.htm" title="ProjectPointsToBreps Method " tocid="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToBreps">ProjectPointsToBreps Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToBrepsEx.htm" title="ProjectPointsToBrepsEx Method " tocid="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToBrepsEx">ProjectPointsToBrepsEx Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToMeshes.htm" title="ProjectPointsToMeshes Method " tocid="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToMeshes">ProjectPointsToMeshes Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToMeshesEx.htm" title="ProjectPointsToMeshesEx Method " tocid="M_Rhino_Geometry_Intersect_Intersection_ProjectPointsToMeshesEx">ProjectPointsToMeshesEx Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_RayShoot.htm" title="RayShoot Method " tocid="M_Rhino_Geometry_Intersect_Intersection_RayShoot">RayShoot Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_SphereSphere.htm" title="SphereSphere Method " tocid="M_Rhino_Geometry_Intersect_Intersection_SphereSphere">SphereSphere Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Geometry_Intersect_Intersection_SurfaceSurface.htm" title="SurfaceSurface Method " tocid="M_Rhino_Geometry_Intersect_Intersection_SurfaceSurface">SurfaceSurface Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Intersection<span id="LST7A2FB7B6_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_0?cpp=::|nu=.");</script>CurveBrep Method </td></tr></table><span class="introStyle">Rhino 5 for Windows</span><div class="summary">
+            Intersects a curve with a Brep. This function returns the 3D points of intersection
+            and 3D overlap curves. If an error occurs while processing overlap curves, this function 
+            will return false, but it will still provide partial results.
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Geometry_Intersect.htm">Rhino.Geometry.Intersect</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.30000.16 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="identifier">bool</span> <span class="identifier">CurveBrep</span>(
+	<span class="identifier">Curve</span> <span class="parameter">curve</span>,
+	<span class="identifier">Brep</span> <span class="parameter">brep</span>,
+	<span class="identifier">double</span> <span class="parameter">tolerance</span>,
+	<span class="keyword">out</span> <span class="identifier">Curve</span>[] <span class="parameter">overlapCurves</span>,
+	<span class="keyword">out</span> <span class="identifier">Point3d</span>[] <span class="parameter">intersectionPoints</span>
+)</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Shared</span> <span class="keyword">Function</span> <span class="identifier">CurveBrep</span> ( 
+	<span class="parameter">curve</span> <span class="keyword">As</span> <span class="identifier">Curve</span>,
+	<span class="parameter">brep</span> <span class="keyword">As</span> <span class="identifier">Brep</span>,
+	<span class="parameter">tolerance</span> <span class="keyword">As</span> <span class="identifier">Double</span>,
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">overlapCurves</span> <span class="keyword">As</span> <span class="identifier">Curve</span>(),
+	&lt;<span class="identifier">OutAttribute</span>&gt; <span class="keyword">ByRef</span> <span class="parameter">intersectionPoints</span> <span class="keyword">As</span> <span class="identifier">Point3d</span>()
+) <span class="keyword">As</span> <span class="identifier">Boolean</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">curve</span></dt><dd>Type: <a href="T_Rhino_Geometry_Curve.htm">Rhino.Geometry<span id="LST7A2FB7B6_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Curve</a><br />Curve for intersection.</dd><dt><span class="parameter">brep</span></dt><dd>Type: <a href="T_Rhino_Geometry_Brep.htm">Rhino.Geometry<span id="LST7A2FB7B6_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Brep</a><br />Brep for intersection.</dd><dt><span class="parameter">tolerance</span></dt><dd>Type: <a href="http://msdn2.microsoft.com/en-us/library/643eft0t" target="_blank">System<span id="LST7A2FB7B6_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Double</a><br />Fitting and near miss tolerance.</dd><dt><span class="parameter">overlapCurves</span></dt><dd>Type: <span id="LST7A2FB7B6_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_4?cpp=array&lt;");</script><a href="T_Rhino_Geometry_Curve.htm">Rhino.Geometry<span id="LST7A2FB7B6_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Curve</a><span id="LST7A2FB7B6_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_6?cpp=&gt;|vb=()|nu=[]");</script><span id="LST7A2FB7B6_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_7?cpp=%");</script><br />The overlap curves will be returned here.</dd><dt><span class="parameter">intersectionPoints</span></dt><dd>Type: <span id="LST7A2FB7B6_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_8?cpp=array&lt;");</script><a href="T_Rhino_Geometry_Point3d.htm">Rhino.Geometry<span id="LST7A2FB7B6_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_9?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Point3d</a><span id="LST7A2FB7B6_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_10?cpp=&gt;|vb=()|nu=[]");</script><span id="LST7A2FB7B6_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST7A2FB7B6_11?cpp=%");</script><br />The intersection points will be returned here.</dd></dl><h4 class="subHeading">Return Value</h4>Type: <a href="http://msdn2.microsoft.com/en-us/library/a28wyd50" target="_blank">Boolean</a><br />true on success, false on failure.</div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> System;
+<span class="highlight-keyword">using</span> System.Collections.Generic;
+<span class="highlight-keyword">using</span> System.Linq;
+<span class="highlight-keyword">using</span> Rhino;
+<span class="highlight-keyword">using</span> Rhino.Commands;
+<span class="highlight-keyword">using</span> Rhino.Geometry;
+<span class="highlight-keyword">using</span> Rhino.Geometry.Intersect;
+<span class="highlight-keyword">using</span> Rhino.Input;
+<span class="highlight-keyword">using</span> Rhino.Input.Custom;
+<span class="highlight-keyword">using</span> Rhino.DocObjects;
+
+<span class="highlight-keyword">namespace</span> examples_cs
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> FurthestZOnSurfaceCommand : Command
+  {
+    <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> EnglishName { <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"csFurthestZOnSurfaceGivenXY"</span>; } }
+
+    <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> Result RunCommand(RhinoDoc doc, RunMode mode)
+    {
+      <span class="highlight-preprocessor">#region</span> user input
+      <span class="highlight-comment">// select a surface</span>
+      <span class="highlight-keyword">var</span> gs = <span class="highlight-keyword">new</span> GetObject();
+      gs.SetCommandPrompt(<span class="highlight-literal">"select surface"</span>);
+      gs.GeometryFilter = ObjectType.Surface;
+      gs.DisablePreSelect();
+      gs.SubObjectSelect = <span class="highlight-keyword">false</span>;
+      gs.Get();
+      <span class="highlight-keyword">if</span> (gs.CommandResult() != Result.Success)
+        <span class="highlight-keyword">return</span> gs.CommandResult();
+      <span class="highlight-comment">// get the brep</span>
+      <span class="highlight-keyword">var</span> brep = gs.Object(<span class="highlight-number">0</span>).Brep();
+      <span class="highlight-keyword">if</span> (brep == <span class="highlight-keyword">null</span>)
+        <span class="highlight-keyword">return</span> Result.Failure;
+
+      <span class="highlight-comment">// get X and Y</span>
+      <span class="highlight-keyword">double</span> x = <span class="highlight-number">0.0</span>, y = <span class="highlight-number">0.0</span>;
+      <span class="highlight-keyword">var</span> rc = RhinoGet.GetNumber(<span class="highlight-literal">"value of X coordinate"</span>, <span class="highlight-keyword">true</span>, <span class="highlight-keyword">ref</span> x);
+      <span class="highlight-keyword">if</span> (rc != Result.Success)
+        <span class="highlight-keyword">return</span> rc;
+      rc = RhinoGet.GetNumber(<span class="highlight-literal">"value of Y coordinate"</span>, <span class="highlight-keyword">true</span>, <span class="highlight-keyword">ref</span> y);
+      <span class="highlight-keyword">if</span> (rc != Result.Success)
+        <span class="highlight-keyword">return</span> rc;
+      <span class="highlight-preprocessor">#endregion</span>
+
+      <span class="highlight-comment">// an earlier version of this sample used a curve-brep intersection to find Z</span>
+      <span class="highlight-comment">//var maxZ = maxZIntersectionMethod(brep, x, y, doc.ModelAbsoluteTolerance);</span>
+
+      <span class="highlight-comment">// projecting points is another way to find Z</span>
+      <span class="highlight-keyword">var</span> max_z = MaxZProjectionMethod(brep, x, y, doc.ModelAbsoluteTolerance);
+
+      <span class="highlight-keyword">if</span> (max_z != <span class="highlight-keyword">null</span>)
+      {
+        RhinoApp.WriteLine(<span class="highlight-literal">"Maximum surface Z coordinate at X={0}, Y={1} is {2}"</span>, x, y, max_z);
+        doc.Objects.AddPoint(<span class="highlight-keyword">new</span> Point3d(x, y, max_z.Value));
+        doc.Views.Redraw();
+      }
+      <span class="highlight-keyword">else</span>
+        RhinoApp.WriteLine(<span class="highlight-literal">"no maximum surface Z coordinate at X={0}, Y={1} found."</span>, x, y);
+
+      <span class="highlight-keyword">return</span> Result.Success;
+    }
+
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">static</span> <span class="highlight-keyword">double</span>? MaxZProjectionMethod(Brep brep, <span class="highlight-keyword">double</span> x, <span class="highlight-keyword">double</span> y, <span class="highlight-keyword">double</span> tolerance)
+    {
+      <span class="highlight-keyword">double</span>? max_z = <span class="highlight-keyword">null</span>;
+      <span class="highlight-keyword">var</span> breps = <span class="highlight-keyword">new</span> List&lt;Brep&gt; {brep};
+      <span class="highlight-keyword">var</span> points = <span class="highlight-keyword">new</span> List&lt;Point3d&gt; {<span class="highlight-keyword">new</span> Point3d(x, y, <span class="highlight-number">0</span>)};
+      <span class="highlight-comment">// grab all the points projected in Z dir.  Aggregate finds furthest Z from XY plane</span>
+      <span class="highlight-keyword">try</span> {
+        max_z = (<span class="highlight-keyword">from</span> pt <span class="highlight-keyword">in</span> Intersection.ProjectPointsToBreps(breps, points, <span class="highlight-keyword">new</span> Vector3d(<span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>), tolerance) <span class="highlight-keyword">select</span> pt.Z)
+                <span class="highlight-comment">// Here you might be tempted to use .Max() to get the largest Z value but that doesn't work because</span>
+                <span class="highlight-comment">// Z might be negative.  This custom aggregate returns the max Z independant of the sign.  If it had a name</span>
+                <span class="highlight-comment">// it could be MaxAbs()</span>
+                .Aggregate((z1, z2) =&gt; Math.Abs(z1) &gt; Math.Abs(z2) ? z1 : z2);
+      } <span class="highlight-keyword">catch</span> (InvalidOperationException) {<span class="highlight-comment">/*Sequence contains no elements*/</span>}
+      <span class="highlight-keyword">return</span> max_z;
+    }
+
+    <span class="highlight-keyword">private</span> <span class="highlight-keyword">double</span>? MaxZIntersectionMethod(Brep brep, <span class="highlight-keyword">double</span> x, <span class="highlight-keyword">double</span> y, <span class="highlight-keyword">double</span> tolerance)
+    {
+      <span class="highlight-keyword">double</span>? max_z = <span class="highlight-keyword">null</span>;
+
+      <span class="highlight-keyword">var</span> bbox = brep.GetBoundingBox(<span class="highlight-keyword">true</span>);
+      <span class="highlight-keyword">var</span> max_dist_from_xy = (<span class="highlight-keyword">from</span> corner <span class="highlight-keyword">in</span> bbox.GetCorners() <span class="highlight-keyword">select</span> corner.Z)
+                              <span class="highlight-comment">// furthest Z from XY plane.</span>
+                              <span class="highlight-comment">// Here you might be tempted to use .Max() to get the largest Z value but that doesn't work because</span>
+                              <span class="highlight-comment">// Z might be negative.  This custom aggregate returns the max Z independant of the sign.  If it had a name</span>
+                              <span class="highlight-comment">// it could be MaxAbs()</span>
+                              .Aggregate((z1, z2) =&gt; Math.Abs(z1) &gt; Math.Abs(z2) ? z1 : z2);
+      <span class="highlight-comment">// multiply distance by 2 to make sure line intersects completely</span>
+      <span class="highlight-keyword">var</span> line_curve = <span class="highlight-keyword">new</span> LineCurve(<span class="highlight-keyword">new</span> Point3d(x, y, <span class="highlight-number">0</span>), <span class="highlight-keyword">new</span> Point3d(x, y, max_dist_from_xy*<span class="highlight-number">2</span>));
+
+      Curve[] overlap_curves;
+      Point3d[] inter_points;
+      <span class="highlight-keyword">if</span> (Intersection.CurveBrep(line_curve, brep, tolerance, <span class="highlight-keyword">out</span> overlap_curves, <span class="highlight-keyword">out</span> inter_points))
+      {
+        <span class="highlight-keyword">if</span> (overlap_curves.Length &gt; <span class="highlight-number">0</span> || inter_points.Length &gt; <span class="highlight-number">0</span>)
+        {
+          <span class="highlight-comment">// grab all the points resulting frem the intersection. </span>
+          <span class="highlight-comment">//    1st set: points from overlapping curves, </span>
+          <span class="highlight-comment">//    2nd set: points when there was no overlap</span>
+          <span class="highlight-comment">//    .Aggregate: furthest Z from XY plane.</span>
+          max_z = (<span class="highlight-keyword">from</span> c <span class="highlight-keyword">in</span> overlap_curves <span class="highlight-keyword">select</span> Math.Abs(c.PointAtEnd.Z) &gt; Math.Abs(c.PointAtStart.Z) ? c.PointAtEnd.Z : c.PointAtStart.Z)
+                  .Union
+                  (<span class="highlight-keyword">from</span> p <span class="highlight-keyword">in</span> inter_points <span class="highlight-keyword">select</span> p.Z)
+                   <span class="highlight-comment">// Here you might be tempted to use .Max() to get the largest Z value but that doesn't work because</span>
+                   <span class="highlight-comment">// Z might be negative.  This custom aggregate returns the max Z independant of the sign.  If it had a name</span>
+                   <span class="highlight-comment">// it could be MaxAbs()</span>
+                  .Aggregate((z1, z2) =&gt; Math.Abs(z1) &gt; Math.Abs(z2) ? z1 : z2);
+        }
+      }
+      <span class="highlight-keyword">return</span> max_z;
+    }
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> System.Collections.Generic
+<span class="highlight-keyword">Imports</span> System.Linq
+<span class="highlight-keyword">Imports</span> Rhino
+<span class="highlight-keyword">Imports</span> Rhino.Commands
+<span class="highlight-keyword">Imports</span> Rhino.Geometry
+<span class="highlight-keyword">Imports</span> Rhino.Geometry.Intersect
+<span class="highlight-keyword">Imports</span> Rhino.Input
+<span class="highlight-keyword">Imports</span> Rhino.Input.Custom
+<span class="highlight-keyword">Imports</span> Rhino.DocObjects
+
+<span class="highlight-keyword">Namespace</span> examples_vb
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> FurthestZOnSurfaceCommand
+    <span class="highlight-keyword">Inherits</span> Command
+    <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> EnglishName() <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span>
+      <span class="highlight-keyword">Get</span>
+        <span class="highlight-keyword">Return</span> <span class="highlight-literal">"vbFurthestZOnSurfaceGivenXY"</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+
+    <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> RunCommand(doc <span class="highlight-keyword">As</span> RhinoDoc, mode <span class="highlight-keyword">As</span> RunMode) <span class="highlight-keyword">As</span> Result
+      <span class="highlight-comment">'#Region "user input"</span>
+      <span class="highlight-comment">' select a surface</span>
+      <span class="highlight-keyword">Dim</span> gs = <span class="highlight-keyword">New</span> GetObject()
+      gs.SetCommandPrompt(<span class="highlight-literal">"select surface"</span>)
+      gs.GeometryFilter = ObjectType.Surface
+      gs.DisablePreSelect()
+      gs.SubObjectSelect = <span class="highlight-keyword">False</span>
+      gs.[<span class="highlight-keyword">Get</span>]()
+      <span class="highlight-keyword">If</span> gs.CommandResult() &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> gs.CommandResult()
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-comment">' get the brep</span>
+      <span class="highlight-keyword">Dim</span> brep = gs.[<span class="highlight-keyword">Object</span>](<span class="highlight-number">0</span>).Brep()
+      <span class="highlight-keyword">If</span> brep <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> Result.Failure
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-comment">' get X and Y</span>
+      <span class="highlight-keyword">Dim</span> x <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = <span class="highlight-number">0.0</span>, y <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = <span class="highlight-number">0.0</span>
+      <span class="highlight-keyword">Dim</span> rc = RhinoGet.GetNumber(<span class="highlight-literal">"value of X coordinate"</span>, <span class="highlight-keyword">True</span>, x)
+      <span class="highlight-keyword">If</span> rc &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> rc
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      rc = RhinoGet.GetNumber(<span class="highlight-literal">"value of Y coordinate"</span>, <span class="highlight-keyword">True</span>, y)
+      <span class="highlight-keyword">If</span> rc &lt;&gt; Result.Success <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">Return</span> rc
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-comment">'#End Region</span>
+
+      <span class="highlight-comment">' an earlier version of this sample used a curve-brep intersection to find Z</span>
+      <span class="highlight-comment">'var maxZ = MaxZIntersectionMethod(brep, x, y, doc.ModelAbsoluteTolerance);</span>
+
+      <span class="highlight-comment">' projecting points is another way to find Z</span>
+      <span class="highlight-keyword">Dim</span> maxZ = MaxZProjectionMethod(brep, x, y, doc.ModelAbsoluteTolerance)
+
+      <span class="highlight-keyword">If</span> maxZ <span class="highlight-keyword">IsNot</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+        RhinoApp.WriteLine(<span class="highlight-literal">"Maximum surface Z coordinate at X={0}, Y={1} is {2}"</span>, x, y, maxZ)
+        doc.Objects.AddPoint(<span class="highlight-keyword">New</span> Point3d(x, y, maxZ.Value))
+        doc.Views.Redraw()
+      <span class="highlight-keyword">Else</span>
+        RhinoApp.WriteLine(<span class="highlight-literal">"no maximum surface Z coordinate at X={0}, Y={1} found."</span>, x, y)
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+      <span class="highlight-keyword">Return</span> Result.Success
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+
+    <span class="highlight-keyword">Private</span> <span class="highlight-keyword">Function</span> MaxZProjectionMethod(brep <span class="highlight-keyword">As</span> Brep, x <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>, y <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>, tolerance <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>) <span class="highlight-keyword">As</span> System.Nullable(<span class="highlight-keyword">Of</span> <span class="highlight-keyword">Double</span>)
+      <span class="highlight-keyword">Dim</span> maxZ <span class="highlight-keyword">As</span> System.Nullable(<span class="highlight-keyword">Of</span> <span class="highlight-keyword">Double</span>) = <span class="highlight-keyword">Nothing</span>
+      <span class="highlight-keyword">Dim</span> breps = <span class="highlight-keyword">New</span> List(<span class="highlight-keyword">Of</span> Brep)() From { _
+        brep _
+      }
+      <span class="highlight-keyword">Dim</span> points = <span class="highlight-keyword">New</span> List(<span class="highlight-keyword">Of</span> Point3d)() From { _
+        <span class="highlight-keyword">New</span> Point3d(x, y, <span class="highlight-number">0</span>) _
+      }
+      <span class="highlight-comment">' grab all the points projected in Z dir.  Aggregate finds furthest Z from XY plane</span>
+      <span class="highlight-keyword">Try</span>
+        maxZ = (From pt <span class="highlight-keyword">In</span> Intersection.ProjectPointsToBreps(breps, points, <span class="highlight-keyword">New</span> Vector3d(<span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>), tolerance) <span class="highlight-keyword">Select</span> pt.Z).Aggregate(<span class="highlight-keyword">Function</span>(z1, z2) <span class="highlight-keyword">If</span>(Math.Abs(z1) &gt; Math.Abs(z2), z1, z2))
+        <span class="highlight-comment">'Sequence contains no elements</span>
+      <span class="highlight-keyword">Catch</span> generatedExceptionName <span class="highlight-keyword">As</span> InvalidOperationException
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">Try</span>
+      <span class="highlight-keyword">Return</span> maxZ
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+
+    <span class="highlight-keyword">Private</span> <span class="highlight-keyword">Function</span> MaxZIntersectionMethod(brep <span class="highlight-keyword">As</span> Brep, x <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>, y <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>, tolerance <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span>) <span class="highlight-keyword">As</span> System.Nullable(<span class="highlight-keyword">Of</span> <span class="highlight-keyword">Double</span>)
+      <span class="highlight-keyword">Dim</span> maxZ <span class="highlight-keyword">As</span> System.Nullable(<span class="highlight-keyword">Of</span> <span class="highlight-keyword">Double</span>) = <span class="highlight-keyword">Nothing</span>
+
+      <span class="highlight-keyword">Dim</span> bbox = brep.GetBoundingBox(<span class="highlight-keyword">True</span>)
+      <span class="highlight-comment">' furthest Z from XY plane.  Max() doesn't work because of possible negative Z values</span>
+      <span class="highlight-keyword">Dim</span> maxDistFromXY = (From corner <span class="highlight-keyword">In</span> bbox.GetCorners() <span class="highlight-keyword">Select</span> corner.Z).Aggregate(<span class="highlight-keyword">Function</span>(z1, z2) <span class="highlight-keyword">If</span>(Math.Abs(z1) &gt; Math.Abs(z2), z1, z2))
+      <span class="highlight-comment">' multiply distance by 2 to make sure line intersects completely</span>
+      <span class="highlight-keyword">Dim</span> lineCurve = <span class="highlight-keyword">New</span> LineCurve(<span class="highlight-keyword">New</span> Point3d(x, y, <span class="highlight-number">0</span>), <span class="highlight-keyword">New</span> Point3d(x, y, maxDistFromXY * <span class="highlight-number">2</span>))
+
+      <span class="highlight-keyword">Dim</span> overlapCurves <span class="highlight-keyword">As</span> Curve() = <span class="highlight-keyword">Nothing</span>
+      <span class="highlight-keyword">Dim</span> interPoints <span class="highlight-keyword">As</span> Point3d() = <span class="highlight-keyword">Nothing</span>
+      <span class="highlight-keyword">If</span> Intersection.CurveBrep(lineCurve, brep, tolerance, overlapCurves, interPoints) <span class="highlight-keyword">Then</span>
+        <span class="highlight-keyword">If</span> overlapCurves.Length &gt; <span class="highlight-number">0</span> <span class="highlight-keyword">OrElse</span> interPoints.Length &gt; <span class="highlight-number">0</span> <span class="highlight-keyword">Then</span>
+          <span class="highlight-comment">' grab all the points resulting frem the intersection. </span>
+          <span class="highlight-comment">'    1st set: points from overlapping curves, </span>
+          <span class="highlight-comment">'    2nd set: points when there was no overlap</span>
+          <span class="highlight-comment">'    .Aggregate: furthest Z from XY plane.</span>
+          <span class="highlight-keyword">Dim</span> overlapCrvsZs <span class="highlight-keyword">As</span> IEnumerable(<span class="highlight-keyword">Of</span> <span class="highlight-keyword">Double</span>) = (From c <span class="highlight-keyword">In</span> overlapCurves <span class="highlight-keyword">Select</span> <span class="highlight-keyword">DirectCast</span>(IIf(Math.Abs(c.PointAtEnd.Z) &gt; Math.Abs(c.PointAtStart.Z), c.PointAtEnd.Z, c.PointAtStart.Z), <span class="highlight-keyword">Double</span>))
+          <span class="highlight-keyword">Dim</span> intersectPtsZs <span class="highlight-keyword">As</span> IEnumerable(<span class="highlight-keyword">Of</span> <span class="highlight-keyword">Double</span>) = (From p <span class="highlight-keyword">In</span> interPoints <span class="highlight-keyword">Select</span> p.Z)
+          <span class="highlight-keyword">Dim</span> allZs = overlapCrvsZs.Union(intersectPtsZs).ToArray()
+          maxZ = allZs.Aggregate(<span class="highlight-keyword">Function</span>(runZ, nextZ) <span class="highlight-keyword">DirectCast</span>(IIf(Math.Abs(runZ) &gt; Math.Abs(nextZ), runZ, nextZ), <span class="highlight-keyword">Double</span>))
+        <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">Return</span> maxZ
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Namespace</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">import</span> rhinoscriptsyntax <span class="highlight-keyword">as</span> rs
+<span class="highlight-keyword">from</span> Rhino.Geometry <span class="highlight-keyword">import</span> Intersect, Point3d, Vector3d
+<span class="highlight-keyword">from</span> scriptcontext <span class="highlight-keyword">import</span> doc
+
+<span class="highlight-keyword">def</span> RunCommand():
+  <span class="highlight-comment"># select a surface</span>
+  srfid = rs.GetObject(<span class="highlight-literal">"select serface"</span>, rs.filter.surface | rs.filter.polysurface)
+  <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> srfid: <span class="highlight-keyword">return</span>
+  <span class="highlight-comment"># get the brep</span>
+  brep = rs.coercebrep(srfid)
+  <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> brep: <span class="highlight-keyword">return</span>
+
+  x = rs.GetReal(<span class="highlight-literal">"value of x"</span>, <span class="highlight-number">0</span>)
+  y = rs.GetReal(<span class="highlight-literal">"value of y"</span>, <span class="highlight-number">0</span>)
+
+  pts = [(abs(point.Z), point.Z) <span class="highlight-keyword">for</span> point <span class="highlight-keyword">in</span> Intersect.Intersection.ProjectPointsToBreps(
+           [brep], [Point3d(x, y, <span class="highlight-number">0</span>)], Vector3d(<span class="highlight-number">0</span>, <span class="highlight-number">0</span>, <span class="highlight-number">1</span>), doc.ModelAbsoluteTolerance)]
+
+  pts.sort(reverse=True)
+
+  <span class="highlight-keyword">if</span> pts == []:
+    <span class="highlight-keyword">print</span> <span class="highlight-literal">"no Z for given X, Y"</span>
+  <span class="highlight-keyword">else</span>:
+    rs.AddPoint(Point3d(x, y, pts[<span class="highlight-number">0</span>][<span class="highlight-number">1</span>]))
+
+<span class="highlight-keyword">if</span> __name__ == <span class="highlight-literal">"__main__"</span>:
+  RunCommand()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Geometry_Intersect_Intersection.htm">Intersection Class</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Geometry_Intersect.htm">Rhino.Geometry.Intersect Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 10 March 2016 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

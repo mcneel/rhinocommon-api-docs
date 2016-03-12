@@ -1,0 +1,289 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>GetPoint.ClearConstraints Method </title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="ClearConstraints method" /><meta name="System.Keywords" content="GetPoint.ClearConstraints method" /><meta name="Microsoft.Help.F1" content="Rhino.Input.Custom.GetPoint.ClearConstraints" /><meta name="Microsoft.Help.Id" content="M:Rhino.Input.Custom.GetPoint.ClearConstraints" /><meta name="Description" content="Removes any explicit constraints added by calls to GetPoint::Constraint() and enable the built-in constraint options." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.Input.Custom" /><meta name="file" content="M_Rhino_Input_Custom_GetPoint_ClearConstraints" /><meta name="guid" content="M_Rhino_Input_Custom_GetPoint_ClearConstraints" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino.htm" title="RhinoCommon SDK" tocid="roottoc">RhinoCommon SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Rhino_Input_Custom.htm" title="Rhino.Input.Custom" tocid="N_Rhino_Input_Custom">Rhino.Input.Custom</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Rhino_Input_Custom_GetPoint.htm" title="GetPoint Class" tocid="T_Rhino_Input_Custom_GetPoint">GetPoint Class</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Rhino_Input_Custom_GetPoint.htm" title="GetPoint Methods" tocid="Methods_T_Rhino_Input_Custom_GetPoint">GetPoint Methods</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_AddConstructionPoint.htm" title="AddConstructionPoint Method " tocid="M_Rhino_Input_Custom_GetPoint_AddConstructionPoint">AddConstructionPoint Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_AddConstructionPoints.htm" title="AddConstructionPoints Method " tocid="M_Rhino_Input_Custom_GetPoint_AddConstructionPoints">AddConstructionPoints Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_AddSnapPoint.htm" title="AddSnapPoint Method " tocid="M_Rhino_Input_Custom_GetPoint_AddSnapPoint">AddSnapPoint Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_AddSnapPoints.htm" title="AddSnapPoints Method " tocid="M_Rhino_Input_Custom_GetPoint_AddSnapPoints">AddSnapPoints Method </a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ClearConstraints.htm" title="ClearConstraints Method " tocid="M_Rhino_Input_Custom_GetPoint_ClearConstraints">ClearConstraints Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ClearConstructionPoints.htm" title="ClearConstructionPoints Method " tocid="M_Rhino_Input_Custom_GetPoint_ClearConstructionPoints">ClearConstructionPoints Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ClearSnapPoints.htm" title="ClearSnapPoints Method " tocid="M_Rhino_Input_Custom_GetPoint_ClearSnapPoints">ClearSnapPoints Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Input_Custom_GetPoint_Constrain.htm" title="Constrain Method " tocid="Overload_Rhino_Input_Custom_GetPoint_Constrain">Constrain Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ConstrainDistanceFromBasePoint.htm" title="ConstrainDistanceFromBasePoint Method " tocid="M_Rhino_Input_Custom_GetPoint_ConstrainDistanceFromBasePoint">ConstrainDistanceFromBasePoint Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ConstrainToConstructionPlane.htm" title="ConstrainToConstructionPlane Method " tocid="M_Rhino_Input_Custom_GetPoint_ConstrainToConstructionPlane">ConstrainToConstructionPlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ConstrainToTargetPlane.htm" title="ConstrainToTargetPlane Method " tocid="M_Rhino_Input_Custom_GetPoint_ConstrainToTargetPlane">ConstrainToTargetPlane Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_ConstrainToVirtualCPlaneIntersection.htm" title="ConstrainToVirtualCPlaneIntersection Method " tocid="M_Rhino_Input_Custom_GetPoint_ConstrainToVirtualCPlaneIntersection">ConstrainToVirtualCPlaneIntersection Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_DrawLineFromPoint.htm" title="DrawLineFromPoint Method " tocid="M_Rhino_Input_Custom_GetPoint_DrawLineFromPoint">DrawLineFromPoint Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_EnableCurveSnapArrow.htm" title="EnableCurveSnapArrow Method " tocid="M_Rhino_Input_Custom_GetPoint_EnableCurveSnapArrow">EnableCurveSnapArrow Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_EnableCurveSnapPerpBar.htm" title="EnableCurveSnapPerpBar Method " tocid="M_Rhino_Input_Custom_GetPoint_EnableCurveSnapPerpBar">EnableCurveSnapPerpBar Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_EnableCurveSnapTangentBar.htm" title="EnableCurveSnapTangentBar Method " tocid="M_Rhino_Input_Custom_GetPoint_EnableCurveSnapTangentBar">EnableCurveSnapTangentBar Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_EnableDrawLineFromPoint.htm" title="EnableDrawLineFromPoint Method " tocid="M_Rhino_Input_Custom_GetPoint_EnableDrawLineFromPoint">EnableDrawLineFromPoint Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_EnableSnapToCurves.htm" title="EnableSnapToCurves Method " tocid="M_Rhino_Input_Custom_GetPoint_EnableSnapToCurves">EnableSnapToCurves Method </a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Overload_Rhino_Input_Custom_GetPoint_Get.htm" title="Get Method " tocid="Overload_Rhino_Input_Custom_GetPoint_Get">Get Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_GetConstructionPoints.htm" title="GetConstructionPoints Method " tocid="M_Rhino_Input_Custom_GetPoint_GetConstructionPoints">GetConstructionPoints Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_GetSnapPoints.htm" title="GetSnapPoints Method " tocid="M_Rhino_Input_Custom_GetPoint_GetSnapPoints">GetSnapPoints Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_InterruptMouseMove.htm" title="InterruptMouseMove Method " tocid="M_Rhino_Input_Custom_GetPoint_InterruptMouseMove">InterruptMouseMove Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_OnDynamicDraw.htm" title="OnDynamicDraw Method " tocid="M_Rhino_Input_Custom_GetPoint_OnDynamicDraw">OnDynamicDraw Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_OnMouseDown.htm" title="OnMouseDown Method " tocid="M_Rhino_Input_Custom_GetPoint_OnMouseDown">OnMouseDown Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_OnMouseMove.htm" title="OnMouseMove Method " tocid="M_Rhino_Input_Custom_GetPoint_OnMouseMove">OnMouseMove Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_OnPostDrawObjects.htm" title="OnPostDrawObjects Method " tocid="M_Rhino_Input_Custom_GetPoint_OnPostDrawObjects">OnPostDrawObjects Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PermitConstraintOptions.htm" title="PermitConstraintOptions Method " tocid="M_Rhino_Input_Custom_GetPoint_PermitConstraintOptions">PermitConstraintOptions Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PermitElevatorMode.htm" title="PermitElevatorMode Method " tocid="M_Rhino_Input_Custom_GetPoint_PermitElevatorMode">PermitElevatorMode Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PermitFromOption.htm" title="PermitFromOption Method " tocid="M_Rhino_Input_Custom_GetPoint_PermitFromOption">PermitFromOption Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PermitObjectSnap.htm" title="PermitObjectSnap Method " tocid="M_Rhino_Input_Custom_GetPoint_PermitObjectSnap">PermitObjectSnap Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PermitOrthoSnap.htm" title="PermitOrthoSnap Method " tocid="M_Rhino_Input_Custom_GetPoint_PermitOrthoSnap">PermitOrthoSnap Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PermitTabMode.htm" title="PermitTabMode Method " tocid="M_Rhino_Input_Custom_GetPoint_PermitTabMode">PermitTabMode Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PointOnCurve.htm" title="PointOnCurve Method " tocid="M_Rhino_Input_Custom_GetPoint_PointOnCurve">PointOnCurve Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_PointOnObject.htm" title="PointOnObject Method " tocid="M_Rhino_Input_Custom_GetPoint_PointOnObject">PointOnObject Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_SetBasePoint.htm" title="SetBasePoint Method " tocid="M_Rhino_Input_Custom_GetPoint_SetBasePoint">SetBasePoint Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_SetCursor.htm" title="SetCursor Method " tocid="M_Rhino_Input_Custom_GetPoint_SetCursor">SetCursor Method </a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="M_Rhino_Input_Custom_GetPoint_TryGetBasePoint.htm" title="TryGetBasePoint Method " tocid="M_Rhino_Input_Custom_GetPoint_TryGetBasePoint">TryGetBasePoint Method </a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">GetPoint<span id="LSTEBA8A91_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEBA8A91_0?cpp=::|nu=.");</script>ClearConstraints Method </td></tr></table><span class="introStyle">Rhino 5 for Windows</span><div class="summary">
+            Removes any explicit constraints added by calls to GetPoint::Constraint() and enable
+            the built-in constraint options.
+            </div><p> </p><strong>Namespace:</strong> <a href="N_Rhino_Input_Custom.htm">Rhino.Input.Custom</a><br /><strong>Assembly:</strong> RhinoCommon (in RhinoCommon.dll) Version: 5.1.30000.16 (5.0.20693.0)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">void</span> <span class="identifier">ClearConstraints</span>()</pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Sub</span> <span class="identifier">ClearConstraints</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Examples</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBBABA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','cs','1','2');return false;">C#</a></div><div id="ID0EBBABA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBBABA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBBABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBBABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBBABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Rhino;
+
+[System.Runtime.InteropServices.Guid(<span class="highlight-literal">"3CDCBB20-B4E4-4AB6-B870-C911C7435BD7"</span>)]
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> ArrayByDistanceCommand : Rhino.Commands.Command
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> EnglishName
+  {
+    <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"cs_ArrayByDistance"</span>; }
+  }
+
+  <span class="highlight-keyword">double</span> m_distance = <span class="highlight-number">1</span>;
+  Rhino.Geometry.Point3d m_point_start;
+  <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> Rhino.Commands.Result RunCommand(RhinoDoc doc, Rhino.Commands.RunMode mode)
+  {
+    Rhino.DocObjects.ObjRef objref;
+    <span class="highlight-keyword">var</span> rc = Rhino.Input.RhinoGet.GetOneObject(<span class="highlight-literal">"Select object"</span>, <span class="highlight-keyword">true</span>, Rhino.DocObjects.ObjectType.AnyObject, <span class="highlight-keyword">out</span> objref);
+    <span class="highlight-keyword">if</span> (rc != Rhino.Commands.Result.Success)
+      <span class="highlight-keyword">return</span> rc;
+
+    rc = Rhino.Input.RhinoGet.GetPoint(<span class="highlight-literal">"Start point"</span>, <span class="highlight-keyword">false</span>, <span class="highlight-keyword">out</span> m_point_start);
+    <span class="highlight-keyword">if</span> (rc != Rhino.Commands.Result.Success)
+      <span class="highlight-keyword">return</span> rc;
+
+    <span class="highlight-keyword">var</span> obj = objref.Object();
+    <span class="highlight-keyword">if</span> (obj == <span class="highlight-keyword">null</span>)
+      <span class="highlight-keyword">return</span> Rhino.Commands.Result.Failure;
+
+    <span class="highlight-comment">// create an instance of a GetPoint class and add a delegate</span>
+    <span class="highlight-comment">// for the DynamicDraw event</span>
+    <span class="highlight-keyword">var</span> gp = <span class="highlight-keyword">new</span> Rhino.Input.Custom.GetPoint();
+    gp.DrawLineFromPoint(m_point_start, <span class="highlight-keyword">true</span>);
+    <span class="highlight-keyword">var</span> optdouble = <span class="highlight-keyword">new</span> Rhino.Input.Custom.OptionDouble(m_distance);
+    <span class="highlight-keyword">bool</span> constrain = <span class="highlight-keyword">false</span>;
+    <span class="highlight-keyword">var</span> optconstrain = <span class="highlight-keyword">new</span> Rhino.Input.Custom.OptionToggle(constrain, <span class="highlight-literal">"Off"</span>, <span class="highlight-literal">"On"</span>);
+    gp.AddOptionDouble(<span class="highlight-literal">"Distance"</span>, <span class="highlight-keyword">ref</span> optdouble);
+    gp.AddOptionToggle(<span class="highlight-literal">"Constrain"</span>, <span class="highlight-keyword">ref</span> optconstrain);
+    gp.DynamicDraw += ArrayByDistanceDraw;
+    gp.Tag = obj;
+    <span class="highlight-keyword">while</span> (gp.Get() == Rhino.Input.GetResult.Option)
+    {
+      m_distance = optdouble.CurrentValue;
+      <span class="highlight-keyword">if</span> (constrain != optconstrain.CurrentValue)
+      {
+        constrain = optconstrain.CurrentValue;
+        <span class="highlight-keyword">if</span> (constrain)
+        {
+          <span class="highlight-keyword">var</span> gp2 = <span class="highlight-keyword">new</span> Rhino.Input.Custom.GetPoint();
+          gp2.DrawLineFromPoint(m_point_start, <span class="highlight-keyword">true</span>);
+          gp2.SetCommandPrompt(<span class="highlight-literal">"Second point on constraint line"</span>);
+          <span class="highlight-keyword">if</span> (gp2.Get() == Rhino.Input.GetResult.Point)
+            gp.Constrain(m_point_start, gp2.Point());
+          <span class="highlight-keyword">else</span>
+          {
+            gp.ClearCommandOptions();
+            optconstrain.CurrentValue = <span class="highlight-keyword">false</span>;
+            constrain = <span class="highlight-keyword">false</span>;
+            gp.AddOptionDouble(<span class="highlight-literal">"Distance"</span>, <span class="highlight-keyword">ref</span> optdouble);
+            gp.AddOptionToggle(<span class="highlight-literal">"Constrain"</span>, <span class="highlight-keyword">ref</span> optconstrain);
+          }
+        }
+        <span class="highlight-keyword">else</span>
+        {
+          gp.ClearConstraints();
+        }
+      }
+    }
+
+    <span class="highlight-keyword">if</span> (gp.CommandResult() == Rhino.Commands.Result.Success)
+    {
+      m_distance = optdouble.CurrentValue;
+      <span class="highlight-keyword">var</span> pt = gp.Point();
+      <span class="highlight-keyword">var</span> vec = pt - m_point_start;
+      <span class="highlight-keyword">double</span> length = vec.Length;
+      vec.Unitize();
+      <span class="highlight-keyword">int</span> count = (<span class="highlight-keyword">int</span>)(length / m_distance);
+      <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">1</span>; i &lt; count; i++)
+      {
+        <span class="highlight-keyword">var</span> translate = vec * (i * m_distance);
+        <span class="highlight-keyword">var</span> xf = Rhino.Geometry.Transform.Translation(translate);
+        doc.Objects.Transform(obj, xf, <span class="highlight-keyword">false</span>);
+      }
+      doc.Views.Redraw();
+    }
+
+    <span class="highlight-keyword">return</span> gp.CommandResult();
+  }
+
+  <span class="highlight-comment">// this function is called whenever the GetPoint's DynamicDraw</span>
+  <span class="highlight-comment">// event occurs</span>
+  <span class="highlight-keyword">void</span> ArrayByDistanceDraw(<span class="highlight-keyword">object</span> sender, Rhino.Input.Custom.GetPointDrawEventArgs e)
+  {
+    Rhino.DocObjects.RhinoObject rhobj = e.Source.Tag <span class="highlight-keyword">as</span> Rhino.DocObjects.RhinoObject;
+    <span class="highlight-keyword">if</span> (rhobj == <span class="highlight-keyword">null</span>)
+      <span class="highlight-keyword">return</span>;
+    <span class="highlight-keyword">var</span> vec = e.CurrentPoint - m_point_start;
+    <span class="highlight-keyword">double</span> length = vec.Length;
+    vec.Unitize();
+    <span class="highlight-keyword">int</span> count = (<span class="highlight-keyword">int</span>)(length / m_distance);
+    <span class="highlight-keyword">for</span> (<span class="highlight-keyword">int</span> i = <span class="highlight-number">1</span>; i &lt; count; i++)
+    {
+      <span class="highlight-keyword">var</span> translate = vec * (i * m_distance);
+      <span class="highlight-keyword">var</span> xf = Rhino.Geometry.Transform.Translation(translate);
+      e.Display.DrawObject(rhobj, xf);
+    }
+  }
+}</pre></div><div id="ID0EBBABA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Rhino
+
+&lt;System.Runtime.InteropServices.Guid(<span class="highlight-literal">"03249FBF-75C9-4878-83CC-20C197E5A758"</span>)&gt; _
+<span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> ArrayByDistanceCommand
+  <span class="highlight-keyword">Inherits</span> Rhino.Commands.Command
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> EnglishName() <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span>
+    <span class="highlight-keyword">Get</span>
+      <span class="highlight-keyword">Return</span> <span class="highlight-literal">"vb_ArrayByDistance"</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+
+  <span class="highlight-keyword">Private</span> m_distance <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = <span class="highlight-number">1</span>
+  <span class="highlight-keyword">Private</span> m_point_start <span class="highlight-keyword">As</span> Rhino.Geometry.Point3d
+  <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> RunCommand(doc <span class="highlight-keyword">As</span> RhinoDoc, mode <span class="highlight-keyword">As</span> Rhino.Commands.RunMode) <span class="highlight-keyword">As</span> Rhino.Commands.Result
+    <span class="highlight-keyword">Dim</span> objref <span class="highlight-keyword">As</span> Rhino.DocObjects.ObjRef = <span class="highlight-keyword">Nothing</span>
+    <span class="highlight-keyword">Dim</span> rc = Rhino.Input.RhinoGet.GetOneObject(<span class="highlight-literal">"Select object"</span>, <span class="highlight-keyword">True</span>, Rhino.DocObjects.ObjectType.AnyObject, objref)
+    <span class="highlight-keyword">If</span> rc &lt;&gt; Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> rc
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    rc = Rhino.Input.RhinoGet.GetPoint(<span class="highlight-literal">"Start point"</span>, <span class="highlight-keyword">False</span>, m_point_start)
+    <span class="highlight-keyword">If</span> rc &lt;&gt; Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> rc
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-keyword">Dim</span> obj = objref.<span class="highlight-keyword">Object</span>()
+    <span class="highlight-keyword">If</span> obj <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span> Rhino.Commands.Result.Failure
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-comment">' create an instance of a GetPoint class and add a delegate</span>
+    <span class="highlight-comment">' for the DynamicDraw event</span>
+    <span class="highlight-keyword">Dim</span> gp = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetPoint()
+    gp.DrawLineFromPoint(m_point_start, <span class="highlight-keyword">True</span>)
+    <span class="highlight-keyword">Dim</span> optdouble = <span class="highlight-keyword">New</span> Rhino.Input.Custom.OptionDouble(m_distance)
+    <span class="highlight-keyword">Dim</span> constrain <span class="highlight-keyword">As</span> <span class="highlight-keyword">Boolean</span> = <span class="highlight-keyword">False</span>
+    <span class="highlight-keyword">Dim</span> optconstrain = <span class="highlight-keyword">New</span> Rhino.Input.Custom.OptionToggle(constrain, <span class="highlight-literal">"Off"</span>, <span class="highlight-literal">"On"</span>)
+    gp.AddOptionDouble(<span class="highlight-literal">"Distance"</span>, optdouble)
+    gp.AddOptionToggle(<span class="highlight-literal">"Constrain"</span>, optconstrain)
+    <span class="highlight-keyword">AddHandler</span> gp.DynamicDraw, <span class="highlight-keyword">AddressOf</span> ArrayByDistanceDraw
+    gp.Tag = obj
+    <span class="highlight-keyword">While</span> gp.<span class="highlight-keyword">Get</span>() = Rhino.Input.GetResult.<span class="highlight-keyword">Option</span>
+      m_distance = optdouble.CurrentValue
+      <span class="highlight-keyword">If</span> constrain &lt;&gt; optconstrain.CurrentValue <span class="highlight-keyword">Then</span>
+        constrain = optconstrain.CurrentValue
+        <span class="highlight-keyword">If</span> constrain <span class="highlight-keyword">Then</span>
+          <span class="highlight-keyword">Dim</span> gp2 = <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetPoint()
+          gp2.DrawLineFromPoint(m_point_start, <span class="highlight-keyword">True</span>)
+          gp2.SetCommandPrompt(<span class="highlight-literal">"Second point on constraint line"</span>)
+          <span class="highlight-keyword">If</span> gp2.<span class="highlight-keyword">Get</span>() = Rhino.Input.GetResult.Point <span class="highlight-keyword">Then</span>
+            gp.Constrain(m_point_start, gp2.Point())
+          <span class="highlight-keyword">Else</span>
+            gp.ClearCommandOptions()
+            optconstrain.CurrentValue = <span class="highlight-keyword">False</span>
+            constrain = <span class="highlight-keyword">False</span>
+            gp.AddOptionDouble(<span class="highlight-literal">"Distance"</span>, optdouble)
+            gp.AddOptionToggle(<span class="highlight-literal">"Constrain"</span>, optconstrain)
+          <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+        <span class="highlight-keyword">Else</span>
+          gp.ClearConstraints()
+        <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+      <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">While</span>
+
+    <span class="highlight-keyword">If</span> gp.CommandResult() = Rhino.Commands.Result.Success <span class="highlight-keyword">Then</span>
+      m_distance = optdouble.CurrentValue
+      <span class="highlight-keyword">Dim</span> pt = gp.Point()
+      <span class="highlight-keyword">Dim</span> vec = pt - m_point_start
+      <span class="highlight-keyword">Dim</span> length <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = vec.Length
+      vec.Unitize()
+      <span class="highlight-keyword">Dim</span> count <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-keyword">CInt</span>(Math.Truncate(length / m_distance))
+      <span class="highlight-keyword">For</span> i <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">1</span> <span class="highlight-keyword">To</span> count - <span class="highlight-number">1</span>
+        <span class="highlight-keyword">Dim</span> translate = vec * (i * m_distance)
+        <span class="highlight-keyword">Dim</span> xf = Rhino.Geometry.Transform.Translation(translate)
+        doc.Objects.Transform(obj, xf, <span class="highlight-keyword">False</span>)
+      <span class="highlight-keyword">Next</span>
+      doc.Views.Redraw()
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+    <span class="highlight-keyword">Return</span> gp.CommandResult()
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+
+  <span class="highlight-comment">' this function is called whenever the GetPoint's DynamicDraw</span>
+  <span class="highlight-comment">' event occurs</span>
+  <span class="highlight-keyword">Private</span> <span class="highlight-keyword">Sub</span> ArrayByDistanceDraw(sender <span class="highlight-keyword">As</span> <span class="highlight-keyword">Object</span>, e <span class="highlight-keyword">As</span> Rhino.Input.Custom.GetPointDrawEventArgs)
+    <span class="highlight-keyword">Dim</span> rhobj <span class="highlight-keyword">As</span> Rhino.DocObjects.RhinoObject = <span class="highlight-keyword">TryCast</span>(e.Source.Tag, Rhino.DocObjects.RhinoObject)
+    <span class="highlight-keyword">If</span> rhobj <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span> <span class="highlight-keyword">Then</span>
+      <span class="highlight-keyword">Return</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+    <span class="highlight-keyword">Dim</span> vec = e.CurrentPoint - m_point_start
+    <span class="highlight-keyword">Dim</span> length <span class="highlight-keyword">As</span> <span class="highlight-keyword">Double</span> = vec.Length
+    vec.Unitize()
+    <span class="highlight-keyword">Dim</span> count <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-keyword">CInt</span>(Math.Truncate(length / m_distance))
+    <span class="highlight-keyword">For</span> i <span class="highlight-keyword">As</span> <span class="highlight-keyword">Integer</span> = <span class="highlight-number">1</span> <span class="highlight-keyword">To</span> count - <span class="highlight-number">1</span>
+      <span class="highlight-keyword">Dim</span> translate = vec * (i * m_distance)
+      <span class="highlight-keyword">Dim</span> xf = Rhino.Geometry.Transform.Translation(translate)
+      e.Display.DrawObject(rhobj, xf)
+    <span class="highlight-keyword">Next</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBBABA");</script><div class="codeSnippetContainer"><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAABA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">import</span> Rhino
+<span class="highlight-keyword">import</span> scriptcontext
+
+<span class="highlight-keyword">def</span> dynamic_array():
+    rc, objref = Rhino.Input.RhinoGet.GetOneObject(<span class="highlight-literal">"Select object"</span>, True, Rhino.DocObjects.ObjectType.AnyObject)
+    <span class="highlight-keyword">if</span> rc!=Rhino.Commands.Result.Success: <span class="highlight-keyword">return</span>
+
+    rc, pt_start = Rhino.Input.RhinoGet.GetPoint(<span class="highlight-literal">"Start point"</span>, False)
+    <span class="highlight-keyword">if</span> rc!=Rhino.Commands.Result.Success: <span class="highlight-keyword">return</span>
+
+    obj = objref.Object()
+    <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> obj: <span class="highlight-keyword">return</span>
+
+    dist = <span class="highlight-number">1</span>
+    <span class="highlight-keyword">if</span> scriptcontext.sticky.has_key(<span class="highlight-literal">"dynamic_array_distance"</span>):
+        dist = scriptcontext.sticky[<span class="highlight-literal">"dynamic_array_distance"</span>]
+    <span class="highlight-comment"># This is a function that is called whenever the GetPoint's</span>
+    <span class="highlight-comment"># DynamicDraw event occurs</span>
+    <span class="highlight-keyword">def</span> ArrayByDistanceDraw( sender, args ):
+        rhobj = args.Source.Tag
+        <span class="highlight-keyword">if</span> <span class="highlight-keyword">not</span> rhobj: <span class="highlight-keyword">return</span>
+        vec = args.CurrentPoint - pt_start
+        length = vec.Length
+        vec.Unitize()
+        count = int(length / dist)
+        <span class="highlight-keyword">for</span> i <span class="highlight-keyword">in</span> range(<span class="highlight-number">1</span>,count):
+            translate = vec * (i*dist)
+            xf = Rhino.Geometry.Transform.Translation(translate)
+            args.Display.DrawObject(rhobj, xf)
+
+    <span class="highlight-comment"># Create an instance of a GetPoint class and add a delegate</span>
+    <span class="highlight-comment"># for the DynamicDraw event</span>
+    gp = Rhino.Input.Custom.GetPoint()
+    gp.DrawLineFromPoint(pt_start, True)
+    optdouble = Rhino.Input.Custom.OptionDouble(dist)
+    constrain = False
+    optconstrain = Rhino.Input.Custom.OptionToggle(constrain,<span class="highlight-literal">"Off"</span>, <span class="highlight-literal">"On"</span>)
+    gp.AddOptionDouble(<span class="highlight-literal">"Distance"</span>, optdouble)
+    gp.AddOptionToggle(<span class="highlight-literal">"Constrain"</span>, optconstrain)
+    gp.DynamicDraw += ArrayByDistanceDraw
+    gp.Tag = obj
+    <span class="highlight-keyword">while</span> gp.Get()==Rhino.Input.GetResult.Option:
+        dist = optdouble.CurrentValue
+        <span class="highlight-keyword">if</span> constrain!=optconstrain.CurrentValue:
+            constrain = optconstrain.CurrentValue
+            <span class="highlight-keyword">if</span> constrain:
+                gp2 = Rhino.Input.Custom.GetPoint()
+                gp2.DrawLineFromPoint(pt_start, True)
+                gp2.SetCommandPrompt(<span class="highlight-literal">"Second point on constraint line"</span>)
+                <span class="highlight-keyword">if</span> gp2.Get()==Rhino.Input.GetResult.Point:
+                    gp.Constrain(pt_start, gp2.Point())
+                <span class="highlight-keyword">else</span>:
+                    gp.ClearCommandOptions()
+                    optconstrain.CurrentValue = False
+                    constrain = False
+                    gp.AddOptionDouble(<span class="highlight-literal">"Distance"</span>, optdouble)
+                    gp.AddOptionToggle(<span class="highlight-literal">"Constrain"</span>, optconstrain)
+            <span class="highlight-keyword">else</span>:
+                gp.ClearConstraints()
+        <span class="highlight-keyword">continue</span>
+    <span class="highlight-keyword">if</span> gp.CommandResult()==Rhino.Commands.Result.Success:
+        scriptcontext.sticky[<span class="highlight-literal">"dynamic_array_distance"</span>] = dist
+        pt = gp.Point()
+        vec = pt - pt_start
+        length = vec.Length
+        vec.Unitize()
+        count = int(length / dist)
+        <span class="highlight-keyword">for</span> i <span class="highlight-keyword">in</span> range(<span class="highlight-number">1</span>, count):
+            translate = vec * (i*dist)
+            xf = Rhino.Geometry.Transform.Translation(translate)
+            scriptcontext.doc.Objects.Transform(obj,xf,False)
+        scriptcontext.doc.Views.Redraw()
+
+
+<span class="highlight-keyword">if</span>( __name__ == <span class="highlight-literal">"__main__"</span> ):
+    dynamic_array()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABA");</script></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID3RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Input_Custom_GetPoint.htm">GetPoint Class</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Input_Custom.htm">Rhino.Input.Custom Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Updated 10 March 2016 - Robert McNeel and Associates<p><a href="http://discourse.mcneel.com/" target="_blank">Report wishes and bugs: http://discourse.mcneel.com/</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:steve%40mcneel.com?Subject=RhinoCommon SDK">steve@mcneel.com</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>
