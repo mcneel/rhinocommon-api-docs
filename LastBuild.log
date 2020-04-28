@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="3/23/2020 9:29:15 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="4/28/2020 1:53:29 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -34,16 +34,16 @@ Generating shared content files (en-US, English (United States))...
 Removing standard version information items from shared content file
 Adding version information items from plug-in settings
 </plugIn><plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0126
+</plugIn>    Last step completed in 00:00:00.0114
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0826
+    Last step completed in 00:00:00.1021
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 3/23/2020 9:29:16 AM.
+Build started 4/28/2020 1:53:31 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -53,14 +53,14 @@ GenerateRefInfo:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 33 namespaces, 1057 types, and 13420 members
+  Wrote information on 35 namespaces, 1105 types, and 13766 members
   Copying file from &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.org&quot; to &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.all&quot;.
   XslTransform (v2019.11.17.0)
   Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:01.7690
+    Last step completed in 00:00:02.8627
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
@@ -78,7 +78,7 @@ Completed
 Creating Version Builder configuration file
 Adding Version Builder parameters to TransformManifest.proj
 </plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - TransformManifest.proj]
-Build started 3/23/2020 9:29:20 AM.
+Build started 4/28/2020 1:53:37 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   VersionBuilder (v2019.11.17.0)
@@ -86,7 +86,7 @@ TransformManifest:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Indexing version &#39;SHFB_VBPI_71BCEF3E&#39; using file &#39;E12C5DC2.ver&#39;.
   Indexing version &#39;SHFB_VBPI_77B83442&#39; using file &#39;59C301B8.ver&#39;.
-  Indexed 14658 entities in 2 versions.
+  Indexed 15054 entities in 2 versions.
   XslTransform (v2019.11.17.0)
   Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
@@ -1408,8 +1408,10 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_RhinoObject_GetRenderMaterial_2 generated for M:Rhino.DocObjects.RhinoObject.GetRenderMaterial(Rhino.Geometry.ComponentIndex,System.Guid,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_RhinoObject_GetRenderMaterial_3 generated for M:Rhino.DocObjects.RhinoObject.GetRenderMaterial(System.Boolean)
     Unique name M_Rhino_DocObjects_RhinoObject_GetRenderPrimitiveList_1 generated for M:Rhino.DocObjects.RhinoObject.GetRenderPrimitiveList(Rhino.DocObjects.ViewportInfo,System.Boolean)
+    Unique name M_Rhino_DocObjects_RhinoObject_GetTightBoundingBox_1 generated for M:Rhino.DocObjects.RhinoObject.GetTightBoundingBox(System.Collections.Generic.IEnumerable{Rhino.DocObjects.RhinoObject},Rhino.Geometry.Plane,Rhino.Geometry.BoundingBox@)
     Unique name M_Rhino_DocObjects_RhinoObject_MeshObjects_2 generated for M:Rhino.DocObjects.RhinoObject.MeshObjects(System.Collections.Generic.IEnumerable{Rhino.DocObjects.RhinoObject},Rhino.Geometry.MeshingParameters@,System.Int32@,Rhino.Geometry.Transform,Rhino.Geometry.Mesh[]@,Rhino.DocObjects.ObjectAttributes[]@)
     Unique name M_Rhino_DocObjects_RhinoObject_SelectSubObject_1 generated for M:Rhino.DocObjects.RhinoObject.SelectSubObject(Rhino.Geometry.ComponentIndex,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_DocObjects_RhinoObject_SetTextureMapping_1 generated for M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping,Rhino.Geometry.Transform)
     Unique name M_Rhino_DocObjects_RhinoObject_SupportsRenderPrimitiveList_1 generated for M:Rhino.DocObjects.RhinoObject.SupportsRenderPrimitiveList(Rhino.DocObjects.ViewportInfo,System.Boolean)
     Unique name M_Rhino_DocObjects_RhinoObject_TryGetRenderPrimitiveBoundingBox_1 generated for M:Rhino.DocObjects.RhinoObject.TryGetRenderPrimitiveBoundingBox(Rhino.DocObjects.ViewportInfo,System.Boolean,Rhino.Geometry.BoundingBox@)
     Unique name M_Rhino_DocObjects_ViewInfo__ctor_1 generated for M:Rhino.DocObjects.ViewInfo.#ctor(System.UInt32)
@@ -1582,6 +1584,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Curve_GetConicSectionType_1 generated for M:Rhino.Geometry.Curve.GetConicSectionType(Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@,Rhino.Geometry.Point3d@)
     Unique name M_Rhino_Geometry_Curve_GetLocalPerpPoint_1 generated for M:Rhino.Geometry.Curve.GetLocalPerpPoint(Rhino.Geometry.Point3d,System.Double,System.Double@)
     Unique name M_Rhino_Geometry_Curve_GetLocalTangentPoint_1 generated for M:Rhino.Geometry.Curve.GetLocalTangentPoint(Rhino.Geometry.Point3d,System.Double,System.Double@)
+    Unique name M_Rhino_Geometry_Curve_Offset_2 generated for M:Rhino.Geometry.Curve.Offset(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Double,System.Double,System.Double,System.Boolean,Rhino.Geometry.CurveOffsetCornerStyle,Rhino.Geometry.CurveOffsetEndStyle)
     Unique name M_Rhino_Geometry_Curve_RibbonOffset_1 generated for M:Rhino.Geometry.Curve.RibbonOffset(System.Double,System.Double,Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Double,Rhino.Geometry.Curve[]@,Rhino.Geometry.Surface[]@)
     Unique name M_Rhino_Geometry_Curve_RibbonOffset_2 generated for M:Rhino.Geometry.Curve.RibbonOffset(System.Double,System.Double,Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Double,System.Double[]@,System.Double[]@)
     Unique name M_Rhino_Geometry_Curve_Smooth_1 generated for M:Rhino.Geometry.Curve.Smooth(System.Double,System.Boolean,System.Boolean,System.Boolean,System.Boolean,Rhino.Geometry.SmoothingCoordinateSystem,Rhino.Geometry.Plane)
@@ -1720,6 +1723,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveBrep_1 generated for M:Rhino.Geometry.Intersect.Intersection.CurveBrep(Rhino.Geometry.Curve,Rhino.Geometry.Brep,System.Double,Rhino.Geometry.Curve[]@,Rhino.Geometry.Point3d[]@,System.Double[]@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveBrep_2 generated for M:Rhino.Geometry.Intersect.Intersection.CurveBrep(Rhino.Geometry.Curve,Rhino.Geometry.Brep,System.Double,System.Double,System.Double[]@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveSurfaceValidate_1 generated for M:Rhino.Geometry.Intersect.Intersection.CurveSurfaceValidate(Rhino.Geometry.Curve,Rhino.Geometry.Surface,System.Double,System.Double,System.Int32[]@,Rhino.FileIO.TextLog@)
+    Unique name M_Rhino_Geometry_Intersect_Intersection_RayShoot_1 generated for M:Rhino.Geometry.Intersect.Intersection.RayShoot(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},Rhino.Geometry.Ray3d,System.Int32)
     Unique name M_Rhino_Geometry_Intersect_IntersectionEvent_CompareEquivalent_1 generated for M:Rhino.Geometry.Intersect.IntersectionEvent.CompareEquivalent(Rhino.Geometry.Intersect.IntersectionEvent,Rhino.Geometry.Intersect.IntersectionEvent,System.Double,Rhino.FileIO.TextLog)
     Unique name M_Rhino_Geometry_Intersect_MeshClash_FindDetail_1 generated for M:Rhino.Geometry.Intersect.MeshClash.FindDetail(Rhino.DocObjects.RhinoObject,Rhino.DocObjects.RhinoObject,System.Double,Rhino.Geometry.MeshType,Rhino.Geometry.MeshingParameters)
     Unique name M_Rhino_Geometry_Intersect_MeshClash_Search_3 generated for M:Rhino.Geometry.Intersect.MeshClash.Search(System.Collections.Generic.IEnumerable{Rhino.DocObjects.RhinoObject},System.Collections.Generic.IEnumerable{Rhino.DocObjects.RhinoObject},System.Double)
@@ -1740,6 +1744,7 @@ TransformManifest:
     Unique name M_Rhino_Input_Custom_GetCylinder_GetMesh_1 generated for M:Rhino.Input.Custom.GetCylinder.GetMesh(System.Int32@,System.Int32@,System.Int32@,Rhino.Geometry.Cylinder@)
     Unique name M_Rhino_Input_Custom_GetEllipsoid_Dispose_1 generated for M:Rhino.Input.Custom.GetEllipsoid.Dispose(System.Boolean)
     Unique name M_Rhino_Input_Custom_GetEllipsoid_GetMesh_1 generated for M:Rhino.Input.Custom.GetEllipsoid.GetMesh(System.Int32@,System.Int32@,System.Boolean@,Rhino.Geometry.Mesh@)
+    Unique name M_Rhino_Input_Custom_GetPoint__ctor_1 generated for M:Rhino.Input.Custom.GetPoint.#ctor(System.String,System.Object)
     Unique name M_Rhino_Input_Custom_GetPoint_Get_2 generated for M:Rhino.Input.Custom.GetPoint.Get(System.Boolean,System.Boolean)
     Unique name M_Rhino_Input_Custom_GetPolyline_Dispose_1 generated for M:Rhino.Input.Custom.GetPolyline.Dispose(System.Boolean)
     Unique name M_Rhino_Input_Custom_GetSphere_Dispose_1 generated for M:Rhino.Input.Custom.GetSphere.Dispose(System.Boolean)
@@ -1965,6 +1970,10 @@ TransformManifest:
     Unique name M_Rhino_Render_Fields_FieldDictionary_TryGetValue_13 generated for M:Rhino.Render.Fields.FieldDictionary.TryGetValue(System.String,System.Int32@)
     Unique name M_Rhino_Render_Fields_FieldDictionary_TryGetValue_14 generated for M:Rhino.Render.Fields.FieldDictionary.TryGetValue(System.String,System.Single@)
     Unique name M_Rhino_Render_Fields_FieldDictionary_TryGetValue_15 generated for M:Rhino.Render.Fields.FieldDictionary.TryGetValue(System.String,System.String@)
+    Unique name M_Rhino_Render_PostEffects_ChannelData__ctor_1 generated for M:Rhino.Render.PostEffects.ChannelData.#ctor(Rhino.Render.PostEffects.ChannelData)
+    Unique name M_Rhino_Render_PostEffects_ChannelData__ctor_2 generated for M:Rhino.Render.PostEffects.ChannelData.#ctor(System.Guid,Rhino.Render.PostEffects.ComponentOrder)
+    Unique name M_Rhino_Render_PostEffects_ChannelData__ctor_3 generated for M:Rhino.Render.PostEffects.ChannelData.#ctor(System.IntPtr)
+    Unique name M_Rhino_Render_PostEffects_PostEffectPlugIn__ctor_1 generated for M:Rhino.Render.PostEffects.PostEffectPlugIn.#ctor(System.IntPtr)
     Unique name M_Rhino_Runtime_Analytics__ctor_1 generated for M:Rhino.Runtime.Analytics.#ctor(System.String,System.String,System.String,System.String,System.String)
     Unique name M_Rhino_Runtime_Analytics_Send_1 generated for M:Rhino.Runtime.Analytics.Send(System.String)
     Unique name M_Rhino_Runtime_Analytics_Send_2 generated for M:Rhino.Runtime.Analytics.Send(System.String,System.String)
@@ -1983,9 +1992,10 @@ TransformManifest:
     Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_3 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
     Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_4 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{System.String})
     Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_5 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Double)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_6 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Int32)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_7 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.String)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_8 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.UInt32)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_6 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Drawing.Color)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_7 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Int32)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_8 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.String)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_9 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.UInt32)
     Unique name M_Rhino_Runtime_NotLicensedException__ctor_1 generated for M:Rhino.Runtime.NotLicensedException.#ctor(System.String)
     Unique name M_Rhino_Runtime_NotLicensedException__ctor_2 generated for M:Rhino.Runtime.NotLicensedException.#ctor(System.String,System.Exception)
     Unique name M_Rhino_Runtime_TextFields_Area_1 generated for M:Rhino.Runtime.TextFields.Area(System.String,System.String)
@@ -2015,22 +2025,41 @@ TransformManifest:
     Unique name M_Rhino_Runtime_InteropWrappers_SimpleArrayUint__ctor_1 generated for M:Rhino.Runtime.InteropWrappers.SimpleArrayUint.#ctor(System.Collections.Generic.IEnumerable{System.UInt32})
     Unique name M_Rhino_Runtime_Notifications_Notification__ctor_1 generated for M:Rhino.Runtime.Notifications.Notification.#ctor(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})
     Unique name M_Rhino_Runtime_Notifications_TrulyObservableOrderedSet_1__ctor_1 generated for M:Rhino.Runtime.Notifications.TrulyObservableOrderedSet`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+    Unique name M_Rhino_Runtime_RhinoAccounts_IRhinoAccountsManager_GetAuthTokensAsync_1 generated for M:Rhino.Runtime.RhinoAccounts.IRhinoAccountsManager.GetAuthTokensAsync(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Nullable{System.Int32},System.Boolean,System.IProgress{Rhino.Runtime.RhinoAccounts.RhinoAccoountsProgressInfo},Rhino.Runtime.RhinoAccounts.SecretKey,System.Threading.CancellationToken)
+    Unique name M_Rhino_Runtime_RhinoAccounts_IRhinoAccountsManager_TryGetAuthTokens_1 generated for M:Rhino.Runtime.RhinoAccounts.IRhinoAccountsManager.TryGetAuthTokens(System.String,System.Collections.Generic.IEnumerable{System.String},Rhino.Runtime.RhinoAccounts.SecretKey)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsAuthTokenMismatchException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsAuthTokenMismatchException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsAuthTokenMismatchException__ctor_2 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsAuthTokenMismatchException.#ctor(System.String,System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsCannotListenException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsCannotListenException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsInvalidResponseException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsInvalidResponseException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsInvalidStateException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsInvalidStateException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsInvalidTokenException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsInvalidTokenException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsManager_GetAuthTokensAsync_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsManager.GetAuthTokensAsync(System.String,System.String,System.Collections.Generic.IEnumerable{System.String},System.String,System.Nullable{System.Int32},System.Boolean,System.IProgress{Rhino.Runtime.RhinoAccounts.RhinoAccoountsProgressInfo},Rhino.Runtime.RhinoAccounts.SecretKey,System.Threading.CancellationToken)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsManager_TryGetAuthTokens_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsManager.TryGetAuthTokens(System.String,System.Collections.Generic.IEnumerable{System.String},Rhino.Runtime.RhinoAccounts.SecretKey)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsOperationInProgressException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsOperationInProgressException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsProxyException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsProxyException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsServerException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsServerException.#ctor(System.String,System.Exception)
+    Unique name M_Rhino_Runtime_RhinoAccounts_RhinoAccountsServerNotReachableException__ctor_1 generated for M:Rhino.Runtime.RhinoAccounts.RhinoAccountsServerNotReachableException.#ctor(System.String,System.Exception)
     Unique name M_Rhino_UI_Dialogs_ShowColorDialog_2 generated for M:Rhino.UI.Dialogs.ShowColorDialog(Rhino.Display.Color4f@,System.Boolean)
-    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_3 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean)
-    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_4 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean,Rhino.UI.Dialogs.OnColorChangedEvent)
-    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_5 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Windows.Forms.IWin32Window,Rhino.Display.Color4f@,System.Boolean)
+    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_3 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Drawing.Color@,System.Boolean,System.String,Rhino.UI.NamedColorList)
+    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_4 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean)
+    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_5 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean,Rhino.UI.Dialogs.OnColorChangedEvent)
+    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_6 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean,Rhino.UI.NamedColorList,Rhino.UI.Dialogs.OnColorChangedEvent)
+    Unique name M_Rhino_UI_Dialogs_ShowColorDialog_7 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Windows.Forms.IWin32Window,Rhino.Display.Color4f@,System.Boolean)
     Unique name M_Rhino_UI_Dialogs_ShowMessage_2 generated for M:Rhino.UI.Dialogs.ShowMessage(System.Object,System.String,System.String,Rhino.UI.ShowMessageButton,Rhino.UI.ShowMessageIcon,Rhino.UI.ShowMessageDefaultButton,Rhino.UI.ShowMessageOptions,Rhino.UI.ShowMessageMode)
     Unique name M_Rhino_UI_DrawingUtilities_BitmapFromIconResource_1 generated for M:Rhino.UI.DrawingUtilities.BitmapFromIconResource(System.String,System.Reflection.Assembly)
-    Unique name M_Rhino_UI_DrawingUtilities_CreateMeshPreviewImage_1 generated for M:Rhino.UI.DrawingUtilities.CreateMeshPreviewImage(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Collections.Generic.IEnumerable{System.Drawing.Color},System.Drawing.Size)
+    Unique name M_Rhino_UI_DrawingUtilities_CreateMeshPreviewImage_1 generated for M:Rhino.UI.DrawingUtilities.CreateMeshPreviewImage(Rhino.RhinoDoc,System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Collections.Generic.IEnumerable{System.Drawing.Color},System.Drawing.Size)
+    Unique name M_Rhino_UI_DrawingUtilities_CreateMeshPreviewImage_2 generated for M:Rhino.UI.DrawingUtilities.CreateMeshPreviewImage(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Collections.Generic.IEnumerable{System.Drawing.Color},System.Drawing.Size)
     Unique name M_Rhino_UI_DrawingUtilities_IconFromResource_1 generated for M:Rhino.UI.DrawingUtilities.IconFromResource(System.String,System.Reflection.Assembly)
     Unique name M_Rhino_UI_IPanel_PanelClosing_1 generated for M:Rhino.UI.IPanel.PanelClosing(System.UInt32,System.Boolean)
     Unique name M_Rhino_UI_IPanel_PanelHidden_1 generated for M:Rhino.UI.IPanel.PanelHidden(System.UInt32,Rhino.UI.ShowPanelReason)
     Unique name M_Rhino_UI_IPanel_PanelShown_1 generated for M:Rhino.UI.IPanel.PanelShown(System.UInt32,Rhino.UI.ShowPanelReason)
     Unique name M_Rhino_UI_IStackedDialogPageService_GetImageHandle_1 generated for M:Rhino.UI.IStackedDialogPageService.GetImageHandle(System.Drawing.Image,System.Boolean)
-    Unique name M_Rhino_UI_IStackedDialogPageService_GetNativePageWindow_1 generated for M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@,System.Object@)
+    Unique name M_Rhino_UI_IStackedDialogPageService_GetNativePageWindow_1 generated for M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@,System.Object@)
     Unique name M_Rhino_UI_MouseCallback_OnMouseEnter_1 generated for M:Rhino.UI.MouseCallback.OnMouseEnter(Rhino.UI.MouseCallbackEventArgs)
     Unique name M_Rhino_UI_MouseCallback_OnMouseHover_1 generated for M:Rhino.UI.MouseCallback.OnMouseHover(Rhino.UI.MouseCallbackEventArgs)
     Unique name M_Rhino_UI_MouseCallback_OnMouseLeave_1 generated for M:Rhino.UI.MouseCallback.OnMouseLeave(Rhino.UI.MouseCallbackEventArgs)
+    Unique name M_Rhino_UI_NamedColorList__ctor_1 generated for M:Rhino.UI.NamedColorList.#ctor(System.String,System.Collections.Generic.IEnumerable{Rhino.UI.NamedColor})
     Unique name M_Rhino_UI_ObjectPropertiesPage_AnySelectedObject__1_1 generated for M:Rhino.UI.ObjectPropertiesPage.AnySelectedObject``1(System.Boolean)
     Unique name M_Rhino_UI_ObjectPropertiesPage_RunScript_1 generated for M:Rhino.UI.ObjectPropertiesPage.RunScript(Rhino.UI.ObjectPropertiesPageEventArgs)
     Unique name M_Rhino_UI_ObjectPropertiesPage_ShouldDisplay_1 generated for M:Rhino.UI.ObjectPropertiesPage.ShouldDisplay(Rhino.UI.ObjectPropertiesPageEventArgs)
@@ -2062,11 +2091,11 @@ TransformManifest:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:10.9818
+    Last step completed in 00:00:15.0835
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.4839
+    Last step completed in 00:00:00.5629
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -2080,26 +2109,26 @@ Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\*.xml
 Indexing D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\3671941A\RhinoCommon.xml
 Indexing D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.XML
-Indexed 172333 members in 122 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 172613 members in 122 file(s).  2 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.4807
+    Last step completed in 00:00:02.1222
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 3/23/2020 9:29:31 AM.
+Build started 4/28/2020 1:53:51 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2019.11.17.0)
@@ -2108,12 +2137,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.6307
+    Last step completed in 00:00:01.3717
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2382
+    Last step completed in 00:00:00.2857
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2121,12 +2150,12 @@ D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Worki
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0061
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - BuildTopics.proj]
-Build started 3/23/2020 9:29:32 AM.
+Build started 4/28/2020 1:53:53 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2019.11.17.0)
@@ -5809,6 +5838,13 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Collections.Archivable
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Collections.ArchivableDictionary.Set(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Collections.ArchivableDictionary.Set(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})] Missing &lt;param name=&quot;key&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Collections.ArchivableDictionary.Set(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})] Missing &lt;param name=&quot;val&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.InBlockEditMode(Rhino.RhinoDoc)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.IsBlockEditing(Rhino.RhinoDoc)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.IsBlockEditing(Rhino.RhinoDoc)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.ReplaceWith(Rhino.Commands.BlockEditCommand)] Missing &lt;param name=&quot;replacementCommand&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.RunCommand(Rhino.RhinoDoc,Rhino.Commands.RunMode)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.RunCommand(Rhino.RhinoDoc,Rhino.Commands.RunMode)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.BlockEditCommand.RunCommand(Rhino.RhinoDoc,Rhino.Commands.RunMode)] Missing &lt;param name=&quot;mode&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.Command.RunProxyCommand(Rhino.Commands.Command.RunCommandDelegate,Rhino.RhinoDoc,System.Object)] Missing &lt;param name=&quot;commandCallback&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Commands.Command.RunProxyCommand(Rhino.Commands.Command.RunCommandDelegate,Rhino.RhinoDoc,System.Object)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Commands.Command.RunCommandDelegate] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -5841,6 +5877,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeCha
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeChangedEventArgs.RhinoDoc] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeChangedEventArgs.Viewport] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeDescription.AmbientOcclusionId] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeDescription.ArtisticId] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Display.DisplayModeDescription.ExportToFile(Rhino.Display.DisplayModeDescription,System.String)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeDescription.GhostedId] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Display.DisplayModeDescription.PenId] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -6216,6 +6253,11 @@ BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Font.Style]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Font.Underlined] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Font.Weight] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.DocObjects.FontQuartet] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.FontQuartet.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.FontQuartet.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;supportsRegular&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.FontQuartet.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;supportsBold&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.FontQuartet.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;supportsItalic&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.FontQuartet.#ctor(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;supportsBoldItalic&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.FontQuartet.HasBoldFont] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.FontQuartet.HasBoldItalicFont] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.FontQuartet.HasItalicFont] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -6266,6 +6308,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Layer.PerVi
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.LightObject.ComponentType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Material.#ctor(Rhino.DocObjects.Material)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Material.AlphaTransparency] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Material.ConvertToPhysicallyBased] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Material.ConvertToPhysicallyBased] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Material.CopyFrom(Rhino.DocObjects.Material)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Material.CopyFrom(Rhino.DocObjects.Material)] Missing &lt;param name=&quot;other&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.Material.DisableLighting] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -6304,6 +6348,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.ReplayHisto
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.FromRuntimeSerialNumber(System.UInt32)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.FromRuntimeSerialNumber(System.UInt32)] Missing &lt;param name=&quot;serialNumber&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.GetFillSurfaces(Rhino.DocObjects.RhinoObject,Rhino.DocObjects.ClippingPlaneObject)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.GetTightBoundingBox(System.Collections.Generic.IEnumerable{Rhino.DocObjects.RhinoObject},Rhino.Geometry.BoundingBox@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.GetTightBoundingBox(System.Collections.Generic.IEnumerable{Rhino.DocObjects.RhinoObject},Rhino.Geometry.Plane,Rhino.Geometry.BoundingBox@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.HasTextureMapping] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetCustomRenderMeshParameter(System.Guid,System.String,System.Object)] Missing &lt;param name=&quot;parameterName&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetCustomRenderMeshParameter(System.Guid,System.String,System.Object)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -6311,6 +6357,9 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping)] Missing &lt;param name=&quot;channel&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping)] Missing &lt;param name=&quot;tm&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping,Rhino.Geometry.Transform)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;channel&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.RhinoObject.SetTextureMapping(System.Int32,Rhino.Render.TextureMapping,Rhino.Geometry.Transform)] Missing &lt;param name=&quot;tm&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.DocObjects.RhinoObject.SubobjectMaterialComponents] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Texture.SetRGBBlendValues(System.Drawing.Color,System.Double,System.Double,System.Double,System.Double)] Missing &lt;param name=&quot;color&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.DocObjects.Texture.SetRGBBlendValues(System.Drawing.Color,System.Double,System.Double,System.Double,System.Double)] Missing &lt;param name=&quot;a0&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -6650,8 +6699,6 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBas
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetDimensionScale(Rhino.RhinoDoc,Rhino.DocObjects.DimensionStyle,Rhino.Display.RhinoViewport)] Missing &lt;param name=&quot;vport&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetDimensionStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetDimensionStyle(Rhino.DocObjects.DimensionStyle)] Missing &lt;param name=&quot;parentDimStyle&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetPlainTextWithRunMap(System.Int32[]@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.GetPlainTextWithRunMap(System.Int32[]@)] Missing &lt;param name=&quot;map&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Geometry.AnnotationBase.HasPropertyOverrides] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.IsAllBold] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.AnnotationBase.IsAllItalic] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -6835,6 +6882,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFr
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromCone(Rhino.Geometry.Cone,System.Int32,System.Int32,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;cone&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromCylinder(Rhino.Geometry.Cylinder,System.Int32,System.Int32,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;cylinder&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromCylinder(Rhino.Geometry.Cylinder,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)] Missing &lt;param name=&quot;cylinder&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromFilteredFaceList(Rhino.Geometry.Mesh,System.Collections.Generic.IEnumerable{System.Boolean})] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromSubD(Rhino.Geometry.SubD,System.Int32)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromSubD(Rhino.Geometry.SubD,System.Int32)] Missing &lt;param name=&quot;subd&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Geometry.Mesh.CreateFromSubD(Rhino.Geometry.SubD,System.Int32)] Missing &lt;param name=&quot;displayDensity&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -7121,10 +7169,27 @@ BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Input.Custom.GetCone.A
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Input.Custom.GetCone.ApexAngleDegrees] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Input.Custom.GetCone.BaseAngleDegrees] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Input.Custom.GetCone.Height] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Input.Custom.GetContextArgs] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextArgs.SetGetResult(Rhino.Input.GetResult)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextArgs.SetGetResult(Rhino.Input.GetResult)] Missing &lt;param name=&quot;result&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextArgs.SetPoint(Rhino.Geometry.Point3d)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextArgs.SetPoint(Rhino.Geometry.Point3d)] Missing &lt;param name=&quot;point&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Input.Custom.GetContextCallback] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.BeforeGetPoint(Rhino.Input.Custom.GetPoint,System.Boolean,System.Boolean,Rhino.Input.Custom.GetContextArgs)] Missing &lt;param name=&quot;gp&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.BeforeGetPoint(Rhino.Input.Custom.GetPoint,System.Boolean,System.Boolean,Rhino.Input.Custom.GetContextArgs)] Missing &lt;param name=&quot;onMouseUp&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.BeforeGetPoint(Rhino.Input.Custom.GetPoint,System.Boolean,System.Boolean,Rhino.Input.Custom.GetContextArgs)] Missing &lt;param name=&quot;get2DPoint&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.BeforeGetPoint(Rhino.Input.Custom.GetPoint,System.Boolean,System.Boolean,Rhino.Input.Custom.GetContextArgs)] Missing &lt;param name=&quot;args&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.DisableForAllContexts] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.DisableForContext(System.String)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.DisableForContext(System.String)] Missing &lt;param name=&quot;contextName&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.EnableForContext(System.String)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetContextCallback.EnableForContext(System.String)] Missing &lt;param name=&quot;contextName&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetObject.ActiveGetObject(Rhino.RhinoDoc)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetObject.ActiveGetObject(Rhino.RhinoDoc)] Missing &lt;param name=&quot;doc&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetObject.AppendToPickList(Rhino.DocObjects.ObjRef)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetObject.AppendToPickList(Rhino.DocObjects.ObjRef)] Missing &lt;param name=&quot;objref&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetPoint.#ctor(System.String,System.Object)] Missing &lt;param name=&quot;contextName&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetPoint.#ctor(System.String,System.Object)] Missing &lt;param name=&quot;contextObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetPoint.EnableNoRedrawOnExit(System.Boolean)] Missing &lt;param name=&quot;noRedraw&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetPoint.GetPlanarConstraint(Rhino.Display.RhinoViewport@,Rhino.Geometry.Plane@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Input.Custom.GetPoint.GetPlanarConstraint(Rhino.Display.RhinoViewport@,Rhino.Geometry.Plane@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -7563,6 +7628,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Dithering.#ctor
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Dithering.CopyFrom(Rhino.Render.FreeFloatingBase)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Dithering.CopyFrom(Rhino.Render.FreeFloatingBase)] Missing &lt;param name=&quot;src&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.Dithering.Method] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.Dithering.On] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.DynamicIconUsage] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.FreeFloatingBase.CopyFrom(Rhino.Render.FreeFloatingBase)] Missing &lt;param name=&quot;src&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.GroundPlane.CopyFrom(Rhino.Render.FreeFloatingBase)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -8043,13 +8109,13 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.RenderMaterial.GemMaterialGuid] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureAmountFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureAmountFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureAmountFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;param name=&quot;which&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureAmountFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;param name=&quot;slot&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;param name=&quot;which&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;param name=&quot;slot&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureOnFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureOnFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureOnFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;param name=&quot;which&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.GetTextureOnFromUsage(Rhino.Render.RenderMaterial.StandardChildSlots)] Missing &lt;param name=&quot;slot&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.RenderMaterial.GlassMaterialGuid] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.HandleTexturedValue``1(System.String,Rhino.Render.TexturedValue{``0})] Missing &lt;typeparam name=&quot;T&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderMaterial.HandleTexturedValue``1(System.String,Rhino.Render.TexturedValue{``0})] Missing &lt;param name=&quot;slotname&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -8362,6 +8428,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.Ge
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.GetBitmap] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.InvalidateArea(System.Drawing.Rectangle)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.InvalidateArea(System.Drawing.Rectangle)] Missing &lt;param name=&quot;rect&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.IsChannelAvailable(System.Guid)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.IsChannelShown(System.Guid)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.OpenChannel(Rhino.Render.RenderWindow.StandardChannels)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.OpenChannel(Rhino.Render.RenderWindow.StandardChannels)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.OpenChannel(Rhino.Render.RenderWindow.StandardChannels)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -8374,8 +8442,59 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.Se
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.Size] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.Size] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindow.Channel] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.RenderWindow.Channel.m_pChannel] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.Channel.SetValues(System.Drawing.Rectangle,System.Drawing.Size,Rhino.Render.PixelBuffer)] Missing &lt;param name=&quot;rectangle&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.Channel.SetValues(System.Drawing.Rectangle,System.Drawing.Size,Rhino.Render.PixelBuffer)] Missing &lt;param name=&quot;bufferResolution&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindow.ChannelEx] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Clone] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Clone] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.RenderWindow.ChannelEx.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetMinMaxValues(System.Single@,System.Single@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetMinMaxValues(System.Single@,System.Single@)] Missing &lt;param name=&quot;min&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetMinMaxValues(System.Single@,System.Single@)] Missing &lt;param name=&quot;max&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueEx(System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueEx(System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueEx(System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueEx(System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;order&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueEx(System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;values&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;x&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;y&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;width&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;height&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;stride&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;order&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.GetValueRect(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,Rhino.Render.PostEffects.ComponentOrder,System.Single[]@)] Missing &lt;param name=&quot;values&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Height] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Height] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Id] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Id] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Width] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelEx.Width] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindow.ChannelGPU] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.ApiType] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.ApiType] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Clone] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Clone] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Close] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.CopyTo(Rhino.Render.RenderWindow.ChannelEx)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.CopyTo(Rhino.Render.RenderWindow.ChannelEx)] Missing &lt;param name=&quot;channel_ex&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Height] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Height] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Id] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Id] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.RenderWindow.ChannelGPU.m_cpp] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.PixelSize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.PixelSize] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.TextureHandle] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.TextureHandle] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Width] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.RenderWindow.ChannelGPU.Width] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindow.ChannelGPU.ApiTypes] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindow.RenderSuccessCode] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindow.StandardChannels] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.RenderWindowClonedEventArgs] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9004,6 +9123,117 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Fields.Vector2d
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Fields.Vector2dField.ValueAsObject] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Fields.Vector3dField.ValueAsObject] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.Fields.Vector3dField.ValueAsObject] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Render.PostEffects] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.Channel] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.Clone] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.Clone] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.Commit] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.Channel.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.CPU] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.CPU] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.CPU_Const] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.CPU_Const] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.GPU] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.GPU] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.GPU_Const] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.GPU_Const] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.Id] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.Id] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.Channel.m_cpp] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.PixelSize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.PixelSize] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.SetIsCommitable] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.WasCommit] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Channel.WasCommit] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.ChannelData] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.#ctor(Rhino.Render.PostEffects.ChannelData)] Missing &lt;param name=&quot;cd&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.#ctor(System.Guid,Rhino.Render.PostEffects.ComponentOrder)] Missing &lt;param name=&quot;uuid&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.#ctor(System.Guid,Rhino.Render.PostEffects.ComponentOrder)] Missing &lt;param name=&quot;co&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.CO] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.CO] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.ChannelData.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.Id] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelData.Id] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.ChannelDataCollection] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.Append(Rhino.Render.PostEffects.ChannelData)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.Append(Rhino.Render.PostEffects.ChannelData)] Missing &lt;param name=&quot;channel_data&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.At(System.Int32)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.At(System.Int32)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.At(System.Int32)] Missing &lt;param name=&quot;index&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.Count] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.Count] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.ChannelDataCollection.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ChannelDataCollection.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.ComponentOrder] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.EarlyPostEffectPlugIn.SerialNumber] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.LatePostEffectPlugIn.SerialNumber] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.ListablePostEffectPlugIn] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ListablePostEffectPlugIn.SetOn(System.Boolean)] Missing &lt;param name=&quot;bOn&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ListablePostEffectPlugIn.SetShown(System.Boolean)] Missing &lt;param name=&quot;bShown&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ListablePostEffectPlugIn.Shown] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.Pixels] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Pixels.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.Pixels.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Pixels.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Pixels.Get(System.Guid,Rhino.Render.PostEffects.ComponentOrder@,System.IntPtr@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Pixels.Get(System.Guid,Rhino.Render.PostEffects.ComponentOrder@,System.IntPtr@)] Missing &lt;param name=&quot;channel_uuid&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Pixels.Get(System.Guid,Rhino.Render.PostEffects.ComponentOrder@,System.IntPtr@)] Missing &lt;param name=&quot;co&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.Pixels.Get(System.Guid,Rhino.Render.PostEffects.ComponentOrder@,System.IntPtr@)] Missing &lt;param name=&quot;values&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.PostEffectJob] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectJob.Clone] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectJob.Clone] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.PostEffectJob.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectJob.Execute(System.Drawing.Rectangle,Rhino.Render.PostEffects.Pixels)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectJob.Execute(System.Drawing.Rectangle,Rhino.Render.PostEffects.Pixels)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectJob.Execute(System.Drawing.Rectangle,Rhino.Render.PostEffects.Pixels)] Missing &lt;param name=&quot;rect&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectJob.Execute(System.Drawing.Rectangle,Rhino.Render.PostEffects.Pixels)] Missing &lt;param name=&quot;pixels&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.PostEffectJob.SerialNumber] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.PostEffectPipeline.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.DateTimeStringEnd] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.DateTimeStringStart] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.Execute(System.Drawing.Rectangle,System.Boolean,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPipeline.ncf_File] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPipeline.ncf_GPU] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPipeline.ncf_None] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.ReportProgress(System.Int32)] Missing &lt;param name=&quot;rowsCompleted&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.ThreadEngine] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPipeline.ThreadEngine] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.PostEffectPipeline.Init] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.PostEffectPlugIn] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectPlugIn.#ctor(System.IntPtr)] Missing &lt;param name=&quot;pPEP&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.PostEffectPlugIn.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPlugIn.m_cpp] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPlugIn.uf_ProductionRendering] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPlugIn.uf_RealtimeRendering] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [F:Rhino.Render.PostEffects.PostEffectPlugIn.uf_ViewportDisplay] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.PostEffectPlugIn.ExecuteWhileRenderingOptionsValue] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.PostEffectState] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectState.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectState.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.PostEffects.PostEffectThreadEngine] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.PostEffectThreadEngine.CppPointer] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;param name=&quot;job&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;param name=&quot;pipeline&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;param name=&quot;plugin&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;param name=&quot;rect&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;param name=&quot;channels&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectThreadEngine.RunPostEffect(Rhino.Render.PostEffects.PostEffectJob,Rhino.Render.PostEffects.PostEffectPipeline,Rhino.Render.PostEffects.PostEffectPlugIn,System.Drawing.Rectangle,Rhino.Render.PostEffects.ChannelDataCollection,System.IntPtr)] Missing &lt;param name=&quot;pExtension&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectUI.#ctor(System.IntPtr)] Missing &lt;param name=&quot;p&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectUI.AddSection(Rhino.UI.Controls.ICollapsibleSection)] Missing &lt;param name=&quot;section&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.PostEffectUI.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Render.PostEffects.ToneMappingPostEffectPlugIn.SerialNumber] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ToneMappingPostEffectPlugIn.SetManager(System.IntPtr)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.PostEffects.ToneMappingPostEffectPlugIn.SetManager(System.IntPtr)] Missing &lt;param name=&quot;pManager&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Render.UI] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [T:Rhino.Render.UI.WorldMapDayNight] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Render.UI.WorldMapDayNight.Finalize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9148,6 +9378,8 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParameter
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{System.String})] Missing &lt;param name=&quot;strings&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Double)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Double)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Drawing.Color)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Drawing.Color)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Int32)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Int32)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9159,6 +9391,9 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParameter
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetBool(System.String,System.Boolean@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetBool(System.String,System.Boolean@)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetBool(System.String,System.Boolean@)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetColor(System.String,System.Drawing.Color@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetColor(System.String,System.Drawing.Color@)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetColor(System.String,System.Drawing.Color@)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetDouble(System.String,System.Double@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetDouble(System.String,System.Double@)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.NamedParametersEventArgs.TryGetDouble(System.String,System.Double@)] Missing &lt;param name=&quot;value&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9333,6 +9568,7 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWri
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWriter.FillPolygon(System.Drawing.PointF[],System.Drawing.Color)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWriter.FillPolygon(System.Drawing.PointF[],System.Drawing.Color)] Missing &lt;param name=&quot;points&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWriter.FillPolygon(System.Drawing.PointF[],System.Drawing.Color)] Missing &lt;param name=&quot;fillColor&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWriter.Flush] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Rhino.Runtime.ViewCaptureWriter.PageSize] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWriter.PopClipPath] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.ViewCaptureWriter.PushClipPath(Rhino.Runtime.ViewCaptureWriter.PathPoint[])] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9384,6 +9620,13 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.Notifications.
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.Notifications.TrulyObservableOrderedSet`1.GetEnumerator] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.Notifications.TrulyObservableOrderedSet`1.Sort``1(System.Func{`0,``0},System.Boolean)] Missing &lt;typeparam name=&quot;TKey&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.Notifications.TrulyObservableOrderedSet`1.Sort``1(System.Func{`0,``0},System.Boolean)] Missing &lt;param name=&quot;keySelector&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [N:Rhino.Runtime.RhinoAccounts] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.RhinoAccounts.IRhinoAccountsManager.ExecuteProtectedCodeAsync(System.Func{Rhino.Runtime.RhinoAccounts.SecretKey,System.Threading.Tasks.Task})] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.RhinoAccounts.IRhinoAccountsManager.RevokeAuthTokenAsync(Rhino.Runtime.RhinoAccounts.IOAuth2Token,Rhino.Runtime.RhinoAccounts.SecretKey,System.Threading.CancellationToken)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.RhinoAccounts.RhinoAccountsGroup.#ctor(System.String,System.String)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.RhinoAccounts.RhinoAccountsGroup.#ctor(System.String,System.String)] Missing &lt;param name=&quot;name&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.RhinoAccounts.RhinoAccountsManager.ExecuteProtectedCodeAsync(System.Func{Rhino.Runtime.RhinoAccounts.SecretKey,System.Threading.Tasks.Task})] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.Runtime.RhinoAccounts.RhinoAccountsManager.RevokeAuthTokenAsync(Rhino.Runtime.RhinoAccounts.IOAuth2Token,Rhino.Runtime.RhinoAccounts.SecretKey,System.Threading.CancellationToken)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Dialogs.ShowAboutDialog(System.Boolean)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Dialogs.ShowAboutDialog(System.Boolean)] Missing &lt;param name=&quot;forceSimpleDialog&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Dialogs.ShowSelectMultipleLayersDialog(System.Collections.Generic.IEnumerable{System.Int32},System.String,System.Boolean,System.Int32[]@)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9491,13 +9734,15 @@ BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageS
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetImageHandle(System.Drawing.Image,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetImageHandle(System.Drawing.Image,System.Boolean)] Missing &lt;param name=&quot;image&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetImageHandle(System.Drawing.Image,System.Boolean)] Missing &lt;param name=&quot;canBeNull&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@)] Missing &lt;param name=&quot;nativeWindowObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@)] Missing &lt;param name=&quot;host&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@,System.Object@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@,System.Object@)] Missing &lt;param name=&quot;pageObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@,System.Object@)] Missing &lt;param name=&quot;nativeWindowObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Object@,System.Object@)] Missing &lt;param name=&quot;host&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@)] Missing &lt;param name=&quot;nativeWindowObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@)] Missing &lt;param name=&quot;isRhinoPanel&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@)] Missing &lt;param name=&quot;host&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@,System.Object@)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@,System.Object@)] Missing &lt;param name=&quot;pageObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@,System.Object@)] Missing &lt;param name=&quot;isRhinoPanel&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@,System.Object@)] Missing &lt;param name=&quot;nativeWindowObject&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Object@,System.Object@)] Missing &lt;param name=&quot;host&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Localization.FormatArea(System.Double,Rhino.UnitSystem,Rhino.DocObjects.DimensionStyle,System.Boolean)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Localization.FormatArea(System.Double,Rhino.UnitSystem,Rhino.DocObjects.DimensionStyle,System.Boolean)] Missing &lt;param name=&quot;area&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Localization.FormatArea(System.Double,Rhino.UnitSystem,Rhino.DocObjects.DimensionStyle,System.Boolean)] Missing &lt;param name=&quot;units&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
@@ -9873,17 +10118,17 @@ BuildAssembler : warning : ShowMissingComponent: [T:Rhino.UI.Controls.ThumbnailU
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Controls.ThumbnailUI.ThumbnailViewModelFactory.Get(System.Guid)] Missing &lt;summary&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Controls.ThumbnailUI.ThumbnailViewModelFactory.Get(System.Guid)] Missing &lt;returns&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [M:Rhino.UI.Controls.ThumbnailUI.ThumbnailViewModelFactory.Get(System.Guid)] Missing &lt;param name=&quot;id&quot;/&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj]
-  Processed 15128 topic(s)
-  7739 warning(s)
+  Processed 15601 topic(s)
+  7955 warning(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 6 of 30.
-  ResolveReferenceLinksComponent: 4 entries added to the member ID URL cache.  New cache size: 404 entries
+  ResolveReferenceLinksComponent: 2 entries added to the member ID URL cache.  New cache size: 406 entries
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:01:30.7777
+    Last step completed in 00:01:50.4095
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0598
+    Last step completed in 00:00:00.0536
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -9895,17 +10140,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1
-Processed 15127 HTML files
+Processed 15600 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website
-Processed 15127 HTML files
+Processed 15600 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebTOC.xml
-    Last step completed in 00:00:05.5446
+    Last step completed in 00:00:06.5102
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -10049,11 +10294,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:00.3577
+    Last step completed in 00:00:00.4417
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -10061,7 +10306,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0388
+    Last step completed in 00:00:00.0555
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -10076,11 +10321,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 31 seconds
+  Compile time: 4 minutes, 36 seconds
   
-  15,129	Topics
+  15,602	Topics
   
-  206,925	Local links
+  212,280	Local links
   
   0	Internet links
   
@@ -10090,11 +10335,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 14,963,102 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,373,740 bytes
   
-  Compression decreased file by 124,520,660 bytes.
+  Compression decreased file by 128,299,232 bytes.
   
-    Last step completed in 00:03:32.0358
+    Last step completed in 00:04:37.4802
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
@@ -10105,7 +10350,7 @@ Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:07.6482
+</plugIn>    Last step completed in 00:00:09.9816
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -10146,16 +10391,17 @@ Copied 16500 files
 Copied 17000 files
 Copied 17500 files
 Copied 18000 files
-Copied 18321 files for the website content
-    Last step completed in 00:00:05.0340
+Copied 18500 files
+Copied 18906 files for the website content
+    Last step completed in 00:00:06.9358
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.0422
+    Last step completed in 00:00:02.4490
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 3/23/2020 9:34:55 AM.  Total time: 00:05:40.5442
+Build completed successfully at 4/28/2020 2:00:47 AM.  Total time: 00:07:18.4648
 
 </buildStep>
 </shfbBuild>

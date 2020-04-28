@@ -19,6 +19,11 @@
             </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_729729BD;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_UI_ObjectPropertiesPage_Icon.htm">Icon</a></td><td><div class="summary">
             (OBSOLETE - Override PageIcon instead)
             Icon to display in the object properties tab control
+            </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_UI_ObjectPropertiesPage_Index.htm">Index</a></td><td><div class="summary">
+            The page navigation control adds buttons in the order the pages are 
+            processed, override this method and return a sort index to move the button
+            to the beginning of the list.  By default this returns -1 which puts the
+            button at the end of the list.
             </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_729729BD;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_UI_ObjectPropertiesPage_LocalPageTitle.htm">LocalPageTitle</a></td><td><div class="summary">
             Localized page description string, returns the EnglishPageTitle by
             default.
@@ -30,7 +35,7 @@
              </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_UI_ObjectPropertiesPage_PageIconEmbeddedResourceString.htm">PageIconEmbeddedResourceString</a></td><td><div class="summary">
             Resource string for a embedded icon resource in the assembly containing
             the page instance.  If this returns a valid resource and Rhino can
-            load the icon the loaed icon will get used directly otherwise;
+            load the icon the loaded icon will get used directly otherwise;
             the PageIcon method will get called.
             </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_UI_ObjectPropertiesPage_PageType.htm">PageType</a></td><td><div class="summary">
             Override this and return the page you want to replace a specific object
@@ -71,8 +76,8 @@
             the PageControl has been resized.
             </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_UI_ObjectPropertiesPage_PageIcon.htm">PageIcon</a></td><td><div class="summary">
             Icon to display in the object properties tab control.  Will not get called
-            if PageIconEmbeddedResourceString is overriden and provides a string for a 
-            successfully loaded icon resrouce.
+            if PageIconEmbeddedResourceString is overridden and provides a string for a 
+            successfully loaded icon resource.
             </div></td></tr><tr data="public;declared;notNetfw;SHFB_VBPI_Lbl_10D3DCCA;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_UI_ObjectPropertiesPage_RunScript_1.htm">RunScript(ObjectPropertiesPageEventArgs)</a></td><td><div class="summary">
             This method is called when scripting the Rhino Properties command and
             choosing this page.
@@ -89,4 +94,4 @@
             Called on the active page after the selected objects list has changed
             to notify the page to initialize its content to reflect the new
             object list.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Version Information</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Rhino for Mac</h4>Supported in: 5.4<br /><h4 class="subHeading">Rhino for Windows</h4>Supported in: 7.0<br /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 7.0.20071.05240 (Last updated: 3/23/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Version Information</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Rhino for Mac</h4>Supported in: 5.4<br /><h4 class="subHeading">Rhino for Windows</h4>Supported in: 7.0<br /></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 7.0.20112.12440 (Last updated: 4/28/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
