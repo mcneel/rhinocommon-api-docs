@@ -1,0 +1,170 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Panels Class</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="Panels class" /><meta name="System.Keywords" content="Rhino.UI.Panels class" /><meta name="Microsoft.Help.F1" content="Rhino.UI.Panels" /><meta name="Microsoft.Help.Id" content="T:Rhino.UI.Panels" /><meta name="Description" content="Access to Rhino panels and register custom panels" /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Rhino.UI" /><meta name="file" content="T_Rhino_UI_Panels" /><meta name="guid" content="T_Rhino_UI_Panels" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">RhinoCommon API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_RhinoCommon.htm" title="RhinoCommon API" tocid="roottoc">RhinoCommon API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/R_Project_RhinoCommon.htm" title="Namespaces" tocid="R_Project_RhinoCommon">Namespaces</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_Rhino_UI.htm" title="Rhino.UI" tocid="N_Rhino_UI">Rhino.UI</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/T_Rhino_UI_Panels.htm" title="Panels Class" tocid="T_Rhino_UI_Panels">Panels Class</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Properties_T_Rhino_UI_Panels.htm" title="Panels Properties" tocid="Properties_T_Rhino_UI_Panels">Panels Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Methods_T_Rhino_UI_Panels.htm" title="Panels Methods" tocid="Methods_T_Rhino_UI_Panels">Panels Methods</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Events_T_Rhino_UI_Panels.htm" title="Panels Events" tocid="Events_T_Rhino_UI_Panels">Panels Events</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>Panels Class</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            Access to Rhino panels and register custom panels
+            </div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Inheritance Hierarchy</span></div><div id="ID0RBSection" class="collapsibleSection"><a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">System<span id="LSTFA0E4C40_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Object</a><br />  <span class="selflink">Rhino.UI<span id="LSTFA0E4C40_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Panels</span><br /></div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_Rhino_UI.htm">Rhino.UI</a><br />
+    <strong>Assembly:</strong>
+   RhinoCommon (in RhinoCommon.dll)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID2RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','cs','1','2');return false;">C#</a></div><div id="ID1EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID1EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID1EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID1EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">class</span> <span class="identifier">Panels</span></pre></div><div id="ID1EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">NotInheritable</span> <span class="keyword">Class</span> <span class="identifier">Panels</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EBCA");</script></div><p>The <span class="selflink">Panels</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_UI_Panels_EtoPanelStyleName.htm">EtoPanelStyleName</a></td><td><div class="summary">
+            Style applied to Eto controls hosted by the Rhino.UI.Panels and
+            Rhino.UI.ObjectProperties systems.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_UI_Panels_IconSize.htm">IconSize</a></td><td><div class="summary">
+            Gets the panel icon size in logical units.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_UI_Panels_ScaledIconSize.htm">ScaledIconSize</a></td><td><div class="summary">
+            Gets the panel icon size in pixels with DPI scaling applied.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_ChangePanelIcon.htm">ChangePanelIcon</a></td><td><div class="summary">
+            Update the icon used for a panel tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_ClosePanel.htm">ClosePanel(Guid)</a></td><td><div class="summary">
+            Will close or hide the specified panel type, in Windows Rhino, if it
+            is the only visible tab the tab dock bar will be closed as well.  In
+            Mac Rhino it will always close the modeless dialog hosting the panel.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_ClosePanel_1.htm">ClosePanel(Type)</a></td><td><div class="summary">
+            Will close or hide the specified panel type, in Windows Rhino, if it
+            is the only visible tab the tab dock bar will be closed as well.  In
+            Mac Rhino it will always close the modeless dialog hosting the panel.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_FloatPanel.htm">FloatPanel(Guid, Panels<span id="LSTFA0E4C40_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>FloatPanelMode)</a></td><td><div class="summary">
+            Mac support:
+              Display the specified panel in a floating window on Mac, the floating
+              window will only contain the specified panel.
+            
+            Windows support:
+              On Windows this will show or hide the floating continer containing the
+              specified panel.  If the tab is docked with other tabs it will be
+              floated in a new container.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_FloatPanel_1.htm">FloatPanel(Type, Panels<span id="LSTFA0E4C40_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>FloatPanelMode)</a></td><td><div class="summary">
+            Mac support:
+              Display the specified panel in a floating window on Mac, the floating
+              window will only contain the specified panel.
+            
+            Windows support:
+              On Windows this will show or hide the floating continer containing the
+              specified panel.  If the tab is docked with other tabs it will be
+              floated in a new container.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetOpenPanelIds.htm">GetOpenPanelIds</a></td><td><div class="summary">
+            Get a list of the currently open panel tabs in Windows Rhino, on Mac
+            Rhino it will be a list of the currently visible modeless panel
+            dialogs.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanel.htm">GetPanel(Guid)</a></td><td> <strong>Obsolete. </strong><div class="summary">
+            Will return an instance of a .Net panel if the panel has been
+            displayed at least once.  Panel instances are not created until a
+            panel is displayed.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanel_1.htm">GetPanel(Guid, RhinoDoc)</a></td><td><div class="summary">
+            Will return an instance of a .Net panel if the panel has been
+            displayed at least once.  Panel instances are not created until a
+            panel is displayed.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanel_2.htm">GetPanel(Guid, UInt32)</a></td><td><div class="summary">
+            Will return an instance of a .Net panel if the panel has been
+            displayed at least once.  Panel instances are not created until a
+            panel is displayed.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanel__1.htm">GetPanel<span id="LSTFA0E4C40_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_4?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFA0E4C40_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_5?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTFA0E4C40_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_6?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td> <strong>Obsolete. </strong><div class="summary">
+            Return an instance of a .Net panel
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanel__1_2.htm">GetPanel<span id="LSTFA0E4C40_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_7?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFA0E4C40_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_8?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(UInt32)</a></td><td><div class="summary">
+            Return an instance of a .Net panel
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanel__1_1.htm">GetPanel<span id="LSTFA0E4C40_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_9?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFA0E4C40_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_10?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(RhinoDoc)</a></td><td><div class="summary">
+            Return an instance of a .Net panel
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanels.htm">GetPanels(Guid, RhinoDoc)</a></td><td><div class="summary">
+            Gets the panels.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanels_1.htm">GetPanels(Guid, UInt32)</a></td><td><div class="summary">
+            Gets the panels.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanels__1_1.htm">GetPanels<span id="LSTFA0E4C40_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFA0E4C40_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_12?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(UInt32)</a></td><td><div class="summary">
+            Gets the panels.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_GetPanels__1.htm">GetPanels<span id="LSTFA0E4C40_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTFA0E4C40_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>(RhinoDoc)</a></td><td><div class="summary" /></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_IsHiding.htm">IsHiding</a></td><td><div class="summary">
+            Check to see if reason is equal to any of the show events 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_IsPanelVisible.htm">IsPanelVisible(Guid)</a></td><td><div class="summary">
+            Check to see if a panel is currently visible, on Windows this means
+            you can see the tab, it does not necessarily mean it is the current
+            tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_IsPanelVisible_2.htm">IsPanelVisible(Type)</a></td><td><div class="summary">
+            Check to see if a panel is currently visible, on Windows this means
+            you can see the tab, it does not necessarily mean it is the current
+            tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_IsPanelVisible_1.htm">IsPanelVisible(Guid, Boolean)</a></td><td><div class="summary">
+            Check to see if a panel is currently visible, if isSelectedTab
+            is true then the tab must be the active tab as well.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_IsPanelVisible_3.htm">IsPanelVisible(Type, Boolean)</a></td><td><div class="summary">
+            Check to see if a panel is currently visible, if isSelectedTab
+            is true then the tab must be the active tab as well.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_IsShowing.htm">IsShowing</a></td><td><div class="summary">
+            Check to see if reason is equal to any of the hide events 
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OnClosePanel.htm">OnClosePanel</a></td><td><div class="summary">
+            Call this method to raise the Closed event
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OnShowPanel.htm">OnShowPanel</a></td><td><div class="summary">
+            Call this method to raise the Show event
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel.htm">OpenPanel(Guid)</a></td><td><div class="summary">
+            Open the specified panel in its current or default location and if it
+            is in a dock bar containing more than one tab, make it the current tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_6.htm">OpenPanel(Type)</a></td><td><div class="summary">
+            Open the specified panel in its current or default location and if it
+            is in a dock bar containing more than one tab, make it the current tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_1.htm">OpenPanel(Guid, Boolean)</a></td><td><div class="summary">
+            Open the specified panel in its current or default location and if it
+            is in a dock bar containing more than one tab, make it the current tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_2.htm">OpenPanel(Guid, Guid)</a></td><td><div class="summary">
+            In Mac Rhino this will just call the version of OpenPanel that takes
+            a class type Id.  In Windows Rhino this will look for a dock bar with
+            the specified Id and open or move the specified panel to that dock
+            bar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_4.htm">OpenPanel(Guid, Type)</a></td><td><div class="summary">
+            In Mac Rhino this will just call the version of OpenPanel that takes
+            a class type Id.  In Windows Rhino this will look for a dock bar with
+            the specified Id and open or move the specified panel to that dock
+            bar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_7.htm">OpenPanel(Type, Boolean)</a></td><td><div class="summary">
+            Open the specified panel in its current or default location and if it
+            is in a dock bar containing more than one tab, make it the current tab.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_3.htm">OpenPanel(Guid, Guid, Boolean)</a></td><td><div class="summary">
+            In Mac Rhino this will just call the version of OpenPanel that takes
+            a class type Id.  In Windows Rhino this will look for a dock bar with
+            the specified Id and open or move the specified panel to that dock
+            bar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanel_5.htm">OpenPanel(Guid, Type, Boolean)</a></td><td><div class="summary">
+            In Mac Rhino this will just call the version of OpenPanel that takes
+            a class type Id.  In Windows Rhino this will look for a dock bar with
+            the specified Id and open or move the specified panel to that dock
+            bar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanelAsSibling.htm">OpenPanelAsSibling(Guid, Guid)</a></td><td><div class="summary">
+            In Mac Rhino this will currently just call OpenPanel, in Windows Rhino
+            this will look for a dock bar which contains the sibling panel and add
+            this panel to that dock bar as necessary, if the panel was in another
+            dock bar it will be moved to this dock bar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_OpenPanelAsSibling_1.htm">OpenPanelAsSibling(Guid, Guid, Boolean)</a></td><td><div class="summary">
+            In Mac Rhino this will currently just call OpenPanel, in Windows Rhino
+            this will look for a dock bar which contains the sibling panel and add
+            this panel to that dock bar as necessary, if the panel was in another
+            dock bar it will be moved to this dock bar.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_PanelDockBar.htm">PanelDockBar(Guid)</a></td><td><div class="summary">
+            Will always return Guid.Emty in Mac Rhino.  In Windows Rhino it will
+            look for the dock bar which contains the specified panel class Id and
+            return the dock bar Id.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_PanelDockBar_1.htm">PanelDockBar(Type)</a></td><td><div class="summary">
+            Will always return Guid.Emty in Mac Rhino.  In Windows Rhino it will
+            look for the dock bar which contains the specified panel class Id and
+            return the dock bar Id.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_PanelDockBars.htm">PanelDockBars</a></td><td><div class="summary">
+            Will always return a empty array in Mac Rhino.  In Windows Rhino it will
+            look for any panel dock bars that contain the specified panel class Id and
+            return the dock bar Id's.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_RegisterPanel.htm">RegisterPanel(PlugIn, Type, String, Icon)</a></td><td><div class="summary">
+            You typically register your panel class in your plug-in's OnLoad
+            function.  This will register your custom call with Rhino, Rhino will
+            create an instance of your class the first time your panel is created
+            and embed this instance of your class in a panel container.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_RegisterPanel_1.htm">RegisterPanel(PlugIn, Type, String, Icon, PanelType)</a></td><td><div class="summary">
+            Call once to register a panel type which will get dynamically created
+            and embedded in a Rhino docking/floating location.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="E_Rhino_UI_Panels_Closed.htm">Closed</a></td><td><div class="summary">
+            This event is raised when a panel host is closed
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="E_Rhino_UI_Panels_Show.htm">Show</a></td><td><div class="summary">
+            This event is called when a panel is shown or hidden.  This event will get raised 
+            multipThis times when the active document changes in Mac Rhino.  It will called
+            with show equal to false for the prevous active document and with show equal to 
+            true for the current document.  When the event is raised with show equal to false
+            it only means the document instace of the panel is not visible it does not mean 
+            the panel host has been closed.  If you need to know when the panel host closes
+            then subsribe to the Closed event.
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 6.30.20288.16410 (Last updated: 10/20/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
