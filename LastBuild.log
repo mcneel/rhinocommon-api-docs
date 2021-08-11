@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="7/15/2021 12:50:18 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="8/11/2021 10:18:55 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -29,16 +29,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0103
+</plugIn>    Last step completed in 00:00:00.0092
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1088
+    Last step completed in 00:00:00.1160
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 7/15/2021 12:50:20 PM.
+Build started 8/11/2021 10:18:56 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -48,19 +48,19 @@ GenerateRefInfo:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 37 namespaces, 1132 types, and 14303 members
+  Wrote information on 37 namespaces, 1138 types, and 14383 members
   Copying file from &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.org&quot; to &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.all&quot;.
   XslTransform (v2019.11.17.0)
   Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:02.3002
+    Last step completed in 00:00:01.9687
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - TransformManifest.proj]
-Build started 7/15/2021 12:50:22 PM.
+Build started 8/11/2021 10:18:58 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2019.11.17.0)
@@ -760,36 +760,38 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Circle)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Curve)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Extrusion)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Hatch)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Leader)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Line)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Mesh)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_12 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point3d)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.PointCloud)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Polyline)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_15 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.SubD)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_16 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Surface)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_17 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextDot)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_18 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextEntity)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_19 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Arc)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_20 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_21 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_22 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Circle)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_23 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Curve)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_24 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Extrusion)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_25 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Hatch)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_26 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Leader)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_27 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Line)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_28 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Mesh)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_29 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_30 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point3d)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_31 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.PointCloud)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_32 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Polyline)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_33 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.SubD)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_34 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Surface)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_35 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextDot)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_36 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextEntity)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.GeometryBase,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Hatch)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Leader)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Line)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Mesh)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_12 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.PointCloud)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_15 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Polyline)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_16 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.SubD)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_17 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Surface)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_18 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextDot)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_19 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextEntity)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_20 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Arc)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_21 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_22 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_23 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Circle)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_24 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Curve)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_25 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Extrusion)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_26 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.GeometryBase,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_27 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Hatch)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_28 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Leader)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_29 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Line)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_30 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Mesh)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_31 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_32 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_33 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.PointCloud)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_34 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Polyline)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_35 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.SubD)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_36 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Surface)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_37 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextDot)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_38 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextEntity)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_ReplaceInstanceObject_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.ReplaceInstanceObject(System.Guid,System.Int32)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean,System.Boolean)
@@ -1215,6 +1217,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Mesh_GetOutlines_1 generated for M:Rhino.Geometry.Mesh.GetOutlines(Rhino.DocObjects.ViewportInfo,Rhino.Geometry.Plane)
     Unique name M_Rhino_Geometry_Mesh_GetOutlines_2 generated for M:Rhino.Geometry.Mesh.GetOutlines(Rhino.Geometry.Plane)
     Unique name M_Rhino_Geometry_Mesh_IsManifold_1 generated for M:Rhino.Geometry.Mesh.IsManifold(System.Boolean,System.Boolean@,System.Boolean@)
+    Unique name M_Rhino_Geometry_Mesh_MergeAllCoplanarFaces_1 generated for M:Rhino.Geometry.Mesh.MergeAllCoplanarFaces(System.Double,System.Double)
     Unique name M_Rhino_Geometry_Mesh_NormalAt_1 generated for M:Rhino.Geometry.Mesh.NormalAt(System.Int32,System.Double,System.Double,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Mesh_Offset_1 generated for M:Rhino.Geometry.Mesh.Offset(System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Mesh_Offset_2 generated for M:Rhino.Geometry.Mesh.Offset(System.Double,System.Boolean,Rhino.Geometry.Vector3d)
@@ -1396,9 +1399,14 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Sphere_Rotate_1 generated for M:Rhino.Geometry.Sphere.Rotate(System.Double,Rhino.Geometry.Vector3d,Rhino.Geometry.Point3d)
     Unique name M_Rhino_Geometry_Sphere_Rotate_2 generated for M:Rhino.Geometry.Sphere.Rotate(System.Double,System.Double,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Geometry_Sphere_Rotate_3 generated for M:Rhino.Geometry.Sphere.Rotate(System.Double,System.Double,Rhino.Geometry.Vector3d,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_Geometry_Squisher_Dispose_1 generated for M:Rhino.Geometry.Squisher.Dispose(System.Boolean)
+    Unique name M_Rhino_Geometry_Squisher_SquishMesh_1 generated for M:Rhino.Geometry.Squisher.SquishMesh(Rhino.Geometry.SquishParameters,Rhino.Geometry.Mesh,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.List{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_Squisher_SquishSurface_1 generated for M:Rhino.Geometry.Squisher.SquishSurface(Rhino.Geometry.SquishParameters,Rhino.Geometry.Surface,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.List{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_SquishParameters_Dispose_1 generated for M:Rhino.Geometry.SquishParameters.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_SubD__ctor_1 generated for M:Rhino.Geometry.SubD.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_SubD_CreateFromMesh_1 generated for M:Rhino.Geometry.SubD.CreateFromMesh(Rhino.Geometry.Mesh,Rhino.Geometry.SubDCreationOptions)
     Unique name M_Rhino_Geometry_SubD_CreateFromSweep_1 generated for M:Rhino.Geometry.SubD.CreateFromSweep(Rhino.Geometry.NurbsCurve,System.Collections.Generic.IEnumerable{Rhino.Geometry.NurbsCurve},System.Boolean,System.Boolean,System.Boolean,Rhino.Geometry.Vector3d)
+    Unique name M_Rhino_Geometry_SubD_MergeAllCoplanarFaces_1 generated for M:Rhino.Geometry.SubD.MergeAllCoplanarFaces(System.Double,System.Double)
     Unique name M_Rhino_Geometry_SubD_ToBrep_1 generated for M:Rhino.Geometry.SubD.ToBrep(Rhino.Geometry.SubDToBrepOptions)
     Unique name M_Rhino_Geometry_SubDToBrepOptions__ctor_1 generated for M:Rhino.Geometry.SubDToBrepOptions.#ctor(System.Boolean,Rhino.Geometry.SubDToBrepOptions.ExtraordinaryVertexProcessOption)
     Unique name M_Rhino_Geometry_SubDToBrepOptions_Dispose_1 generated for M:Rhino.Geometry.SubDToBrepOptions.Dispose(System.Boolean)
@@ -1755,9 +1763,13 @@ TransformManifest:
     Unique name M_Rhino_Render_RenderContent_AddPersistentRenderContent_1 generated for M:Rhino.Render.RenderContent.AddPersistentRenderContent(Rhino.RhinoDoc,Rhino.Render.RenderContent)
     Unique name M_Rhino_Render_RenderContent_AddUserInterfaceSection_1 generated for M:Rhino.Render.RenderContent.AddUserInterfaceSection(System.Type,System.String,System.Boolean,System.Boolean)
     Unique name M_Rhino_Render_RenderContent_BindParameterToField_1 generated for M:Rhino.Render.RenderContent.BindParameterToField(System.String,System.String,Rhino.Render.Fields.Field,Rhino.Render.RenderContent.ChangeContexts)
-    Unique name M_Rhino_Render_RenderContent_Create_1 generated for M:Rhino.Render.RenderContent.Create(System.Guid,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
-    Unique name M_Rhino_Render_RenderContent_Create_2 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent,System.String,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
-    Unique name M_Rhino_Render_RenderContent_Create_3 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_1 generated for M:Rhino.Render.RenderContent.Create(Rhino.RhinoDoc,System.Guid,Rhino.Render.RenderContent,System.String)
+    Unique name M_Rhino_Render_RenderContent_Create_2 generated for M:Rhino.Render.RenderContent.Create(Rhino.RhinoDoc,System.Type)
+    Unique name M_Rhino_Render_RenderContent_Create_3 generated for M:Rhino.Render.RenderContent.Create(Rhino.RhinoDoc,System.Type,Rhino.Render.RenderContent,System.String)
+    Unique name M_Rhino_Render_RenderContent_Create_4 generated for M:Rhino.Render.RenderContent.Create(System.Guid,Rhino.Render.RenderContent,System.String,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_5 generated for M:Rhino.Render.RenderContent.Create(System.Guid,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_6 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent,System.String,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_7 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
     Unique name M_Rhino_Render_RenderContent_Dispose_1 generated for M:Rhino.Render.RenderContent.Dispose(System.Boolean)
     Unique name M_Rhino_Render_RenderContent_FromXml_1 generated for M:Rhino.Render.RenderContent.FromXml(System.String,Rhino.RhinoDoc)
     Unique name M_Rhino_Render_RenderContent_IsFactoryProductAcceptableAsChild_1 generated for M:Rhino.Render.RenderContent.IsFactoryProductAcceptableAsChild(System.Guid,System.String,System.String)
@@ -1822,7 +1834,8 @@ TransformManifest:
     Unique name M_Rhino_Render_TextureMapping_TryGetMappingCylinder_1 generated for M:Rhino.Render.TextureMapping.TryGetMappingCylinder(Rhino.Geometry.Cylinder@,System.Boolean@)
     Unique name M_Rhino_Render_TextureMapping_TryGetMappingPlane_1 generated for M:Rhino.Render.TextureMapping.TryGetMappingPlane(Rhino.Geometry.Plane@,Rhino.Geometry.Interval@,Rhino.Geometry.Interval@,Rhino.Geometry.Interval@,System.Boolean@)
     Unique name M_Rhino_Render_Utilities_FindFile_1 generated for M:Rhino.Render.Utilities.FindFile(Rhino.RhinoDoc,System.String,System.Boolean)
-    Unique name M_Rhino_Render_Utilities_ShowContentChooser_1 generated for M:Rhino.Render.Utilities.ShowContentChooser(System.Guid,System.Guid,Rhino.Render.RenderContentKind,System.Guid@,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_Utilities_ShowContentChooser_1 generated for M:Rhino.Render.Utilities.ShowContentChooser(Rhino.RhinoDoc,System.Guid,System.Guid,Rhino.Render.RenderContentKind,Rhino.Render.Utilities.ContentChooserFlags,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Guid},System.Guid[]@)
+    Unique name M_Rhino_Render_Utilities_ShowContentChooser_2 generated for M:Rhino.Render.Utilities.ShowContentChooser(System.Guid,System.Guid,Rhino.Render.RenderContentKind,System.Guid@,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
     Unique name M_Rhino_Render_ChangeQueue_ChangeQueue__ctor_1 generated for M:Rhino.Render.ChangeQueue.ChangeQueue.#ctor(System.Guid,System.UInt32,Rhino.DocObjects.ViewInfo,Rhino.Display.DisplayPipelineAttributes,System.Boolean,System.Boolean)
     Unique name M_Rhino_Render_ChangeQueue_ChangeQueue__ctor_2 generated for M:Rhino.Render.ChangeQueue.ChangeQueue.#ctor(System.Guid,System.UInt32,Rhino.DocObjects.ViewInfo,System.Boolean)
     Unique name M_Rhino_Render_ChangeQueue_ChangeQueue_ApplyRenderSettingsChanges_1 generated for M:Rhino.Render.ChangeQueue.ChangeQueue.ApplyRenderSettingsChanges(Rhino.Render.RenderSettings)
@@ -2141,11 +2154,11 @@ TransformManifest:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:08.8099
+    Last step completed in 00:00:08.3481
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.3870
+    Last step completed in 00:00:00.3934
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
@@ -2156,28 +2169,28 @@ E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
-Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\*.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.X\*.xml
 Indexing D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.XML
-Indexed 173359 members in 121 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 174230 members in 128 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.5344
+    Last step completed in 00:00:01.5083
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0023
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0011
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 7/15/2021 12:50:33 PM.
+Build started 8/11/2021 10:19:08 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2019.11.17.0)
@@ -2186,12 +2199,12 @@ GenerateIntermediateTOC:
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.6471
+    Last step completed in 00:00:00.6526
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2105
+    Last step completed in 00:00:00.3021
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2199,12 +2212,12 @@ D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Worki
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0072
+    Last step completed in 00:00:00.0074
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - BuildTopics.proj]
-Build started 7/15/2021 12:50:34 PM.
+Build started 8/11/2021 10:19:09 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2019.11.17.0)
@@ -2212,16 +2225,16 @@ BuildTopics:
   Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-  Processed 15943 topic(s)
+  Processed 16028 topic(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
-  ResolveReferenceLinksComponent: 1 entries added to the member ID URL cache.  New cache size: 411 entries
+  ResolveReferenceLinksComponent: 3 entries added to the member ID URL cache.  New cache size: 415 entries
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:01:28.1570
+    Last step completed in 00:01:30.5798
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0491
+    Last step completed in 00:00:00.0464
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -2233,17 +2246,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1
-Processed 15943 HTML files
+Processed 16028 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website
-Processed 15943 HTML files
+Processed 16028 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebTOC.xml
-    Last step completed in 00:00:05.7678
+    Last step completed in 00:00:06.1211
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2387,7 +2400,7 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:00.4063
+    Last step completed in 00:00:00.3497
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
@@ -2399,7 +2412,7 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0864
+    Last step completed in 00:00:00.0400
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -2414,11 +2427,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 4 minutes, 11 seconds
+  Compile time: 3 minutes, 43 seconds
   
-  15,945	Topics
+  16,030	Topics
   
-  217,961	Local links
+  219,061	Local links
   
   0	Internet links
   
@@ -2428,22 +2441,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,293,102 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,372,010 bytes
   
-  Compression decreased file by 124,575,027 bytes.
+  Compression decreased file by 125,252,673 bytes.
   
-    Last step completed in 00:04:12.5602
+    Last step completed in 00:03:43.5941
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:07.9287
+</plugIn>    Last step completed in 00:00:07.8595
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2486,16 +2499,16 @@ Copied 17500 files
 Copied 18000 files
 Copied 18500 files
 Copied 19000 files
-Copied 19271 files for the website content
-    Last step completed in 00:00:07.7978
+Copied 19370 files for the website content
+    Last step completed in 00:00:04.6059
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.1349
+    Last step completed in 00:00:01.9667
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 7/15/2021 12:56:38 PM.  Total time: 00:06:20.2615
+Build completed successfully at 8/11/2021 10:24:44 AM.  Total time: 00:05:49.6431
 
 </buildStep>
 </shfbBuild>
