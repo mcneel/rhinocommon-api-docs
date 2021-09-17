@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="8/11/2021 10:18:55 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="9/17/2021 4:10:16 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -11,8 +11,8 @@ Locating components in the following folder(s):
 Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
 Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
 Loading and initializing plug-ins...
-Lightweight Website Style Version 2019.11.17.0
-Copyright &#169; 2006-2019, Eric Woodruff, All Rights Reserved
+Lightweight Website Style Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
@@ -29,48 +29,48 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0092
+</plugIn>    Last step completed in 00:00:00.0352
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.1160
+    Last step completed in 00:00:00.2006
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 8/11/2021 10:18:56 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 9/17/2021 4:10:20 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
-  MRefBuilder (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 37 namespaces, 1138 types, and 14383 members
+  Wrote information on 37 namespaces, 1138 types, and 14391 members
   Copying file from &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.org&quot; to &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.all&quot;.
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:01.9687
+    Last step completed in 00:00:04.9924
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - TransformManifest.proj]
-Build started 8/11/2021 10:18:58 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - TransformManifest.proj]
+Build started 9/17/2021 4:10:24 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Copying file from &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.xml&quot; to &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.nofilenames&quot;.
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_Rhino_LengthValue_Create_1 generated for M:Rhino.LengthValue.Create(System.Double,Rhino.UnitSystem,Rhino.LengthValue.StringFormat,System.UInt32)
     Unique name M_Rhino_LengthValue_Create_2 generated for M:Rhino.LengthValue.Create(System.String,Rhino.Input.StringParserSettings,System.Boolean@)
@@ -931,15 +931,16 @@ TransformManifest:
     Unique name M_Rhino_Geometry_ArcCurve__ctor_5 generated for M:Rhino.Geometry.ArcCurve.#ctor(Rhino.Geometry.Circle,System.Double,System.Double)
     Unique name M_Rhino_Geometry_ArcCurve__ctor_6 generated for M:Rhino.Geometry.ArcCurve.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_AreaMassProperties_Compute_1 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_2 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_3 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve,System.Double)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_4 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Hatch)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_5 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_6 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_7 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_8 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_9 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_10 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_2 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_3 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_4 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve,System.Double)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_5 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Hatch)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_6 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_7 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_8 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_9 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_10 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_11 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_AreaMassProperties_Dispose_1 generated for M:Rhino.Geometry.AreaMassProperties.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Arrowhead__ctor_1 generated for M:Rhino.Geometry.Arrowhead.#ctor(Rhino.DocObjects.DimensionStyle.ArrowType,System.Guid)
     Unique name M_Rhino_Geometry_BezierCurve__ctor_1 generated for M:Rhino.Geometry.BezierCurve.#ctor(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
@@ -1012,6 +1013,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Brep_DuplicateEdgeCurves_1 generated for M:Rhino.Geometry.Brep.DuplicateEdgeCurves(System.Boolean)
     Unique name M_Rhino_Geometry_Brep_GetArea_1 generated for M:Rhino.Geometry.Brep.GetArea(System.Double,System.Double)
     Unique name M_Rhino_Geometry_Brep_GetVolume_1 generated for M:Rhino.Geometry.Brep.GetVolume(System.Double,System.Double)
+    Unique name M_Rhino_Geometry_Brep_IsBox_1 generated for M:Rhino.Geometry.Brep.IsBox(System.Double)
     Unique name M_Rhino_Geometry_Brep_MergeCoplanarFaces_1 generated for M:Rhino.Geometry.Brep.MergeCoplanarFaces(System.Double,System.Double)
     Unique name M_Rhino_Geometry_Brep_MergeSurfaces_1 generated for M:Rhino.Geometry.Brep.MergeSurfaces(Rhino.Geometry.Brep,Rhino.Geometry.Brep,System.Double,System.Double,Rhino.Geometry.Point2d,Rhino.Geometry.Point2d,System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Brep_MergeSurfaces_2 generated for M:Rhino.Geometry.Brep.MergeSurfaces(Rhino.Geometry.Surface,Rhino.Geometry.Surface,System.Double,System.Double)
@@ -1516,12 +1518,13 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Vector3f_op_Multiply_2 generated for M:Rhino.Geometry.Vector3f.op_Multiply(System.Single,Rhino.Geometry.Vector3f)
     Unique name M_Rhino_Geometry_Vector3f_ToString_1 generated for M:Rhino.Geometry.Vector3f.ToString(System.String,System.IFormatProvider)
     Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_1 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_2 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_3 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_4 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_5 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_6 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_7 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_2 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_3 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_4 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_5 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_6 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_7 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_8 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_VolumeMassProperties_Dispose_1 generated for M:Rhino.Geometry.VolumeMassProperties.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Collections_BrepEdgeList_Add_1 generated for M:Rhino.Geometry.Collections.BrepEdgeList.Add(Rhino.Geometry.BrepVertex,Rhino.Geometry.BrepVertex,System.Int32,System.Double)
     Unique name M_Rhino_Geometry_Collections_BrepEdgeList_Add_2 generated for M:Rhino.Geometry.Collections.BrepEdgeList.Add(System.Int32)
@@ -2149,39 +2152,39 @@ TransformManifest:
     Unique name M_Rhino_UI_Gumball_GumballDisplayConduit_SetBaseGumball_1 generated for M:Rhino.UI.Gumball.GumballDisplayConduit.SetBaseGumball(Rhino.UI.Gumball.GumballObject,Rhino.UI.Gumball.GumballAppearanceSettings)
     Unique name M_Rhino_UI_Gumball_GumballObject_Dispose_1 generated for M:Rhino.UI.Gumball.GumballObject.Dispose(System.Boolean)
     Unique name M_Rhino_UI_Gumball_GumballObject_SetFromBoundingBox_1 generated for M:Rhino.UI.Gumball.GumballObject.SetFromBoundingBox(Rhino.Geometry.Plane,Rhino.Geometry.BoundingBox)
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:08.3481
+    Last step completed in 00:00:19.9644
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.3934
+    Last step completed in 00:00:00.9006
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateInheritedDocs.proj]
-Sandcastle Help File Builder and Tools, version 2019.11.17.0
-Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
-Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.X\*.xml
+Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\*.xml
 Indexing D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.XML
-Indexed 174230 members in 128 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 173464 members in 121 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.5083
+    Last step completed in 00:00:03.2973
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0113
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -2189,22 +2192,22 @@ Merging conceptual and additional tables of contents...
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 8/11/2021 10:19:08 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 9/17/2021 4:10:49 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.6526
+    Last step completed in 00:00:01.4251
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.3021
+    Last step completed in 00:00:00.4924
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2212,51 +2215,52 @@ D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Worki
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0074
+    Last step completed in 00:00:00.0198
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - BuildTopics.proj]
-Build started 8/11/2021 10:19:09 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - BuildTopics.proj]
+Build started 9/17/2021 4:10:51 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
-  BuildAssembler (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Loading configuration...
+  ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\bozo\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
-  Processed 16028 topic(s)
+  Processed 16035 topic(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
-  ResolveReferenceLinksComponent: 3 entries added to the member ID URL cache.  New cache size: 415 entries
+  ResolveReferenceLinksComponent: 344 entries added to the member ID URL cache.  New cache size: 344 entries
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:01:30.5798
+    Last step completed in 00:03:36.9728
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0464
+    Last step completed in 00:00:00.1028
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - ExtractHtmlInfo.proj]
-Sandcastle Help File Builder and Tools, version 2019.11.17.0
-Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1
-Processed 16028 HTML files
+Processed 16035 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website
-Processed 16028 HTML files
+Processed 16035 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebTOC.xml
-    Last step completed in 00:00:06.1211
+    Last step completed in 00:00:13.7478
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2400,11 +2404,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:00.3497
+    Last step completed in 00:00:00.9729
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0010
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -2412,11 +2416,11 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0400
+    Last step completed in 00:00:00.0918
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - Build1xHelpFile.proj]
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\bin\MSBuild.exe - Build1xHelpFile.proj]
   Microsoft HTML Help Compiler 4.74.8702
   
   
@@ -2427,11 +2431,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 43 seconds
+  Compile time: 10 minutes, 15 seconds
   
-  16,030	Topics
+  16,037	Topics
   
-  219,061	Local links
+  219,170	Local links
   
   0	Internet links
   
@@ -2441,22 +2445,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,372,010 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,304,636 bytes
   
-  Compression decreased file by 125,252,673 bytes.
+  Compression decreased file by 124,820,062 bytes.
   
-    Last step completed in 00:03:43.5941
+    Last step completed in 00:10:16.5500
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0012
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:07.8595
+</plugIn>    Last step completed in 00:00:21.4145
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2499,16 +2503,16 @@ Copied 17500 files
 Copied 18000 files
 Copied 18500 files
 Copied 19000 files
-Copied 19370 files for the website content
-    Last step completed in 00:00:04.6059
+Copied 19378 files for the website content
+    Last step completed in 00:00:16.7939
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:01.9667
+    Last step completed in 00:00:09.0762
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 8/11/2021 10:24:44 AM.  Total time: 00:05:49.6431
+Build completed successfully at 9/17/2021 4:25:46 AM.  Total time: 00:15:30.5257
 
 </buildStep>
 </shfbBuild>
