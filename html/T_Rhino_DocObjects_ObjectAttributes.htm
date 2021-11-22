@@ -13,6 +13,8 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_CastsShadows.htm">CastsShadows</a></td><td><div class="summary">
             Gets or sets an object's casts shadows property, or whether or not an object casts shadows on other objects and a ground plane.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_ClipParticipationSource.htm">ClipParticipationSource</a></td><td><div class="summary">
+            Where clipping plane participation values are read from
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_ColorSource.htm">ColorSource</a></td><td><div class="summary">
             The color used to display an object is specified in one of three ways.
             If ColorSource is ON::color_from_layer, then the object's layer ON_Layer::Color() is used.
@@ -20,6 +22,10 @@
             If ColorSource is ON::color_from_material, then the diffuse color of the object's
             render material is used.  See ON_3dmObjectAttributes::MaterialSource() to
             determine where to get the definition of the object's render material.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_CustomMeshingParameters.htm">CustomMeshingParameters</a></td><td><div class="summary">
+            Returns or sets the per-object render meshing parameters, which controls the object's render mesh density.
+            If this property is null, then the object uses the document's render meshing parameters.
+            To remove the per-object render meshing parameters, set this property to null.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_Decals.htm">Decals</a></td><td><div class="summary">
             Gets all object decals associated with this object.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_DisplayOrder.htm">DisplayOrder</a></td><td><div class="summary">
@@ -45,7 +51,9 @@
             <p>Linetype definitions in an OpenNURBS model are stored in a linetype table.
             The linetype table is conceptually an array of ON_Linetype classes. Every
             OpenNURBS object in a model references some linetype.  The object's linetype
-            is specified by zero based indices into the ON_Linetype array.</p><p>Index 0 is reserved for continuous linetype (no pattern).</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_LinetypeSource.htm">LinetypeSource</a></td><td><div class="summary">
+            is specified by zero based indices into the ON_Linetype array.</p><p>Index 0 is reserved for continuous linetype (no pattern).</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_LinetypeScale.htm">LinetypeScale</a></td><td><div class="summary">
+            Per object linetype scale
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_LinetypeSource.htm">LinetypeSource</a></td><td><div class="summary">
             The Linetype used to display an object is specified in one of two ways.
             If LinetypeSource is ON::linetype_from_layer, then the object's layer ON_Layer::Linetype() is used.
             If LinetypeSource is ON::linetype_from_object, then value of m_linetype is used.
@@ -98,6 +106,17 @@
             &lt;0.0 means don't plot (visible for screen display, but does not show on plot)
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_PlotWeightSource.htm">PlotWeightSource</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_ReceivesShadows.htm">ReceivesShadows</a></td><td><div class="summary">
             Gets or sets an object's receives shadows property, or whether or not an object receives shadows from other objects.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_RenderMaterial.htm">RenderMaterial</a></td><td><div class="summary">
+            Sets the render material for the object - higher level function for setting MaterialSource and MaterialIndex
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_SectionAttributesSource.htm">SectionAttributesSource</a></td><td><div class="summary">
+            Where section attributes are read from
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_SectionHatchIndex.htm">SectionHatchIndex</a></td><td><div class="summary">
+            Hatch pattern index for hatch to use when drawing a closed section
+            Default is RhinoMath.UnsetIntIndex which means don't draw a hatch
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_SectionHatchRotationRadians.htm">SectionHatchRotationRadians</a></td><td><div class="summary">
+            Rotation angle in radians applied to hatch pattern for a section.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_SectionHatchScale.htm">SectionHatchScale</a></td><td><div class="summary">
+            Scale applied to the hatch pattern for a section
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_DocObjects_ObjectAttributes_Space.htm">Space</a></td><td><div class="summary">
             Starting with V4, objects can be in either model space or page space.
             If an object is in page space, then ViewportId is not nil and
@@ -178,7 +197,13 @@
             This function resets an object to use the viewport's display mode.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_RemoveFromAllGroups.htm">RemoveFromAllGroups</a></td><td><div class="summary">Removes object from all groups.</div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_RemoveFromGroup.htm">RemoveFromGroup</a></td><td><div class="summary">
             removes object from the group with specified index.
-            <p>If the object is not in the group, nothing is changed.</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_RemoveHideInDetailOverride.htm">RemoveHideInDetailOverride</a></td><td><div class="summary"> Remove hidden in detail flag for a specific detail </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_SetDisplayModeOverride.htm">SetDisplayModeOverride(DisplayModeDescription)</a></td><td><div class="summary">
+            <p>If the object is not in the group, nothing is changed.</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_RemoveHideInDetailOverride.htm">RemoveHideInDetailOverride</a></td><td><div class="summary"> Remove hidden in detail flag for a specific detail </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_SetClipParticipationForAll.htm">SetClipParticipationForAll</a></td><td><div class="summary">
+            The object will participate in all clipping planes
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_SetClipParticipationForNone.htm">SetClipParticipationForNone</a></td><td><div class="summary">
+            Object is immune to the effects of all clipping planes
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_SetClipParticipationList.htm">SetClipParticipationList</a></td><td><div class="summary">
+            Object interacts with a specific list of clipping planes
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_SetDisplayModeOverride.htm">SetDisplayModeOverride(DisplayModeDescription)</a></td><td><div class="summary">
             By default, objects are drawn using the display mode of the viewport that
             the object is being drawn in. Setting a specific display mode, instructs
             Rhino to always use that display mode, regardless of the viewport's mode.
@@ -194,4 +219,4 @@
             Create a JSON string representation of this object
             </div> (Inherited from <a href="T_Rhino_Runtime_CommonObject.htm">CommonObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString" target="_blank">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_DocObjects_ObjectAttributes_Transform.htm">Transform</a></td><td><div class="summary">
             Apply a transformation.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_DocObjects.htm">Rhino.DocObjects Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.0.21012.12300 (Last updated: 1/16/2021)<br />Copyright © 2009-2021 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_DocObjects.htm">Rhino.DocObjects Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.0.21321.04300 (Last updated: 11/22/2021)<br />Copyright © 2009-2021 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

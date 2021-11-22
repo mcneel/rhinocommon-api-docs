@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2019.11.17.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="1/16/2021 7:44:30 AM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2020.3.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj.teamcity" started="11/22/2021 7:18:34 AM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -11,8 +11,8 @@ Locating components in the following folder(s):
 Using framework reflection data for &#39;.NET Framework 4.5&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Data\.NETFramework&#39;
 Using presentation style &#39;VS2013&#39; located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013&#39;
 Loading and initializing plug-ins...
-Lightweight Website Style Version 2019.11.17.0
-Copyright &#169; 2006-2019, Eric Woodruff, All Rights Reserved
+Lightweight Website Style Version 2020.3.6.0
+Copyright &#169; 2006-2020, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
 -------------------------------
 Clearing any prior web/markdown output...
@@ -29,48 +29,48 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0083
+</plugIn>    Last step completed in 00:00:00.0387
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.0940
+    Last step completed in 00:00:00.2200
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 1/16/2021 7:44:32 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - GenerateRefInfo.proj]
+Build started 11/22/2021 7:18:38 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
-  MRefBuilder (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  MRefBuilder (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-  Wrote information on 37 namespaces, 1117 types, and 14106 members
+  Wrote information on 37 namespaces, 1159 types, and 14607 members
   Copying file from &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.org&quot; to &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.all&quot;.
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\MergeDuplicates.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo.proj&quot; (default targets).
-    Last step completed in 00:00:02.6573
+    Last step completed in 00:00:04.6774
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - TransformManifest.proj]
-Build started 1/16/2021 7:44:34 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - TransformManifest.proj]
+Build started 11/22/2021 7:18:43 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\ApplyVSDocModel.xsl&#39;.
   Copying file from &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.xml&quot; to &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\reflection.nofilenames&quot;.
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
     Unique name M_Rhino_LengthValue_Create_1 generated for M:Rhino.LengthValue.Create(System.Double,Rhino.UnitSystem,Rhino.LengthValue.StringFormat,System.UInt32)
     Unique name M_Rhino_LengthValue_Create_2 generated for M:Rhino.LengthValue.Create(System.String,Rhino.Input.StringParserSettings,System.Boolean@)
@@ -158,9 +158,12 @@ TransformManifest:
     Unique name M_Rhino_PersistentSettingsConverter_ToString_1 generated for M:Rhino.PersistentSettingsConverter.ToString(System.Double)
     Unique name M_Rhino_PersistentSettingsConverter_ToString_2 generated for M:Rhino.PersistentSettingsConverter.ToString(System.String[])
     Unique name M_Rhino_PersistentSettingsConverter_TryParseEnum_1 generated for M:Rhino.PersistentSettingsConverter.TryParseEnum(System.Type,System.String,System.String@)
+    Unique name M_Rhino_RhinoApp_Exit_1 generated for M:Rhino.RhinoApp.Exit(System.Boolean)
     Unique name M_Rhino_RhinoApp_GetDataDirectory_1 generated for M:Rhino.RhinoApp.GetDataDirectory(System.Boolean,System.Boolean,System.String)
     Unique name M_Rhino_RhinoApp_GetPlugInObject_1 generated for M:Rhino.RhinoApp.GetPlugInObject(System.String)
     Unique name M_Rhino_RhinoApp_RunScript_1 generated for M:Rhino.RhinoApp.RunScript(System.String,System.String,System.Boolean)
+    Unique name M_Rhino_RhinoApp_RunScript_2 generated for M:Rhino.RhinoApp.RunScript(System.UInt32,System.String,System.Boolean)
+    Unique name M_Rhino_RhinoApp_RunScript_3 generated for M:Rhino.RhinoApp.RunScript(System.UInt32,System.String,System.String,System.Boolean)
     Unique name M_Rhino_RhinoApp_SetCommandPrompt_1 generated for M:Rhino.RhinoApp.SetCommandPrompt(System.String,System.String)
     Unique name M_Rhino_RhinoApp_SetFocusToMainWindow_1 generated for M:Rhino.RhinoApp.SetFocusToMainWindow(Rhino.RhinoDoc)
     Unique name M_Rhino_RhinoApp_Write_1 generated for M:Rhino.RhinoApp.Write(System.String,System.Object)
@@ -371,7 +374,8 @@ TransformManifest:
     Unique name M_Rhino_Display_DisplayPipeline_DrawCone_1 generated for M:Rhino.Display.DisplayPipeline.DrawCone(Rhino.Geometry.Cone,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawCurvatureGraph_1 generated for M:Rhino.Display.DisplayPipeline.DrawCurvatureGraph(Rhino.Geometry.Curve,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawCurvatureGraph_2 generated for M:Rhino.Display.DisplayPipeline.DrawCurvatureGraph(Rhino.Geometry.Curve,System.Drawing.Color,System.Int32,System.Int32,System.Int32)
-    Unique name M_Rhino_Display_DisplayPipeline_DrawCurve_1 generated for M:Rhino.Display.DisplayPipeline.DrawCurve(Rhino.Geometry.Curve,System.Drawing.Color,System.Int32)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawCurve_1 generated for M:Rhino.Display.DisplayPipeline.DrawCurve(Rhino.Geometry.Curve,System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawCurve_2 generated for M:Rhino.Display.DisplayPipeline.DrawCurve(Rhino.Geometry.Curve,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawCylinder_1 generated for M:Rhino.Display.DisplayPipeline.DrawCylinder(Rhino.Geometry.Cylinder,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawDot_1 generated for M:Rhino.Display.DisplayPipeline.DrawDot(Rhino.Geometry.Point3d,System.String,System.Drawing.Color,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawDot_2 generated for M:Rhino.Display.DisplayPipeline.DrawDot(Rhino.Geometry.TextDot,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
@@ -400,8 +404,10 @@ TransformManifest:
     Unique name M_Rhino_Display_DisplayPipeline_DrawPointCloud_1 generated for M:Rhino.Display.DisplayPipeline.DrawPointCloud(Rhino.Geometry.PointCloud,System.Int32,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawPointCloud_2 generated for M:Rhino.Display.DisplayPipeline.DrawPointCloud(Rhino.Geometry.PointCloud,System.Single)
     Unique name M_Rhino_Display_DisplayPipeline_DrawPointCloud_3 generated for M:Rhino.Display.DisplayPipeline.DrawPointCloud(Rhino.Geometry.PointCloud,System.Single,System.Drawing.Color)
-    Unique name M_Rhino_Display_DisplayPipeline_DrawPoints_1 generated for M:Rhino.Display.DisplayPipeline.DrawPoints(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.Display.PointStyle,System.Int32,System.Drawing.Color)
-    Unique name M_Rhino_Display_DisplayPipeline_DrawPoints_2 generated for M:Rhino.Display.DisplayPipeline.DrawPoints(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.Display.PointStyle,System.Single,System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawPoints_1 generated for M:Rhino.Display.DisplayPipeline.DrawPoints(Rhino.Display.DisplayPointSet,Rhino.Display.DisplayPointAttributes,Rhino.Display.DisplayPointAttributes)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawPoints_2 generated for M:Rhino.Display.DisplayPipeline.DrawPoints(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.Display.PointStyle,System.Drawing.Color,System.Drawing.Color,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawPoints_3 generated for M:Rhino.Display.DisplayPipeline.DrawPoints(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.Display.PointStyle,System.Int32,System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawPoints_4 generated for M:Rhino.Display.DisplayPipeline.DrawPoints(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.Display.PointStyle,System.Single,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawPolyline_1 generated for M:Rhino.Display.DisplayPipeline.DrawPolyline(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawSphere_1 generated for M:Rhino.Display.DisplayPipeline.DrawSphere(Rhino.Geometry.Sphere,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawSprite_1 generated for M:Rhino.Display.DisplayPipeline.DrawSprite(Rhino.Display.DisplayBitmap,Rhino.Geometry.Point2d,System.Single,System.Drawing.Color)
@@ -412,11 +418,13 @@ TransformManifest:
     Unique name M_Rhino_Display_DisplayPipeline_DrawText_1 generated for M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,Rhino.Geometry.Transform)
     Unique name M_Rhino_Display_DisplayPipeline_DrawText_2 generated for M:Rhino.Display.DisplayPipeline.DrawText(Rhino.Geometry.TextEntity,System.Drawing.Color,System.Double)
     Unique name M_Rhino_Display_DisplayPipeline_DrawTorus_1 generated for M:Rhino.Display.DisplayPipeline.DrawTorus(Rhino.Geometry.Torus,System.Drawing.Color,System.Int32)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawZebraPreview_1 generated for M:Rhino.Display.DisplayPipeline.DrawZebraPreview(Rhino.Geometry.Mesh,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_IsVisible_1 generated for M:Rhino.Display.DisplayPipeline.IsVisible(Rhino.Geometry.BoundingBox)
     Unique name M_Rhino_Display_DisplayPipeline_IsVisible_2 generated for M:Rhino.Display.DisplayPipeline.IsVisible(Rhino.Geometry.Point3d)
     Unique name M_Rhino_Display_DisplayPipelineAttributes_Dispose_1 generated for M:Rhino.Display.DisplayPipelineAttributes.Dispose(System.Boolean)
     Unique name M_Rhino_Display_DisplayPipelineAttributes_SetFill_1 generated for M:Rhino.Display.DisplayPipelineAttributes.SetFill(System.Drawing.Color,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipelineAttributes_SetFill_2 generated for M:Rhino.Display.DisplayPipelineAttributes.SetFill(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPointAttributes__ctor_1 generated for M:Rhino.Display.DisplayPointAttributes.#ctor(Rhino.Display.DisplayPointAttributes)
     Unique name M_Rhino_Display_InitFrameBufferEventArgs_SetFill_1 generated for M:Rhino.Display.InitFrameBufferEventArgs.SetFill(System.Drawing.Color,System.Drawing.Color)
     Unique name M_Rhino_Display_InitFrameBufferEventArgs_SetFill_2 generated for M:Rhino.Display.InitFrameBufferEventArgs.SetFill(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
     Unique name M_Rhino_Display_RhinoPageView_SetActiveDetail_1 generated for M:Rhino.Display.RhinoPageView.SetActiveDetail(System.String,System.Boolean)
@@ -447,6 +455,7 @@ TransformManifest:
     Unique name M_Rhino_Display_ViewCapture_CaptureToBitmap_1 generated for M:Rhino.Display.ViewCapture.CaptureToBitmap(Rhino.Display.ViewCaptureSettings)
     Unique name M_Rhino_Display_ViewCaptureSettings__ctor_1 generated for M:Rhino.Display.ViewCaptureSettings.#ctor(Rhino.Display.RhinoPageView,System.Double)
     Unique name M_Rhino_Display_ViewCaptureSettings__ctor_2 generated for M:Rhino.Display.ViewCaptureSettings.#ctor(Rhino.Display.RhinoView,System.Drawing.Size,System.Double)
+    Unique name M_Rhino_Display_ViewCaptureSettings_SetWindowRect_1 generated for M:Rhino.Display.ViewCaptureSettings.SetWindowRect(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d)
     Unique name M_Rhino_Display_VisualAnalysisMode_Find_1 generated for M:Rhino.Display.VisualAnalysisMode.Find(System.Type)
     Unique name M_Rhino_Display_ZBufferCapture_Dispose_1 generated for M:Rhino.Display.ZBufferCapture.Dispose(System.Boolean)
     Unique name M_Rhino_DocObjects_AnimationProperties__ctor_1 generated for M:Rhino.DocObjects.AnimationProperties.#ctor(Rhino.DocObjects.AnimationProperties)
@@ -463,7 +472,9 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_InstanceDefinition_CreatePreviewBitmap_2 generated for M:Rhino.DocObjects.InstanceDefinition.CreatePreviewBitmap(Rhino.Display.DefinedViewportProjection,System.Drawing.Size)
     Unique name M_Rhino_DocObjects_InstanceDefinition_CreatePreviewBitmap_3 generated for M:Rhino.DocObjects.InstanceDefinition.CreatePreviewBitmap(Rhino.Display.DefinedViewportProjection,System.Drawing.Size,System.Boolean)
     Unique name M_Rhino_DocObjects_InstanceDefinition_CreatePreviewBitmap_4 generated for M:Rhino.DocObjects.InstanceDefinition.CreatePreviewBitmap(System.Guid,Rhino.Display.DefinedViewportProjection,Rhino.DocObjects.DisplayMode,System.Drawing.Size,System.Boolean)
+    Unique name M_Rhino_DocObjects_InstanceDefinition_UseCount_1 generated for M:Rhino.DocObjects.InstanceDefinition.UseCount(System.Int32@,System.Int32@)
     Unique name M_Rhino_DocObjects_Layer_Equals_1 generated for M:Rhino.DocObjects.Layer.Equals(System.Object)
+    Unique name M_Rhino_DocObjects_Layer_GetChildren_1 generated for M:Rhino.DocObjects.Layer.GetChildren(System.Boolean)
     Unique name M_Rhino_DocObjects_Layer_GetLeafName_1 generated for M:Rhino.DocObjects.Layer.GetLeafName(System.String)
     Unique name M_Rhino_DocObjects_Layer_GetParentName_1 generated for M:Rhino.DocObjects.Layer.GetParentName(System.String)
     Unique name M_Rhino_DocObjects_Layer_IsChildOf_1 generated for M:Rhino.DocObjects.Layer.IsChildOf(System.Guid)
@@ -485,8 +496,10 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_ObjectAttributes_SetDisplayModeOverride_1 generated for M:Rhino.DocObjects.ObjectAttributes.SetDisplayModeOverride(Rhino.Display.DisplayModeDescription,System.Guid)
     Unique name M_Rhino_DocObjects_ObjRef__ctor_1 generated for M:Rhino.DocObjects.ObjRef.#ctor(Rhino.DocObjects.RhinoObject)
     Unique name M_Rhino_DocObjects_ObjRef__ctor_2 generated for M:Rhino.DocObjects.ObjRef.#ctor(Rhino.DocObjects.RhinoObject,Rhino.Input.Custom.PickContext)
-    Unique name M_Rhino_DocObjects_ObjRef__ctor_3 generated for M:Rhino.DocObjects.ObjRef.#ctor(System.Guid)
-    Unique name M_Rhino_DocObjects_ObjRef__ctor_4 generated for M:Rhino.DocObjects.ObjRef.#ctor(System.Guid,Rhino.Geometry.ComponentIndex)
+    Unique name M_Rhino_DocObjects_ObjRef__ctor_3 generated for M:Rhino.DocObjects.ObjRef.#ctor(Rhino.RhinoDoc,System.Guid)
+    Unique name M_Rhino_DocObjects_ObjRef__ctor_4 generated for M:Rhino.DocObjects.ObjRef.#ctor(Rhino.RhinoDoc,System.Guid,Rhino.Geometry.ComponentIndex)
+    Unique name M_Rhino_DocObjects_ObjRef__ctor_5 generated for M:Rhino.DocObjects.ObjRef.#ctor(System.Guid)
+    Unique name M_Rhino_DocObjects_ObjRef__ctor_6 generated for M:Rhino.DocObjects.ObjRef.#ctor(System.Guid,Rhino.Geometry.ComponentIndex)
     Unique name M_Rhino_DocObjects_ObjRef_Dispose_1 generated for M:Rhino.DocObjects.ObjRef.Dispose(System.Boolean)
     Unique name M_Rhino_DocObjects_ReplayHistoryResult_UpdateToClippingPlane_1 generated for M:Rhino.DocObjects.ReplayHistoryResult.UpdateToClippingPlane(Rhino.Geometry.Plane,System.Double,System.Double,System.Guid,Rhino.DocObjects.ObjectAttributes)
     Unique name M_Rhino_DocObjects_ReplayHistoryResult_UpdateToPointCloud_1 generated for M:Rhino.DocObjects.ReplayHistoryResult.UpdateToPointCloud(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.DocObjects.ObjectAttributes)
@@ -575,8 +588,9 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_LayerTable_Add_2 generated for M:Rhino.DocObjects.Tables.LayerTable.Add(System.String,System.Drawing.Color)
     Unique name M_Rhino_DocObjects_Tables_LayerTable_AddReferenceLayer_1 generated for M:Rhino.DocObjects.Tables.LayerTable.AddReferenceLayer(Rhino.DocObjects.Layer)
     Unique name M_Rhino_DocObjects_Tables_LayerTable_Delete_1 generated for M:Rhino.DocObjects.Tables.LayerTable.Delete(Rhino.DocObjects.Layer,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_LayerTable_Delete_2 generated for M:Rhino.DocObjects.Tables.LayerTable.Delete(System.Guid,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_LayerTable_Delete_3 generated for M:Rhino.DocObjects.Tables.LayerTable.Delete(System.Int32,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_LayerTable_Delete_2 generated for M:Rhino.DocObjects.Tables.LayerTable.Delete(System.Collections.Generic.IEnumerable{System.Int32},System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_LayerTable_Delete_3 generated for M:Rhino.DocObjects.Tables.LayerTable.Delete(System.Guid,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_LayerTable_Delete_4 generated for M:Rhino.DocObjects.Tables.LayerTable.Delete(System.Int32,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_LayerTable_Duplicate_1 generated for M:Rhino.DocObjects.Tables.LayerTable.Duplicate(System.Int32,System.Boolean,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_LayerTable_FindName_1 generated for M:Rhino.DocObjects.Tables.LayerTable.FindName(System.String,System.Int32)
     Unique name M_Rhino_DocObjects_Tables_LayerTable_ForceLayerVisible_1 generated for M:Rhino.DocObjects.Tables.LayerTable.ForceLayerVisible(System.Int32)
@@ -754,36 +768,38 @@ TransformManifest:
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_4 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Circle)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_5 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Curve)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_6 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Extrusion)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Hatch)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Leader)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Line)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Mesh)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_12 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point3d)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.PointCloud)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Polyline)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_15 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.SubD)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_16 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Surface)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_17 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextDot)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_18 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextEntity)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_19 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Arc)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_20 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_21 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep,System.Boolean)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_22 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Circle)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_23 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Curve)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_24 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Extrusion)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_25 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Hatch)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_26 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Leader)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_27 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Line)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_28 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Mesh)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_29 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_30 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point3d)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_31 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.PointCloud)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_32 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Polyline)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_33 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.SubD)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_34 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Surface)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_35 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextDot)
-    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_36 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextEntity)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_7 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.GeometryBase,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_8 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Hatch)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_9 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Leader)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_10 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Line)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_11 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Mesh)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_12 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_13 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_14 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.PointCloud)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_15 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Polyline)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_16 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.SubD)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_17 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.Surface)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_18 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextDot)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_19 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(Rhino.DocObjects.ObjRef,Rhino.Geometry.TextEntity)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_20 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Arc)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_21 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_22 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Brep,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_23 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Circle)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_24 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Curve)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_25 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Extrusion)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_26 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.GeometryBase,System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_27 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Hatch)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_28 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Leader)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_29 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Line)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_30 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Mesh)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_31 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_32 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_33 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.PointCloud)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_34 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Polyline)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_35 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.SubD)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_36 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.Surface)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_37 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextDot)
+    Unique name M_Rhino_DocObjects_Tables_ObjectTable_Replace_38 generated for M:Rhino.DocObjects.Tables.ObjectTable.Replace(System.Guid,Rhino.Geometry.TextEntity)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_ReplaceInstanceObject_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.ReplaceInstanceObject(System.Guid,System.Int32)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_1 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_ObjectTable_Select_2 generated for M:Rhino.DocObjects.Tables.ObjectTable.Select(Rhino.DocObjects.ObjRef,System.Boolean,System.Boolean)
@@ -923,15 +939,16 @@ TransformManifest:
     Unique name M_Rhino_Geometry_ArcCurve__ctor_5 generated for M:Rhino.Geometry.ArcCurve.#ctor(Rhino.Geometry.Circle,System.Double,System.Double)
     Unique name M_Rhino_Geometry_ArcCurve__ctor_6 generated for M:Rhino.Geometry.ArcCurve.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_AreaMassProperties_Compute_1 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_2 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_3 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve,System.Double)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_4 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Hatch)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_5 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_6 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_7 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_8 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_9 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
-    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_10 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_2 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_3 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_4 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Curve,System.Double)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_5 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Hatch)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_6 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_7 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_8 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_9 generated for M:Rhino.Geometry.AreaMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_10 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_AreaMassProperties_Compute_11 generated for M:Rhino.Geometry.AreaMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_AreaMassProperties_Dispose_1 generated for M:Rhino.Geometry.AreaMassProperties.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Arrowhead__ctor_1 generated for M:Rhino.Geometry.Arrowhead.#ctor(Rhino.DocObjects.DimensionStyle.ArrowType,System.Guid)
     Unique name M_Rhino_Geometry_BezierCurve__ctor_1 generated for M:Rhino.Geometry.BezierCurve.#ctor(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
@@ -988,6 +1005,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Brep_CreateFromSweepSegmented_1 generated for M:Rhino.Geometry.Brep.CreateFromSweepSegmented(Rhino.Geometry.Curve,System.Collections.Generic.IEnumerable{Rhino.Geometry.Curve},Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,Rhino.Geometry.SweepFrame,Rhino.Geometry.Vector3d,System.Boolean,Rhino.Geometry.SweepBlend,Rhino.Geometry.SweepMiter,System.Double,Rhino.Geometry.SweepRebuild,System.Int32,System.Double)
     Unique name M_Rhino_Geometry_Brep_CreateFromSweepSegmented_2 generated for M:Rhino.Geometry.Brep.CreateFromSweepSegmented(Rhino.Geometry.Curve,System.Collections.Generic.IEnumerable{Rhino.Geometry.Curve},System.Boolean,System.Double)
     Unique name M_Rhino_Geometry_Brep_CreateFromTaperedExtrude_1 generated for M:Rhino.Geometry.Brep.CreateFromTaperedExtrude(Rhino.Geometry.Curve,System.Double,Rhino.Geometry.Vector3d,Rhino.Geometry.Point3d,System.Double,Rhino.Geometry.ExtrudeCornerType,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_Brep_CreateOffsetBrep_1 generated for M:Rhino.Geometry.Brep.CreateOffsetBrep(Rhino.Geometry.Brep,System.Double,System.Boolean,System.Boolean,System.Double,Rhino.Geometry.Brep[]@,Rhino.Geometry.Brep[]@)
     Unique name M_Rhino_Geometry_Brep_CreatePatch_1 generated for M:Rhino.Geometry.Brep.CreatePatch(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},Rhino.Geometry.Surface,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Double,System.Double,System.Double,System.Boolean[],System.Double)
     Unique name M_Rhino_Geometry_Brep_CreatePatch_2 generated for M:Rhino.Geometry.Brep.CreatePatch(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Int32,System.Int32,System.Double)
     Unique name M_Rhino_Geometry_Brep_CreatePipe_1 generated for M:Rhino.Geometry.Brep.CreatePipe(Rhino.Geometry.Curve,System.Double,System.Boolean,Rhino.Geometry.PipeCapMode,System.Boolean,System.Double,System.Double)
@@ -1003,6 +1021,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Brep_DuplicateEdgeCurves_1 generated for M:Rhino.Geometry.Brep.DuplicateEdgeCurves(System.Boolean)
     Unique name M_Rhino_Geometry_Brep_GetArea_1 generated for M:Rhino.Geometry.Brep.GetArea(System.Double,System.Double)
     Unique name M_Rhino_Geometry_Brep_GetVolume_1 generated for M:Rhino.Geometry.Brep.GetVolume(System.Double,System.Double)
+    Unique name M_Rhino_Geometry_Brep_IsBox_1 generated for M:Rhino.Geometry.Brep.IsBox(System.Double)
     Unique name M_Rhino_Geometry_Brep_MergeCoplanarFaces_1 generated for M:Rhino.Geometry.Brep.MergeCoplanarFaces(System.Double,System.Double)
     Unique name M_Rhino_Geometry_Brep_MergeSurfaces_1 generated for M:Rhino.Geometry.Brep.MergeSurfaces(Rhino.Geometry.Brep,Rhino.Geometry.Brep,System.Double,System.Double,Rhino.Geometry.Point2d,Rhino.Geometry.Point2d,System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Brep_MergeSurfaces_2 generated for M:Rhino.Geometry.Brep.MergeSurfaces(Rhino.Geometry.Surface,Rhino.Geometry.Surface,System.Double,System.Double)
@@ -1072,6 +1091,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Curve_GetLength_3 generated for M:Rhino.Geometry.Curve.GetLength(System.Double,Rhino.Geometry.Interval)
     Unique name M_Rhino_Geometry_Curve_GetLocalPerpPoint_1 generated for M:Rhino.Geometry.Curve.GetLocalPerpPoint(Rhino.Geometry.Point3d,System.Double,System.Double@)
     Unique name M_Rhino_Geometry_Curve_GetLocalTangentPoint_1 generated for M:Rhino.Geometry.Curve.GetLocalTangentPoint(Rhino.Geometry.Point3d,System.Double,System.Double@)
+    Unique name M_Rhino_Geometry_Curve_GetNextDiscontinuity_1 generated for M:Rhino.Geometry.Curve.GetNextDiscontinuity(Rhino.Geometry.Continuity,System.Double,System.Double,System.Double@)
     Unique name M_Rhino_Geometry_Curve_IsArc_1 generated for M:Rhino.Geometry.Curve.IsArc(System.Double)
     Unique name M_Rhino_Geometry_Curve_IsCircle_1 generated for M:Rhino.Geometry.Curve.IsCircle(System.Double)
     Unique name M_Rhino_Geometry_Curve_IsClosable_1 generated for M:Rhino.Geometry.Curve.IsClosable(System.Double,System.Double,System.Double)
@@ -1156,6 +1176,10 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Interval_IncludesParameter_1 generated for M:Rhino.Geometry.Interval.IncludesParameter(System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Interval_op_Addition_1 generated for M:Rhino.Geometry.Interval.op_Addition(System.Double,Rhino.Geometry.Interval)
     Unique name M_Rhino_Geometry_Interval_op_Subtraction_1 generated for M:Rhino.Geometry.Interval.op_Subtraction(System.Double,Rhino.Geometry.Interval)
+    Unique name M_Rhino_Geometry_LengthMassProperties_Compute_1 generated for M:Rhino.Geometry.LengthMassProperties.Compute(Rhino.Geometry.Curve,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_LengthMassProperties_Compute_2 generated for M:Rhino.Geometry.LengthMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.Curve})
+    Unique name M_Rhino_Geometry_LengthMassProperties_Compute_3 generated for M:Rhino.Geometry.LengthMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.Curve},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_LengthMassProperties_Dispose_1 generated for M:Rhino.Geometry.LengthMassProperties.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Light__ctor_1 generated for M:Rhino.Geometry.Light.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_Light_CreateSunLight_1 generated for M:Rhino.Geometry.Light.CreateSunLight(System.Double,System.DateTime,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Light_CreateSunLight_2 generated for M:Rhino.Geometry.Light.CreateSunLight(System.Double,System.Double,System.Double)
@@ -1188,7 +1212,9 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Mesh_ColorAt_1 generated for M:Rhino.Geometry.Mesh.ColorAt(System.Int32,System.Double,System.Double,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Mesh_ComputeThickness_1 generated for M:Rhino.Geometry.Mesh.ComputeThickness(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Double,System.Double,System.Threading.CancellationToken)
     Unique name M_Rhino_Geometry_Mesh_ComputeThickness_2 generated for M:Rhino.Geometry.Mesh.ComputeThickness(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Double,System.Threading.CancellationToken)
-    Unique name M_Rhino_Geometry_Mesh_CreateContourCurves_1 generated for M:Rhino.Geometry.Mesh.CreateContourCurves(Rhino.Geometry.Mesh,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double)
+    Unique name M_Rhino_Geometry_Mesh_CreateContourCurves_1 generated for M:Rhino.Geometry.Mesh.CreateContourCurves(Rhino.Geometry.Mesh,Rhino.Geometry.Plane,System.Double)
+    Unique name M_Rhino_Geometry_Mesh_CreateContourCurves_2 generated for M:Rhino.Geometry.Mesh.CreateContourCurves(Rhino.Geometry.Mesh,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double)
+    Unique name M_Rhino_Geometry_Mesh_CreateContourCurves_3 generated for M:Rhino.Geometry.Mesh.CreateContourCurves(Rhino.Geometry.Mesh,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Mesh_CreateFromBox_1 generated for M:Rhino.Geometry.Mesh.CreateFromBox(Rhino.Geometry.Box,System.Int32,System.Int32,System.Int32)
     Unique name M_Rhino_Geometry_Mesh_CreateFromBox_2 generated for M:Rhino.Geometry.Mesh.CreateFromBox(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Int32,System.Int32,System.Int32)
     Unique name M_Rhino_Geometry_Mesh_CreateFromBrep_1 generated for M:Rhino.Geometry.Mesh.CreateFromBrep(Rhino.Geometry.Brep,Rhino.Geometry.MeshingParameters)
@@ -1196,11 +1222,14 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Mesh_CreateFromCone_2 generated for M:Rhino.Geometry.Mesh.CreateFromCone(Rhino.Geometry.Cone,System.Int32,System.Int32,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_Mesh_CreateFromCylinder_1 generated for M:Rhino.Geometry.Mesh.CreateFromCylinder(Rhino.Geometry.Cylinder,System.Int32,System.Int32,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_Mesh_CreateFromCylinder_2 generated for M:Rhino.Geometry.Mesh.CreateFromCylinder(Rhino.Geometry.Cylinder,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_Mesh_CreateFromCylinder_3 generated for M:Rhino.Geometry.Mesh.CreateFromCylinder(Rhino.Geometry.Cylinder,System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_Mesh_CreateFromPlanarBoundary_1 generated for M:Rhino.Geometry.Mesh.CreateFromPlanarBoundary(Rhino.Geometry.Curve,Rhino.Geometry.MeshingParameters,System.Double)
     Unique name M_Rhino_Geometry_Mesh_CreateFromSurface_1 generated for M:Rhino.Geometry.Mesh.CreateFromSurface(Rhino.Geometry.Surface,Rhino.Geometry.MeshingParameters)
     Unique name M_Rhino_Geometry_Mesh_Flip_1 generated for M:Rhino.Geometry.Mesh.Flip(System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_Mesh_GetOutlines_1 generated for M:Rhino.Geometry.Mesh.GetOutlines(Rhino.DocObjects.ViewportInfo,Rhino.Geometry.Plane)
     Unique name M_Rhino_Geometry_Mesh_GetOutlines_2 generated for M:Rhino.Geometry.Mesh.GetOutlines(Rhino.Geometry.Plane)
+    Unique name M_Rhino_Geometry_Mesh_IsManifold_1 generated for M:Rhino.Geometry.Mesh.IsManifold(System.Boolean,System.Boolean@,System.Boolean@)
+    Unique name M_Rhino_Geometry_Mesh_MergeAllCoplanarFaces_1 generated for M:Rhino.Geometry.Mesh.MergeAllCoplanarFaces(System.Double,System.Double)
     Unique name M_Rhino_Geometry_Mesh_NormalAt_1 generated for M:Rhino.Geometry.Mesh.NormalAt(System.Int32,System.Double,System.Double,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Mesh_Offset_1 generated for M:Rhino.Geometry.Mesh.Offset(System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Mesh_Offset_2 generated for M:Rhino.Geometry.Mesh.Offset(System.Double,System.Boolean,Rhino.Geometry.Vector3d)
@@ -1235,12 +1264,14 @@ TransformManifest:
     Unique name M_Rhino_Geometry_MeshingParameters__ctor_2 generated for M:Rhino.Geometry.MeshingParameters.#ctor(System.Double,System.Double)
     Unique name M_Rhino_Geometry_MeshingParameters_Dispose_1 generated for M:Rhino.Geometry.MeshingParameters.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_MeshNgon_Equals_1 generated for M:Rhino.Geometry.MeshNgon.Equals(System.Object)
+    Unique name M_Rhino_Geometry_MeshUnwrapper__ctor_1 generated for M:Rhino.Geometry.MeshUnwrapper.#ctor(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh})
     Unique name M_Rhino_Geometry_MorphControl__ctor_1 generated for M:Rhino.Geometry.MorphControl.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_NurbsCurve__ctor_1 generated for M:Rhino.Geometry.NurbsCurve.#ctor(System.Int32,System.Boolean,System.Int32,System.Int32)
     Unique name M_Rhino_Geometry_NurbsCurve__ctor_2 generated for M:Rhino.Geometry.NurbsCurve.#ctor(System.Int32,System.Int32)
     Unique name M_Rhino_Geometry_NurbsCurve__ctor_3 generated for M:Rhino.Geometry.NurbsCurve.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_NurbsCurve_CreateFromArc_1 generated for M:Rhino.Geometry.NurbsCurve.CreateFromArc(Rhino.Geometry.Arc,System.Int32,System.Int32)
     Unique name M_Rhino_Geometry_NurbsCurve_CreateFromCircle_1 generated for M:Rhino.Geometry.NurbsCurve.CreateFromCircle(Rhino.Geometry.Circle,System.Int32,System.Int32)
+    Unique name M_Rhino_Geometry_NurbsCurve_CreateFromFitPoints_1 generated for M:Rhino.Geometry.NurbsCurve.CreateFromFitPoints(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Double,System.Int32,System.Boolean,Rhino.Geometry.Vector3d,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Geometry_NurbsCurve_CreateHSpline_1 generated for M:Rhino.Geometry.NurbsCurve.CreateHSpline(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},Rhino.Geometry.Vector3d,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Geometry_NurbsCurve_CreateSpiral_1 generated for M:Rhino.Geometry.NurbsCurve.CreateSpiral(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,Rhino.Geometry.Point3d,System.Double,System.Double,System.Double,System.Double)
     Unique name M_Rhino_Geometry_NurbsCurve_CreateSubDFriendly_1 generated for M:Rhino.Geometry.NurbsCurve.CreateSubDFriendly(Rhino.Geometry.Curve,System.Int32,System.Boolean)
@@ -1318,13 +1349,17 @@ TransformManifest:
     Unique name M_Rhino_Geometry_PointCloud__ctor_3 generated for M:Rhino.Geometry.PointCloud.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_PointCloud_Add_1 generated for M:Rhino.Geometry.PointCloud.Add(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Geometry_PointCloud_Add_2 generated for M:Rhino.Geometry.PointCloud.Add(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Drawing.Color)
-    Unique name M_Rhino_Geometry_PointCloud_Add_3 generated for M:Rhino.Geometry.PointCloud.Add(Rhino.Geometry.Point3d,System.Drawing.Color)
+    Unique name M_Rhino_Geometry_PointCloud_Add_3 generated for M:Rhino.Geometry.PointCloud.Add(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Drawing.Color,System.Double)
+    Unique name M_Rhino_Geometry_PointCloud_Add_4 generated for M:Rhino.Geometry.PointCloud.Add(Rhino.Geometry.Point3d,System.Drawing.Color)
     Unique name M_Rhino_Geometry_PointCloud_AddRange_1 generated for M:Rhino.Geometry.PointCloud.AddRange(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Collections.Generic.IEnumerable{Rhino.Geometry.Vector3d})
     Unique name M_Rhino_Geometry_PointCloud_AddRange_2 generated for M:Rhino.Geometry.PointCloud.AddRange(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Collections.Generic.IEnumerable{Rhino.Geometry.Vector3d},System.Collections.Generic.IEnumerable{System.Drawing.Color})
-    Unique name M_Rhino_Geometry_PointCloud_AddRange_3 generated for M:Rhino.Geometry.PointCloud.AddRange(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Collections.Generic.IEnumerable{System.Drawing.Color})
+    Unique name M_Rhino_Geometry_PointCloud_AddRange_3 generated for M:Rhino.Geometry.PointCloud.AddRange(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Collections.Generic.IEnumerable{Rhino.Geometry.Vector3d},System.Collections.Generic.IEnumerable{System.Drawing.Color},System.Collections.Generic.IEnumerable{System.Double})
+    Unique name M_Rhino_Geometry_PointCloud_AddRange_4 generated for M:Rhino.Geometry.PointCloud.AddRange(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d},System.Collections.Generic.IEnumerable{System.Drawing.Color})
+    Unique name M_Rhino_Geometry_PointCloud_GetRandomSubsample_1 generated for M:Rhino.Geometry.PointCloud.GetRandomSubsample(System.UInt32,System.Threading.CancellationToken,System.IProgress{System.Double})
     Unique name M_Rhino_Geometry_PointCloud_Insert_1 generated for M:Rhino.Geometry.PointCloud.Insert(System.Int32,Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Geometry_PointCloud_Insert_2 generated for M:Rhino.Geometry.PointCloud.Insert(System.Int32,Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Drawing.Color)
-    Unique name M_Rhino_Geometry_PointCloud_Insert_3 generated for M:Rhino.Geometry.PointCloud.Insert(System.Int32,Rhino.Geometry.Point3d,System.Drawing.Color)
+    Unique name M_Rhino_Geometry_PointCloud_Insert_3 generated for M:Rhino.Geometry.PointCloud.Insert(System.Int32,Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Drawing.Color,System.Double)
+    Unique name M_Rhino_Geometry_PointCloud_Insert_4 generated for M:Rhino.Geometry.PointCloud.Insert(System.Int32,Rhino.Geometry.Point3d,System.Drawing.Color)
     Unique name M_Rhino_Geometry_PolyCurve__ctor_1 generated for M:Rhino.Geometry.PolyCurve.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_PolyCurve_Append_1 generated for M:Rhino.Geometry.PolyCurve.Append(Rhino.Geometry.Curve)
     Unique name M_Rhino_Geometry_PolyCurve_Append_2 generated for M:Rhino.Geometry.PolyCurve.Append(Rhino.Geometry.Line)
@@ -1334,7 +1369,8 @@ TransformManifest:
     Unique name M_Rhino_Geometry_PolylineCurve__ctor_2 generated for M:Rhino.Geometry.PolylineCurve.#ctor(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
     Unique name M_Rhino_Geometry_PolylineCurve__ctor_3 generated for M:Rhino.Geometry.PolylineCurve.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_Quaternion_Equals_1 generated for M:Rhino.Geometry.Quaternion.Equals(System.Object)
-    Unique name M_Rhino_Geometry_Quaternion_GetRotation_1 generated for M:Rhino.Geometry.Quaternion.GetRotation(System.Double@,Rhino.Geometry.Vector3d@)
+    Unique name M_Rhino_Geometry_Quaternion_GetRotation_1 generated for M:Rhino.Geometry.Quaternion.GetRotation(Rhino.Geometry.Transform@)
+    Unique name M_Rhino_Geometry_Quaternion_GetRotation_2 generated for M:Rhino.Geometry.Quaternion.GetRotation(System.Double@,Rhino.Geometry.Vector3d@)
     Unique name M_Rhino_Geometry_Quaternion_op_Multiply_1 generated for M:Rhino.Geometry.Quaternion.op_Multiply(Rhino.Geometry.Quaternion,System.Double)
     Unique name M_Rhino_Geometry_Quaternion_op_Multiply_2 generated for M:Rhino.Geometry.Quaternion.op_Multiply(Rhino.Geometry.Quaternion,System.Int32)
     Unique name M_Rhino_Geometry_Quaternion_op_Multiply_3 generated for M:Rhino.Geometry.Quaternion.op_Multiply(Rhino.Geometry.Quaternion,System.Single)
@@ -1378,15 +1414,23 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Sphere_Rotate_1 generated for M:Rhino.Geometry.Sphere.Rotate(System.Double,Rhino.Geometry.Vector3d,Rhino.Geometry.Point3d)
     Unique name M_Rhino_Geometry_Sphere_Rotate_2 generated for M:Rhino.Geometry.Sphere.Rotate(System.Double,System.Double,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Geometry_Sphere_Rotate_3 generated for M:Rhino.Geometry.Sphere.Rotate(System.Double,System.Double,Rhino.Geometry.Vector3d,Rhino.Geometry.Point3d)
+    Unique name M_Rhino_Geometry_Squisher_Dispose_1 generated for M:Rhino.Geometry.Squisher.Dispose(System.Boolean)
+    Unique name M_Rhino_Geometry_Squisher_SquishMesh_1 generated for M:Rhino.Geometry.Squisher.SquishMesh(Rhino.Geometry.SquishParameters,Rhino.Geometry.Mesh,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.List{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_Squisher_SquishSurface_1 generated for M:Rhino.Geometry.Squisher.SquishSurface(Rhino.Geometry.SquishParameters,Rhino.Geometry.Surface,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.List{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_SquishParameters_Dispose_1 generated for M:Rhino.Geometry.SquishParameters.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_SubD__ctor_1 generated for M:Rhino.Geometry.SubD.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_SubD_CreateFromMesh_1 generated for M:Rhino.Geometry.SubD.CreateFromMesh(Rhino.Geometry.Mesh,Rhino.Geometry.SubDCreationOptions)
     Unique name M_Rhino_Geometry_SubD_CreateFromSweep_1 generated for M:Rhino.Geometry.SubD.CreateFromSweep(Rhino.Geometry.NurbsCurve,System.Collections.Generic.IEnumerable{Rhino.Geometry.NurbsCurve},System.Boolean,System.Boolean,System.Boolean,Rhino.Geometry.Vector3d)
+    Unique name M_Rhino_Geometry_SubD_MergeAllCoplanarFaces_1 generated for M:Rhino.Geometry.SubD.MergeAllCoplanarFaces(System.Double,System.Double)
+    Unique name M_Rhino_Geometry_SubD_ToBrep_1 generated for M:Rhino.Geometry.SubD.ToBrep(Rhino.Geometry.SubDToBrepOptions)
     Unique name M_Rhino_Geometry_SubDToBrepOptions__ctor_1 generated for M:Rhino.Geometry.SubDToBrepOptions.#ctor(System.Boolean,Rhino.Geometry.SubDToBrepOptions.ExtraordinaryVertexProcessOption)
     Unique name M_Rhino_Geometry_SubDToBrepOptions_Dispose_1 generated for M:Rhino.Geometry.SubDToBrepOptions.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Surface__ctor_1 generated for M:Rhino.Geometry.Surface.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Geometry_Surface_CreatePeriodicSurface_1 generated for M:Rhino.Geometry.Surface.CreatePeriodicSurface(Rhino.Geometry.Surface,System.Int32,System.Boolean)
     Unique name M_Rhino_Geometry_Surface_CreateRollingBallFillet_1 generated for M:Rhino.Geometry.Surface.CreateRollingBallFillet(Rhino.Geometry.Surface,Rhino.Geometry.Surface,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Surface_CreateRollingBallFillet_2 generated for M:Rhino.Geometry.Surface.CreateRollingBallFillet(Rhino.Geometry.Surface,System.Boolean,Rhino.Geometry.Surface,System.Boolean,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_Surface_Extend_1 generated for M:Rhino.Geometry.Surface.Extend(System.Int32,Rhino.Geometry.Interval)
+    Unique name M_Rhino_Geometry_Surface_GetNextDiscontinuity_1 generated for M:Rhino.Geometry.Surface.GetNextDiscontinuity(System.Int32,Rhino.Geometry.Continuity,System.Double,System.Double,System.Double@)
     Unique name M_Rhino_Geometry_Surface_InterpolatedCurveOnSurfaceUV_1 generated for M:Rhino.Geometry.Surface.InterpolatedCurveOnSurfaceUV(System.Collections.Generic.IEnumerable{Rhino.Geometry.Point2d},System.Double,System.Boolean,System.Int32)
     Unique name M_Rhino_Geometry_Surface_IsCone_1 generated for M:Rhino.Geometry.Surface.IsCone(System.Double)
     Unique name M_Rhino_Geometry_Surface_IsCylinder_1 generated for M:Rhino.Geometry.Surface.IsCylinder(System.Double)
@@ -1487,12 +1531,13 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Vector3f_op_Multiply_2 generated for M:Rhino.Geometry.Vector3f.op_Multiply(System.Single,Rhino.Geometry.Vector3f)
     Unique name M_Rhino_Geometry_Vector3f_ToString_1 generated for M:Rhino.Geometry.Vector3f.ToString(System.String,System.IFormatProvider)
     Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_1 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_2 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_3 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_4 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_5 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_6 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
-    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_7 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_2 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Brep,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_3 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_4 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Mesh,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_5 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_6 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(Rhino.Geometry.Surface,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_7 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
+    Unique name M_Rhino_Geometry_VolumeMassProperties_Compute_8 generated for M:Rhino.Geometry.VolumeMassProperties.Compute(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Boolean,System.Boolean,System.Boolean,System.Boolean)
     Unique name M_Rhino_Geometry_VolumeMassProperties_Dispose_1 generated for M:Rhino.Geometry.VolumeMassProperties.Dispose(System.Boolean)
     Unique name M_Rhino_Geometry_Collections_BrepEdgeList_Add_1 generated for M:Rhino.Geometry.Collections.BrepEdgeList.Add(Rhino.Geometry.BrepVertex,Rhino.Geometry.BrepVertex,System.Int32,System.Double)
     Unique name M_Rhino_Geometry_Collections_BrepEdgeList_Add_2 generated for M:Rhino.Geometry.Collections.BrepEdgeList.Add(System.Int32)
@@ -1573,6 +1618,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Collections_NurbsSurfacePointList_SetPoint_3 generated for M:Rhino.Geometry.Collections.NurbsSurfacePointList.SetPoint(System.Int32,System.Int32,System.Double,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Collections_NurbsSurfacePointList_SetPoint_4 generated for M:Rhino.Geometry.Collections.NurbsSurfacePointList.SetPoint(System.Int32,System.Int32,System.Double,System.Double,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Collections_SubDEdgeList_Find_1 generated for M:Rhino.Geometry.Collections.SubDEdgeList.Find(System.UInt32)
+    Unique name M_Rhino_Geometry_Collections_SubDEdgeList_SetEdgeTags_1 generated for M:Rhino.Geometry.Collections.SubDEdgeList.SetEdgeTags(System.Collections.Generic.IEnumerable{System.Int32},Rhino.Geometry.SubDEdgeTag)
     Unique name M_Rhino_Geometry_Collections_SubDFaceList_Find_1 generated for M:Rhino.Geometry.Collections.SubDFaceList.Find(System.UInt32)
     Unique name M_Rhino_Geometry_Collections_SubDVertexList_Find_1 generated for M:Rhino.Geometry.Collections.SubDVertexList.Find(System.UInt32)
     Unique name M_Rhino_Geometry_Intersect_CurveIntersections_Dispose_1 generated for M:Rhino.Geometry.Intersect.CurveIntersections.Dispose(System.Boolean)
@@ -1582,6 +1628,7 @@ TransformManifest:
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveSurfaceValidate_1 generated for M:Rhino.Geometry.Intersect.Intersection.CurveSurfaceValidate(Rhino.Geometry.Curve,Rhino.Geometry.Surface,System.Double,System.Double,System.Int32[]@,Rhino.FileIO.TextLog@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_LineBox_1 generated for M:Rhino.Geometry.Intersect.Intersection.LineBox(Rhino.Geometry.Line,Rhino.Geometry.Box,System.Double,Rhino.Geometry.Interval@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_LineLine_1 generated for M:Rhino.Geometry.Intersect.Intersection.LineLine(Rhino.Geometry.Line,Rhino.Geometry.Line,System.Double@,System.Double@,System.Double,System.Boolean)
+    Unique name M_Rhino_Geometry_Intersect_Intersection_MeshLine_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshLine(Rhino.Geometry.Mesh,Rhino.Geometry.Line,System.Int32[]@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshPlane_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshPlane(Rhino.Geometry.Mesh,System.Collections.Generic.IEnumerable{Rhino.Geometry.Plane})
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshRay_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshRay(Rhino.Geometry.Mesh,Rhino.Geometry.Ray3d,System.Int32[]@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_RayShoot_1 generated for M:Rhino.Geometry.Intersect.Intersection.RayShoot(System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},Rhino.Geometry.Ray3d,System.Int32)
@@ -1611,7 +1658,9 @@ TransformManifest:
     Unique name M_Rhino_Input_RhinoGet_GetMultipleObjects_1 generated for M:Rhino.Input.RhinoGet.GetMultipleObjects(System.String,System.Boolean,Rhino.Input.Custom.GetObjectGeometryFilter,Rhino.DocObjects.ObjRef[]@)
     Unique name M_Rhino_Input_RhinoGet_GetNumber_1 generated for M:Rhino.Input.RhinoGet.GetNumber(System.String,System.Boolean,System.Double@,System.Double,System.Double)
     Unique name M_Rhino_Input_RhinoGet_GetOneObject_1 generated for M:Rhino.Input.RhinoGet.GetOneObject(System.String,System.Boolean,Rhino.Input.Custom.GetObjectGeometryFilter,Rhino.DocObjects.ObjRef@)
-    Unique name M_Rhino_Input_RhinoGet_GetPointOnMesh_1 generated for M:Rhino.Input.RhinoGet.GetPointOnMesh(System.Guid,System.String,System.Boolean,Rhino.Geometry.Point3d@)
+    Unique name M_Rhino_Input_RhinoGet_GetPointOnMesh_1 generated for M:Rhino.Input.RhinoGet.GetPointOnMesh(Rhino.RhinoDoc,Rhino.DocObjects.MeshObject,System.String,System.Boolean,Rhino.Geometry.Point3d@)
+    Unique name M_Rhino_Input_RhinoGet_GetPointOnMesh_2 generated for M:Rhino.Input.RhinoGet.GetPointOnMesh(Rhino.RhinoDoc,System.Guid,System.String,System.Boolean,Rhino.Geometry.Point3d@)
+    Unique name M_Rhino_Input_RhinoGet_GetPointOnMesh_3 generated for M:Rhino.Input.RhinoGet.GetPointOnMesh(System.Guid,System.String,System.Boolean,Rhino.Geometry.Point3d@)
     Unique name M_Rhino_Input_RhinoGet_GetRectangle_1 generated for M:Rhino.Input.RhinoGet.GetRectangle(Rhino.Input.GetBoxMode,Rhino.Geometry.Point3d,System.Collections.Generic.IEnumerable{System.String},Rhino.Geometry.Point3d[]@)
     Unique name M_Rhino_Input_RhinoGet_GetRectangle_2 generated for M:Rhino.Input.RhinoGet.GetRectangle(System.String,Rhino.Geometry.Point3d[]@)
     Unique name M_Rhino_Input_RhinoGet_StringToCommandOptionName_1 generated for M:Rhino.Input.RhinoGet.StringToCommandOptionName(System.String,System.String)
@@ -1700,6 +1749,8 @@ TransformManifest:
     Unique name M_Rhino_PlugIns_LicenseUtils_GetLicense_1 generated for M:Rhino.PlugIns.LicenseUtils.GetLicense(Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate,System.Int32,System.Int32,System.String,System.String,System.String,System.Guid,System.Guid)
     Unique name M_Rhino_PlugIns_PlugIn_Find_1 generated for M:Rhino.PlugIns.PlugIn.Find(System.Reflection.Assembly)
     Unique name M_Rhino_PlugIns_PlugIn_GetInstalledPlugInNames_1 generated for M:Rhino.PlugIns.PlugIn.GetInstalledPlugInNames(Rhino.PlugIns.PlugInType,System.Boolean,System.Boolean)
+    Unique name M_Rhino_PlugIns_PlugIn_GetInstalledPlugInNames_2 generated for M:Rhino.PlugIns.PlugIn.GetInstalledPlugInNames(Rhino.PlugIns.PlugInType,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_PlugIns_PlugIn_GetInstalledPlugIns_1 generated for M:Rhino.PlugIns.PlugIn.GetInstalledPlugIns(System.Boolean)
     Unique name M_Rhino_PlugIns_PlugIn_GetLicense_1 generated for M:Rhino.PlugIns.PlugIn.GetLicense(Rhino.PlugIns.LicenseCapabilities,System.String,Rhino.PlugIns.ValidateProductKeyDelegate,Rhino.PlugIns.OnLeaseChangedDelegate)
     Unique name M_Rhino_PlugIns_PlugIn_LoadPlugIn_1 generated for M:Rhino.PlugIns.PlugIn.LoadPlugIn(System.Guid,System.Boolean,System.Boolean)
     Unique name M_Rhino_PlugIns_PlugIn_LoadPlugIn_2 generated for M:Rhino.PlugIns.PlugIn.LoadPlugIn(System.String,System.Guid@)
@@ -1728,9 +1779,13 @@ TransformManifest:
     Unique name M_Rhino_Render_RenderContent_AddPersistentRenderContent_1 generated for M:Rhino.Render.RenderContent.AddPersistentRenderContent(Rhino.RhinoDoc,Rhino.Render.RenderContent)
     Unique name M_Rhino_Render_RenderContent_AddUserInterfaceSection_1 generated for M:Rhino.Render.RenderContent.AddUserInterfaceSection(System.Type,System.String,System.Boolean,System.Boolean)
     Unique name M_Rhino_Render_RenderContent_BindParameterToField_1 generated for M:Rhino.Render.RenderContent.BindParameterToField(System.String,System.String,Rhino.Render.Fields.Field,Rhino.Render.RenderContent.ChangeContexts)
-    Unique name M_Rhino_Render_RenderContent_Create_1 generated for M:Rhino.Render.RenderContent.Create(System.Guid,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
-    Unique name M_Rhino_Render_RenderContent_Create_2 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent,System.String,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
-    Unique name M_Rhino_Render_RenderContent_Create_3 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_1 generated for M:Rhino.Render.RenderContent.Create(Rhino.RhinoDoc,System.Guid,Rhino.Render.RenderContent,System.String)
+    Unique name M_Rhino_Render_RenderContent_Create_2 generated for M:Rhino.Render.RenderContent.Create(Rhino.RhinoDoc,System.Type)
+    Unique name M_Rhino_Render_RenderContent_Create_3 generated for M:Rhino.Render.RenderContent.Create(Rhino.RhinoDoc,System.Type,Rhino.Render.RenderContent,System.String)
+    Unique name M_Rhino_Render_RenderContent_Create_4 generated for M:Rhino.Render.RenderContent.Create(System.Guid,Rhino.Render.RenderContent,System.String,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_5 generated for M:Rhino.Render.RenderContent.Create(System.Guid,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_6 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent,System.String,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_RenderContent_Create_7 generated for M:Rhino.Render.RenderContent.Create(System.Type,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
     Unique name M_Rhino_Render_RenderContent_Dispose_1 generated for M:Rhino.Render.RenderContent.Dispose(System.Boolean)
     Unique name M_Rhino_Render_RenderContent_FromXml_1 generated for M:Rhino.Render.RenderContent.FromXml(System.String,Rhino.RhinoDoc)
     Unique name M_Rhino_Render_RenderContent_IsFactoryProductAcceptableAsChild_1 generated for M:Rhino.Render.RenderContent.IsFactoryProductAcceptableAsChild(System.Guid,System.String,System.String)
@@ -1752,8 +1807,9 @@ TransformManifest:
     Unique name M_Rhino_Render_RenderPanels_RegisterPanel_1 generated for M:Rhino.Render.RenderPanels.RegisterPanel(Rhino.PlugIns.PlugIn,Rhino.Render.RenderPanelType,System.Type,System.String,System.Boolean,System.Boolean)
     Unique name M_Rhino_Render_RenderPipeline__ctor_1 generated for M:Rhino.Render.RenderPipeline.#ctor(Rhino.RhinoDoc,Rhino.Commands.RunMode,Rhino.PlugIns.PlugIn,System.Drawing.Size,System.String,Rhino.Render.RenderWindow.StandardChannels,System.Boolean,System.Boolean,Rhino.Render.AsyncRenderContext@)
     Unique name M_Rhino_Render_RenderPipeline_Dispose_1 generated for M:Rhino.Render.RenderPipeline.Dispose(System.Boolean)
-    Unique name M_Rhino_Render_RenderPipeline_GetRenderWindow_1 generated for M:Rhino.Render.RenderPipeline.GetRenderWindow(System.Boolean)
-    Unique name M_Rhino_Render_RenderPipeline_GetRenderWindow_2 generated for M:Rhino.Render.RenderPipeline.GetRenderWindow(System.Boolean,System.Boolean)
+    Unique name M_Rhino_Render_RenderPipeline_GetRenderWindow_1 generated for M:Rhino.Render.RenderPipeline.GetRenderWindow(Rhino.DocObjects.ViewportInfo,System.Boolean)
+    Unique name M_Rhino_Render_RenderPipeline_GetRenderWindow_2 generated for M:Rhino.Render.RenderPipeline.GetRenderWindow(System.Boolean)
+    Unique name M_Rhino_Render_RenderPipeline_GetRenderWindow_3 generated for M:Rhino.Render.RenderPipeline.GetRenderWindow(System.Boolean,System.Boolean)
     Unique name M_Rhino_Render_RenderPipeline_RenderSize_1 generated for M:Rhino.Render.RenderPipeline.RenderSize(Rhino.RhinoDoc)
     Unique name M_Rhino_Render_RenderPipeline_RenderSize_2 generated for M:Rhino.Render.RenderPipeline.RenderSize(Rhino.RhinoDoc,System.Boolean)
     Unique name M_Rhino_Render_RenderPrimitive_Dispose_1 generated for M:Rhino.Render.RenderPrimitive.Dispose(System.Boolean)
@@ -1762,6 +1818,7 @@ TransformManifest:
     Unique name M_Rhino_Render_RenderPrimitiveList_Add_3 generated for M:Rhino.Render.RenderPrimitiveList.Add(Rhino.Geometry.Mesh,Rhino.Render.RenderMaterial,Rhino.Geometry.Transform)
     Unique name M_Rhino_Render_RenderPrimitiveList_Add_4 generated for M:Rhino.Render.RenderPrimitiveList.Add(Rhino.Geometry.PlaneSurface,Rhino.Render.RenderMaterial)
     Unique name M_Rhino_Render_RenderPrimitiveList_Add_5 generated for M:Rhino.Render.RenderPrimitiveList.Add(Rhino.Geometry.Sphere,Rhino.Render.RenderMaterial)
+    Unique name M_Rhino_Render_RenderPrimitiveList_Add_6 generated for M:Rhino.Render.RenderPrimitiveList.Add(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},Rhino.Render.RenderMaterial)
     Unique name M_Rhino_Render_RenderSettings__ctor_1 generated for M:Rhino.Render.RenderSettings.#ctor(Rhino.Render.RenderSettings)
     Unique name M_Rhino_Render_RenderSourceView_Dispose_1 generated for M:Rhino.Render.RenderSourceView.Dispose(System.Boolean)
     Unique name M_Rhino_Render_RenderTabs_RegisterTab_1 generated for M:Rhino.Render.RenderTabs.RegisterTab(Rhino.PlugIns.PlugIn,System.Type,System.String,System.Drawing.Icon)
@@ -1776,7 +1833,12 @@ TransformManifest:
     Unique name M_Rhino_Render_RenderWindow_SetRGBAChannelColors_1 generated for M:Rhino.Render.RenderWindow.SetRGBAChannelColors(System.Drawing.Size,Rhino.Display.Color4f[])
     Unique name M_Rhino_Render_RenderWindow_Channel_Dispose_1 generated for M:Rhino.Render.RenderWindow.Channel.Dispose(System.Boolean)
     Unique name M_Rhino_Render_RenderWindow_Channel_SetValue_1 generated for M:Rhino.Render.RenderWindow.Channel.SetValue(System.Int32,System.Int32,System.Single)
+    Unique name M_Rhino_Render_SafeFrame__ctor_1 generated for M:Rhino.Render.SafeFrame.#ctor(Rhino.Render.SafeFrame)
+    Unique name M_Rhino_Render_SafeFrame__ctor_2 generated for M:Rhino.Render.SafeFrame.#ctor(Rhino.RhinoDoc)
     Unique name M_Rhino_Render_SimulatedEnvironment_Dispose_1 generated for M:Rhino.Render.SimulatedEnvironment.Dispose(System.Boolean)
+    Unique name M_Rhino_Render_SimulatedTexture__ctor_1 generated for M:Rhino.Render.SimulatedTexture.#ctor(Rhino.DocObjects.Texture)
+    Unique name M_Rhino_Render_SimulatedTexture__ctor_2 generated for M:Rhino.Render.SimulatedTexture.#ctor(Rhino.RhinoDoc)
+    Unique name M_Rhino_Render_SimulatedTexture__ctor_3 generated for M:Rhino.Render.SimulatedTexture.#ctor(Rhino.RhinoDoc,Rhino.DocObjects.Texture)
     Unique name M_Rhino_Render_SimulatedTexture_Dispose_1 generated for M:Rhino.Render.SimulatedTexture.Dispose(System.Boolean)
     Unique name M_Rhino_Render_SimulatedTexture_MetersToUnits_1 generated for M:Rhino.Render.SimulatedTexture.MetersToUnits(System.Double)
     Unique name M_Rhino_Render_SimulatedTexture_UnitsToMeters_1 generated for M:Rhino.Render.SimulatedTexture.UnitsToMeters(System.Double)
@@ -1791,6 +1853,8 @@ TransformManifest:
     Unique name M_Rhino_Render_TextureMapping_TryGetMappingCylinder_1 generated for M:Rhino.Render.TextureMapping.TryGetMappingCylinder(Rhino.Geometry.Cylinder@,System.Boolean@)
     Unique name M_Rhino_Render_TextureMapping_TryGetMappingPlane_1 generated for M:Rhino.Render.TextureMapping.TryGetMappingPlane(Rhino.Geometry.Plane@,Rhino.Geometry.Interval@,Rhino.Geometry.Interval@,Rhino.Geometry.Interval@,System.Boolean@)
     Unique name M_Rhino_Render_Utilities_FindFile_1 generated for M:Rhino.Render.Utilities.FindFile(Rhino.RhinoDoc,System.String,System.Boolean)
+    Unique name M_Rhino_Render_Utilities_ShowContentChooser_1 generated for M:Rhino.Render.Utilities.ShowContentChooser(Rhino.RhinoDoc,System.Guid,System.Guid,Rhino.Render.RenderContentKind,Rhino.Render.Utilities.ContentChooserFlags,System.String,System.Collections.Generic.IEnumerable{System.String},System.Collections.Generic.IEnumerable{System.Guid},System.Guid[]@)
+    Unique name M_Rhino_Render_Utilities_ShowContentChooser_2 generated for M:Rhino.Render.Utilities.ShowContentChooser(System.Guid,System.Guid,Rhino.Render.RenderContentKind,System.Guid@,Rhino.Render.RenderContent.ShowContentChooserFlags,Rhino.RhinoDoc)
     Unique name M_Rhino_Render_ChangeQueue_ChangeQueue__ctor_1 generated for M:Rhino.Render.ChangeQueue.ChangeQueue.#ctor(System.Guid,System.UInt32,Rhino.DocObjects.ViewInfo,Rhino.Display.DisplayPipelineAttributes,System.Boolean,System.Boolean)
     Unique name M_Rhino_Render_ChangeQueue_ChangeQueue__ctor_2 generated for M:Rhino.Render.ChangeQueue.ChangeQueue.#ctor(System.Guid,System.UInt32,Rhino.DocObjects.ViewInfo,System.Boolean)
     Unique name M_Rhino_Render_ChangeQueue_ChangeQueue_ApplyRenderSettingsChanges_1 generated for M:Rhino.Render.ChangeQueue.ChangeQueue.ApplyRenderSettingsChanges(Rhino.Render.RenderSettings)
@@ -1935,6 +1999,7 @@ TransformManifest:
     Unique name M_Rhino_Render_Fields_FieldDictionary_TryGetValue_15 generated for M:Rhino.Render.Fields.FieldDictionary.TryGetValue(System.String,System.String@)
     Unique name M_Rhino_Render_PostEffects_PostEffect_Dispose_1 generated for M:Rhino.Render.PostEffects.PostEffect.Dispose(System.Boolean)
     Unique name M_Rhino_Render_PostEffects_PostEffect_RegisterPostEffect_1 generated for M:Rhino.Render.PostEffects.PostEffect.RegisterPostEffect(System.Reflection.Assembly,System.Guid)
+    Unique name M_Rhino_Render_PostEffects_PostEffectJob_Dispose_1 generated for M:Rhino.Render.PostEffects.PostEffectJob.Dispose(System.Boolean)
     Unique name M_Rhino_Runtime_Analytics__ctor_1 generated for M:Rhino.Runtime.Analytics.#ctor(System.String,System.String,System.String,System.String,System.String)
     Unique name M_Rhino_Runtime_Analytics_Send_1 generated for M:Rhino.Runtime.Analytics.Send(System.String)
     Unique name M_Rhino_Runtime_Analytics_Send_2 generated for M:Rhino.Runtime.Analytics.Send(System.String,System.String)
@@ -1942,6 +2007,7 @@ TransformManifest:
     Unique name M_Rhino_Runtime_Analytics_Send_4 generated for M:Rhino.Runtime.Analytics.Send(System.String,System.String,System.String,System.UInt32)
     Unique name M_Rhino_Runtime_CommonObject__ctor_1 generated for M:Rhino.Runtime.CommonObject.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
     Unique name M_Rhino_Runtime_CommonObject_Dispose_1 generated for M:Rhino.Runtime.CommonObject.Dispose(System.Boolean)
+    Unique name M_Rhino_Runtime_CommonObject_FromJSON_1 generated for M:Rhino.Runtime.CommonObject.FromJSON(System.String)
     Unique name M_Rhino_Runtime_DocumentCollectedException__ctor_1 generated for M:Rhino.Runtime.DocumentCollectedException.#ctor(System.String)
     Unique name M_Rhino_Runtime_HostUtils_CreateCommands_1 generated for M:Rhino.Runtime.HostUtils.CreateCommands(System.IntPtr,System.Reflection.Assembly)
     Unique name M_Rhino_Runtime_HostUtils_DebugDumpToString_1 generated for M:Rhino.Runtime.HostUtils.DebugDumpToString(Rhino.Geometry.GeometryBase)
@@ -1957,12 +2023,15 @@ TransformManifest:
     Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_2 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,Rhino.Geometry.Vector3d)
     Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_3 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Boolean)
     Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_4 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase})
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_5 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{System.String})
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_6 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Double)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_7 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Drawing.Color)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_8 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Int32)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_9 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.String)
-    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_10 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.UInt32)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_5 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{System.Guid})
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_6 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Collections.Generic.IEnumerable{System.String})
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_7 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Double)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_8 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Drawing.Color)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_9 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Drawing.Point)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_10 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Guid)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_11 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.Int32)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_12 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.String)
+    Unique name M_Rhino_Runtime_NamedParametersEventArgs_Set_13 generated for M:Rhino.Runtime.NamedParametersEventArgs.Set(System.String,System.UInt32)
     Unique name M_Rhino_Runtime_NotLicensedException__ctor_1 generated for M:Rhino.Runtime.NotLicensedException.#ctor(System.String)
     Unique name M_Rhino_Runtime_NotLicensedException__ctor_2 generated for M:Rhino.Runtime.NotLicensedException.#ctor(System.String,System.Exception)
     Unique name M_Rhino_Runtime_TextFields_Area_1 generated for M:Rhino.Runtime.TextFields.Area(System.String,System.String)
@@ -1975,16 +2044,19 @@ TransformManifest:
     Unique name M_Rhino_Runtime_TextFields_GetInstanceAttributeFields_1 generated for M:Rhino.Runtime.TextFields.GetInstanceAttributeFields(Rhino.DocObjects.TextObject)
     Unique name M_Rhino_Runtime_TextFields_GetInstanceAttributeFields_2 generated for M:Rhino.Runtime.TextFields.GetInstanceAttributeFields(System.String)
     Unique name M_Rhino_Runtime_TextFields_LayoutUserText_1 generated for M:Rhino.Runtime.TextFields.LayoutUserText(System.String,System.String)
+    Unique name M_Rhino_Runtime_TextFields_ObjectName_1 generated for M:Rhino.Runtime.TextFields.ObjectName(System.String)
     Unique name M_Rhino_Runtime_TextFields_PageName_1 generated for M:Rhino.Runtime.TextFields.PageName(System.String)
     Unique name M_Rhino_Runtime_TextFields_UserText_1 generated for M:Rhino.Runtime.TextFields.UserText(System.String,System.String,System.String)
     Unique name M_Rhino_Runtime_TextFields_UserText_2 generated for M:Rhino.Runtime.TextFields.UserText(System.String,System.String,System.String,System.String)
     Unique name M_Rhino_Runtime_TextFields_Volume_1 generated for M:Rhino.Runtime.TextFields.Volume(System.String,System.String)
+    Unique name M_Rhino_Runtime_TextFields_Volume_2 generated for M:Rhino.Runtime.TextFields.Volume(System.String,System.String,System.String)
     Unique name M_Rhino_Runtime_ViewCaptureWriter_PushClipPath_1 generated for M:Rhino.Runtime.ViewCaptureWriter.PushClipPath(System.Drawing.RectangleF)
     Unique name M_Rhino_Runtime_InProcess_RhinoCore__ctor_1 generated for M:Rhino.Runtime.InProcess.RhinoCore.#ctor(System.String[])
     Unique name M_Rhino_Runtime_InProcess_RhinoCore__ctor_2 generated for M:Rhino.Runtime.InProcess.RhinoCore.#ctor(System.String[],Rhino.Runtime.InProcess.WindowStyle)
     Unique name M_Rhino_Runtime_InProcess_RhinoCore__ctor_3 generated for M:Rhino.Runtime.InProcess.RhinoCore.#ctor(System.String[],Rhino.Runtime.InProcess.WindowStyle,System.IntPtr)
     Unique name M_Rhino_Runtime_InteropWrappers_ClassArrayObjRef__ctor_1 generated for M:Rhino.Runtime.InteropWrappers.ClassArrayObjRef.#ctor(System.Collections.Generic.IEnumerable{Rhino.DocObjects.ObjRef})
     Unique name M_Rhino_Runtime_InteropWrappers_ClassArrayOnObjRef__ctor_1 generated for M:Rhino.Runtime.InteropWrappers.ClassArrayOnObjRef.#ctor(System.Collections.Generic.IEnumerable{Rhino.DocObjects.ObjRef})
+    Unique name M_Rhino_Runtime_InteropWrappers_ClassArrayOnObjRef_ToNonConstArray_1 generated for M:Rhino.Runtime.InteropWrappers.ClassArrayOnObjRef.ToNonConstArray(Rhino.RhinoDoc)
     Unique name M_Rhino_Runtime_InteropWrappers_ClassArrayString_Dispose_1 generated for M:Rhino.Runtime.InteropWrappers.ClassArrayString.Dispose(System.Boolean)
     Unique name M_Rhino_Runtime_InteropWrappers_SimpleArray2dex__ctor_1 generated for M:Rhino.Runtime.InteropWrappers.SimpleArray2dex.#ctor(System.Collections.Generic.IEnumerable{Rhino.IndexPair})
     Unique name M_Rhino_Runtime_InteropWrappers_SimpleArrayArrayPoint3d_Dispose_1 generated for M:Rhino.Runtime.InteropWrappers.SimpleArrayArrayPoint3d.Dispose(System.Boolean)
@@ -2012,6 +2084,7 @@ TransformManifest:
     Unique name M_Rhino_Runtime_InteropWrappers_SimpleArrayPoint3d_Dispose_1 generated for M:Rhino.Runtime.InteropWrappers.SimpleArrayPoint3d.Dispose(System.Boolean)
     Unique name M_Rhino_Runtime_InteropWrappers_SimpleArraySurfacePointer_Dispose_1 generated for M:Rhino.Runtime.InteropWrappers.SimpleArraySurfacePointer.Dispose(System.Boolean)
     Unique name M_Rhino_Runtime_InteropWrappers_SimpleArrayUint__ctor_1 generated for M:Rhino.Runtime.InteropWrappers.SimpleArrayUint.#ctor(System.Collections.Generic.IEnumerable{System.UInt32})
+    Unique name M_Rhino_Runtime_InteropWrappers_StdVectorOfSharedPtrToMesh_Dispose_1 generated for M:Rhino.Runtime.InteropWrappers.StdVectorOfSharedPtrToMesh.Dispose(System.Boolean)
     Unique name M_Rhino_Runtime_InteropWrappers_StringHolder_Dispose_1 generated for M:Rhino.Runtime.InteropWrappers.StringHolder.Dispose(System.Boolean)
     Unique name M_Rhino_Runtime_InteropWrappers_StringWrapper__ctor_1 generated for M:Rhino.Runtime.InteropWrappers.StringWrapper.#ctor(System.String)
     Unique name M_Rhino_Runtime_Notifications_Notification__ctor_1 generated for M:Rhino.Runtime.Notifications.Notification.#ctor(System.Collections.Generic.IEnumerable{System.Reflection.Assembly})
@@ -2038,14 +2111,21 @@ TransformManifest:
     Unique name M_Rhino_UI_Dialogs_ShowColorDialog_5 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean,Rhino.UI.Dialogs.OnColorChangedEvent)
     Unique name M_Rhino_UI_Dialogs_ShowColorDialog_6 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Object,Rhino.Display.Color4f@,System.Boolean,Rhino.UI.NamedColorList,Rhino.UI.Dialogs.OnColorChangedEvent)
     Unique name M_Rhino_UI_Dialogs_ShowColorDialog_7 generated for M:Rhino.UI.Dialogs.ShowColorDialog(System.Windows.Forms.IWin32Window,Rhino.Display.Color4f@,System.Boolean)
+    Unique name M_Rhino_UI_Dialogs_ShowLineTypes_1 generated for M:Rhino.UI.Dialogs.ShowLineTypes(System.String,System.String,Rhino.RhinoDoc,System.Guid)
     Unique name M_Rhino_UI_Dialogs_ShowListBox_1 generated for M:Rhino.UI.Dialogs.ShowListBox(System.String,System.String,System.Collections.IList,System.Object)
     Unique name M_Rhino_UI_Dialogs_ShowMessage_1 generated for M:Rhino.UI.Dialogs.ShowMessage(System.String,System.String)
     Unique name M_Rhino_UI_Dialogs_ShowMessage_2 generated for M:Rhino.UI.Dialogs.ShowMessage(System.String,System.String,Rhino.UI.ShowMessageButton,Rhino.UI.ShowMessageIcon)
     Unique name M_Rhino_UI_Dialogs_ShowNumberBox_1 generated for M:Rhino.UI.Dialogs.ShowNumberBox(System.String,System.String,System.Double@,System.Double,System.Double)
+    Unique name M_Rhino_UI_Dialogs_ShowPrintWidths_1 generated for M:Rhino.UI.Dialogs.ShowPrintWidths(System.String,System.String,System.Double)
+    Unique name M_Rhino_UI_Dialogs_ShowPropertyListBox_1 generated for M:Rhino.UI.Dialogs.ShowPropertyListBox(System.String,System.String,System.Collections.IList,System.Collections.Generic.IList{System.String})
     Unique name M_Rhino_UI_DrawingUtilities_BitmapFromIconResource_1 generated for M:Rhino.UI.DrawingUtilities.BitmapFromIconResource(System.String,System.Reflection.Assembly)
+    Unique name M_Rhino_UI_DrawingUtilities_BitmapFromSvg_1 generated for M:Rhino.UI.DrawingUtilities.BitmapFromSvg(System.String,System.Int32,System.Int32,System.Boolean)
     Unique name M_Rhino_UI_DrawingUtilities_CreateMeshPreviewImage_1 generated for M:Rhino.UI.DrawingUtilities.CreateMeshPreviewImage(Rhino.RhinoDoc,System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Collections.Generic.IEnumerable{System.Drawing.Color},System.Drawing.Size)
     Unique name M_Rhino_UI_DrawingUtilities_CreateMeshPreviewImage_2 generated for M:Rhino.UI.DrawingUtilities.CreateMeshPreviewImage(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Collections.Generic.IEnumerable{System.Drawing.Color},System.Drawing.Size)
     Unique name M_Rhino_UI_DrawingUtilities_IconFromResource_1 generated for M:Rhino.UI.DrawingUtilities.IconFromResource(System.String,System.Reflection.Assembly)
+    Unique name M_Rhino_UI_IRhinoUiDialogService_ShowLineTypes_1 generated for M:Rhino.UI.IRhinoUiDialogService.ShowLineTypes(System.String,System.String,Rhino.RhinoDoc,System.Guid)
+    Unique name M_Rhino_UI_IRhinoUiDialogService_ShowPrintWidths_1 generated for M:Rhino.UI.IRhinoUiDialogService.ShowPrintWidths(System.String,System.String,System.Double)
+    Unique name M_Rhino_UI_IRhinoUiDialogService_ShowPropertyListBox_1 generated for M:Rhino.UI.IRhinoUiDialogService.ShowPropertyListBox(System.String,System.String,System.Collections.IList,System.Collections.Generic.IList{System.String})
     Unique name M_Rhino_UI_IStackedDialogPageService_GetImageHandle_1 generated for M:Rhino.UI.IStackedDialogPageService.GetImageHandle(System.Drawing.Image,System.Boolean)
     Unique name M_Rhino_UI_IStackedDialogPageService_GetNativePageWindow_1 generated for M:Rhino.UI.IStackedDialogPageService.GetNativePageWindow(System.Object,System.Boolean,System.Boolean,System.Object@,System.Object@)
     Unique name M_Rhino_UI_LOC_CON_1 generated for M:Rhino.UI.LOC.CON(System.String,System.Int32)
@@ -2088,50 +2168,52 @@ TransformManifest:
     Unique name M_Rhino_UI_Panels_OpenPanelAsSibling_1 generated for M:Rhino.UI.Panels.OpenPanelAsSibling(System.Guid,System.Guid,System.Boolean)
     Unique name M_Rhino_UI_Panels_PanelDockBar_1 generated for M:Rhino.UI.Panels.PanelDockBar(System.Type)
     Unique name M_Rhino_UI_Panels_RegisterPanel_1 generated for M:Rhino.UI.Panels.RegisterPanel(Rhino.PlugIns.PlugIn,System.Type,System.String,System.Drawing.Icon,Rhino.UI.PanelType)
+    Unique name M_Rhino_UI_Panels_RegisterPanel_2 generated for M:Rhino.UI.Panels.RegisterPanel(Rhino.PlugIns.PlugIn,System.Type,System.String,System.Reflection.Assembly,System.String,Rhino.UI.PanelType)
     Unique name M_Rhino_UI_RuiUpdateUi_RegisterMenuItem_1 generated for M:Rhino.UI.RuiUpdateUi.RegisterMenuItem(System.String,System.String,System.String,Rhino.UI.RuiUpdateUi.UpdateMenuItemEventHandler)
     Unique name M_Rhino_UI_StatusBar_HideProgressMeter_1 generated for M:Rhino.UI.StatusBar.HideProgressMeter(System.UInt32)
     Unique name M_Rhino_UI_StatusBar_ShowProgressMeter_1 generated for M:Rhino.UI.StatusBar.ShowProgressMeter(System.UInt32,System.Int32,System.Int32,System.String,System.Boolean,System.Boolean)
     Unique name M_Rhino_UI_StatusBar_UpdateProgressMeter_1 generated for M:Rhino.UI.StatusBar.UpdateProgressMeter(System.UInt32,System.Int32,System.Boolean)
     Unique name M_Rhino_UI_ToolbarFile_GetGroup_1 generated for M:Rhino.UI.ToolbarFile.GetGroup(System.String)
+    Unique name M_Rhino_UI_Controls_ExpandableContentUI_AddSection_1 generated for M:Rhino.UI.Controls.ExpandableContentUI.AddSection(Rhino.UI.Controls.ICollapsibleSection,Rhino.UI.Controls.IRdkViewModel)
     Unique name M_Rhino_UI_Controls_FactoryBase_Register_1 generated for M:Rhino.UI.Controls.FactoryBase.Register(Rhino.PlugIns.PlugIn)
     Unique name M_Rhino_UI_Controls_UndoRecord_Dispose_1 generated for M:Rhino.UI.Controls.UndoRecord.Dispose(System.Boolean)
     Unique name M_Rhino_UI_Gumball_GumballDisplayConduit_Dispose_1 generated for M:Rhino.UI.Gumball.GumballDisplayConduit.Dispose(System.Boolean)
     Unique name M_Rhino_UI_Gumball_GumballDisplayConduit_SetBaseGumball_1 generated for M:Rhino.UI.Gumball.GumballDisplayConduit.SetBaseGumball(Rhino.UI.Gumball.GumballObject,Rhino.UI.Gumball.GumballAppearanceSettings)
     Unique name M_Rhino_UI_Gumball_GumballObject_Dispose_1 generated for M:Rhino.UI.Gumball.GumballObject.Dispose(System.Boolean)
     Unique name M_Rhino_UI_Gumball_GumballObject_SetFromBoundingBox_1 generated for M:Rhino.UI.Gumball.GumballObject.SetFromBoundingBox(Rhino.Geometry.Plane,Rhino.Geometry.BoundingBox)
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\ReflectionToManifest.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\TransformManifest.proj&quot; (default targets).
-    Last step completed in 00:00:08.5080
+    Last step completed in 00:00:20.1964
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.4004
+    Last step completed in 00:00:00.9036
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateInheritedDocs.proj]
-Sandcastle Help File Builder and Tools, version 2019.11.17.0
-Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - GenerateInheritedDocs.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Reflection information will be retrieved from &#39;reflection.xml&#39;
 Inherited documentation will be written to &#39;_InheritedDocs_.xml&#39;
 Indexing C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\*.xml
 Indexing D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.XML
-Indexed 173146 members in 121 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
+Indexed 173656 members in 121 file(s).  1 file(s) to scan for &lt;inheritdoc /&gt; tags.
 Merging inherited documentation...
 
 
 Documentation merged successfully
-    Last step completed in 00:00:01.7385
+    Last step completed in 00:00:03.2598
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0011
+    Last step completed in 00:00:00.0055
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -2139,22 +2221,22 @@ Merging conceptual and additional tables of contents...
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 1/16/2021 7:44:45 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - GenerateIntermediateTOC.proj]
+Build started 11/22/2021 7:19:07 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
-  XslTransform (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  XslTransform (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\\ProductionTransforms\CreateVSToc.xsl&#39;.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateIntermediateTOC.proj&quot; (default targets).
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.1733
+    Last step completed in 00:00:01.4454
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.2161
+    Last step completed in 00:00:00.5282
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2162,51 +2244,50 @@ D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Worki
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0061
+    Last step completed in 00:00:00.0178
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - BuildTopics.proj]
-Build started 1/16/2021 7:44:46 AM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - BuildTopics.proj]
+Build started 11/22/2021 7:19:09 AM.
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
-  BuildAssembler (v2019.11.17.0)
-  Copyright c 2006-2019, Microsoft Corporation, All Rights Reserved.
-  Portions Copyright c 2006-2019, Eric Woodruff, All Rights Reserved.
+  BuildAssembler (v2020.3.6.0)
+  Copyright c 2006-2020, Microsoft Corporation, All Rights Reserved.
+  Portions Copyright c 2006-2020, Eric Woodruff, All Rights Reserved.
   Loading configuration...
   Processing topics...
-  Processed 15722 topic(s)
+  Processed 16276 topic(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
-  ResolveReferenceLinksComponent: 1 entries added to the member ID URL cache.  New cache size: 407 entries
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:01:27.0641
+    Last step completed in 00:03:25.2956
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0496
+    Last step completed in 00:00:00.1914
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - ExtractHtmlInfo.proj]
-Sandcastle Help File Builder and Tools, version 2019.11.17.0
-Copyright c 2006-2019, Eric Woodruff, All Rights Reserved
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - ExtractHtmlInfo.proj]
+Sandcastle Help File Builder and Tools, version 2020.3.6.0
+Copyright c 2006-2020, Eric Woodruff, All Rights Reserved
 E-Mail: Eric@EWoodruff.us
 
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1
-Processed 15722 HTML files
+Processed 16276 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhk
 Saving HTML Help 1 table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\RhinoCommon.hhc
 
 Processing website files in D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website
-Processed 15722 HTML files
+Processed 16276 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebKI.xml
 Saving website table of contents to D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\WebTOC.xml
-    Last step completed in 00:00:05.8507
+    Last step completed in 00:00:16.0864
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2350,11 +2431,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-3.3.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\jquery-3.3.1.min.js
-    Last step completed in 00:00:00.5711
+    Last step completed in 00:00:01.1580
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0001
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
@@ -2362,11 +2443,11 @@ Generating HTML Help 1 index file...
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0709
+    Last step completed in 00:00:00.0982
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
-[C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\MSBuild\Current\bin\MSBuild.exe - Build1xHelpFile.proj]
+[C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin\MSBuild.exe - Build1xHelpFile.proj]
   Microsoft HTML Help Compiler 4.74.8702
   
   
@@ -2377,11 +2458,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 3 minutes, 56 seconds
+  Compile time: 10 minutes, 30 seconds
   
-  15,724	Topics
+  16,278	Topics
   
-  214,632	Local links
+  221,911	Local links
   
   0	Internet links
   
@@ -2391,22 +2472,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,054,098 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 15,517,410 bytes
   
-  Compression decreased file by 122,820,603 bytes.
+  Compression decreased file by 126,498,241 bytes.
   
-    Last step completed in 00:03:56.8647
+    Last step completed in 00:10:32.0604
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0011
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:07.0716
+</plugIn>    Last step completed in 00:00:17.0041
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2449,16 +2530,17 @@ Copied 17500 files
 Copied 18000 files
 Copied 18500 files
 Copied 19000 files
-Copied 19005 files for the website content
-    Last step completed in 00:00:07.6844
+Copied 19500 files
+Copied 19665 files for the website content
+    Last step completed in 00:00:17.7503
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:02.7747
+    Last step completed in 00:00:09.2515
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 1/16/2021 7:50:34 AM.  Total time: 00:06:04.1018
+Build completed successfully at 11/22/2021 7:34:08 AM.  Total time: 00:15:34.0552
 
 </buildStep>
 </shfbBuild>

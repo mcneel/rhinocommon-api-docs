@@ -11,6 +11,8 @@
             Rhino.UI.ObjectProperties systems.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_UI_Panels_IconSize.htm">IconSize</a></td><td><div class="summary">
             Gets the panel icon size in logical units.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_UI_Panels_IconSizeInPixels.htm">IconSizeInPixels</a></td><td><div class="summary">
+            Gets the panel icon size in pixels.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_UI_Panels_ScaledIconSize.htm">ScaledIconSize</a></td><td><div class="summary">
             Gets the panel icon size in pixels with DPI scaling applied.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
@@ -33,6 +35,10 @@
             Will close or hide the specified panel type, in Windows Rhino, if it
             is the only visible tab the tab dock bar will be closed as well.  In
             Mac Rhino it will always close the modeless dialog hosting the panel.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_DockBarIdInUse.htm">DockBarIdInUse</a></td><td><div class="summary">
+            For internal use, call this method to see if a dock bar Id is
+            currently being used by any Rhino dock bar.
+            Rhino
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_FloatPanel.htm">FloatPanel(Guid, Panels<span id="LSTFA0E4C40_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTFA0E4C40_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>FloatPanelMode)</a></td><td><div class="summary">
             Mac support:
               Display the specified panel in a floating window on Mac, the floating
@@ -163,6 +169,11 @@
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_RegisterPanel_1.htm">RegisterPanel(PlugIn, Type, String, Icon, PanelType)</a></td><td><div class="summary">
             Call once to register a panel type which will get dynamically created
             and embedded in a Rhino docking/floating location.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_UI_Panels_RegisterPanel_2.htm">RegisterPanel(PlugIn, Type, String, Assembly, String, PanelType)</a></td><td><div class="summary">
+            You typically register your panel class in your plug-in's OnLoad
+            function.  This will register your custom call with Rhino, Rhino will
+            create an instance of your class the first time your panel is created
+            and embed this instance of your class in a panel container.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID5RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="E_Rhino_UI_Panels_Closed.htm">Closed</a></td><td><div class="summary">
@@ -175,4 +186,4 @@
             it only means the document instance of the panel is not visible it does not mean 
             the panel host has been closed.  If you need to know when the panel host closes
             then subscribe to the Closed event.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.0.21012.12300 (Last updated: 1/16/2021)<br />Copyright © 2009-2021 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.0.21321.04300 (Last updated: 11/22/2021)<br />Copyright © 2009-2021 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
