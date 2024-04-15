@@ -33,7 +33,7 @@
             typically used by textures that reference files containing the texture
             imagery. 
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_FirstChild.htm">FirstChild</a></td><td><div class="summary">
-            Return First child of this content or nullptr if none.
+            Return First child of this content or null if none.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_GroupId.htm">GroupId</a></td><td><div class="summary">
             Group ID of the content
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Hidden.htm">Hidden</a></td><td><div class="summary">
@@ -63,7 +63,7 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Name.htm">Name</a></td><td><div class="summary">
             Instance 'raw' name for this content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_NextSibling.htm">NextSibling</a></td><td><div class="summary">
-            Return First sibling of this content or nullptr if none.
+            Return First sibling of this content or null if none.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Notes.htm">Notes</a></td><td><div class="summary">
             Notes for this content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Parent.htm">Parent</a></td><td><div class="summary">
@@ -71,12 +71,11 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_ProxyType.htm">ProxyType</a></td><td><div class="summary">
             Gets the proxy type of the render content
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_RenderHash.htm">RenderHash</a></td><td><div class="summary">
-            Render hash for the content hierarchy. It iterates children and includes
-            a caching mechanism which means the hash value can be retrieved quickly
-            if it hasn't changed. The cache is invalidated when Changed() is called.
+            Render hash for the content hierarchy. It iterates over children and includes a caching
+            mechanism which means the hash value can be retrieved quickly if it hasn't changed.
+            The cache is invalidated when Changed() is called.
             
-            You can override the <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a> method to provide
-            a custom hash value.
+            You can override the <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a> method to provide a custom hash value.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Styles.htm">Styles</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Tags.htm">Tags</a></td><td><div class="summary">
             Tags for this content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TopLevel.htm">TopLevel</a></td><td><div class="summary">
@@ -84,9 +83,9 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TopLevelParent.htm">TopLevelParent</a></td><td><div class="summary">
             Returns the top content in this parent/child chain.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TypeDescription.htm">TypeDescription</a></td><td><div class="summary">
-            Description for your content type.  ie.  "Procedural checker pattern"
+            Description for your content type. i.e., "Procedural checker pattern"
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TypeId.htm">TypeId</a></td><td><div class="summary">
             Type identifier for this content
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TypeName.htm">TypeName</a></td><td><div class="summary">
-            Name for your content type.  ie. "My .net Texture"
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Xml.htm">Xml</a></td><td /></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Render_RenderContent.htm">RenderContent Class</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Render.htm">Rhino.Render Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 7.33.23248.13000 (2023-09-05)<br />Copyright © 2009-2023 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            Name for your content type. i.e., "My .net Texture"
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Xml.htm">Xml</a></td><td /></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID1RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_Render_RenderContent.htm">RenderContent Class</a></div><div class="seeAlsoStyle"><a href="N_Rhino_Render.htm">Rhino.Render Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.6.24101.05000 (2024-04-10)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

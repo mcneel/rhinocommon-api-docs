@@ -13,7 +13,7 @@
             Returns the description of the plug-in, as found in the plug-in's assembly attributes.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Id.htm">Id</a></td><td><div class="summary">
             Returns the Guid, or unique Id, of the plug-in.
-            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_LicenseId.htm">LicenseId</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_LoadAtStartup.htm">LoadAtStartup</a></td><td> <strong>Obsolete. </strong> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_LoadTime.htm">LoadTime</a></td><td><div class="summary">
+            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Rhino_PlugIns_RenderPlugIn_InitialChannelToDisplay.htm">InitialChannelToDisplay</a></td><td /></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_LicenseId.htm">LicenseId</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_LoadAtStartup.htm">LoadAtStartup</a></td><td> <strong>Obsolete. </strong> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_LoadTime.htm">LoadTime</a></td><td><div class="summary">
             Plug-ins are typically loaded on demand when they are first needed. You can change
             this behavior to load the plug-in at during different stages in time by overriding
             this property.
@@ -28,14 +28,18 @@
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Settings.htm">Settings</a></td><td><div class="summary">
             Persistent plug-in settings.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_SettingsDirectory.htm">SettingsDirectory</a></td><td><div class="summary">
-            Get the plug-in's settings directory. This is the directory where the plug-in's persistent settings files are saved. 
+            Get the plug-in's settings directory. This is the directory where the plug-in's persistent settings files are saved.
             This directory will be located in the user's profile folder.
             Note, this does not verify the directory exists.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_SettingsDirectoryAllUsers.htm">SettingsDirectoryAllUsers</a></td><td><div class="summary">
-            Get the plug-in's "all users" settings directory. 
+            Get the plug-in's "all users" settings directory.
             This directory will be located in the system's program data folder.
             Note, this does not verify the directory exists.
-            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Rhino_PlugIns_RenderPlugIn_SupportsEditProperties.htm">SupportsEditProperties</a></td><td><div class="summary">
+            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Rhino_PlugIns_RenderPlugIn_SupportedChannels.htm">SupportedChannels</a></td><td><div class="summary">
+            Override to communicate that the renderer supports more
+            channels beside the default channels RGBA, Depth, Normal, Albedo. See RenderWindow.StandardChannels. RenderWindow.ChannelId can be used to
+            get the GUIDs for the channels to support
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protproperty.gif" alt="Protected property" title="Protected property" /></td><td><a href="P_Rhino_PlugIns_RenderPlugIn_SupportsEditProperties.htm">SupportsEditProperties</a></td><td><div class="summary">
             Override this property and return true if your plug-in supports decals
             and overrides <a href="M_Rhino_PlugIns_RenderPlugIn_ShowDecalProperties.htm">ShowDecalProperties(List<span id="LSTA0A32431_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA0A32431_3?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>NamedValue<span id="LSTA0A32431_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA0A32431_4?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script><span id="LSTA0A32431_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA0A32431_5?cpp=%");</script>)</a></div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Version.htm">Version</a></td><td><div class="summary">
             Returns the version of the plug-in, as found in the plug-in's assembly attributes.
@@ -52,24 +56,26 @@
             Constructs an instance of every publicly exported command class in your
             plug-in's assembly.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_CreatePreview.htm">CreatePreview</a></td><td><div class="summary">
-            Creates the preview bitmap that will appear in the content editor's
-            thumbnail display when previewing materials and environments. If this
-            function is not overridden or the PreviewImage is not set on the
-            arguments, then the internal OpenGL renderer will generate a simulation of
-            the content.
+             Creates the preview bitmap that will appear in the content editor's
+             thumbnail display when previewing materials and environments. If this
+             function is not overridden or the PreviewImage is not set on the
+             arguments, then the internal OpenGL renderer will generate a simulation of
+             the content.
             
-            This function is called with four different preview quality settings.
-            The first quality level of RealtimeQuick is called on the main thread
-            and needs to be drawn as fast as possible.  This function is called
-            with the other three quality settings on a separate thread and are
-            meant for generating progressively refined preview.
-            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_CreateTexture2dPreview.htm">CreateTexture2dPreview</a></td><td><div class="summary">
+             This function is called with four different preview quality settings.
+             The first quality level of RealtimeQuick is called on the main thread
+             and needs to be drawn as fast as possible.  This function is called
+             with the other three quality settings on a separate thread and are
+             meant for generating progressively refined preview.
+             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_CreateTexture2dPreview.htm">CreateTexture2dPreview</a></td><td><div class="summary">
              Creates the preview bitmap that will appear in the content editor's
              thumbnail display when previewing textures in 2d (UV) mode.
             
              If this function is not overridden or the PreviewImage is not set on the
              arguments, then the internal OpenGL renderer will generate a simulation.
-             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_CurrentRendererSupportsFeature.htm">CurrentRendererSupportsFeature</a></td><td /></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_DocumentPropertiesDialogPages.htm">DocumentPropertiesDialogPages</a></td><td><div class="summary">
+             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_CurrentRendererSupportsFeature.htm">CurrentRendererSupportsFeature</a></td><td /></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_CustomChannelName.htm">CustomChannelName</a></td><td><div class="summary">
+            Return the localized name of your custom channel.
+            </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_DocumentPropertiesDialogPages.htm">DocumentPropertiesDialogPages</a></td><td><div class="summary">
             Override this function if you want to extend the document properties sections
             of the options dialog. This function is called whenever the user brings up the
             Options dialog.
@@ -95,7 +101,7 @@
             the Rhino licensing system. If the plug-in is installed as a standalone
             node, the locally installed license will be validated. If the plug-in
             is installed as a network node, a loaner license will be requested by
-            the system's assigned Zoo server. If the Zoo server finds and returns 
+            the system's assigned Zoo server. If the Zoo server finds and returns
             a license, then this license will be validated. If no license is found,
             then the user will be prompted to provide a license key, which will be
             validated.
@@ -104,13 +110,13 @@
             the Rhino licensing system. If the plug-in is installed as a standalone
             node, the locally installed license will be validated. If the plug-in
             is installed as a network node, a loaner license will be requested by
-            the system's assigned Zoo server. If the Zoo server finds and returns 
+            the system's assigned Zoo server. If the Zoo server finds and returns
             a license, then this license will be validated. If no license is found,
             then the user will be prompted to provide a license key, which will be
             validated.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_GetLicenseOwner.htm">GetLicenseOwner</a></td><td><div class="summary">
             Get the customer name and organization used when entering the product
-            license. 
+            license.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_GetPlugInObject.htm">GetPlugInObject</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_GetRenderSettingsSections.htm">GetRenderSettingsSections</a></td><td><div class="summary">
             This function returns a list of Guids for the render settings pages that should be displayed.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td><div class="summary">Gets the <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_Icon.htm">Icon</a></td><td><div class="summary">
@@ -118,6 +124,9 @@
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_InitializeDecalProperties.htm">InitializeDecalProperties</a></td><td><div class="summary">
             Initialize your custom decal properties here.  The input list will be empty - add your
             default named property values and return.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_IsTextureSupported.htm">IsTextureSupported</a></td><td><div class="summary">
+            Returns true if this renderer can render the texture natively without needing it to be baked into a bitmap, false otherwise.
+            By default, returns false for all textures.
             </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone" target="_blank" rel="noopener noreferrer">MemberwiseClone</a></td><td><div class="summary">Creates a shallow copy of the current <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ObjectPropertiesPages_1.htm">ObjectPropertiesPages(List<span id="LSTA0A32431_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA0A32431_6?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>ObjectPropertiesPage<span id="LSTA0A32431_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTA0A32431_7?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>)</a></td><td> <strong>Obsolete. </strong><div class="summary">
             Override this function is you want to extend the object properties dialog
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ObjectPropertiesPages.htm">ObjectPropertiesPages(ObjectPropertiesPageCollection)</a></td><td><div class="summary">
@@ -149,19 +158,19 @@
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_PreviewRenderType.htm">PreviewRenderType</a></td><td><div class="summary">
             Tell what kind of preview rendering your renderer supports.
             </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ReadDocument.htm">ReadDocument</a></td><td><div class="summary">
-            Called whenever a Rhino document is being loaded and plug-in user data was
-            encountered written by a plug-in with this plug-in's GUID.
-            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_RegisterCommand.htm">RegisterCommand</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RegisterCustomRenderSaveFileTypes.htm">RegisterCustomRenderSaveFileTypes</a></td><td><div class="summary">
+             Called whenever a Rhino document is being loaded and plug-in user data was
+             encountered written by a plug-in with this plug-in's GUID.
+             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_RegisterCommand.htm">RegisterCommand</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RegisterCustomRenderSaveFileTypes.htm">RegisterCustomRenderSaveFileTypes</a></td><td><div class="summary">
             Override this method to add custom file types to the render window save
             file dialog.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RegisterRenderPanels.htm">RegisterRenderPanels</a></td><td><div class="summary">
-            Override this method and call <a href="M_Rhino_Render_RenderPanels_RegisterPanel_1.htm">RegisterPanel(PlugIn, RenderPanelType, Type, String, Boolean, Boolean)</a>
+            Override this method and call <a href="M_Rhino_Render_RenderPanels_RegisterPanel_2.htm">RegisterPanel(PlugIn, RenderPanelType, Type, String, Boolean, Boolean)</a>
             to add custom render UI to the render output window.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RegisterRenderTabs.htm">RegisterRenderTabs</a></td><td><div class="summary">
             Override this method and call <a href="M_Rhino_Render_RenderTabs_RegisterTab.htm">RegisterTab(PlugIn, Type, Guid, String, Icon)</a>
             to add custom tabs to the render output window
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_Render.htm">Render</a></td><td><div class="summary">
-            Called by Render and RenderPreview commands if this plug-in is set as the default render engine. 
+            Called by Render and RenderPreview commands if this plug-in is set as the default render engine.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderContentSerializers.htm">RenderContentSerializers</a></td><td><div class="summary">
             Called by Rhino when it is time to register RenderContentSerializer
             derived classes.  Override this method and return an array of an
@@ -185,18 +194,18 @@
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_RenderWindow_1.htm">RenderWindow(RhinoDoc, RunMode, Boolean, RhinoView, Rectangle, Boolean, Boolean)</a></td><td /></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ResetMessageBoxes.htm">ResetMessageBoxes</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ReturnLicense.htm">ReturnLicense</a></td><td><div class="summary">
             Returns, or releases, a product license that was obtained from the Rhino
             licensing system. Note, most plug-ins do not need to call this as the
-            Rhino licensing system will return all licenses when Rhino shuts down. 
+            Rhino licensing system will return all licenses when Rhino shuts down.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_SaveSettings.htm">SaveSettings</a></td><td><div class="summary">
             Write settings to disk which will raise a <a href="E_Rhino_PlugIns_PlugIn_SettingsSaved.htm">SettingsSaved</a>
             event.
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_SetLicenseCapabilities.htm">SetLicenseCapabilities</a></td><td> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ShouldCallWriteDocument.htm">ShouldCallWriteDocument</a></td><td><div class="summary">
             Called whenever a Rhino is about to save a .3dm file.
-            If you want to save plug-in document data when a model is 
+            If you want to save plug-in document data when a model is
             saved in a version 5 .3dm file, then you must override this
             function to return true and you must override WriteDocument().
             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_ShowDecalProperties.htm">ShowDecalProperties</a></td><td><div class="summary">
             Override this function to handle showing a modal dialog with your plug-in's
-            custom decal properties.  You will be passed the current properties for the 
+            custom decal properties.  You will be passed the current properties for the
             object being edited.  The defaults will be set in InitializeDecalProperties.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_RenderPlugIn_SunCustomSections.htm">SunCustomSections</a></td><td><div class="summary">
             Override this function to provide custom sections for the sun panel that are displayed
@@ -218,12 +227,12 @@
             added when needed by Rhino.  Specify a separator by adding
             uuidUiContentType_Separator.
             </div></td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_WriteDocument.htm">WriteDocument</a></td><td><div class="summary">
-            Called when Rhino is saving a .3dm file to allow the plug-in
-            to save document user data.
-            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
+             Called when Rhino is saving a .3dm file to allow the plug-in
+             to save document user data.
+             </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_Rhino_PlugIns_PlugIn_SettingsSaved.htm">SettingsSaved</a></td><td><div class="summary">
             This event is raised when an instance of Rhino has modified the
             external settings file associated with this plug-in's <a href="P_Rhino_PlugIns_PlugIn_Settings.htm">Settings</a>
             property.
-            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_PlugIns.htm">Rhino.PlugIns Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 7.33.23248.13000 (2023-09-05)<br />Copyright © 2009-2023 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div> (Inherited from <a href="T_Rhino_PlugIns_PlugIn.htm">PlugIn</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_PlugIns.htm">Rhino.PlugIns Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.6.24101.05000 (2024-04-10)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

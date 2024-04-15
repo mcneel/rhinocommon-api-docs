@@ -73,7 +73,7 @@
             typically used by textures that reference files containing the texture
             imagery. 
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_FirstChild.htm">FirstChild</a></td><td><div class="summary">
-            Return First child of this content or nullptr if none.
+            Return First child of this content or null if none.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_GroupId.htm">GroupId</a></td><td><div class="summary">
             Group ID of the content
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Hidden.htm">Hidden</a></td><td><div class="summary">
@@ -103,7 +103,7 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Name.htm">Name</a></td><td><div class="summary">
             Instance 'raw' name for this content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_NextSibling.htm">NextSibling</a></td><td><div class="summary">
-            Return First sibling of this content or nullptr if none.
+            Return First sibling of this content or null if none.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Notes.htm">Notes</a></td><td><div class="summary">
             Notes for this content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Parent.htm">Parent</a></td><td><div class="summary">
@@ -111,12 +111,11 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_ProxyType.htm">ProxyType</a></td><td><div class="summary">
             Gets the proxy type of the render content
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_RenderHash.htm">RenderHash</a></td><td><div class="summary">
-            Render hash for the content hierarchy. It iterates children and includes
-            a caching mechanism which means the hash value can be retrieved quickly
-            if it hasn't changed. The cache is invalidated when Changed() is called.
+            Render hash for the content hierarchy. It iterates over children and includes a caching
+            mechanism which means the hash value can be retrieved quickly if it hasn't changed.
+            The cache is invalidated when Changed() is called.
             
-            You can override the <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a> method to provide
-            a custom hash value.
+            You can override the <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a> method to provide a custom hash value.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Styles.htm">Styles</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Tags.htm">Tags</a></td><td><div class="summary">
             Tags for this content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TopLevel.htm">TopLevel</a></td><td><div class="summary">
@@ -124,11 +123,11 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TopLevelParent.htm">TopLevelParent</a></td><td><div class="summary">
             Returns the top content in this parent/child chain.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TypeDescription.htm">TypeDescription</a></td><td><div class="summary">
-            Description for your content type.  ie.  "Procedural checker pattern"
+            Description for your content type. i.e., "Procedural checker pattern"
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TypeId.htm">TypeId</a></td><td><div class="summary">
             Type identifier for this content
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_TypeName.htm">TypeName</a></td><td><div class="summary">
-            Name for your content type.  ie. "My .net Texture"
+            Name for your content type. i.e., "My .net Texture"
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Render_RenderContent_Xml.htm">Xml</a></td><td /></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_AddAutomaticUserInterfaceSection.htm">AddAutomaticUserInterfaceSection</a></td><td><div class="summary">
@@ -175,7 +174,7 @@
             Use bindings to automatically wire parameters to fields
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_BindParameterToField_1.htm">BindParameterToField(String, String, Field, RenderContent<span id="LST73ED3BC3_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73ED3BC3_7?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td><div class="summary">
             Use bindings to automatically wire parameters to fields
-            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash</a></td><td><div class="summary">
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash</a></td><td> <strong>Obsolete. </strong><div class="summary">
             Override this method to calculate the render hash of the state that
             affects how the content is rendered.  Does not include children or
             perform any caching. Render hash values are now automatically cached by
@@ -183,7 +182,7 @@
             also do not have to worry about iterating into children.  This method
             is now only called internally by the framework, use the RenderHash
             property to get the current hash value.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_ChangeChild.htm">ChangeChild</a></td><td> <strong>Obsolete. </strong></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_ChildSlotAmount.htm">ChildSlotAmount</a></td><td><div class="summary">
+            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_Render_RenderContent_CalculateRenderHash2.htm">CalculateRenderHash2</a></td><td><div class="summary" /></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_ChangeChild.htm">ChangeChild</a></td><td> <strong>Obsolete. </strong></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_ChildSlotAmount.htm">ChildSlotAmount</a></td><td><div class="summary">
             Gets the amount property for the texture in the specified child slot.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_ChildSlotNameFromParamName.htm">ChildSlotNameFromParamName</a></td><td><div class="summary">
              A "child slot" is the specific "slot" that a child (usually a texture) occupies.
@@ -257,12 +256,14 @@
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td><td><div class="summary">Determines whether the specified object is equal to the current object.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_Factory.htm">Factory</a></td><td /></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_Render_RenderContent_Finalize.htm">Finalize</a></td><td><div class="summary">
             Finalizer
             </div> (Overrides <a href="https://docs.microsoft.com/dotnet/api/system.object.finalize#system-object-finalize" target="_blank" rel="noopener noreferrer">Object<span id="LST73ED3BC3_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73ED3BC3_16?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Finalize<span id="LST73ED3BC3_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73ED3BC3_17?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_FindChild.htm">FindChild</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_ForDisplay.htm">ForDisplay</a></td><td><div class="summary">
-            The only place a single proxy can be displayed is in the
-            New Content Control main thumbnail. All other attempts to
-            use a single proxy in a UI require it to be replaced with
-            the corresponding multi proxy. Single proxies override this
-            to find the corresponding multi proxy.
-            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Render_RenderContent_FromId.htm">FromId</a></td><td><div class="summary">
+             **** This method is for proxies and will be marked obsolete in the future ****
+            
+             The only place a single proxy can be displayed is in the
+             New Content Control main thumbnail. All other attempts to
+             use a single proxy in a UI require it to be replaced with
+             the corresponding multi proxy. Single proxies override this
+             to find the corresponding multi proxy.
+             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Render_RenderContent_FromId.htm">FromId</a></td><td><div class="summary">
             Search for a content object based on its Id
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Render_RenderContent_FromXml.htm">FromXml(String)</a></td><td> <strong>Obsolete. </strong></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Render_RenderContent_FromXml_1.htm">FromXml(String, RhinoDoc)</a></td><td><div class="summary">
             Creates a new content from the XML data.  The resulting content will not be attached to the document.
@@ -283,12 +284,11 @@
             This allows a content to have more than one UI for the same content type.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_GetUnderlyingInstances.htm">GetUnderlyingInstances</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_Icon.htm">Icon</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_Initialize.htm">Initialize</a></td><td> <strong>Obsolete. </strong></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_IsCompatible.htm">IsCompatible</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_IsContentTypeAcceptableAsChild.htm">IsContentTypeAcceptableAsChild</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_IsFactoryProductAcceptableAsChild.htm">IsFactoryProductAcceptableAsChild(ContentFactory, String)</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_IsFactoryProductAcceptableAsChild_1.htm">IsFactoryProductAcceptableAsChild(Guid, String, String)</a></td><td><div class="summary">
             Override this method to restrict the type of acceptable child content.
-            The default implementation of this method just returns true.
+            The default implementation of this method returns true if the factory kind is 'texture'.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_IsReference.htm">IsReference</a></td><td><div class="summary">
              Query whether or not the content or any of its ancestors is a reference content.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_IsRenderHashCached.htm">IsRenderHashCached</a></td><td> <strong>Obsolete. </strong><div class="summary">
-            This method is deprecated and no longer called. For more information
-            see <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a></div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Render_RenderContent_LoadFromFile.htm">LoadFromFile</a></td><td><div class="summary">
+            This method is deprecated and no longer called. For more information see <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a></div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Render_RenderContent_LoadFromFile.htm">LoadFromFile</a></td><td><div class="summary">
             Loads content from a library file.  Does not add the content to the document.  Use RhinoDoc.RenderMaterials.Add or similar.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_MakeCopy.htm">MakeCopy</a></td><td><div class="summary">
             Create a copy of the render content. All content is the same, except for the
@@ -333,15 +333,17 @@
             Call RegisterContent in your plug-in's OnLoad function in order to register all of the
             custom RenderContent classes in your assembly.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_RenderHashExclude.htm">RenderHashExclude(CrcRenderHashFlags, String)</a></td><td><div class="summary">
-            As RenderHash, but ignore parameter names given.
+            As RenderHash, but allows you to specify flags and exclude specific parameters.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_RenderHashExclude_2.htm">RenderHashExclude(TextureRenderHashFlags, String)</a></td><td><div class="summary">
-            As RenderHash, but ignore parameter names given.
+            This method is deprecated in favor of the one that takes CrcRenderHashFlags.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_RenderHashExclude_1.htm">RenderHashExclude(CrcRenderHashFlags, String, LinearWorkflow)</a></td><td><div class="summary">
-            As RenderHash, but ignore parameter names given.
-            Use this version of the function to calculate a render hash when you have the linear workflow information and you
-            are not running on the main thread.  Access to LinearWorkflow data requires document access.
-            CrcRenderHashFlags.ExcludeLinearWorkflow must be specified.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_Replace.htm">Replace</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SetChild.htm">SetChild(RenderContent, String)</a></td><td><div class="summary">
+            As RenderHash, but allows you to specify flags and exclude specific parameters.
+            Use this version of the function to calculate a render hash when you have the linear workflow
+            information and you are not running on the main thread. Access to LinearWorkflow data requires
+            document access. CrcRenderHashFlags.ExcludeLinearWorkflow must be specified.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_Replace.htm">Replace</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SaveToFile.htm">SaveToFile</a></td><td><div class="summary">
+            Saves content to a file - RMTL, RENV or RTEX.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SetChild.htm">SetChild(RenderContent, String)</a></td><td><div class="summary">
             Set another content as a child of this content. This content may or may
             not be attached to a document.  If this content already has a child
             with the specified child slot name, that child will be deleted.  If
@@ -349,9 +351,8 @@
             without sending any events.  If this content is attached to a document,
             the necessary events will be sent to update the UI.
             Note:
-              Do not call this method to add children in your constructor. If you
-              want to add default children, you should override Initialize() and add
-              them there.
+              Do not call this method to add children in your constructor. If you want to
+              add default children, you should override Initialize() and add them there.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SetChild_1.htm">SetChild(RenderContent, String, RenderContent<span id="LST73ED3BC3_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST73ED3BC3_18?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>ChangeContexts)</a></td><td> <strong>Obsolete. </strong><div class="summary">
             Set another content as a child of this content. This content may or may
             not be attached to a document.  If this content already has a child
@@ -378,8 +379,8 @@
             Extra requirements are a way of specifying extra functionality on parameters in the automatic UI.
             See IAutoUIExtraRequirements.h in the C++ RDK SDK for string definitions for the parameter names.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SetIsRenderHashRecursive.htm">SetIsRenderHashRecursive</a></td><td><div class="summary">
-            By default, RenderHash() recurses into children when computing the render CRC.
-            However, some applications may require children to be excluded from the render CRC calculation.
+            By default, RenderHash recurses into children when computing the render hash.
+            However, some applications may require children to be excluded from the render hash calculation.
             Call this method to enable or disable recursing into children.
             see <a href="P_Rhino_Render_RenderContent_RenderHash.htm">RenderHash</a></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SetName.htm">SetName</a></td><td><div class="summary">
              Set instance name for this content
@@ -390,8 +391,7 @@
             Set the named parameter value for this content instance.
             If you do not support this parameter, call the base class.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SetRenderHash.htm">SetRenderHash</a></td><td> <strong>Obsolete. </strong><div class="summary">
-            This method is deprecated and no longer called. For more information
-            see <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SmartUngroupRecursive.htm">SmartUngroupRecursive</a></td><td><div class="summary">
+            This method is deprecated and no longer called. For more information see <a href="M_Rhino_Render_RenderContent_CalculateRenderHash.htm">CalculateRenderHash(UInt64)</a></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Render_RenderContent_SmartUngroupRecursive.htm">SmartUngroupRecursive</a></td><td><div class="summary">
             Remove this content and all its children from any instance groups they may be a member of.
             If any content in the same document is left alone in the group, that content is also ungrouped.
             Records undo and sends events OnContentChanged and OnContentGroupIdChanged.
@@ -431,6 +431,6 @@
             Used to monitor render content preview updates.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="E_Rhino_Render_RenderContent_CurrentEnvironmentChanged.htm">CurrentEnvironmentChanged</a></td><td><div class="summary">
             Event fired when changes to current environments have been made.
-            This will be one of Background, ReflectionAndRefraction or Skylighting
+            This will be one of Background, Reflection or Skylighting
             Since 6.11
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Render.htm">Rhino.Render Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 7.33.23248.13000 (2023-09-05)<br />Copyright © 2009-2023 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Render.htm">Rhino.Render Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.6.24101.05000 (2024-04-10)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

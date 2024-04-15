@@ -9,7 +9,7 @@
 							</th><th>Name</th><th>Description</th></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn__ctor.htm">PlugIn</a></td><td><div class="summary">Initializes a new instance of the <span class="selflink">PlugIn</span> class</div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_PlugIns_PlugIn_AskOnLoadProtection.htm">AskOnLoadProtection</a></td><td><div class="summary">
-            If true, Rhino will display a warning dialog when load-protected plug-ins are attempting to load. 
+            If true, Rhino will display a warning dialog when load-protected plug-ins are attempting to load.
             If false, load-protected plug-ins will silently not load.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Assembly.htm">Assembly</a></td><td><div class="summary">Source assembly for this plug-in.</div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Description.htm">Description</a></td><td><div class="summary">
             Returns the description of the plug-in, as found in the plug-in's assembly attributes.
@@ -28,11 +28,11 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Settings.htm">Settings</a></td><td><div class="summary">
             Persistent plug-in settings.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_SettingsDirectory.htm">SettingsDirectory</a></td><td><div class="summary">
-            Get the plug-in's settings directory. This is the directory where the plug-in's persistent settings files are saved. 
+            Get the plug-in's settings directory. This is the directory where the plug-in's persistent settings files are saved.
             This directory will be located in the user's profile folder.
             Note, this does not verify the directory exists.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_SettingsDirectoryAllUsers.htm">SettingsDirectoryAllUsers</a></td><td><div class="summary">
-            Get the plug-in's "all users" settings directory. 
+            Get the plug-in's "all users" settings directory.
             This directory will be located in the system's program data folder.
             Note, this does not verify the directory exists.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_PlugIns_PlugIn_Version.htm">Version</a></td><td><div class="summary">
@@ -71,7 +71,7 @@
             the Rhino licensing system. If the plug-in is installed as a standalone
             node, the locally installed license will be validated. If the plug-in
             is installed as a network node, a loaner license will be requested by
-            the system's assigned Zoo server. If the Zoo server finds and returns 
+            the system's assigned Zoo server. If the Zoo server finds and returns
             a license, then this license will be validated. If no license is found,
             then the user will be prompted to provide a license key, which will be
             validated.
@@ -80,13 +80,13 @@
             the Rhino licensing system. If the plug-in is installed as a standalone
             node, the locally installed license will be validated. If the plug-in
             is installed as a network node, a loaner license will be requested by
-            the system's assigned Zoo server. If the Zoo server finds and returns 
+            the system's assigned Zoo server. If the Zoo server finds and returns
             a license, then this license will be validated. If no license is found,
             then the user will be prompted to provide a license key, which will be
             validated.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_GetLicenseOwner.htm">GetLicenseOwner</a></td><td><div class="summary">
             Get the customer name and organization used when entering the product
-            license. 
+            license.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_PlugIns_PlugIn_GetLoadProtection.htm">GetLoadProtection</a></td><td><div class="summary">
             Get load protection state for a plug-in
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_PlugIns_PlugIn_GetPlugInInfo.htm">GetPlugInInfo</a></td><td><div class="summary">
@@ -134,12 +134,12 @@
             idle state.  Calling this method will raise any pending changed events
             regardless of Rhino's current idle state or if a command is running.
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ReadDocument.htm">ReadDocument</a></td><td><div class="summary">
-            Called whenever a Rhino document is being loaded and plug-in user data was
-            encountered written by a plug-in with this plug-in's GUID.
-            </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_RegisterCommand.htm">RegisterCommand</a></td><td /></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ResetMessageBoxes.htm">ResetMessageBoxes</a></td><td /></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ReturnLicense.htm">ReturnLicense</a></td><td><div class="summary">
+             Called whenever a Rhino document is being loaded and plug-in user data was
+             encountered written by a plug-in with this plug-in's GUID.
+             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_RegisterCommand.htm">RegisterCommand</a></td><td /></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ResetMessageBoxes.htm">ResetMessageBoxes</a></td><td /></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ReturnLicense.htm">ReturnLicense</a></td><td><div class="summary">
             Returns, or releases, a product license that was obtained from the Rhino
             licensing system. Note, most plug-ins do not need to call this as the
-            Rhino licensing system will return all licenses when Rhino shuts down. 
+            Rhino licensing system will return all licenses when Rhino shuts down.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_PlugIns_PlugIn_SavePluginSettings.htm">SavePluginSettings</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_SaveSettings.htm">SaveSettings</a></td><td><div class="summary">
             Write settings to disk which will raise a <a href="E_Rhino_PlugIns_PlugIn_SettingsSaved.htm">SettingsSaved</a>
             event.
@@ -147,13 +147,13 @@
             Set load protection state for a certain plug-in
             </div></td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_ShouldCallWriteDocument.htm">ShouldCallWriteDocument</a></td><td><div class="summary">
             Called whenever a Rhino is about to save a .3dm file.
-            If you want to save plug-in document data when a model is 
+            If you want to save plug-in document data when a model is
             saved in a version 5 .3dm file, then you must override this
             function to return true and you must override WriteDocument().
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.tostring#system-object-tostring" target="_blank" rel="noopener noreferrer">ToString</a></td><td><div class="summary">Returns a string that represents the current object.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="protected;declared;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_PlugIns_PlugIn_WriteDocument.htm">WriteDocument</a></td><td><div class="summary">
-            Called when Rhino is saving a .3dm file to allow the plug-in
-            to save document user data.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
+             Called when Rhino is saving a .3dm file to allow the plug-in
+             to save document user data.
+             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Events</span></div><div id="ID6RBSection" class="collapsibleSection"><table class="members" id="eventList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /></td><td><a href="E_Rhino_PlugIns_PlugIn_SettingsSaved.htm">SettingsSaved</a></td><td><div class="summary">
             This event is raised when an instance of Rhino has modified the
@@ -161,4 +161,4 @@
             property.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubevent.gif" alt="Public event" title="Public event" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="E_Rhino_PlugIns_PlugIn_UnknownUserData.htm">UnknownUserData</a></td><td><div class="summary">
             This event is raised when a 3dm file is loaded with unknown user data, and the plug-in to handle it could not be loaded.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_PlugIns.htm">Rhino.PlugIns Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 7.33.23248.13000 (2023-09-05)<br />Copyright © 2009-2023 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID7RB')" onkeypress="SectionExpandCollapse_CheckKey('ID7RB', event)" tabindex="0"><img id="ID7RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID7RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_PlugIns.htm">Rhino.PlugIns Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.6.24101.05000 (2024-04-10)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
