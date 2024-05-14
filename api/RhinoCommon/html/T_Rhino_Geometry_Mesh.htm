@@ -124,7 +124,19 @@
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_GeometryBase_ComponentIndex.htm">ComponentIndex</a></td><td><div class="summary">
             If this piece of geometry is a component in something larger, like a BrepEdge
             in a Brep, then this function returns the component index.
-            </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Geometry_Mesh_ComputeThickness.htm">ComputeThickness(IEnumerable<span id="LSTEC3142AA_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Mesh<span id="LSTEC3142AA_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_12?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Double)</a></td><td><div class="summary">
+            </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_ComputeCurvatureApproximation.htm">ComputeCurvatureApproximation</a></td><td><div class="summary">
+            Compute an approximation of the discrete curvatures of the mesh vertices, according to which
+            type of curvature information is requested.
+            This method will not yield meaningful values on nonmanifold vertices, and nan on naked vertices.
+            For now, this method operates solely on the mesh topology (the fully welded mesh),
+            but distribtes the result across all the ordinary vertices.
+            This method is a const and thread-safe method and will leave the m_K array untouched.
+            
+            An integer indicating which curvature is desired.
+            gaussian_curvature = 1, mean_curvature = 2, minimum unsigned radius of curvature = 3, maximum unsigned radius of curvature = 4
+            
+            Resulting curvature array on success, null on failure. On success, the length of the array is the number of vertices.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Geometry_Mesh_ComputeThickness.htm">ComputeThickness(IEnumerable<span id="LSTEC3142AA_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_11?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Mesh<span id="LSTEC3142AA_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_12?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Double)</a></td><td><div class="summary">
             Compute thickness metrics for this mesh.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_Geometry_Mesh_ComputeThickness_2.htm">ComputeThickness(IEnumerable<span id="LSTEC3142AA_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_13?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>Mesh<span id="LSTEC3142AA_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_14?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script>, Double, CancellationToken)</a></td><td><div class="summary">
             Compute thickness metrics for this mesh.
@@ -242,12 +254,6 @@
             Removes topology data, forcing all topology information to be recomputed.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_DestroyTree.htm">DestroyTree</a></td><td><div class="summary">
             Destroys the mesh vertex access tree.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_DiscreteGaussianCurvatures.htm">DiscreteGaussianCurvatures</a></td><td><div class="summary">
-            Compute the (discrete) Gaussian curvatures of the mesh vertices.
-            This method computes the discrete Gaussian curvatures, by taking the angle
-            defects at each vertex and dividing them
-            by the face areas, and taking care of the mesh topology.
-            This method will not yield meaningful values on nonmanifold vertices.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Runtime_CommonObject_Dispose.htm">Dispose<span id="LSTEC3142AA_53"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_53?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
             Actively reclaims unmanaged resources that this instance uses.
             </div> (Inherited from <a href="T_Rhino_Runtime_CommonObject.htm">CommonObject</a>.)</td></tr><tr data="protected;inherited;notNetfw;"><td><img src="../icons/protmethod.gif" alt="Protected method" title="Protected method" /></td><td><a href="M_Rhino_Geometry_GeometryBase_Dispose.htm">Dispose(Boolean)</a></td><td><div class="summary">
@@ -299,10 +305,16 @@
             Aligned Bounding box solver. Gets the world axis aligned bounding box for the transformed geometry.
             </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_GeometryBase_GetBoundingBox_1.htm">GetBoundingBox(Plane, Box<span id="LSTEC3142AA_58"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_58?cpp=%");</script>)</a></td><td><div class="summary">
             Aligned Bounding box solver. Gets the plane aligned bounding box.
-            </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm">GetCachedTextureCoordinates</a></td><td><div class="summary">
+            </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates_1.htm">GetCachedTextureCoordinates(Guid)</a></td><td><div class="summary">
             Call this method to get cached texture coordinates for a texture
             mapping with the specified Id.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td><td><div class="summary">Serves as the default hash function.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetNakedEdgePointStatus.htm">GetNakedEdgePointStatus</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm">GetCachedTextureCoordinates(RhinoObject, Texture)</a></td><td><div class="summary">
+             Returns cached texture coordinate set based on the texture.
+             Make sure to set up cached texture coordinates for all textures in the material first by calling
+              SetCachedTextureCoordinatesFromMaterial(RhinoObject rhinoObject, Rhino.DocObjects.Material material)
+            
+             If this function returns null then there are no texture coordinates available.
+             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#system-object-gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td><td><div class="summary">Serves as the default hash function.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetNakedEdgePointStatus.htm">GetNakedEdgePointStatus</a></td><td><div class="summary">
             Returns an array of Boolean values equal in length to the number of vertices in this
             mesh. Each value corresponds to a mesh vertex and is set to true if the vertex is
             not completely surrounded by faces.
@@ -437,7 +449,16 @@
             Scales the object by the specified factor. The scale is centered at the origin.
             </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetCachedTextureCoordinates.htm">SetCachedTextureCoordinates</a></td><td><div class="summary">
             Set cached texture coordinates using the specified mapping.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetSurfaceParametersFromTextureCoordinates.htm">SetSurfaceParametersFromTextureCoordinates</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetCachedTextureCoordinatesFromMaterial.htm">SetCachedTextureCoordinatesFromMaterial</a></td><td><div class="summary">
+             Sets up cached texture coordinate set for each texture in the material.
+             Textures in the Material define which mapping channels are used and
+             the RhinoObject defines what texture mapping is used for each mapping channel.
+             After this method is called all necessary texture coordinate sets are cached
+             and correct texture coordinates for each texture can be fetched using
+              GetCachedTextureCoordinates(RhinoObject rhinoObject, Rhino.DocObjects.Texture texture)
+            
+             If any texture coordinates are already cached they will not be re-computed.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetSurfaceParametersFromTextureCoordinates.htm">SetSurfaceParametersFromTextureCoordinates</a></td><td><div class="summary">
             If the mesh does not have surface evaluation parameters,
             has texture coordinates, and the surface parameters can
             be set in a way so the existing texture coordinates can
@@ -539,4 +560,4 @@
             Constructs new mesh from the current one, with edge softening applied to it.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_WithShutLining.htm">WithShutLining</a></td><td><div class="summary">
             Constructs new mesh from the current one, with shut lining applied to it.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.6.24101.05000 (2024-04-10)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.7.24134.03000 (2024-05-13)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

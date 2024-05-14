@@ -445,6 +445,7 @@
     <HelpKINode Title="GroupTable.AddToGroup Method " Url="html/Overload_Rhino_DocObjects_Tables_GroupTable_AddToGroup.htm" />
     <HelpKINode Title="ObjectAttributes.AddToGroup Method " Url="html/M_Rhino_DocObjects_ObjectAttributes_AddToGroup.htm" />
   </HelpKINode>
+  <HelpKINode Title="AddToHelpMenu property" Url="html/P_Rhino_PlugIns_PlugIn_AddToHelpMenu.htm" />
   <HelpKINode Title="AddTransformObjects method" Url="html/M_Rhino_Input_Custom_GetTransform_AddTransformObjects.htm" />
   <HelpKINode Title="AddTrimCurve method" Url="html/M_Rhino_Geometry_Brep_AddTrimCurve.htm" />
   <HelpKINode Title="AddUISections method" Url="html/M_Rhino_Render_PostEffects_PostEffect_AddUISections.htm" />
@@ -479,8 +480,8 @@
   <HelpKINode Title="AfterLateEffects enumeration member" Url="html/T_Rhino_Render_PostEffects_PostEffectHistograms.htm" />
   <HelpKINode Title="AfterToneMapping enumeration member" Url="html/T_Rhino_Render_PostEffects_PostEffectHistograms.htm" />
   <HelpKINode Title="AInsideB enumeration member" Url="html/T_Rhino_Geometry_RegionContainment.htm" />
-  <HelpKINode Title="AiScale property" Url="html/P_Rhino_FileIO_FileAiReadOptions_AiScale.htm" />
   <HelpKINode Title="AIScale property" Url="html/P_Rhino_FileIO_FileAiWriteOptions_AIScale.htm" />
+  <HelpKINode Title="AiScale property" Url="html/P_Rhino_FileIO_FileAiReadOptions_AiScale.htm" />
   <HelpKINode Title="AiUnits property">
     <HelpKINode Title="FileAiReadOptions.AiUnits Property " Url="html/P_Rhino_FileIO_FileAiReadOptions_AiUnits.htm" />
     <HelpKINode Title="FileAiWriteOptions.AiUnits Property " Url="html/P_Rhino_FileIO_FileAiWriteOptions_AiUnits.htm" />
@@ -543,8 +544,8 @@
   <HelpKINode Title="Alpha enumeration member" Url="html/T_Rhino_Render_RenderWindow_StandardChannels.htm" />
   <HelpKINode Title="Alpha property">
     <HelpKINode Title="ColorLAB.Alpha Property " Url="html/P_Rhino_Display_ColorLAB_Alpha.htm" />
-    <HelpKINode Title="PhysicallyBased.Alpha Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Alpha.htm" />
     <HelpKINode Title="PhysicallyBased.Alpha Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Alpha.htm" />
+    <HelpKINode Title="PhysicallyBased.Alpha Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Alpha.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.Alpha Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_Alpha.htm" />
   </HelpKINode>
   <HelpKINode Title="AlphaTransparency property" Url="html/P_Rhino_DocObjects_Material_AlphaTransparency.htm" />
@@ -663,8 +664,8 @@
   <HelpKINode Title="AltHome enumeration member" Url="html/T_Rhino_ApplicationSettings_ShortcutKey.htm" />
   <HelpKINode Title="AltI enumeration member" Url="html/T_Rhino_ApplicationSettings_ShortcutKey.htm" />
   <HelpKINode Title="Altitude property">
-    <HelpKINode Title="GroundPlane.Altitude Property " Url="html/P_Rhino_Render_GroundPlane_Altitude.htm" />
     <HelpKINode Title="GroundPlane.Altitude Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_Altitude.htm" />
+    <HelpKINode Title="GroundPlane.Altitude Property " Url="html/P_Rhino_Render_GroundPlane_Altitude.htm" />
     <HelpKINode Title="Sun.Altitude Property " Url="html/P_Rhino_Render_Sun_Altitude.htm" />
   </HelpKINode>
   <HelpKINode Title="AltitudeA property" Url="html/P_Rhino_Geometry_Triangle3d_AltitudeA.htm" />
@@ -774,8 +775,8 @@
   <HelpKINode Title="AmbientLightingColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_AmbientLightingColor.htm" />
   <HelpKINode Title="AmbientOcclusion enumeration member" Url="html/T_Rhino_Display_DisplayPipelineAttributes_LightingSchema.htm" />
   <HelpKINode Title="AmbientOcclusion property">
-    <HelpKINode Title="PhysicallyBased.AmbientOcclusion Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AmbientOcclusion.htm" />
     <HelpKINode Title="PhysicallyBased.AmbientOcclusion Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_AmbientOcclusion.htm" />
+    <HelpKINode Title="PhysicallyBased.AmbientOcclusion Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AmbientOcclusion.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.AmbientOcclusion Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_AmbientOcclusion.htm" />
   </HelpKINode>
   <HelpKINode Title="AmbientOcclusionId property" Url="html/P_Rhino_Display_DisplayModeDescription_AmbientOcclusionId.htm" />
@@ -946,8 +947,8 @@
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Anisotropic Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Anisotropic.htm" />
   </HelpKINode>
   <HelpKINode Title="AnisotropicRotation property">
-    <HelpKINode Title="PhysicallyBased.AnisotropicRotation Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AnisotropicRotation.htm" />
     <HelpKINode Title="PhysicallyBased.AnisotropicRotation Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_AnisotropicRotation.htm" />
+    <HelpKINode Title="PhysicallyBased.AnisotropicRotation Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AnisotropicRotation.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.AnisotropicRotation Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_AnisotropicRotation.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.AnisotropicRotation Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_AnisotropicRotation.htm" />
   </HelpKINode>
@@ -1687,8 +1688,8 @@
   <HelpKINode Title="BarycentricCoordsAt method" Url="html/M_Rhino_Geometry_Triangle3d_BarycentricCoordsAt.htm" />
   <HelpKINode Title="BaseAngleDegrees property" Url="html/P_Rhino_Input_Custom_GetCone_BaseAngleDegrees.htm" />
   <HelpKINode Title="BaseColor property">
-    <HelpKINode Title="PhysicallyBased.BaseColor Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_BaseColor.htm" />
     <HelpKINode Title="PhysicallyBased.BaseColor Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_BaseColor.htm" />
+    <HelpKINode Title="PhysicallyBased.BaseColor Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_BaseColor.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.BaseColor Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_BaseColor.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.BaseColor Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_BaseColor.htm" />
   </HelpKINode>
@@ -2261,6 +2262,7 @@
   <HelpKINode Title="Brep.CreateDevelopableLoft method" Url="html/Overload_Rhino_Geometry_Brep_CreateDevelopableLoft.htm" />
   <HelpKINode Title="Brep.CreateEdgeSurface method" Url="html/M_Rhino_Geometry_Brep_CreateEdgeSurface.htm" />
   <HelpKINode Title="Brep.CreateFilletEdges method" Url="html/Overload_Rhino_Geometry_Brep_CreateFilletEdges.htm" />
+  <HelpKINode Title="Brep.CreateFilletEdgesVariableRadius method" Url="html/M_Rhino_Geometry_Brep_CreateFilletEdgesVariableRadius.htm" />
   <HelpKINode Title="Brep.CreateFilletSurface method" Url="html/Overload_Rhino_Geometry_Brep_CreateFilletSurface.htm" />
   <HelpKINode Title="Brep.CreateFromBox method" Url="html/Overload_Rhino_Geometry_Brep_CreateFromBox.htm" />
   <HelpKINode Title="Brep.CreateFromCone method" Url="html/M_Rhino_Geometry_Brep_CreateFromCone.htm" />
@@ -2320,6 +2322,7 @@
   <HelpKINode Title="Brep.GetConnectedComponents method" Url="html/M_Rhino_Geometry_Brep_GetConnectedComponents.htm" />
   <HelpKINode Title="Brep.GetPointInside method" Url="html/M_Rhino_Geometry_Brep_GetPointInside.htm" />
   <HelpKINode Title="Brep.GetRegions method" Url="html/M_Rhino_Geometry_Brep_GetRegions.htm" />
+  <HelpKINode Title="Brep.GetTangentConnectedComponents method" Url="html/M_Rhino_Geometry_Brep_GetTangentConnectedComponents.htm" />
   <HelpKINode Title="Brep.GetVolume method" Url="html/Overload_Rhino_Geometry_Brep_GetVolume.htm" />
   <HelpKINode Title="Brep.GetWireframe method" Url="html/M_Rhino_Geometry_Brep_GetWireframe.htm" />
   <HelpKINode Title="Brep.HasRegionTopology property" Url="html/P_Rhino_Geometry_Brep_HasRegionTopology.htm" />
@@ -2390,6 +2393,15 @@
   <HelpKINode Title="BrepEdge.TrimCount property" Url="html/P_Rhino_Geometry_BrepEdge_TrimCount.htm" />
   <HelpKINode Title="BrepEdge.TrimIndices method" Url="html/M_Rhino_Geometry_BrepEdge_TrimIndices.htm" />
   <HelpKINode Title="BrepEdge.Valence property" Url="html/P_Rhino_Geometry_BrepEdge_Valence.htm" />
+  <HelpKINode Title="BrepEdgeFilletDistance class">
+    <HelpKINode Title="BrepEdgeFilletDistance Class" Url="html/T_Rhino_Geometry_BrepEdgeFilletDistance.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Rhino_Geometry_BrepEdgeFilletDistance__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_BrepEdgeFilletDistance.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_BrepEdgeFilletDistance.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BrepEdgeFilletDistance.BrepEdgeFilletDistance constructor" Url="html/M_Rhino_Geometry_BrepEdgeFilletDistance__ctor.htm" />
+  <HelpKINode Title="BrepEdgeFilletDistance.EdgeParameter property" Url="html/P_Rhino_Geometry_BrepEdgeFilletDistance_EdgeParameter.htm" />
+  <HelpKINode Title="BrepEdgeFilletDistance.FilletDistance property" Url="html/P_Rhino_Geometry_BrepEdgeFilletDistance_FilletDistance.htm" />
   <HelpKINode Title="BrepEdgeList class">
     <HelpKINode Title="BrepEdgeList Class" Url="html/T_Rhino_Geometry_Collections_BrepEdgeList.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Collections_BrepEdgeList.htm" />
@@ -2621,8 +2633,8 @@
     <HelpKINode Title="TextureType Enumeration" Url="html/T_Rhino_DocObjects_TextureType.htm" />
   </HelpKINode>
   <HelpKINode Title="Bump property">
-    <HelpKINode Title="PhysicallyBased.Bump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Bump.htm" />
     <HelpKINode Title="PhysicallyBased.Bump Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Bump.htm" />
+    <HelpKINode Title="PhysicallyBased.Bump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Bump.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Bump Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Bump.htm" />
   </HelpKINode>
   <HelpKINode Title="Button1 enumeration member" Url="html/T_Rhino_UI_ShowMessageDefaultButton.htm" />
@@ -2873,6 +2885,7 @@
     <HelpKINode Title="AngularDimension.CenterPoint Property " Url="html/P_Rhino_Geometry_AngularDimension_CenterPoint.htm" />
     <HelpKINode Title="RadialDimension.CenterPoint Property " Url="html/P_Rhino_Geometry_RadialDimension_CenterPoint.htm" />
   </HelpKINode>
+  <HelpKINode Title="centimeters enumeration member" Url="html/T_Rhino_FileIO_FilePdfReadOptions_PDF_UNITS.htm" />
   <HelpKINode Title="Centimeters enumeration member">
     <HelpKINode Title="DimensionStyle.LengthDisplay Enumeration" Url="html/T_Rhino_DocObjects_DimensionStyle_LengthDisplay.htm" />
     <HelpKINode Title="FileAiReadOptions.Units Enumeration" Url="html/T_Rhino_FileIO_FileAiReadOptions_Units.htm" />
@@ -2880,7 +2893,6 @@
     <HelpKINode Title="FileEpsReadOptions.Units Enumeration" Url="html/T_Rhino_FileIO_FileEpsReadOptions_Units.htm" />
     <HelpKINode Title="UnitSystem Enumeration" Url="html/T_Rhino_UnitSystem.htm" />
   </HelpKINode>
-  <HelpKINode Title="centimeters enumeration member" Url="html/T_Rhino_FileIO_FilePdfReadOptions_PDF_UNITS.htm" />
   <HelpKINode Title="Centroid property">
     <HelpKINode Title="AreaMassProperties.Centroid Property " Url="html/P_Rhino_Geometry_AreaMassProperties_Centroid.htm" />
     <HelpKINode Title="LengthMassProperties.Centroid Property " Url="html/P_Rhino_Geometry_LengthMassProperties_Centroid.htm" />
@@ -3073,6 +3085,7 @@
     <HelpKINode Title="LicenseUtils.CheckInLicense Method " Url="html/M_Rhino_PlugIns_LicenseUtils_CheckInLicense.htm" />
   </HelpKINode>
   <HelpKINode Title="CheckMeshes method" Url="html/M_Rhino_DocObjects_MeshObject_CheckMeshes.htm" />
+  <HelpKINode Title="CheckNewObject property" Url="html/P_Rhino_RhinoApp_CheckNewObject.htm" />
   <HelpKINode Title="CheckOutExpirationDate property" Url="html/P_Rhino_PlugIns_LicenseStatus_CheckOutExpirationDate.htm" />
   <HelpKINode Title="CheckOutLicense method">
     <HelpKINode Title="IZooClientUtilities.CheckOutLicense Method " Url="html/M_Rhino_Runtime_IZooClientUtilities_CheckOutLicense.htm" />
@@ -3324,13 +3337,13 @@
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Clearcoat Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Clearcoat.htm" />
   </HelpKINode>
   <HelpKINode Title="ClearcoatBump property">
-    <HelpKINode Title="PhysicallyBased.ClearcoatBump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatBump.htm" />
     <HelpKINode Title="PhysicallyBased.ClearcoatBump Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_ClearcoatBump.htm" />
+    <HelpKINode Title="PhysicallyBased.ClearcoatBump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatBump.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.ClearcoatBump Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_ClearcoatBump.htm" />
   </HelpKINode>
   <HelpKINode Title="ClearcoatRoughness property">
-    <HelpKINode Title="PhysicallyBased.ClearcoatRoughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_ClearcoatRoughness.htm" />
     <HelpKINode Title="PhysicallyBased.ClearcoatRoughness Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatRoughness.htm" />
+    <HelpKINode Title="PhysicallyBased.ClearcoatRoughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_ClearcoatRoughness.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ClearcoatRoughness Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_ClearcoatRoughness.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.ClearcoatRoughness Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_ClearcoatRoughness.htm" />
   </HelpKINode>
@@ -3742,7 +3755,6 @@
   <HelpKINode Title="ColorLCH.MakePositive method" Url="html/M_Rhino_Display_ColorLCH_MakePositive.htm" />
   <HelpKINode Title="ColorMenuButton property" Url="html/P_Rhino_UI_Gumball_GumballAppearanceSettings_ColorMenuButton.htm" />
   <HelpKINode Title="ColorMethod property" Url="html/P_Rhino_FileIO_FileDwgWriteOptions_ColorMethod.htm" />
-  <HelpKINode Title="ColorReductionPct property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_ColorReductionPct.htm" />
   <HelpKINode Title="ColorRGBA structure">
     <HelpKINode Title="ColorRGBA Structure" Url="html/T_Rhino_Display_ColorRGBA.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Display_ColorRGBA__ctor.htm" />
@@ -4216,6 +4228,7 @@
     <HelpKINode Title="VolumeMassProperties.Compute Method " Url="html/Overload_Rhino_Geometry_VolumeMassProperties_Compute.htm" />
   </HelpKINode>
   <HelpKINode Title="ComputeCurvature property" Url="html/P_Rhino_Geometry_MeshingParameters_ComputeCurvature.htm" />
+  <HelpKINode Title="ComputeCurvatureApproximation method" Url="html/M_Rhino_Geometry_Mesh_ComputeCurvatureApproximation.htm" />
   <HelpKINode Title="ComputedPlotColor method" Url="html/Overload_Rhino_DocObjects_ObjectAttributes_ComputedPlotColor.htm" />
   <HelpKINode Title="ComputedPlotWeight method" Url="html/Overload_Rhino_DocObjects_ObjectAttributes_ComputedPlotWeight.htm" />
   <HelpKINode Title="ComputeDraftCurve method" Url="html/Overload_Rhino_Geometry_Silhouette_ComputeDraftCurve.htm" />
@@ -4669,6 +4682,7 @@
   <HelpKINode Title="CopyAttributesFrom method" Url="html/M_Rhino_DocObjects_Layer_CopyAttributesFrom.htm" />
   <HelpKINode Title="CopyCoordinates enumeration member" Url="html/T_Rhino_Geometry_SubDCreationOptions_TextureCoordinateOption.htm" />
   <HelpKINode Title="CopyDisplayMode method" Url="html/M_Rhino_Display_DisplayModeDescription_CopyDisplayMode.htm" />
+  <HelpKINode Title="CopyEvaluationCache method" Url="html/M_Rhino_Geometry_SubD_CopyEvaluationCache.htm" />
   <HelpKINode Title="CopyFrom method">
     <HelpKINode Title="DimensionStyle.CopyFrom Method " Url="html/M_Rhino_DocObjects_DimensionStyle_CopyFrom.htm" />
     <HelpKINode Title="Dithering.CopyFrom Method " Url="html/M_Rhino_Render_Dithering_CopyFrom.htm" />
@@ -4688,6 +4702,7 @@
   <HelpKINode Title="CopyHistoryOnReplace method" Url="html/M_Rhino_DocObjects_RhinoObject_CopyHistoryOnReplace.htm" />
   <HelpKINode Title="CopyMapping enumeration member" Url="html/T_Rhino_Geometry_SubDCreationOptions_TextureCoordinateOption.htm" />
   <HelpKINode Title="CopyOnReplaceObject property" Url="html/P_Rhino_DocObjects_HistoryRecord_CopyOnReplaceObject.htm" />
+  <HelpKINode Title="Copyright property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Copyright.htm" />
   <HelpKINode Title="CopyTo method">
     <HelpKINode Title="CachedTextureCoordinates.CopyTo Method " Url="html/M_Rhino_Render_CachedTextureCoordinates_CopyTo.htm" />
     <HelpKINode Title="CurveIntersections.CopyTo Method " Url="html/M_Rhino_Geometry_Intersect_CurveIntersections_CopyTo.htm" />
@@ -4834,8 +4849,8 @@
   <HelpKINode Title="CountV property" Url="html/P_Rhino_Geometry_Collections_NurbsSurfacePointList_CountV.htm" />
   <HelpKINode Title="COV method" Url="html/Overload_Rhino_UI_LOC_COV.htm" />
   <HelpKINode Title="CoverWalls enumeration member" Url="html/T_Rhino_Geometry_MeshExtruderParameterMode.htm" />
-  <HelpKINode Title="CPlane enumeration member" Url="html/T_Rhino_Geometry_SmoothingCoordinateSystem.htm" />
   <HelpKINode Title="Cplane enumeration member" Url="html/T_Rhino_FileIO_FileDwgWriteOptions_FlattenMode.htm" />
+  <HelpKINode Title="CPlane enumeration member" Url="html/T_Rhino_Geometry_SmoothingCoordinateSystem.htm" />
   <HelpKINode Title="CPlaneNormalVector enumeration member" Url="html/T_Rhino_Input_Custom_GetLineMode.htm" />
   <HelpKINode Title="CplanePoint enumeration member" Url="html/T_Rhino_ApplicationSettings_PointDisplayMode.htm" />
   <HelpKINode Title="CppPointer property">
@@ -5000,6 +5015,7 @@
   <HelpKINode Title="CreateFilletCornersCurve method" Url="html/M_Rhino_Geometry_Curve_CreateFilletCornersCurve.htm" />
   <HelpKINode Title="CreateFilletCurves method" Url="html/M_Rhino_Geometry_Curve_CreateFilletCurves.htm" />
   <HelpKINode Title="CreateFilletEdges method" Url="html/Overload_Rhino_Geometry_Brep_CreateFilletEdges.htm" />
+  <HelpKINode Title="CreateFilletEdgesVariableRadius method" Url="html/M_Rhino_Geometry_Brep_CreateFilletEdgesVariableRadius.htm" />
   <HelpKINode Title="CreateFilletSurface method" Url="html/Overload_Rhino_Geometry_Brep_CreateFilletSurface.htm" />
   <HelpKINode Title="CreateFromAbsoluteDisplayDensity method" Url="html/M_Rhino_Geometry_SubDDisplayParameters_CreateFromAbsoluteDisplayDensity.htm" />
   <HelpKINode Title="CreateFromArc method" Url="html/Overload_Rhino_Geometry_NurbsCurve_CreateFromArc.htm" />
@@ -5402,14 +5418,14 @@
     <HelpKINode Title="TextureEnvironmentMappingMode Enumeration" Url="html/T_Rhino_Render_TextureEnvironmentMappingMode.htm" />
   </HelpKINode>
   <HelpKINode Title="Cubemap enumeration member">
-    <HelpKINode Title="SimulatedTexture.EnvironmentMappingModes Enumeration" Url="html/T_Rhino_Render_SimulatedTexture_EnvironmentMappingModes.htm" />
     <HelpKINode Title="SimulatedEnvironment.BackgroundProjections Enumeration" Url="html/T_Rhino_Render_SimulatedEnvironment_BackgroundProjections.htm" />
+    <HelpKINode Title="SimulatedTexture.EnvironmentMappingModes Enumeration" Url="html/T_Rhino_Render_SimulatedTexture_EnvironmentMappingModes.htm" />
   </HelpKINode>
   <HelpKINode Title="CubeMap enumeration member" Url="html/T_Rhino_DocObjects_Environment_BackgroundProjections.htm" />
   <HelpKINode Title="CubeMapTextureType property" Url="html/P_Rhino_Render_ContentUuids_CubeMapTextureType.htm" />
   <HelpKINode Title="CubicBezier enumeration member" Url="html/T_Rhino_Runtime_ViewCaptureWriter_PointType.htm" />
-  <HelpKINode Title="CullBackFaces property" Url="html/P_Rhino_Render_ChangeQueue_DisplayRenderSettings_CullBackFaces.htm" />
   <HelpKINode Title="CullBackfaces property" Url="html/P_Rhino_FileIO_FileGltfWriteOptions_CullBackfaces.htm" />
+  <HelpKINode Title="CullBackFaces property" Url="html/P_Rhino_Render_ChangeQueue_DisplayRenderSettings_CullBackFaces.htm" />
   <HelpKINode Title="CullControlPolygon method" Url="html/M_Rhino_Display_DisplayPipeline_CullControlPolygon.htm" />
   <HelpKINode Title="CullDegenerateFaces method" Url="html/M_Rhino_Geometry_Collections_MeshFaceList_CullDegenerateFaces.htm" />
   <HelpKINode Title="CullDuplicates method" Url="html/M_Rhino_Geometry_Point3d_CullDuplicates.htm" />
@@ -5865,7 +5881,6 @@
   <HelpKINode Title="CurveSurfaceValidate method" Url="html/Overload_Rhino_Geometry_Intersect_Intersection_CurveSurfaceValidate.htm" />
   <HelpKINode Title="CurveThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveThickness.htm" />
   <HelpKINode Title="CurveThicknessScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveThicknessScale.htm" />
-  <HelpKINode Title="CurveThicknessUsage property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveThicknessUsage.htm" />
   <HelpKINode Title="CurveUseChordHeight property" Url="html/P_Rhino_FileIO_FileDwgWriteOptions_CurveUseChordHeight.htm" />
   <HelpKINode Title="CurveUseMaxAngle property" Url="html/P_Rhino_FileIO_FileDwgWriteOptions_CurveUseMaxAngle.htm" />
   <HelpKINode Title="CurveUseSegmentLength property" Url="html/P_Rhino_FileIO_FileDwgWriteOptions_CurveUseSegmentLength.htm" />
@@ -6249,8 +6264,8 @@
   <HelpKINode Title="Decals.RemoveAllDecals method" Url="html/M_Rhino_Render_Decals_RemoveAllDecals.htm" />
   <HelpKINode Title="Decimal enumeration member">
     <HelpKINode Title="DimensionStyle.LengthDisplayFormat Enumeration" Url="html/T_Rhino_DocObjects_DimensionStyle_LengthDisplayFormat.htm" />
-    <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_DocObjects_DistanceDisplayMode.htm" />
     <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_UI_DistanceDisplayMode.htm" />
+    <HelpKINode Title="DistanceDisplayMode Enumeration" Url="html/T_Rhino_DocObjects_DistanceDisplayMode.htm" />
   </HelpKINode>
   <HelpKINode Title="DecimalDegrees enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_AngleDisplayFormat.htm" />
   <HelpKINode Title="DecimalSeparator enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
@@ -6511,6 +6526,7 @@
   <HelpKINode Title="Description property">
     <HelpKINode Title="ComponentFunctionInfo.Description Property " Url="html/P_Rhino_NodeInCode_ComponentFunctionInfo_Description.htm" />
     <HelpKINode Title="EarthAnchorPoint.Description Property " Url="html/P_Rhino_DocObjects_EarthAnchorPoint_Description.htm" />
+    <HelpKINode Title="File3mfWriteOptions.Description Property " Url="html/P_Rhino_FileIO_File3mfWriteOptions_Description.htm" />
     <HelpKINode Title="FileType.Description Property " Url="html/P_Rhino_FileIO_FileType_Description.htm" />
     <HelpKINode Title="Font.Description Property " Url="html/P_Rhino_DocObjects_Font_Description.htm" />
     <HelpKINode Title="HatchPattern.Description Property " Url="html/P_Rhino_DocObjects_HatchPattern_Description.htm" />
@@ -6528,6 +6544,7 @@
   <HelpKINode Title="DeselectAllBeforePostSelect property" Url="html/P_Rhino_Input_Custom_GetObject_DeselectAllBeforePostSelect.htm" />
   <HelpKINode Title="DeselectAllObjects event" Url="html/E_Rhino_RhinoDoc_DeselectAllObjects.htm" />
   <HelpKINode Title="DeselectObjects event" Url="html/E_Rhino_RhinoDoc_DeselectObjects.htm" />
+  <HelpKINode Title="Designer property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Designer.htm" />
   <HelpKINode Title="DesiredPolygonCount property" Url="html/P_Rhino_Geometry_ReduceMeshParameters_DesiredPolygonCount.htm" />
   <HelpKINode Title="DestinationAlpha enumeration member" Url="html/T_Rhino_Display_BlendMode.htm" />
   <HelpKINode Title="DestinationColor enumeration member" Url="html/T_Rhino_Display_BlendMode.htm" />
@@ -6921,8 +6938,8 @@
   <HelpKINode Title="DimRadialTextOrientation enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
   <HelpKINode Title="DimRadialTextOrientation property" Url="html/P_Rhino_DocObjects_DimensionStyle_DimRadialTextOrientation.htm" />
   <HelpKINode Title="DimscaleSource enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_Field.htm" />
-  <HelpKINode Title="Dimstyle enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
   <HelpKINode Title="DimStyle enumeration member" Url="html/T_Rhino_DocObjects_ModelComponentType.htm" />
+  <HelpKINode Title="Dimstyle enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
   <HelpKINode Title="DimStyles property">
     <HelpKINode Title="File3dm.DimStyles Property " Url="html/P_Rhino_FileIO_File3dm_DimStyles.htm" />
     <HelpKINode Title="RhinoDoc.DimStyles Property " Url="html/P_Rhino_RhinoDoc_DimStyles.htm" />
@@ -6995,6 +7012,8 @@
   <HelpKINode Title="DisableLighting field" Url="html/F_Rhino_Render_RenderMaterial_BasicMaterialParameterNames_DisableLighting.htm" />
   <HelpKINode Title="DisableLighting property" Url="html/P_Rhino_DocObjects_Material_DisableLighting.htm" />
   <HelpKINode Title="DisableLocalMapping enumeration member" Url="html/T_Rhino_Render_RenderTexture_TextureEvaluatorFlags.htm" />
+  <HelpKINode Title="DisableModelAndPageUnitsDifferDialog enumeration member" Url="html/T_Rhino_Runtime_AdvancedSetting.htm" />
+  <HelpKINode Title="DisablePageUnitsNotInchesOrMMDialog enumeration member" Url="html/T_Rhino_Runtime_AdvancedSetting.htm" />
   <HelpKINode Title="DisablePreSelect method" Url="html/M_Rhino_Input_Custom_GetObject_DisablePreSelect.htm" />
   <HelpKINode Title="DisableProjectionChange enumeration member" Url="html/T_Rhino_Render_RenderTexture_TextureEvaluatorFlags.htm" />
   <HelpKINode Title="DisableTransparency property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_DisableTransparency.htm" />
@@ -7006,7 +7025,6 @@
     <HelpKINode Title="CollapsibleSectionViewModel.Discard Method " Url="html/M_Rhino_UI_Controls_CollapsibleSectionViewModel_Discard.htm" />
     <HelpKINode Title="IRdkViewModel.Discard Method " Url="html/M_Rhino_UI_Controls_IRdkViewModel_Discard.htm" />
   </HelpKINode>
-  <HelpKINode Title="DiscreteGaussianCurvatures method" Url="html/M_Rhino_Geometry_Mesh_DiscreteGaussianCurvatures.htm" />
   <HelpKINode Title="Disjoint enumeration member" Url="html/T_Rhino_Geometry_RegionContainment.htm" />
   <HelpKINode Title="DisjointMeshCount property">
     <HelpKINode Title="Mesh.DisjointMeshCount Property " Url="html/P_Rhino_Geometry_Mesh_DisjointMeshCount.htm" />
@@ -7015,8 +7033,8 @@
   <HelpKINode Title="Displacement property">
     <HelpKINode Title="File3dmMeshModifiers.Displacement Property " Url="html/P_Rhino_FileIO_File3dmMeshModifiers_Displacement.htm" />
     <HelpKINode Title="MeshProviderIds.Displacement Property " Url="html/P_Rhino_Render_CustomRenderMeshes_MeshProviderIds_Displacement.htm" />
-    <HelpKINode Title="PhysicallyBased.Displacement Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Displacement.htm" />
     <HelpKINode Title="PhysicallyBased.Displacement Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Displacement.htm" />
+    <HelpKINode Title="PhysicallyBased.Displacement Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Displacement.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Displacement Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Displacement.htm" />
   </HelpKINode>
   <HelpKINode Title="DisplacementId property" Url="html/P_Rhino_Render_CustomRenderMeshProvider_DisplacementId.htm" />
@@ -7104,6 +7122,7 @@
   <HelpKINode Title="DisplayFeedbackEnabled property" Url="html/P_Rhino_Collections_TransformObjectList_DisplayFeedbackEnabled.htm" />
   <HelpKINode Title="DisplayHelp method">
     <HelpKINode Title="Command.DisplayHelp Method " Url="html/M_Rhino_Commands_Command_DisplayHelp.htm" />
+    <HelpKINode Title="PlugIn.DisplayHelp Method " Url="html/M_Rhino_PlugIns_PlugIn_DisplayHelp.htm" />
     <HelpKINode Title="PostEffect.DisplayHelp Method " Url="html/M_Rhino_Render_PostEffects_PostEffect_DisplayHelp.htm" />
   </HelpKINode>
   <HelpKINode Title="DisplayMaterial class">
@@ -7385,13 +7404,11 @@
   <HelpKINode Title="DisplayPipelineAttributes.BoundingBoxDisplayMode enumeration" Url="html/T_Rhino_Display_DisplayPipelineAttributes_BoundingBoxDisplayMode.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.BoundingBoxMode property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_BoundingBoxMode.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.CastShadows property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CastShadows.htm" />
-  <HelpKINode Title="DisplayPipelineAttributes.ColorReductionPct property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_ColorReductionPct.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.ContextForDraw property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_ContextForDraw.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.ContextsForDraw enumeration" Url="html/T_Rhino_Display_DisplayPipelineAttributes_ContextsForDraw.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.CurveColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveColor.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.CurveThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveThickness.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.CurveThicknessScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveThicknessScale.htm" />
-  <HelpKINode Title="DisplayPipelineAttributes.CurveThicknessUsage property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_CurveThicknessUsage.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.CurveThicknessUse enumeration" Url="html/T_Rhino_Display_DisplayPipelineAttributes_CurveThicknessUse.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.DisableConduits property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_DisableConduits.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.DisableTransparency property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_DisableTransparency.htm" />
@@ -7404,6 +7421,7 @@
   <HelpKINode Title="DisplayPipelineAttributes.FrontMaterialShine property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_FrontMaterialShine.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.FrontMaterialTransparency property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_FrontMaterialTransparency.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.GetColorFadeEffect method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetColorFadeEffect.htm" />
+  <HelpKINode Title="DisplayPipelineAttributes.GetCurveThicknessUsage method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetCurveThicknessUsage.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.GetDiagonalHatchEffect method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetDiagonalHatchEffect.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.GetDitherTransparencyEffect method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetDitherTransparencyEffect.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.GetFill method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetFill.htm" />
@@ -7437,6 +7455,7 @@
   <HelpKINode Title="DisplayPipelineAttributes.RealtimeDisplayId property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_RealtimeDisplayId.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.RealtimeRenderPasses property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_RealtimeRenderPasses.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SetColorFadeEffect method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_SetColorFadeEffect.htm" />
+  <HelpKINode Title="DisplayPipelineAttributes.SetCurveThicknessUsage method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_SetCurveThicknessUsage.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SetDiagonalHatchEffect method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_SetDiagonalHatchEffect.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SetDitherTransparencyEffect method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_SetDitherTransparencyEffect.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SetFill method" Url="html/Overload_Rhino_Display_DisplayPipelineAttributes_SetFill.htm" />
@@ -7468,7 +7487,7 @@
   <HelpKINode Title="DisplayPipelineAttributes.StereoContext property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_StereoContext.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeApplyPattern property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeApplyPattern.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColor.htm" />
-  <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeColorReduction property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorReduction.htm" />
+  <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeColorReductionPercent property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorReductionPercent.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeColorUsage property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorUsage.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeColorUse enumeration" Url="html/T_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorUse.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceEdgeThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeThickness.htm" />
@@ -7483,14 +7502,15 @@
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoThicknessUse enumeration" Url="html/T_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessUse.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoThicknessUsed property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessUsed.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoThicknessVScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessVScale.htm" />
+  <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoThicknessWScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessWScale.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoUColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoUColor.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoUThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoUThickness.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoUVColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoUVColor.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoVColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoVColor.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceIsoVThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoVThickness.htm" />
-  <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedAdgeColorReduction property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedAdgeColorReduction.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedEdgeApplyPattern property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeApplyPattern.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedEdgeColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColor.htm" />
+  <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedEdgeColorReductionPercent property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorReductionPercent.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedEdgeColorUsage property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorUsage.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedEdgeColorUse enumeration" Url="html/T_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorUse.htm" />
   <HelpKINode Title="DisplayPipelineAttributes.SurfaceNakedEdgeThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeThickness.htm" />
@@ -8303,7 +8323,10 @@
   <HelpKINode Title="DuplicateBrepGeometry method" Url="html/M_Rhino_DocObjects_BrepObject_DuplicateBrepGeometry.htm" />
   <HelpKINode Title="DuplicateCurve method" Url="html/M_Rhino_Geometry_Curve_DuplicateCurve.htm" />
   <HelpKINode Title="DuplicateCurveGeometry method" Url="html/M_Rhino_DocObjects_CurveObject_DuplicateCurveGeometry.htm" />
-  <HelpKINode Title="DuplicateEdgeCurves method" Url="html/Overload_Rhino_Geometry_Brep_DuplicateEdgeCurves.htm" />
+  <HelpKINode Title="DuplicateEdgeCurves method">
+    <HelpKINode Title="Brep.DuplicateEdgeCurves Method " Url="html/Overload_Rhino_Geometry_Brep_DuplicateEdgeCurves.htm" />
+    <HelpKINode Title="SubD.DuplicateEdgeCurves Method " Url="html/Overload_Rhino_Geometry_SubD_DuplicateEdgeCurves.htm" />
+  </HelpKINode>
   <HelpKINode Title="DuplicateExtrusionGeometry method" Url="html/M_Rhino_DocObjects_ExtrusionObject_DuplicateExtrusionGeometry.htm" />
   <HelpKINode Title="DuplicateFace method" Url="html/M_Rhino_Geometry_BrepFace_DuplicateFace.htm" />
   <HelpKINode Title="DuplicateFaceCount property" Url="html/P_Rhino_Geometry_MeshCheckParameters_DuplicateFaceCount.htm" />
@@ -8437,7 +8460,10 @@
   </HelpKINode>
   <HelpKINode Title="EdgeIndices method" Url="html/M_Rhino_Geometry_BrepVertex_EdgeIndices.htm" />
   <HelpKINode Title="EdgeLine method" Url="html/M_Rhino_Geometry_Collections_MeshTopologyEdgeList_EdgeLine.htm" />
-  <HelpKINode Title="EdgeParameter property" Url="html/P_Rhino_Geometry_MeshPoint_EdgeParameter.htm" />
+  <HelpKINode Title="EdgeParameter property">
+    <HelpKINode Title="BrepEdgeFilletDistance.EdgeParameter Property " Url="html/P_Rhino_Geometry_BrepEdgeFilletDistance_EdgeParameter.htm" />
+    <HelpKINode Title="MeshPoint.EdgeParameter Property " Url="html/P_Rhino_Geometry_MeshPoint_EdgeParameter.htm" />
+  </HelpKINode>
   <HelpKINode Title="Edges property">
     <HelpKINode Title="Brep.Edges Property " Url="html/P_Rhino_Geometry_Brep_Edges.htm" />
     <HelpKINode Title="SubD.Edges Property " Url="html/P_Rhino_Geometry_SubD_Edges.htm" />
@@ -8504,8 +8530,8 @@
   <HelpKINode Title="Emission field" Url="html/F_Rhino_Render_RenderMaterial_BasicMaterialParameterNames_Emission.htm" />
   <HelpKINode Title="Emission property">
     <HelpKINode Title="DisplayMaterial.Emission Property " Url="html/P_Rhino_Display_DisplayMaterial_Emission.htm" />
-    <HelpKINode Title="PhysicallyBased.Emission Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Emission.htm" />
     <HelpKINode Title="PhysicallyBased.Emission Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Emission.htm" />
+    <HelpKINode Title="PhysicallyBased.Emission Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Emission.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.Emission Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_Emission.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Emission Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Emission.htm" />
   </HelpKINode>
@@ -8556,8 +8582,8 @@
     <HelpKINode Title="SelectionFilterSettings.Enabled Property " Url="html/P_Rhino_ApplicationSettings_SelectionFilterSettings_Enabled.htm" />
     <HelpKINode Title="SelectionFilterSettingsState.Enabled Property " Url="html/P_Rhino_ApplicationSettings_SelectionFilterSettingsState_Enabled.htm" />
     <HelpKINode Title="ShutLiningCurveInfo.Enabled Property " Url="html/P_Rhino_Geometry_ShutLiningCurveInfo_Enabled.htm" />
-    <HelpKINode Title="Skylight.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_Skylight_Enabled.htm" />
     <HelpKINode Title="Skylight.Enabled Property " Url="html/P_Rhino_Render_Skylight_Enabled.htm" />
+    <HelpKINode Title="Skylight.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_Skylight_Enabled.htm" />
     <HelpKINode Title="Sun.Enabled Property " Url="html/P_Rhino_Render_Sun_Enabled.htm" />
     <HelpKINode Title="Texture.Enabled Property " Url="html/P_Rhino_DocObjects_Texture_Enabled.htm" />
   </HelpKINode>
@@ -8671,11 +8697,11 @@
   </HelpKINode>
   <HelpKINode Title="EnterModalLoop enumeration member" Url="html/T_Rhino_Render_RenderPipeline_RenderReturnCode.htm" />
   <HelpKINode Title="Environment class">
-    <HelpKINode Title="Environment Class" Url="html/T_Rhino_DocObjects_Environment.htm" />
     <HelpKINode Title="Environment Class" Url="html/T_Rhino_Render_ChangeQueue_Environment.htm" />
+    <HelpKINode Title="Environment Class" Url="html/T_Rhino_DocObjects_Environment.htm" />
     <HelpKINode Title="constructor" Url="html/M_Rhino_DocObjects_Environment__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Environment.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_Environment.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Environment.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_DocObjects_Environment.htm" />
   </HelpKINode>
   <HelpKINode Title="Environment enumeration member">
@@ -8826,8 +8852,8 @@
   </HelpKINode>
   <HelpKINode Title="EquationFormat enumeration member" Url="html/T_Rhino_ScaleValue_ScaleStringFormat.htm" />
   <HelpKINode Title="EquatorialPlane property" Url="html/P_Rhino_Geometry_Sphere_EquatorialPlane.htm" />
-  <HelpKINode Title="Error enumeration member" Url="html/T_Rhino_UI_ShowMessageIcon.htm" />
   <HelpKINode Title="error enumeration member" Url="html/T_Rhino_Runtime_HostUtils_LogMessageType.htm" />
+  <HelpKINode Title="Error enumeration member" Url="html/T_Rhino_UI_ShowMessageIcon.htm" />
   <HelpKINode Title="Error property" Url="html/P_Rhino_Geometry_ReduceMeshParameters_Error.htm" />
   <HelpKINode Title="ErrorCreatingWindow enumeration member" Url="html/T_Rhino_Render_RenderPipeline_RenderReturnCode.htm" />
   <HelpKINode Title="ErrorHideMessage enumeration member" Url="html/T_Rhino_PlugIns_ValidateResult.htm" />
@@ -10048,6 +10074,27 @@
   <HelpKINode Title="File3dsWriteOptions.SaveLights property" Url="html/P_Rhino_FileIO_File3dsWriteOptions_SaveLights.htm" />
   <HelpKINode Title="File3dsWriteOptions.SaveViews property" Url="html/P_Rhino_FileIO_File3dsWriteOptions_SaveViews.htm" />
   <HelpKINode Title="File3dsWriteOptions.ToDictionary method" Url="html/M_Rhino_FileIO_File3dsWriteOptions_ToDictionary.htm" />
+  <HelpKINode Title="File3mf class">
+    <HelpKINode Title="File3mf Class" Url="html/T_Rhino_FileIO_File3mf.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_File3mf.htm" />
+  </HelpKINode>
+  <HelpKINode Title="File3mf.Write method" Url="html/M_Rhino_FileIO_File3mf_Write.htm" />
+  <HelpKINode Title="File3mfWriteOptions class">
+    <HelpKINode Title="File3mfWriteOptions Class" Url="html/T_Rhino_FileIO_File3mfWriteOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Rhino_FileIO_File3mfWriteOptions__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_File3mfWriteOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_FileIO_File3mfWriteOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="File3mfWriteOptions.Copyright property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Copyright.htm" />
+  <HelpKINode Title="File3mfWriteOptions.Description property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Description.htm" />
+  <HelpKINode Title="File3mfWriteOptions.Designer property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Designer.htm" />
+  <HelpKINode Title="File3mfWriteOptions.File3mfWriteOptions constructor" Url="html/M_Rhino_FileIO_File3mfWriteOptions__ctor.htm" />
+  <HelpKINode Title="File3mfWriteOptions.LicenseTerms property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_LicenseTerms.htm" />
+  <HelpKINode Title="File3mfWriteOptions.Metadata property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Metadata.htm" />
+  <HelpKINode Title="File3mfWriteOptions.MoveOutputToPositiveXYZOctant property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_MoveOutputToPositiveXYZOctant.htm" />
+  <HelpKINode Title="File3mfWriteOptions.Rating property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Rating.htm" />
+  <HelpKINode Title="File3mfWriteOptions.Title property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Title.htm" />
+  <HelpKINode Title="File3mfWriteOptions.ToDictionary method" Url="html/M_Rhino_FileIO_File3mfWriteOptions_ToDictionary.htm" />
   <HelpKINode Title="FileAi class">
     <HelpKINode Title="FileAi Class" Url="html/T_Rhino_FileIO_FileAi.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_FileAi.htm" />
@@ -10524,21 +10571,21 @@
   <HelpKINode Title="FileLwoWriteOptions.WriteVersion6 property" Url="html/P_Rhino_FileIO_FileLwoWriteOptions_WriteVersion6.htm" />
   <HelpKINode Title="FileName method" Url="html/Overload_Rhino_Runtime_TextFields_FileName.htm" />
   <HelpKINode Title="FileName property">
+    <HelpKINode Title="OpenFileDialog.FileName Property " Url="html/P_Rhino_UI_OpenFileDialog_FileName.htm" />
     <HelpKINode Title="BitmapEntry.FileName Property " Url="html/P_Rhino_DocObjects_BitmapEntry_FileName.htm" />
     <HelpKINode Title="DocumentOpenEventArgs.FileName Property " Url="html/P_Rhino_DocumentOpenEventArgs_FileName.htm" />
     <HelpKINode Title="DocumentSaveEventArgs.FileName Property " Url="html/P_Rhino_DocumentSaveEventArgs_FileName.htm" />
     <HelpKINode Title="ImageFileEventArgs.FileName Property " Url="html/P_Rhino_Render_ImageFileEventArgs_FileName.htm" />
-    <HelpKINode Title="OpenFileDialog.FileName Property " Url="html/P_Rhino_UI_OpenFileDialog_FileName.htm" />
-    <HelpKINode Title="Worksession.FileName Property " Url="html/P_Rhino_DocObjects_Worksession_FileName.htm" />
     <HelpKINode Title="PlugInInfo.FileName Property " Url="html/P_Rhino_PlugIns_PlugInInfo_FileName.htm" />
     <HelpKINode Title="SaveFileDialog.FileName Property " Url="html/P_Rhino_UI_SaveFileDialog_FileName.htm" />
     <HelpKINode Title="Texture.FileName Property " Url="html/P_Rhino_DocObjects_Texture_FileName.htm" />
+    <HelpKINode Title="Worksession.FileName Property " Url="html/P_Rhino_DocObjects_Worksession_FileName.htm" />
   </HelpKINode>
   <HelpKINode Title="Filename property">
-    <HelpKINode Title="File3dmEmbeddedFile.Filename Property " Url="html/P_Rhino_FileIO_File3dmEmbeddedFile_Filename.htm" />
-    <HelpKINode Title="SimulatedTexture.Filename Property " Url="html/P_Rhino_Render_SimulatedTexture_Filename.htm" />
     <HelpKINode Title="File3dmRenderTexture.Filename Property " Url="html/P_Rhino_FileIO_File3dmRenderTexture_Filename.htm" />
     <HelpKINode Title="RenderContent.Filename Property " Url="html/P_Rhino_Render_RenderContent_Filename.htm" />
+    <HelpKINode Title="File3dmEmbeddedFile.Filename Property " Url="html/P_Rhino_FileIO_File3dmEmbeddedFile_Filename.htm" />
+    <HelpKINode Title="SimulatedTexture.Filename Property " Url="html/P_Rhino_Render_SimulatedTexture_Filename.htm" />
   </HelpKINode>
   <HelpKINode Title="FileNameEndsWithRhinoBackupExtension method" Url="html/M_Rhino_Runtime_HostUtils_FileNameEndsWithRhinoBackupExtension.htm" />
   <HelpKINode Title="FileNameEndsWithRhinoExtension method" Url="html/M_Rhino_Runtime_HostUtils_FileNameEndsWithRhinoExtension.htm" />
@@ -11052,6 +11099,20 @@
   <HelpKINode Title="FileUdoWriteOptions.FileUdoWriteOptions constructor" Url="html/M_Rhino_FileIO_FileUdoWriteOptions__ctor.htm" />
   <HelpKINode Title="FileUdoWriteOptions.MeshingParameters property" Url="html/P_Rhino_FileIO_FileUdoWriteOptions_MeshingParameters.htm" />
   <HelpKINode Title="FileUdoWriteOptions.ToDictionary method" Url="html/M_Rhino_FileIO_FileUdoWriteOptions_ToDictionary.htm" />
+  <HelpKINode Title="FileUsd class">
+    <HelpKINode Title="FileUsd Class" Url="html/T_Rhino_FileIO_FileUsd.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_FileUsd.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileUsd.Write method" Url="html/M_Rhino_FileIO_FileUsd_Write.htm" />
+  <HelpKINode Title="FileUsdWriteOptions class">
+    <HelpKINode Title="FileUsdWriteOptions Class" Url="html/T_Rhino_FileIO_FileUsdWriteOptions.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Rhino_FileIO_FileUsdWriteOptions__ctor.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_FileUsdWriteOptions.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_FileIO_FileUsdWriteOptions.htm" />
+  </HelpKINode>
+  <HelpKINode Title="FileUsdWriteOptions.FileUsdWriteOptions constructor" Url="html/M_Rhino_FileIO_FileUsdWriteOptions__ctor.htm" />
+  <HelpKINode Title="FileUsdWriteOptions.MeshingParameters property" Url="html/P_Rhino_FileIO_FileUsdWriteOptions_MeshingParameters.htm" />
+  <HelpKINode Title="FileUsdWriteOptions.ToDictionary method" Url="html/M_Rhino_FileIO_FileUsdWriteOptions_ToDictionary.htm" />
   <HelpKINode Title="FileVda class">
     <HelpKINode Title="FileVda Class" Url="html/T_Rhino_FileIO_FileVda.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_FileIO_FileVda.htm" />
@@ -11176,6 +11237,7 @@
   <HelpKINode Title="FileX_TWriteOptions.X_T_Types enumeration" Url="html/T_Rhino_FileIO_FileX_TWriteOptions_X_T_Types.htm" />
   <HelpKINode Title="FillColor property" Url="html/P_Rhino_Display_DisplayPointAttributes_FillColor.htm" />
   <HelpKINode Title="Fillet enumeration member" Url="html/T_Rhino_Geometry_BlendType.htm" />
+  <HelpKINode Title="FilletDistance property" Url="html/P_Rhino_Geometry_BrepEdgeFilletDistance_FilletDistance.htm" />
   <HelpKINode Title="FilletSurfaceSplitType enumeration" Url="html/T_Rhino_Geometry_FilletSurfaceSplitType.htm" />
   <HelpKINode Title="FilletSurfaceToCurve method">
     <HelpKINode Title="BrepFace.FilletSurfaceToCurve Method " Url="html/M_Rhino_Geometry_BrepFace_FilletSurfaceToCurve.htm" />
@@ -11583,6 +11645,7 @@
     <HelpKINode Title="MeshFace.Flip Method " Url="html/M_Rhino_Geometry_MeshFace_Flip.htm" />
     <HelpKINode Title="MeshVertexNormalList.Flip Method " Url="html/M_Rhino_Geometry_Collections_MeshVertexNormalList_Flip.htm" />
     <HelpKINode Title="Plane.Flip Method " Url="html/M_Rhino_Geometry_Plane_Flip.htm" />
+    <HelpKINode Title="SubD.Flip Method " Url="html/M_Rhino_Geometry_SubD_Flip.htm" />
   </HelpKINode>
   <HelpKINode Title="Float method" Url="html/M_Rhino_UI_IPanelsService_Float.htm" />
   <HelpKINode Title="FloatField class">
@@ -11659,9 +11722,11 @@
   <HelpKINode Title="Font.FontWeight enumeration" Url="html/T_Rhino_DocObjects_Font_FontWeight.htm" />
   <HelpKINode Title="Font.FromQuartetProperties method" Url="html/M_Rhino_DocObjects_Font_FromQuartetProperties.htm" />
   <HelpKINode Title="Font.GetObjectData method" Url="html/M_Rhino_DocObjects_Font_GetObjectData.htm" />
+  <HelpKINode Title="Font.GetSubstituteFont method" Url="html/M_Rhino_DocObjects_Font_GetSubstituteFont.htm" />
   <HelpKINode Title="Font.InstalledFonts method" Url="html/Overload_Rhino_DocObjects_Font_InstalledFonts.htm" />
   <HelpKINode Title="Font.InstalledFontsAsQuartets method" Url="html/M_Rhino_DocObjects_Font_InstalledFontsAsQuartets.htm" />
   <HelpKINode Title="Font.IsEngravingFont property" Url="html/P_Rhino_DocObjects_Font_IsEngravingFont.htm" />
+  <HelpKINode Title="Font.IsInstalled property" Url="html/P_Rhino_DocObjects_Font_IsInstalled.htm" />
   <HelpKINode Title="Font.IsSimulated property" Url="html/P_Rhino_DocObjects_Font_IsSimulated.htm" />
   <HelpKINode Title="Font.IsSingleStrokeFont property" Url="html/P_Rhino_DocObjects_Font_IsSingleStrokeFont.htm" />
   <HelpKINode Title="Font.IsSymbolFont property" Url="html/P_Rhino_DocObjects_Font_IsSymbolFont.htm" />
@@ -12173,7 +12238,7 @@
   </HelpKINode>
   <HelpKINode Title="GetByte method" Url="html/Overload_Rhino_PersistentSettings_GetByte.htm" />
   <HelpKINode Title="GetBytes method" Url="html/Overload_Rhino_Collections_ArchivableDictionary_GetBytes.htm" />
-  <HelpKINode Title="GetCachedTextureCoordinates method" Url="html/M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm" />
+  <HelpKINode Title="GetCachedTextureCoordinates method" Url="html/Overload_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm" />
   <HelpKINode Title="GetCageParameters method" Url="html/M_Rhino_DocObjects_GripObject_GetCageParameters.htm" />
   <HelpKINode Title="GetCameraAngle method" Url="html/M_Rhino_Display_RhinoViewport_GetCameraAngle.htm" />
   <HelpKINode Title="GetCameraAngles method" Url="html/M_Rhino_DocObjects_ViewportInfo_GetCameraAngles.htm" />
@@ -12315,6 +12380,7 @@
   <HelpKINode Title="GetCurveParameterFromNurbsFormParameter method" Url="html/M_Rhino_Geometry_Curve_GetCurveParameterFromNurbsFormParameter.htm" />
   <HelpKINode Title="GetCurveParameters method" Url="html/M_Rhino_DocObjects_GripObject_GetCurveParameters.htm" />
   <HelpKINode Title="GetCurves method" Url="html/M_Rhino_FileIO_File3dmShutLining_GetCurves.htm" />
+  <HelpKINode Title="GetCurveThicknessUsage method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetCurveThicknessUsage.htm" />
   <HelpKINode Title="GetCustomComputeEndpoints method" Url="html/M_Rhino_Runtime_HostUtils_GetCustomComputeEndpoints.htm" />
   <HelpKINode Title="GetCustomLinetype method" Url="html/M_Rhino_DocObjects_ObjectAttributes_GetCustomLinetype.htm" />
   <HelpKINode Title="GetCustomRenderMeshParameter method" Url="html/M_Rhino_DocObjects_RhinoObject_GetCustomRenderMeshParameter.htm" />
@@ -13169,6 +13235,7 @@
   <HelpKINode Title="GetStringList method" Url="html/Overload_Rhino_PersistentSettings_GetStringList.htm" />
   <HelpKINode Title="GetSubItemFaceIndexes method" Url="html/M_Rhino_FileIO_File3dmDisplacement_GetSubItemFaceIndexes.htm" />
   <HelpKINode Title="GetSubObjects method" Url="html/M_Rhino_DocObjects_RhinoObject_GetSubObjects.htm" />
+  <HelpKINode Title="GetSubstituteFont method" Url="html/M_Rhino_DocObjects_Font_GetSubstituteFont.htm" />
   <HelpKINode Title="GetSurfaceEdgeThicknessUsage method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetSurfaceEdgeThicknessUsage.htm" />
   <HelpKINode Title="GetSurfaceIsoApplyPattern method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetSurfaceIsoApplyPattern.htm" />
   <HelpKINode Title="GetSurfaceIsoColorUsage method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_GetSurfaceIsoColorUsage.htm" />
@@ -13179,6 +13246,7 @@
   <HelpKINode Title="GetSurfaceSize method" Url="html/M_Rhino_Geometry_Surface_GetSurfaceSize.htm" />
   <HelpKINode Title="GetSystemProcessorCount method" Url="html/M_Rhino_Runtime_HostUtils_GetSystemProcessorCount.htm" />
   <HelpKINode Title="GetSystemReferenceAssemblies method" Url="html/M_Rhino_Runtime_HostUtils_GetSystemReferenceAssemblies.htm" />
+  <HelpKINode Title="GetTangentConnectedComponents method" Url="html/M_Rhino_Geometry_Brep_GetTangentConnectedComponents.htm" />
   <HelpKINode Title="GetTaperPoints method" Url="html/M_Rhino_DocObjects_Linetype_GetTaperPoints.htm" />
   <HelpKINode Title="GetTextCorners method" Url="html/M_Rhino_DocObjects_TextObject_GetTextCorners.htm" />
   <HelpKINode Title="GetTextRectangle method">
@@ -13569,8 +13637,8 @@
   <HelpKINode Title="GritBumpTexture property" Url="html/P_Rhino_Render_ContentUuids_GritBumpTexture.htm" />
   <HelpKINode Title="GroundLevel enumeration member" Url="html/T_Rhino_DocObjects_EarthCoordinateSystem.htm" />
   <HelpKINode Title="GroundPlane class">
-    <HelpKINode Title="GroundPlane Class" Url="html/T_Rhino_Render_GroundPlane.htm" />
     <HelpKINode Title="GroundPlane Class" Url="html/T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
+    <HelpKINode Title="GroundPlane Class" Url="html/T_Rhino_Render_GroundPlane.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Render_GroundPlane__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Rhino_Render_GroundPlane.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_GroundPlane.htm" />
@@ -13595,8 +13663,8 @@
   <HelpKINode Title="GroundPlane.Crc property" Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_Crc.htm" />
   <HelpKINode Title="GroundPlane.Dispose method" Url="html/M_Rhino_Render_GroundPlane_Dispose.htm" />
   <HelpKINode Title="GroundPlane.Enabled property">
-    <HelpKINode Title="GroundPlane.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_Enabled.htm" />
     <HelpKINode Title="GroundPlane.Enabled Property " Url="html/P_Rhino_Render_GroundPlane_Enabled.htm" />
+    <HelpKINode Title="GroundPlane.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_Enabled.htm" />
   </HelpKINode>
   <HelpKINode Title="GroundPlane.Finalize method" Url="html/M_Rhino_Render_GroundPlane_Finalize.htm" />
   <HelpKINode Title="GroundPlane.GroundPlane constructor" Url="html/Overload_Rhino_Render_GroundPlane__ctor.htm" />
@@ -13605,12 +13673,12 @@
   <HelpKINode Title="GroundPlane.MaterialInstanceId property" Url="html/P_Rhino_Render_GroundPlane_MaterialInstanceId.htm" />
   <HelpKINode Title="GroundPlane.ShadowOnly property" Url="html/P_Rhino_Render_GroundPlane_ShadowOnly.htm" />
   <HelpKINode Title="GroundPlane.ShowUnderside property">
-    <HelpKINode Title="GroundPlane.ShowUnderside Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_ShowUnderside.htm" />
     <HelpKINode Title="GroundPlane.ShowUnderside Property " Url="html/P_Rhino_Render_GroundPlane_ShowUnderside.htm" />
+    <HelpKINode Title="GroundPlane.ShowUnderside Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_ShowUnderside.htm" />
   </HelpKINode>
   <HelpKINode Title="GroundPlane.TextureOffset property">
-    <HelpKINode Title="GroundPlane.TextureOffset Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureOffset.htm" />
     <HelpKINode Title="GroundPlane.TextureOffset Property " Url="html/P_Rhino_Render_GroundPlane_TextureOffset.htm" />
+    <HelpKINode Title="GroundPlane.TextureOffset Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureOffset.htm" />
   </HelpKINode>
   <HelpKINode Title="GroundPlane.TextureOffsetLocked property" Url="html/P_Rhino_Render_GroundPlane_TextureOffsetLocked.htm" />
   <HelpKINode Title="GroundPlane.TextureRotation property">
@@ -14224,8 +14292,8 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_HistoryRecord.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_DocObjects_HistoryRecord.htm" />
   </HelpKINode>
-  <HelpKINode Title="Historyrecord enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
   <HelpKINode Title="HistoryRecord enumeration member" Url="html/T_Rhino_DocObjects_ModelComponentType.htm" />
+  <HelpKINode Title="Historyrecord enumeration member" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
   <HelpKINode Title="HistoryRecord.CopyOnReplaceObject property" Url="html/P_Rhino_DocObjects_HistoryRecord_CopyOnReplaceObject.htm" />
   <HelpKINode Title="HistoryRecord.Dispose method" Url="html/Overload_Rhino_DocObjects_HistoryRecord_Dispose.htm" />
   <HelpKINode Title="HistoryRecord.Finalize method" Url="html/M_Rhino_DocObjects_HistoryRecord_Finalize.htm" />
@@ -14275,11 +14343,11 @@
   </HelpKINode>
   <HelpKINode Title="HorizontalAlignment property" Url="html/P_Rhino_Display_Text3d_HorizontalAlignment.htm" />
   <HelpKINode Title="HorizontalCrossCube enumeration member" Url="html/T_Rhino_Render_TextureEnvironmentMappingMode.htm" />
-  <HelpKINode Title="HorizontalCrossCubemap enumeration member">
-    <HelpKINode Title="SimulatedTexture.EnvironmentMappingModes Enumeration" Url="html/T_Rhino_Render_SimulatedTexture_EnvironmentMappingModes.htm" />
-    <HelpKINode Title="SimulatedEnvironment.BackgroundProjections Enumeration" Url="html/T_Rhino_Render_SimulatedEnvironment_BackgroundProjections.htm" />
-  </HelpKINode>
   <HelpKINode Title="HorizontalCrossCubeMap enumeration member" Url="html/T_Rhino_DocObjects_Environment_BackgroundProjections.htm" />
+  <HelpKINode Title="HorizontalCrossCubemap enumeration member">
+    <HelpKINode Title="SimulatedEnvironment.BackgroundProjections Enumeration" Url="html/T_Rhino_Render_SimulatedEnvironment_BackgroundProjections.htm" />
+    <HelpKINode Title="SimulatedTexture.EnvironmentMappingModes Enumeration" Url="html/T_Rhino_Render_SimulatedTexture_EnvironmentMappingModes.htm" />
+  </HelpKINode>
   <HelpKINode Title="HorizontalScale property" Url="html/P_Rhino_Display_ViewCaptureSettings_HorizontalScale.htm" />
   <HelpKINode Title="HorizontalViewportScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_ViewDisplayAttributes_HorizontalViewportScale.htm" />
   <HelpKINode Title="HorzSweep method" Url="html/M_Rhino_Render_Decal_HorzSweep.htm" />
@@ -14355,6 +14423,7 @@
   <HelpKINode Title="HostUtils.RunningInNetFramework property" Url="html/P_Rhino_Runtime_HostUtils_RunningInNetFramework.htm" />
   <HelpKINode Title="HostUtils.RunningInRhino property" Url="html/P_Rhino_Runtime_HostUtils_RunningInRhino.htm" />
   <HelpKINode Title="HostUtils.RunningInWindowsContainer property" Url="html/P_Rhino_Runtime_HostUtils_RunningInWindowsContainer.htm" />
+  <HelpKINode Title="HostUtils.RunningOniOS property" Url="html/P_Rhino_Runtime_HostUtils_RunningOniOS.htm" />
   <HelpKINode Title="HostUtils.RunningOnOSX property" Url="html/P_Rhino_Runtime_HostUtils_RunningOnOSX.htm" />
   <HelpKINode Title="HostUtils.RunningOnServer property" Url="html/P_Rhino_Runtime_HostUtils_RunningOnServer.htm" />
   <HelpKINode Title="HostUtils.RunningOnWindows property" Url="html/P_Rhino_Runtime_HostUtils_RunningOnWindows.htm" />
@@ -14745,9 +14814,9 @@
   <HelpKINode Title="InactiveViewportTitle enumeration member" Url="html/T_Rhino_ApplicationSettings_PaintColor.htm" />
   <HelpKINode Title="Inches enumeration member">
     <HelpKINode Title="FileAiReadOptions.Units Enumeration" Url="html/T_Rhino_FileIO_FileAiReadOptions_Units.htm" />
-    <HelpKINode Title="UnitSystem Enumeration" Url="html/T_Rhino_UnitSystem.htm" />
     <HelpKINode Title="FileAiWriteOptions.Units Enumeration" Url="html/T_Rhino_FileIO_FileAiWriteOptions_Units.htm" />
     <HelpKINode Title="FileEpsReadOptions.Units Enumeration" Url="html/T_Rhino_FileIO_FileEpsReadOptions_Units.htm" />
+    <HelpKINode Title="UnitSystem Enumeration" Url="html/T_Rhino_UnitSystem.htm" />
   </HelpKINode>
   <HelpKINode Title="inches enumeration member" Url="html/T_Rhino_FileIO_FilePdfReadOptions_PDF_UNITS.htm" />
   <HelpKINode Title="InchesDecimal enumeration member" Url="html/T_Rhino_DocObjects_DimensionStyle_LengthDisplay.htm" />
@@ -14886,21 +14955,21 @@
   <HelpKINode Title="InflateVerticesAndPoints property" Url="html/P_Rhino_Geometry_ShrinkWrapParameters_InflateVerticesAndPoints.htm" />
   <HelpKINode Title="InflectionPoints method" Url="html/Overload_Rhino_Geometry_Curve_InflectionPoints.htm" />
   <HelpKINode Title="Info enumeration member" Url="html/T_Rhino_Runtime_Notifications_Notification_Severity.htm" />
-  <HelpKINode Title="information enumeration member" Url="html/T_Rhino_Runtime_HostUtils_LogMessageType.htm" />
   <HelpKINode Title="Information enumeration member" Url="html/T_Rhino_UI_ShowMessageIcon.htm" />
+  <HelpKINode Title="information enumeration member" Url="html/T_Rhino_Runtime_HostUtils_LogMessageType.htm" />
   <HelpKINode Title="InFullScreen method" Url="html/M_Rhino_RhinoApp_InFullScreen.htm" />
   <HelpKINode Title="InGet method" Url="html/M_Rhino_Input_RhinoGet_InGet.htm" />
   <HelpKINode Title="InGetObject method" Url="html/M_Rhino_Input_RhinoGet_InGetObject.htm" />
   <HelpKINode Title="InGetPoint method" Url="html/M_Rhino_Input_RhinoGet_InGetPoint.htm" />
   <HelpKINode Title="InGetPoint property" Url="html/P_Rhino_RhinoDoc_InGetPoint.htm" />
   <HelpKINode Title="InitFrameBuffer event" Url="html/E_Rhino_Display_DisplayPipeline_InitFrameBuffer.htm" />
-  <HelpKINode Title="InitFrameBufferEventArgs class">
-    <HelpKINode Title="InitFrameBufferEventArgs Class" Url="html/T_Rhino_Display_InitFrameBufferEventArgs.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Display_InitFrameBufferEventArgs.htm" />
-  </HelpKINode>
   <HelpKINode Title="InitFramebufferEventArgs class">
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_RealtimeDisplayMode_InitFramebufferEventArgs.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_RealtimeDisplayMode_InitFramebufferEventArgs.htm" />
+  </HelpKINode>
+  <HelpKINode Title="InitFrameBufferEventArgs class">
+    <HelpKINode Title="InitFrameBufferEventArgs Class" Url="html/T_Rhino_Display_InitFrameBufferEventArgs.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Display_InitFrameBufferEventArgs.htm" />
   </HelpKINode>
   <HelpKINode Title="InitFrameBufferEventArgs.SetFill method" Url="html/Overload_Rhino_Display_InitFrameBufferEventArgs_SetFill.htm" />
   <HelpKINode Title="InitialChannelToDisplay property" Url="html/P_Rhino_PlugIns_RenderPlugIn_InitialChannelToDisplay.htm" />
@@ -15741,6 +15810,7 @@
   <HelpKINode Title="IsInstallationBeta method" Url="html/M_Rhino_RhinoApp_IsInstallationBeta.htm" />
   <HelpKINode Title="IsInstallationCommercial method" Url="html/M_Rhino_RhinoApp_IsInstallationCommercial.htm" />
   <HelpKINode Title="IsInstallationEvaluation method" Url="html/M_Rhino_RhinoApp_IsInstallationEvaluation.htm" />
+  <HelpKINode Title="IsInstalled property" Url="html/P_Rhino_DocObjects_Font_IsInstalled.htm" />
   <HelpKINode Title="IsInstanceDefinitionGeometry property" Url="html/P_Rhino_DocObjects_RhinoObject_IsInstanceDefinitionGeometry.htm" />
   <HelpKINode Title="IsInstanceDefinitionObject property" Url="html/P_Rhino_DocObjects_ObjectAttributes_IsInstanceDefinitionObject.htm" />
   <HelpKINode Title="IsInternetAccessAllowed property" Url="html/P_Rhino_RhinoApp_IsInternetAccessAllowed.htm" />
@@ -15793,8 +15863,8 @@
   <HelpKINode Title="IsNotValid method" Url="html/M_Rhino_PlugIns_LicenseData_IsNotValid.htm" />
   <HelpKINode Title="IsObject property" Url="html/P_Rhino_RhinoDoc_RenderMaterialAssignmentChangedEventArgs_IsObject.htm" />
   <HelpKINode Title="IsoCurve method" Url="html/M_Rhino_Geometry_Surface_IsoCurve.htm" />
-  <HelpKINode Title="IsoCurveColor enumeration member" Url="html/T_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorUse.htm" />
   <HelpKINode Title="IsocurveColor enumeration member" Url="html/T_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorUse.htm" />
+  <HelpKINode Title="IsoCurveColor enumeration member" Url="html/T_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorUse.htm" />
   <HelpKINode Title="IsOpen property" Url="html/P_Rhino_Display_DisplayPipeline_IsOpen.htm" />
   <HelpKINode Title="IsOpenGL property" Url="html/P_Rhino_Display_DisplayPipeline_IsOpenGL.htm" />
   <HelpKINode Title="IsOpening property" Url="html/P_Rhino_RhinoDoc_IsOpening.htm" />
@@ -16833,6 +16903,7 @@
   <HelpKINode Title="LicenseStatus.RegisteredOrganization property" Url="html/P_Rhino_PlugIns_LicenseStatus_RegisteredOrganization.htm" />
   <HelpKINode Title="LicenseStatus.RegisteredOwner property" Url="html/P_Rhino_PlugIns_LicenseStatus_RegisteredOwner.htm" />
   <HelpKINode Title="LicenseStatus.SerialNumber property" Url="html/P_Rhino_PlugIns_LicenseStatus_SerialNumber.htm" />
+  <HelpKINode Title="LicenseTerms property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_LicenseTerms.htm" />
   <HelpKINode Title="LicenseTitle property">
     <HelpKINode Title="LicenseData.LicenseTitle Property " Url="html/P_Rhino_PlugIns_LicenseData_LicenseTitle.htm" />
     <HelpKINode Title="LicenseStatus.LicenseTitle Property " Url="html/P_Rhino_PlugIns_LicenseStatus_LicenseTitle.htm" />
@@ -16867,14 +16938,14 @@
   <HelpKINode Title="LicenseUtils.ShowLicenseValidationUi method" Url="html/M_Rhino_PlugIns_LicenseUtils_ShowLicenseValidationUi.htm" />
   <HelpKINode Title="LicenseUtils.ShowRhinoExpiredMessage method" Url="html/M_Rhino_PlugIns_LicenseUtils_ShowRhinoExpiredMessage.htm" />
   <HelpKINode Title="Light class">
-    <HelpKINode Title="Light Class" Url="html/T_Rhino_Geometry_Light.htm" />
     <HelpKINode Title="Light Class" Url="html/T_Rhino_Render_ChangeQueue_Light.htm" />
+    <HelpKINode Title="Light Class" Url="html/T_Rhino_Geometry_Light.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_Light__ctor.htm" />
     <HelpKINode Title="fields" Url="html/Fields_T_Rhino_Geometry_Light.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Light.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Light.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Light.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Light.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Light.htm" />
   </HelpKINode>
   <HelpKINode Title="Light enumeration member">
     <HelpKINode Title="File3dm.TableTypeFilter Enumeration" Url="html/T_Rhino_FileIO_File3dm_TableTypeFilter.htm" />
@@ -16900,8 +16971,8 @@
   <HelpKINode Title="Light.GetSpotLightRadii method" Url="html/M_Rhino_Geometry_Light_GetSpotLightRadii.htm" />
   <HelpKINode Title="Light.HotSpot property" Url="html/P_Rhino_Geometry_Light_HotSpot.htm" />
   <HelpKINode Title="Light.Id property">
-    <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Render_ChangeQueue_Light_Id.htm" />
     <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Geometry_Light_Id.htm" />
+    <HelpKINode Title="Light.Id Property " Url="html/P_Rhino_Render_ChangeQueue_Light_Id.htm" />
   </HelpKINode>
   <HelpKINode Title="Light.IdCrc property" Url="html/P_Rhino_Render_ChangeQueue_Light_IdCrc.htm" />
   <HelpKINode Title="Light.Intensity property" Url="html/P_Rhino_Geometry_Light_Intensity.htm" />
@@ -17014,13 +17085,13 @@
   <HelpKINode Title="LightObject.Index property" Url="html/P_Rhino_DocObjects_LightObject_Index.htm" />
   <HelpKINode Title="LightObject.LightGeometry property" Url="html/P_Rhino_DocObjects_LightObject_LightGeometry.htm" />
   <HelpKINode Title="LightPreviewCheckerColor method" Url="html/M_Rhino_Render_SupportOptions_LightPreviewCheckerColor.htm" />
+  <HelpKINode Title="LightProbe enumeration member">
+    <HelpKINode Title="TextureEnvironmentMappingMode Enumeration" Url="html/T_Rhino_Render_TextureEnvironmentMappingMode.htm" />
+    <HelpKINode Title="Environment.BackgroundProjections Enumeration" Url="html/T_Rhino_DocObjects_Environment_BackgroundProjections.htm" />
+  </HelpKINode>
   <HelpKINode Title="Lightprobe enumeration member">
     <HelpKINode Title="SimulatedEnvironment.BackgroundProjections Enumeration" Url="html/T_Rhino_Render_SimulatedEnvironment_BackgroundProjections.htm" />
     <HelpKINode Title="SimulatedTexture.EnvironmentMappingModes Enumeration" Url="html/T_Rhino_Render_SimulatedTexture_EnvironmentMappingModes.htm" />
-  </HelpKINode>
-  <HelpKINode Title="LightProbe enumeration member">
-    <HelpKINode Title="Environment.BackgroundProjections Enumeration" Url="html/T_Rhino_DocObjects_Environment_BackgroundProjections.htm" />
-    <HelpKINode Title="TextureEnvironmentMappingMode Enumeration" Url="html/T_Rhino_Render_TextureEnvironmentMappingMode.htm" />
   </HelpKINode>
   <HelpKINode Title="Lights property">
     <HelpKINode Title="CreatePreviewEventArgs.Lights Property " Url="html/P_Rhino_Render_CreatePreviewEventArgs_Lights.htm" />
@@ -17970,11 +18041,11 @@
   <HelpKINode Title="MatedInnerLoop enumeration member" Url="html/T_Rhino_Input_Custom_GeometryAttributeFilter.htm" />
   <HelpKINode Title="MatedOuterLoop enumeration member" Url="html/T_Rhino_Input_Custom_GeometryAttributeFilter.htm" />
   <HelpKINode Title="Material class">
-    <HelpKINode Title="Material Class" Url="html/T_Rhino_Render_ChangeQueue_Material.htm" />
     <HelpKINode Title="Material Class" Url="html/T_Rhino_DocObjects_Material.htm" />
+    <HelpKINode Title="Material Class" Url="html/T_Rhino_Render_ChangeQueue_Material.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_DocObjects_Material__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Material.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_DocObjects_Material.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Material.htm" />
   </HelpKINode>
@@ -18028,6 +18099,7 @@
   <HelpKINode Title="Material.Name property" Url="html/P_Rhino_DocObjects_Material_Name.htm" />
   <HelpKINode Title="Material.PhysicallyBased property" Url="html/P_Rhino_DocObjects_Material_PhysicallyBased.htm" />
   <HelpKINode Title="Material.PreviewColor property" Url="html/P_Rhino_DocObjects_Material_PreviewColor.htm" />
+  <HelpKINode Title="Material.RDKMaterialID property" Url="html/P_Rhino_DocObjects_Material_RDKMaterialID.htm" />
   <HelpKINode Title="Material.ReflectionColor property" Url="html/P_Rhino_DocObjects_Material_ReflectionColor.htm" />
   <HelpKINode Title="Material.ReflectionGlossiness property" Url="html/P_Rhino_DocObjects_Material_ReflectionGlossiness.htm" />
   <HelpKINode Title="Material.Reflectivity property" Url="html/P_Rhino_DocObjects_Material_Reflectivity.htm" />
@@ -18308,13 +18380,13 @@
   <HelpKINode Title="MergeNestedGroupingNames property" Url="html/P_Rhino_FileIO_FileObjWriteOptions_MergeNestedGroupingNames.htm" />
   <HelpKINode Title="MergeSurfaces method" Url="html/Overload_Rhino_Geometry_Brep_MergeSurfaces.htm" />
   <HelpKINode Title="Mesh class">
-    <HelpKINode Title="Mesh Class" Url="html/T_Rhino_Render_ChangeQueue_Mesh.htm" />
     <HelpKINode Title="Mesh Class" Url="html/T_Rhino_Geometry_Mesh.htm" />
+    <HelpKINode Title="Mesh Class" Url="html/T_Rhino_Render_ChangeQueue_Mesh.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Geometry_Mesh__ctor.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Geometry_Mesh.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Mesh.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Mesh.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChangeQueue_Mesh.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Geometry_Mesh.htm" />
   </HelpKINode>
   <HelpKINode Title="Mesh enumeration member">
     <HelpKINode Title="File3dm.ObjectTypeFilter Enumeration" Url="html/T_Rhino_FileIO_File3dm_ObjectTypeFilter.htm" />
@@ -18346,6 +18418,7 @@
   <HelpKINode Title="Mesh.ColorAt method" Url="html/Overload_Rhino_Geometry_Mesh_ColorAt.htm" />
   <HelpKINode Title="Mesh.Compact method" Url="html/M_Rhino_Geometry_Mesh_Compact.htm" />
   <HelpKINode Title="Mesh.ComponentStates property" Url="html/P_Rhino_Geometry_Mesh_ComponentStates.htm" />
+  <HelpKINode Title="Mesh.ComputeCurvatureApproximation method" Url="html/M_Rhino_Geometry_Mesh_ComputeCurvatureApproximation.htm" />
   <HelpKINode Title="Mesh.ComputeThickness method" Url="html/Overload_Rhino_Geometry_Mesh_ComputeThickness.htm" />
   <HelpKINode Title="Mesh.CopyFrom method" Url="html/M_Rhino_Geometry_Mesh_CopyFrom.htm" />
   <HelpKINode Title="Mesh.CreateBooleanDifference method" Url="html/Overload_Rhino_Geometry_Mesh_CreateBooleanDifference.htm" />
@@ -18385,7 +18458,6 @@
   <HelpKINode Title="Mesh.DestroyPartition method" Url="html/M_Rhino_Geometry_Mesh_DestroyPartition.htm" />
   <HelpKINode Title="Mesh.DestroyTopology method" Url="html/M_Rhino_Geometry_Mesh_DestroyTopology.htm" />
   <HelpKINode Title="Mesh.DestroyTree method" Url="html/M_Rhino_Geometry_Mesh_DestroyTree.htm" />
-  <HelpKINode Title="Mesh.DiscreteGaussianCurvatures method" Url="html/M_Rhino_Geometry_Mesh_DiscreteGaussianCurvatures.htm" />
   <HelpKINode Title="Mesh.DisjointMeshCount property" Url="html/P_Rhino_Geometry_Mesh_DisjointMeshCount.htm" />
   <HelpKINode Title="Mesh.Duplicate method" Url="html/M_Rhino_Geometry_Mesh_Duplicate.htm" />
   <HelpKINode Title="Mesh.DuplicateMesh method" Url="html/M_Rhino_Geometry_Mesh_DuplicateMesh.htm" />
@@ -18399,7 +18471,7 @@
   <HelpKINode Title="Mesh.FileHole method" Url="html/M_Rhino_Geometry_Mesh_FileHole.htm" />
   <HelpKINode Title="Mesh.FillHoles method" Url="html/M_Rhino_Geometry_Mesh_FillHoles.htm" />
   <HelpKINode Title="Mesh.Flip method" Url="html/Overload_Rhino_Geometry_Mesh_Flip.htm" />
-  <HelpKINode Title="Mesh.GetCachedTextureCoordinates method" Url="html/M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm" />
+  <HelpKINode Title="Mesh.GetCachedTextureCoordinates method" Url="html/Overload_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm" />
   <HelpKINode Title="Mesh.GetMeshes method" Url="html/M_Rhino_Render_ChangeQueue_Mesh_GetMeshes.htm" />
   <HelpKINode Title="Mesh.GetNakedEdgePointStatus method" Url="html/M_Rhino_Geometry_Mesh_GetNakedEdgePointStatus.htm" />
   <HelpKINode Title="Mesh.GetNakedEdges method" Url="html/M_Rhino_Geometry_Mesh_GetNakedEdges.htm" />
@@ -18446,6 +18518,7 @@
   <HelpKINode Title="Mesh.ReleaseUnsafeLock method" Url="html/M_Rhino_Geometry_Mesh_ReleaseUnsafeLock.htm" />
   <HelpKINode Title="Mesh.RequireIterativeCleanup method" Url="html/M_Rhino_Geometry_Mesh_RequireIterativeCleanup.htm" />
   <HelpKINode Title="Mesh.SetCachedTextureCoordinates method" Url="html/M_Rhino_Geometry_Mesh_SetCachedTextureCoordinates.htm" />
+  <HelpKINode Title="Mesh.SetCachedTextureCoordinatesFromMaterial method" Url="html/M_Rhino_Geometry_Mesh_SetCachedTextureCoordinatesFromMaterial.htm" />
   <HelpKINode Title="Mesh.SetSurfaceParametersFromTextureCoordinates method" Url="html/M_Rhino_Geometry_Mesh_SetSurfaceParametersFromTextureCoordinates.htm" />
   <HelpKINode Title="Mesh.SetTextureCoordinates method" Url="html/Overload_Rhino_Geometry_Mesh_SetTextureCoordinates.htm" />
   <HelpKINode Title="Mesh.ShrinkWrap method" Url="html/Overload_Rhino_Geometry_Mesh_ShrinkWrap.htm" />
@@ -18697,6 +18770,7 @@
     <HelpKINode Title="FileRawWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileRawWriteOptions_MeshingParameters.htm" />
     <HelpKINode Title="FileStlWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileStlWriteOptions_MeshingParameters.htm" />
     <HelpKINode Title="FileUdoWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileUdoWriteOptions_MeshingParameters.htm" />
+    <HelpKINode Title="FileUsdWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileUsdWriteOptions_MeshingParameters.htm" />
     <HelpKINode Title="FileVrmlWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileVrmlWriteOptions_MeshingParameters.htm" />
     <HelpKINode Title="FileX3dvWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileX3dvWriteOptions_MeshingParameters.htm" />
     <HelpKINode Title="FileXamlWriteOptions.MeshingParameters Property " Url="html/P_Rhino_FileIO_FileXamlWriteOptions_MeshingParameters.htm" />
@@ -19123,8 +19197,11 @@
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_DataSources_MetaData.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_DataSources_MetaData.htm" />
   </HelpKINode>
+  <HelpKINode Title="Metadata property">
+    <HelpKINode Title="File3mfWriteOptions.Metadata Property " Url="html/P_Rhino_FileIO_File3mfWriteOptions_Metadata.htm" />
+    <HelpKINode Title="RhinoAccoountsProgressInfo.Metadata Property " Url="html/P_Rhino_Runtime_RhinoAccounts_RhinoAccoountsProgressInfo_Metadata.htm" />
+  </HelpKINode>
   <HelpKINode Title="MetaData property" Url="html/P_Rhino_Render_PreviewAppearance_MetaData.htm" />
-  <HelpKINode Title="Metadata property" Url="html/P_Rhino_Runtime_RhinoAccounts_RhinoAccoountsProgressInfo_Metadata.htm" />
   <HelpKINode Title="MetaData.ContentInstanceId method" Url="html/M_Rhino_Render_DataSources_MetaData_ContentInstanceId.htm" />
   <HelpKINode Title="MetaData.CppPointer property" Url="html/P_Rhino_Render_DataSources_MetaData_CppPointer.htm" />
   <HelpKINode Title="MetaData.Dispose method" Url="html/M_Rhino_Render_DataSources_MetaData_Dispose.htm" />
@@ -19148,8 +19225,8 @@
     <HelpKINode Title="ShaderLanguage Enumeration" Url="html/T_Rhino_Display_ShaderLanguage.htm" />
   </HelpKINode>
   <HelpKINode Title="Metallic property">
-    <HelpKINode Title="PhysicallyBased.Metallic Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Metallic.htm" />
     <HelpKINode Title="PhysicallyBased.Metallic Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Metallic.htm" />
+    <HelpKINode Title="PhysicallyBased.Metallic Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Metallic.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.Metallic Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_Metallic.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Metallic Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Metallic.htm" />
   </HelpKINode>
@@ -19293,6 +19370,7 @@
   <HelpKINode Title="ModelAidSettings.NudgeKeyStep property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_NudgeKeyStep.htm" />
   <HelpKINode Title="ModelAidSettings.NudgeMode property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_NudgeMode.htm" />
   <HelpKINode Title="ModelAidSettings.OnlySnapToSelected property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_OnlySnapToSelected.htm" />
+  <HelpKINode Title="ModelAidSettings.OrientAutoCPlaneToView property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_OrientAutoCPlaneToView.htm" />
   <HelpKINode Title="ModelAidSettings.Ortho property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_Ortho.htm" />
   <HelpKINode Title="ModelAidSettings.OrthoAngle property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_OrthoAngle.htm" />
   <HelpKINode Title="ModelAidSettings.OrthoUseZ property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_OrthoUseZ.htm" />
@@ -19330,6 +19408,7 @@
   <HelpKINode Title="ModelAidSettingsState.MousePickboxRadius property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_MousePickboxRadius.htm" />
   <HelpKINode Title="ModelAidSettingsState.NudgeKeyStep property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_NudgeKeyStep.htm" />
   <HelpKINode Title="ModelAidSettingsState.NudgeMode property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_NudgeMode.htm" />
+  <HelpKINode Title="ModelAidSettingsState.OrientAutoCPlaneToView property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_OrientAutoCPlaneToView.htm" />
   <HelpKINode Title="ModelAidSettingsState.Ortho property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_Ortho.htm" />
   <HelpKINode Title="ModelAidSettingsState.OrthoAngle property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_OrthoAngle.htm" />
   <HelpKINode Title="ModelAidSettingsState.OrthoUseZ property" Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_OrthoUseZ.htm" />
@@ -19593,6 +19672,7 @@
   </HelpKINode>
   <HelpKINode Title="Moved property" Url="html/P_Rhino_DocObjects_GripObject_Moved.htm" />
   <HelpKINode Title="MoveNext method" Url="html/M_Rhino_DocObjects_Custom_UserDataListEnumerator_MoveNext.htm" />
+  <HelpKINode Title="MoveOutputToPositiveXYZOctant property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_MoveOutputToPositiveXYZOctant.htm" />
   <HelpKINode Title="MovePostEffectBefore method" Url="html/M_Rhino_Render_PostEffects_PostEffectCollection_MovePostEffectBefore.htm" />
   <HelpKINode Title="MoveUserDataFrom method" Url="html/M_Rhino_DocObjects_Custom_UserData_MoveUserDataFrom.htm" />
   <HelpKINode Title="MoveUserDataTo method" Url="html/M_Rhino_DocObjects_Custom_UserData_MoveUserDataTo.htm" />
@@ -20716,11 +20796,11 @@
   </HelpKINode>
   <HelpKINode Title="ObjectFromLight method" Url="html/M_Rhino_Render_LightManagerSupportClient_ObjectFromLight.htm" />
   <HelpKINode Title="ObjectId property">
+    <HelpKINode Title="ObjectAttributes.ObjectId Property " Url="html/P_Rhino_DocObjects_ObjectAttributes_ObjectId.htm" />
     <HelpKINode Title="ObjRef.ObjectId Property " Url="html/P_Rhino_DocObjects_ObjRef_ObjectId.htm" />
+    <HelpKINode Title="RenderMeshes.ObjectId Property " Url="html/P_Rhino_Render_CustomRenderMeshes_RenderMeshes_ObjectId.htm" />
     <HelpKINode Title="RhinoDoc.RenderMaterialAssignmentChangedEventArgs.ObjectId Property " Url="html/P_Rhino_RhinoDoc_RenderMaterialAssignmentChangedEventArgs_ObjectId.htm" />
     <HelpKINode Title="RhinoReplaceObjectEventArgs.ObjectId Property " Url="html/P_Rhino_DocObjects_RhinoReplaceObjectEventArgs_ObjectId.htm" />
-    <HelpKINode Title="ObjectAttributes.ObjectId Property " Url="html/P_Rhino_DocObjects_ObjectAttributes_ObjectId.htm" />
-    <HelpKINode Title="RenderMeshes.ObjectId Property " Url="html/P_Rhino_Render_CustomRenderMeshes_RenderMeshes_ObjectId.htm" />
     <HelpKINode Title="RhinoObjectEventArgs.ObjectId Property " Url="html/P_Rhino_DocObjects_RhinoObjectEventArgs_ObjectId.htm" />
   </HelpKINode>
   <HelpKINode Title="ObjectID property" Url="html/P_Rhino_FileIO_FileCsvWriteOptions_ObjectID.htm" />
@@ -21165,17 +21245,17 @@
   <HelpKINode Title="OnUserInterfaceSectionExpanding method" Url="html/M_Rhino_Render_UI_IUserInterfaceSection_OnUserInterfaceSectionExpanding.htm" />
   <HelpKINode Title="Opacity enumeration member" Url="html/T_Rhino_DocObjects_TextureType.htm" />
   <HelpKINode Title="Opacity property">
-    <HelpKINode Title="PhysicallyBased.Opacity Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Opacity.htm" />
     <HelpKINode Title="PhysicallyBased.Opacity Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Opacity.htm" />
+    <HelpKINode Title="PhysicallyBased.Opacity Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Opacity.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.Opacity Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_Opacity.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Opacity Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Opacity.htm" />
   </HelpKINode>
+  <HelpKINode Title="OpacityIOR property" Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_OpacityIOR.htm" />
   <HelpKINode Title="OpacityIor property">
     <HelpKINode Title="PhysicallyBased.OpacityIor Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_OpacityIor.htm" />
-    <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.OpacityIor Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_OpacityIor.htm" />
     <HelpKINode Title="PhysicallyBased.OpacityIor Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_OpacityIor.htm" />
+    <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.OpacityIor Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_OpacityIor.htm" />
   </HelpKINode>
-  <HelpKINode Title="OpacityIOR property" Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_OpacityIOR.htm" />
   <HelpKINode Title="OpacityRoughness property">
     <HelpKINode Title="PhysicallyBased.OpacityRoughness Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_OpacityRoughness.htm" />
     <HelpKINode Title="PhysicallyBased.OpacityRoughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_OpacityRoughness.htm" />
@@ -21361,6 +21441,10 @@
   <HelpKINode Title="OrientationIsReversed property" Url="html/P_Rhino_Geometry_BrepFace_OrientationIsReversed.htm" />
   <HelpKINode Title="OrientationPreserving enumeration member" Url="html/T_Rhino_Geometry_TransformSimilarityType.htm" />
   <HelpKINode Title="OrientationReversing enumeration member" Url="html/T_Rhino_Geometry_TransformSimilarityType.htm" />
+  <HelpKINode Title="OrientAutoCPlaneToView property">
+    <HelpKINode Title="ModelAidSettings.OrientAutoCPlaneToView Property " Url="html/P_Rhino_ApplicationSettings_ModelAidSettings_OrientAutoCPlaneToView.htm" />
+    <HelpKINode Title="ModelAidSettingsState.OrientAutoCPlaneToView Property " Url="html/P_Rhino_ApplicationSettings_ModelAidSettingsState_OrientAutoCPlaneToView.htm" />
+  </HelpKINode>
   <HelpKINode Title="OrientClosedFrontOut enumeration member" Url="html/T_Rhino_Geometry_MeshExtruderFaceDirectionMode.htm" />
   <HelpKINode Title="Origin property">
     <HelpKINode Title="Decal.Origin Property " Url="html/P_Rhino_Render_Decal_Origin.htm" />
@@ -22001,8 +22085,8 @@
   </HelpKINode>
   <HelpKINode Title="Phong enumeration member" Url="html/T_Rhino_FileIO_FileFbxWriteOptions_MaterialType.htm" />
   <HelpKINode Title="PhysicallyBased class">
-    <HelpKINode Title="PhysicallyBased Class" Url="html/T_Rhino_Render_ChildSlotNames_PhysicallyBased.htm" />
     <HelpKINode Title="PhysicallyBased Class" Url="html/T_Rhino_Render_ParameterNames_PhysicallyBased.htm" />
+    <HelpKINode Title="PhysicallyBased Class" Url="html/T_Rhino_Render_ChildSlotNames_PhysicallyBased.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChildSlotNames_PhysicallyBased.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ParameterNames_PhysicallyBased.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_Render_ChildSlotNames_PhysicallyBased.htm" />
@@ -22017,12 +22101,12 @@
     <HelpKINode Title="PhysicallyBased.AmbientOcclusion Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AmbientOcclusion.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Anisotropic property">
-    <HelpKINode Title="PhysicallyBased.Anisotropic Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Anisotropic.htm" />
     <HelpKINode Title="PhysicallyBased.Anisotropic Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Anisotropic.htm" />
+    <HelpKINode Title="PhysicallyBased.Anisotropic Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Anisotropic.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.AnisotropicRotation property">
-    <HelpKINode Title="PhysicallyBased.AnisotropicRotation Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AnisotropicRotation.htm" />
     <HelpKINode Title="PhysicallyBased.AnisotropicRotation Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_AnisotropicRotation.htm" />
+    <HelpKINode Title="PhysicallyBased.AnisotropicRotation Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_AnisotropicRotation.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.BaseColor property">
     <HelpKINode Title="PhysicallyBased.BaseColor Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_BaseColor.htm" />
@@ -22034,20 +22118,20 @@
     <HelpKINode Title="PhysicallyBased.Bump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Bump.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Clearcoat property">
-    <HelpKINode Title="PhysicallyBased.Clearcoat Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Clearcoat.htm" />
     <HelpKINode Title="PhysicallyBased.Clearcoat Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Clearcoat.htm" />
+    <HelpKINode Title="PhysicallyBased.Clearcoat Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Clearcoat.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.ClearcoatBump property">
-    <HelpKINode Title="PhysicallyBased.ClearcoatBump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatBump.htm" />
     <HelpKINode Title="PhysicallyBased.ClearcoatBump Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_ClearcoatBump.htm" />
+    <HelpKINode Title="PhysicallyBased.ClearcoatBump Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatBump.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.ClearcoatRoughness property">
-    <HelpKINode Title="PhysicallyBased.ClearcoatRoughness Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatRoughness.htm" />
     <HelpKINode Title="PhysicallyBased.ClearcoatRoughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_ClearcoatRoughness.htm" />
+    <HelpKINode Title="PhysicallyBased.ClearcoatRoughness Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_ClearcoatRoughness.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Displacement property">
-    <HelpKINode Title="PhysicallyBased.Displacement Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Displacement.htm" />
     <HelpKINode Title="PhysicallyBased.Displacement Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Displacement.htm" />
+    <HelpKINode Title="PhysicallyBased.Displacement Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Displacement.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Emission property">
     <HelpKINode Title="PhysicallyBased.Emission Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Emission.htm" />
@@ -22055,8 +22139,8 @@
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.FromTextureType method" Url="html/M_Rhino_Render_ChildSlotNames_PhysicallyBased_FromTextureType.htm" />
   <HelpKINode Title="PhysicallyBased.Metallic property">
-    <HelpKINode Title="PhysicallyBased.Metallic Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Metallic.htm" />
     <HelpKINode Title="PhysicallyBased.Metallic Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Metallic.htm" />
+    <HelpKINode Title="PhysicallyBased.Metallic Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Metallic.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Opacity property">
     <HelpKINode Title="PhysicallyBased.Opacity Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Opacity.htm" />
@@ -22067,20 +22151,20 @@
     <HelpKINode Title="PhysicallyBased.OpacityIor Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_OpacityIor.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.OpacityRoughness property">
-    <HelpKINode Title="PhysicallyBased.OpacityRoughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_OpacityRoughness.htm" />
     <HelpKINode Title="PhysicallyBased.OpacityRoughness Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_OpacityRoughness.htm" />
+    <HelpKINode Title="PhysicallyBased.OpacityRoughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_OpacityRoughness.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Roughness property">
-    <HelpKINode Title="PhysicallyBased.Roughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Roughness.htm" />
     <HelpKINode Title="PhysicallyBased.Roughness Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Roughness.htm" />
+    <HelpKINode Title="PhysicallyBased.Roughness Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Roughness.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Sheen property">
     <HelpKINode Title="PhysicallyBased.Sheen Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Sheen.htm" />
     <HelpKINode Title="PhysicallyBased.Sheen Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Sheen.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.SheenTint property">
-    <HelpKINode Title="PhysicallyBased.SheenTint Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_SheenTint.htm" />
     <HelpKINode Title="PhysicallyBased.SheenTint Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_SheenTint.htm" />
+    <HelpKINode Title="PhysicallyBased.SheenTint Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_SheenTint.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.Specular property">
     <HelpKINode Title="PhysicallyBased.Specular Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Specular.htm" />
@@ -22095,19 +22179,19 @@
     <HelpKINode Title="PhysicallyBased.Subsurface Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Subsurface.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringColor property">
-    <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringColor Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_SubsurfaceScatteringColor.htm" />
     <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringColor Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_SubsurfaceScatteringColor.htm" />
+    <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringColor Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_SubsurfaceScatteringColor.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringRadius property">
     <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringRadius Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_SubsurfaceScatteringRadius.htm" />
     <HelpKINode Title="PhysicallyBased.SubsurfaceScatteringRadius Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_SubsurfaceScatteringRadius.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBasedMaterial class">
-    <HelpKINode Title="PhysicallyBasedMaterial Class" Url="html/T_Rhino_DocObjects_PhysicallyBasedMaterial.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial Class" Url="html/T_Rhino_Render_PhysicallyBasedMaterial.htm" />
+    <HelpKINode Title="PhysicallyBasedMaterial Class" Url="html/T_Rhino_DocObjects_PhysicallyBasedMaterial.htm" />
     <HelpKINode Title="constructor" Url="html/M_Rhino_Render_PhysicallyBasedMaterial__ctor.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_PhysicallyBasedMaterial.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_PhysicallyBasedMaterial.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Rhino_DocObjects_PhysicallyBasedMaterial.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Rhino_DocObjects_PhysicallyBasedMaterial.htm" />
   </HelpKINode>
   <HelpKINode Title="PhysicallyBasedMaterial.Alpha property" Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_Alpha.htm" />
@@ -22385,12 +22469,14 @@
     <HelpKINode Title="Command.PlugIn Property " Url="html/P_Rhino_Commands_Command_PlugIn.htm" />
     <HelpKINode Title="RenderPipeline.PlugIn Property " Url="html/P_Rhino_Render_RenderPipeline_PlugIn.htm" />
   </HelpKINode>
+  <HelpKINode Title="PlugIn.AddToHelpMenu property" Url="html/P_Rhino_PlugIns_PlugIn_AddToHelpMenu.htm" />
   <HelpKINode Title="PlugIn.AskOnLoadProtection property" Url="html/P_Rhino_PlugIns_PlugIn_AskOnLoadProtection.htm" />
   <HelpKINode Title="PlugIn.AskUserForLicense method" Url="html/M_Rhino_PlugIns_PlugIn_AskUserForLicense.htm" />
   <HelpKINode Title="PlugIn.Assembly property" Url="html/P_Rhino_PlugIns_PlugIn_Assembly.htm" />
   <HelpKINode Title="PlugIn.CommandSettings method" Url="html/M_Rhino_PlugIns_PlugIn_CommandSettings.htm" />
   <HelpKINode Title="PlugIn.CreateCommands method" Url="html/M_Rhino_PlugIns_PlugIn_CreateCommands.htm" />
   <HelpKINode Title="PlugIn.Description property" Url="html/P_Rhino_PlugIns_PlugIn_Description.htm" />
+  <HelpKINode Title="PlugIn.DisplayHelp method" Url="html/M_Rhino_PlugIns_PlugIn_DisplayHelp.htm" />
   <HelpKINode Title="PlugIn.DocumentPropertiesDialogPages method" Url="html/M_Rhino_PlugIns_PlugIn_DocumentPropertiesDialogPages.htm" />
   <HelpKINode Title="PlugIn.Find method" Url="html/Overload_Rhino_PlugIns_PlugIn_Find.htm" />
   <HelpKINode Title="PlugIn.FlushSettingsSavedQueue method" Url="html/M_Rhino_PlugIns_PlugIn_FlushSettingsSavedQueue.htm" />
@@ -22461,14 +22547,14 @@
   <HelpKINode Title="PluginId method" Url="html/M_Rhino_Render_LightManagerSupport_PluginId.htm" />
   <HelpKINode Title="PlugInId method" Url="html/M_Rhino_DocObjects_SnapShots_SnapShotsClient_PlugInId.htm" />
   <HelpKINode Title="PlugInId property">
-    <HelpKINode Title="File3dmPlugInData.PlugInId Property " Url="html/P_Rhino_FileIO_File3dmPlugInData_PlugInId.htm" />
     <HelpKINode Title="File3dmRenderContent.PlugInId Property " Url="html/P_Rhino_FileIO_File3dmRenderContent_PlugInId.htm" />
     <HelpKINode Title="ICollapsibleSection.PlugInId Property " Url="html/P_Rhino_UI_Controls_ICollapsibleSection_PlugInId.htm" />
-    <HelpKINode Title="MaterialRef.PlugInId Property " Url="html/P_Rhino_DocObjects_MaterialRef_PlugInId.htm" />
-    <HelpKINode Title="MaterialRefCreateParams.PlugInId Property " Url="html/P_Rhino_DocObjects_MaterialRefCreateParams_PlugInId.htm" />
     <HelpKINode Title="PlugIn.UnknownUserDataEventArgs.PlugInId Property " Url="html/P_Rhino_PlugIns_PlugIn_UnknownUserDataEventArgs_PlugInId.htm" />
     <HelpKINode Title="RenderContentType.PlugInId Property " Url="html/P_Rhino_Render_RenderContentType_PlugInId.htm" />
     <HelpKINode Title="RenderPlugInInfo.PlugInId Property " Url="html/P_Rhino_Render_RenderPlugInInfo_PlugInId.htm" />
+    <HelpKINode Title="File3dmPlugInData.PlugInId Property " Url="html/P_Rhino_FileIO_File3dmPlugInData_PlugInId.htm" />
+    <HelpKINode Title="MaterialRef.PlugInId Property " Url="html/P_Rhino_DocObjects_MaterialRef_PlugInId.htm" />
+    <HelpKINode Title="MaterialRefCreateParams.PlugInId Property " Url="html/P_Rhino_DocObjects_MaterialRefCreateParams_PlugInId.htm" />
   </HelpKINode>
   <HelpKINode Title="PluginId property" Url="html/P_Rhino_PlugIns_LicenseStatus_PluginId.htm" />
   <HelpKINode Title="PlugInInfo class">
@@ -22954,8 +23040,8 @@
   </HelpKINode>
   <HelpKINode Title="Points2D property" Url="html/P_Rhino_Geometry_Leader_Points2D.htm" />
   <HelpKINode Title="Points3D property" Url="html/P_Rhino_Geometry_Leader_Points3D.htm" />
-  <HelpKINode Title="Pointset enumeration member" Url="html/T_Rhino_FileIO_File3dm_ObjectTypeFilter.htm" />
   <HelpKINode Title="PointSet enumeration member" Url="html/T_Rhino_DocObjects_ObjectType.htm" />
+  <HelpKINode Title="Pointset enumeration member" Url="html/T_Rhino_FileIO_File3dm_ObjectTypeFilter.htm" />
   <HelpKINode Title="PointSize property">
     <HelpKINode Title="Font.PointSize Property " Url="html/P_Rhino_DocObjects_Font_PointSize.htm" />
     <HelpKINode Title="NurbsCurvePointList.PointSize Property " Url="html/P_Rhino_Geometry_Collections_NurbsCurvePointList_PointSize.htm" />
@@ -23815,6 +23901,7 @@
   <HelpKINode Title="RaiseOnPlugInSettingsSavedEvent method" Url="html/M_Rhino_PlugIns_PlugIn_RaiseOnPlugInSettingsSavedEvent.htm" />
   <HelpKINode Title="RandomFaceNormalCount property" Url="html/P_Rhino_Geometry_MeshCheckParameters_RandomFaceNormalCount.htm" />
   <HelpKINode Title="RasterMode property" Url="html/P_Rhino_Display_ViewCaptureSettings_RasterMode.htm" />
+  <HelpKINode Title="Rating property" Url="html/P_Rhino_FileIO_File3mfWriteOptions_Rating.htm" />
   <HelpKINode Title="Ratio enumeration member" Url="html/T_Rhino_Geometry_DistancingMode.htm" />
   <HelpKINode Title="RatioFormat enumeration member" Url="html/T_Rhino_ScaleValue_ScaleStringFormat.htm" />
   <HelpKINode Title="RatioFromEnd enumeration member" Url="html/T_Rhino_Geometry_DistancingMode.htm" />
@@ -23864,6 +23951,7 @@
   <HelpKINode Title="RdkEdit.Finalize method" Url="html/M_Rhino_Render_DataSources_RdkEdit_Finalize.htm" />
   <HelpKINode Title="RdkEdit.RdkEdit constructor" Url="html/M_Rhino_Render_DataSources_RdkEdit__ctor.htm" />
   <HelpKINode Title="RdkGlobalSettingsChanged event" Url="html/E_Rhino_RhinoApp_RdkGlobalSettingsChanged.htm" />
+  <HelpKINode Title="RDKMaterialID property" Url="html/P_Rhino_DocObjects_Material_RDKMaterialID.htm" />
   <HelpKINode Title="RdkModalEditContentBucket class">
     <HelpKINode Title="RdkModalEditContentBucket Class" Url="html/T_Rhino_Render_DataSources_RdkModalEditContentBucket.htm" />
     <HelpKINode Title="constructor" Url="html/M_Rhino_Render_DataSources_RdkModalEditContentBucket__ctor.htm" />
@@ -26001,6 +26089,8 @@
   <HelpKINode Title="Rhino.FileIO.File3ds class" Url="html/T_Rhino_FileIO_File3ds.htm" />
   <HelpKINode Title="Rhino.FileIO.File3dsReadOptions class" Url="html/T_Rhino_FileIO_File3dsReadOptions.htm" />
   <HelpKINode Title="Rhino.FileIO.File3dsWriteOptions class" Url="html/T_Rhino_FileIO_File3dsWriteOptions.htm" />
+  <HelpKINode Title="Rhino.FileIO.File3mf class" Url="html/T_Rhino_FileIO_File3mf.htm" />
+  <HelpKINode Title="Rhino.FileIO.File3mfWriteOptions class" Url="html/T_Rhino_FileIO_File3mfWriteOptions.htm" />
   <HelpKINode Title="Rhino.FileIO.FileAi class" Url="html/T_Rhino_FileIO_FileAi.htm" />
   <HelpKINode Title="Rhino.FileIO.FileAiReadOptions class" Url="html/T_Rhino_FileIO_FileAiReadOptions.htm" />
   <HelpKINode Title="Rhino.FileIO.FileAiReadOptions.Units enumeration" Url="html/T_Rhino_FileIO_FileAiReadOptions_Units.htm" />
@@ -26120,6 +26210,8 @@
   <HelpKINode Title="Rhino.FileIO.FileType class" Url="html/T_Rhino_FileIO_FileType.htm" />
   <HelpKINode Title="Rhino.FileIO.FileUdo class" Url="html/T_Rhino_FileIO_FileUdo.htm" />
   <HelpKINode Title="Rhino.FileIO.FileUdoWriteOptions class" Url="html/T_Rhino_FileIO_FileUdoWriteOptions.htm" />
+  <HelpKINode Title="Rhino.FileIO.FileUsd class" Url="html/T_Rhino_FileIO_FileUsd.htm" />
+  <HelpKINode Title="Rhino.FileIO.FileUsdWriteOptions class" Url="html/T_Rhino_FileIO_FileUsdWriteOptions.htm" />
   <HelpKINode Title="Rhino.FileIO.FileVda class" Url="html/T_Rhino_FileIO_FileVda.htm" />
   <HelpKINode Title="Rhino.FileIO.FileVdaWriteOptions class" Url="html/T_Rhino_FileIO_FileVdaWriteOptions.htm" />
   <HelpKINode Title="Rhino.FileIO.FileVrml class" Url="html/T_Rhino_FileIO_FileVrml.htm" />
@@ -26157,6 +26249,7 @@
   <HelpKINode Title="Rhino.Geometry.Box structure" Url="html/T_Rhino_Geometry_Box.htm" />
   <HelpKINode Title="Rhino.Geometry.Brep class" Url="html/T_Rhino_Geometry_Brep.htm" />
   <HelpKINode Title="Rhino.Geometry.BrepEdge class" Url="html/T_Rhino_Geometry_BrepEdge.htm" />
+  <HelpKINode Title="Rhino.Geometry.BrepEdgeFilletDistance class" Url="html/T_Rhino_Geometry_BrepEdgeFilletDistance.htm" />
   <HelpKINode Title="Rhino.Geometry.BrepFace class" Url="html/T_Rhino_Geometry_BrepFace.htm" />
   <HelpKINode Title="Rhino.Geometry.BrepFace.ShrinkDisableSide enumeration" Url="html/T_Rhino_Geometry_BrepFace_ShrinkDisableSide.htm" />
   <HelpKINode Title="Rhino.Geometry.BrepLoop class" Url="html/T_Rhino_Geometry_BrepLoop.htm" />
@@ -27131,6 +27224,7 @@
   <HelpKINode Title="RhinoApp.CanSave property" Url="html/P_Rhino_RhinoApp_CanSave.htm" />
   <HelpKINode Title="RhinoApp.CapturedCommandWindowStrings method" Url="html/M_Rhino_RhinoApp_CapturedCommandWindowStrings.htm" />
   <HelpKINode Title="RhinoApp.ChangeLicenseKey method" Url="html/M_Rhino_RhinoApp_ChangeLicenseKey.htm" />
+  <HelpKINode Title="RhinoApp.CheckNewObject property" Url="html/P_Rhino_RhinoApp_CheckNewObject.htm" />
   <HelpKINode Title="RhinoApp.ClearCommandHistoryWindow method" Url="html/M_Rhino_RhinoApp_ClearCommandHistoryWindow.htm" />
   <HelpKINode Title="RhinoApp.Closing event" Url="html/E_Rhino_RhinoApp_Closing.htm" />
   <HelpKINode Title="RhinoApp.CommandHistoryWindowText property" Url="html/P_Rhino_RhinoApp_CommandHistoryWindowText.htm" />
@@ -28220,6 +28314,7 @@
   <HelpKINode Title="RunningInRdp method" Url="html/M_Rhino_RhinoApp_RunningInRdp.htm" />
   <HelpKINode Title="RunningInRhino property" Url="html/P_Rhino_Runtime_HostUtils_RunningInRhino.htm" />
   <HelpKINode Title="RunningInWindowsContainer property" Url="html/P_Rhino_Runtime_HostUtils_RunningInWindowsContainer.htm" />
+  <HelpKINode Title="RunningOniOS property" Url="html/P_Rhino_Runtime_HostUtils_RunningOniOS.htm" />
   <HelpKINode Title="RunningOnOSX property" Url="html/P_Rhino_Runtime_HostUtils_RunningOnOSX.htm" />
   <HelpKINode Title="RunningOnServer property" Url="html/P_Rhino_Runtime_HostUtils_RunningOnServer.htm" />
   <HelpKINode Title="RunningOnVMWare method" Url="html/M_Rhino_RhinoApp_RunningOnVMWare.htm" />
@@ -28731,6 +28826,7 @@
   </HelpKINode>
   <HelpKINode Title="SetByte method" Url="html/M_Rhino_PersistentSettings_SetByte.htm" />
   <HelpKINode Title="SetCachedTextureCoordinates method" Url="html/M_Rhino_Geometry_Mesh_SetCachedTextureCoordinates.htm" />
+  <HelpKINode Title="SetCachedTextureCoordinatesFromMaterial method" Url="html/M_Rhino_Geometry_Mesh_SetCachedTextureCoordinatesFromMaterial.htm" />
   <HelpKINode Title="SetCameraDirection method">
     <HelpKINode Title="RhinoViewport.SetCameraDirection Method " Url="html/M_Rhino_Display_RhinoViewport_SetCameraDirection.htm" />
     <HelpKINode Title="ViewportInfo.SetCameraDirection Method " Url="html/M_Rhino_DocObjects_ViewportInfo_SetCameraDirection.htm" />
@@ -28790,6 +28886,7 @@
   <HelpKINode Title="SetCurveProfile method" Url="html/M_Rhino_FileIO_File3dmShutLining_SetCurveProfile.htm" />
   <HelpKINode Title="SetCurvePull method" Url="html/M_Rhino_FileIO_File3dmShutLining_SetCurvePull.htm" />
   <HelpKINode Title="SetCurveRadius method" Url="html/M_Rhino_FileIO_File3dmShutLining_SetCurveRadius.htm" />
+  <HelpKINode Title="SetCurveThicknessUsage method" Url="html/M_Rhino_Display_DisplayPipelineAttributes_SetCurveThicknessUsage.htm" />
   <HelpKINode Title="SetCustomBitmapSize method" Url="html/M_Rhino_UI_Controls_ThumbnailUI_IRhRdkThumbnailList_SetCustomBitmapSize.htm" />
   <HelpKINode Title="SetCustomColorDialog method" Url="html/M_Rhino_UI_Dialogs_SetCustomColorDialog.htm" />
   <HelpKINode Title="SetCustomGeometryFilter method" Url="html/M_Rhino_Input_Custom_GetObject_SetCustomGeometryFilter.htm" />
@@ -29227,8 +29324,8 @@
   <HelpKINode Title="ShadowColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_ShadowColor.htm" />
   <HelpKINode Title="ShadowIntensity property">
     <HelpKINode Title="Light.ShadowIntensity Property " Url="html/P_Rhino_Geometry_Light_ShadowIntensity.htm" />
-    <HelpKINode Title="Skylight.ShadowIntensity Property " Url="html/P_Rhino_Render_Skylight_ShadowIntensity.htm" />
     <HelpKINode Title="Skylight.ShadowIntensity Property " Url="html/P_Rhino_Render_ChangeQueue_Skylight_ShadowIntensity.htm" />
+    <HelpKINode Title="Skylight.ShadowIntensity Property " Url="html/P_Rhino_Render_Skylight_ShadowIntensity.htm" />
   </HelpKINode>
   <HelpKINode Title="ShadowmapLevel property" Url="html/P_Rhino_Render_RenderSettings_ShadowmapLevel.htm" />
   <HelpKINode Title="ShadowOnly property" Url="html/P_Rhino_Render_GroundPlane_ShadowOnly.htm" />
@@ -30153,8 +30250,8 @@
   <HelpKINode Title="SkipInitialisation method" Url="html/M_Rhino_Render_CreatePreviewEventArgs_SkipInitialisation.htm" />
   <HelpKINode Title="SkipNestedLinkedDefinitions property" Url="html/P_Rhino_DocObjects_InstanceDefinition_SkipNestedLinkedDefinitions.htm" />
   <HelpKINode Title="Skylight class">
-    <HelpKINode Title="Skylight Class" Url="html/T_Rhino_Render_Skylight.htm" />
     <HelpKINode Title="Skylight Class" Url="html/T_Rhino_Render_ChangeQueue_Skylight.htm" />
+    <HelpKINode Title="Skylight Class" Url="html/T_Rhino_Render_Skylight.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Rhino_Render_Skylight__ctor.htm" />
     <HelpKINode Title="events" Url="html/Events_T_Rhino_Render_Skylight.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Rhino_Render_ChangeQueue_Skylight.htm" />
@@ -30174,8 +30271,8 @@
   <HelpKINode Title="Skylight.CustomEnvironmentOn property" Url="html/P_Rhino_Render_Skylight_CustomEnvironmentOn.htm" />
   <HelpKINode Title="Skylight.Dispose method" Url="html/M_Rhino_Render_Skylight_Dispose.htm" />
   <HelpKINode Title="Skylight.Enabled property">
-    <HelpKINode Title="Skylight.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_Skylight_Enabled.htm" />
     <HelpKINode Title="Skylight.Enabled Property " Url="html/P_Rhino_Render_Skylight_Enabled.htm" />
+    <HelpKINode Title="Skylight.Enabled Property " Url="html/P_Rhino_Render_ChangeQueue_Skylight_Enabled.htm" />
   </HelpKINode>
   <HelpKINode Title="Skylight.Finalize method" Url="html/M_Rhino_Render_Skylight_Finalize.htm" />
   <HelpKINode Title="Skylight.ShadowIntensity property">
@@ -30460,8 +30557,8 @@
   </HelpKINode>
   <HelpKINode Title="SpecularColor property" Url="html/P_Rhino_DocObjects_Material_SpecularColor.htm" />
   <HelpKINode Title="SpecularTint property">
-    <HelpKINode Title="PhysicallyBased.SpecularTint Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_SpecularTint.htm" />
     <HelpKINode Title="PhysicallyBased.SpecularTint Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_SpecularTint.htm" />
+    <HelpKINode Title="PhysicallyBased.SpecularTint Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_SpecularTint.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.SpecularTint Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_SpecularTint.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.SpecularTint Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_SpecularTint.htm" />
   </HelpKINode>
@@ -30999,6 +31096,7 @@
   <HelpKINode Title="SubD method" Url="html/M_Rhino_DocObjects_ObjRef_SubD.htm" />
   <HelpKINode Title="SubD.ClearEvaluationCache method" Url="html/M_Rhino_Geometry_SubD_ClearEvaluationCache.htm" />
   <HelpKINode Title="SubD.ComponentFromComponentIndex method" Url="html/M_Rhino_Geometry_SubD_ComponentFromComponentIndex.htm" />
+  <HelpKINode Title="SubD.CopyEvaluationCache method" Url="html/M_Rhino_Geometry_SubD_CopyEvaluationCache.htm" />
   <HelpKINode Title="SubD.CreateFromCylinder method" Url="html/M_Rhino_Geometry_SubD_CreateFromCylinder.htm" />
   <HelpKINode Title="SubD.CreateFromLoft method" Url="html/M_Rhino_Geometry_SubD_CreateFromLoft.htm" />
   <HelpKINode Title="SubD.CreateFromMesh method" Url="html/Overload_Rhino_Geometry_SubD_CreateFromMesh.htm" />
@@ -31009,9 +31107,11 @@
   <HelpKINode Title="SubD.CreateQuadSphere method" Url="html/M_Rhino_Geometry_SubD_CreateQuadSphere.htm" />
   <HelpKINode Title="SubD.CreateTriSphere method" Url="html/M_Rhino_Geometry_SubD_CreateTriSphere.htm" />
   <HelpKINode Title="SubD.Dispose method" Url="html/Overload_Rhino_Geometry_SubD_Dispose.htm" />
+  <HelpKINode Title="SubD.DuplicateEdgeCurves method" Url="html/Overload_Rhino_Geometry_SubD_DuplicateEdgeCurves.htm" />
   <HelpKINode Title="SubD.Edges property" Url="html/P_Rhino_Geometry_SubD_Edges.htm" />
   <HelpKINode Title="SubD.Empty property" Url="html/P_Rhino_Geometry_SubD_Empty.htm" />
   <HelpKINode Title="SubD.Faces property" Url="html/P_Rhino_Geometry_SubD_Faces.htm" />
+  <HelpKINode Title="SubD.Flip method" Url="html/M_Rhino_Geometry_SubD_Flip.htm" />
   <HelpKINode Title="SubD.InterpolateSurfacePoints method" Url="html/Overload_Rhino_Geometry_SubD_InterpolateSurfacePoints.htm" />
   <HelpKINode Title="SubD.IsSolid property" Url="html/P_Rhino_Geometry_SubD_IsSolid.htm" />
   <HelpKINode Title="SubD.JoinSubDs method" Url="html/Overload_Rhino_Geometry_SubD_JoinSubDs.htm" />
@@ -31026,6 +31126,7 @@
   <HelpKINode Title="SubD.Subdivide method" Url="html/Overload_Rhino_Geometry_SubD_Subdivide.htm" />
   <HelpKINode Title="SubD.ToBrep method" Url="html/Overload_Rhino_Geometry_SubD_ToBrep.htm" />
   <HelpKINode Title="SubD.UpdateAllTagsAndSectorCoefficients method" Url="html/M_Rhino_Geometry_SubD_UpdateAllTagsAndSectorCoefficients.htm" />
+  <HelpKINode Title="SubD.UpdateSurfaceMeshCache method" Url="html/M_Rhino_Geometry_SubD_UpdateSurfaceMeshCache.htm" />
   <HelpKINode Title="SubD.Vertices property" Url="html/P_Rhino_Geometry_SubD_Vertices.htm" />
   <HelpKINode Title="SubDAppearance property" Url="html/P_Rhino_RhinoDoc_SubDAppearance.htm" />
   <HelpKINode Title="SubDAutomaticMeshToSubDContext enumeration" Url="html/T_Rhino_Geometry_SubDAutomaticMeshToSubDContext.htm" />
@@ -31264,8 +31365,8 @@
   <HelpKINode Title="SubObjectSelectionEnabled property" Url="html/P_Rhino_Input_Custom_PickContext_SubObjectSelectionEnabled.htm" />
   <HelpKINode Title="SubSurface enumeration member" Url="html/T_Rhino_Input_Custom_GeometryAttributeFilter.htm" />
   <HelpKINode Title="Subsurface property">
-    <HelpKINode Title="PhysicallyBased.Subsurface Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Subsurface.htm" />
     <HelpKINode Title="PhysicallyBased.Subsurface Property " Url="html/P_Rhino_Render_ChildSlotNames_PhysicallyBased_Subsurface.htm" />
+    <HelpKINode Title="PhysicallyBased.Subsurface Property " Url="html/P_Rhino_Render_ParameterNames_PhysicallyBased_Subsurface.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.ParametersNames.Subsurface Property " Url="html/P_Rhino_Render_PhysicallyBasedMaterial_ParametersNames_Subsurface.htm" />
     <HelpKINode Title="PhysicallyBasedMaterial.Subsurface Property " Url="html/P_Rhino_DocObjects_PhysicallyBasedMaterial_Subsurface.htm" />
   </HelpKINode>
@@ -31634,7 +31735,7 @@
   <HelpKINode Title="SurfaceCurvature.UVPoint property" Url="html/P_Rhino_Geometry_SurfaceCurvature_UVPoint.htm" />
   <HelpKINode Title="SurfaceEdgeApplyPattern property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeApplyPattern.htm" />
   <HelpKINode Title="SurfaceEdgeColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColor.htm" />
-  <HelpKINode Title="SurfaceEdgeColorReduction property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorReduction.htm" />
+  <HelpKINode Title="SurfaceEdgeColorReductionPercent property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorReductionPercent.htm" />
   <HelpKINode Title="SurfaceEdgeColorUsage property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeColorUsage.htm" />
   <HelpKINode Title="SurfaceEdgeThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeThickness.htm" />
   <HelpKINode Title="SurfaceEdgeThicknessScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceEdgeThicknessScale.htm" />
@@ -31674,15 +31775,16 @@
   <HelpKINode Title="SurfaceIsoThicknessUScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessUScale.htm" />
   <HelpKINode Title="SurfaceIsoThicknessUsed property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessUsed.htm" />
   <HelpKINode Title="SurfaceIsoThicknessVScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessVScale.htm" />
+  <HelpKINode Title="SurfaceIsoThicknessWScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoThicknessWScale.htm" />
   <HelpKINode Title="SurfaceIsoUColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoUColor.htm" />
   <HelpKINode Title="SurfaceIsoUThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoUThickness.htm" />
   <HelpKINode Title="SurfaceIsoUVColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoUVColor.htm" />
   <HelpKINode Title="SurfaceIsoVColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoVColor.htm" />
   <HelpKINode Title="SurfaceIsoVThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceIsoVThickness.htm" />
   <HelpKINode Title="SurfaceMappingPrimitive enumeration member" Url="html/T_Rhino_Render_TextureMappingType.htm" />
-  <HelpKINode Title="SurfaceNakedAdgeColorReduction property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedAdgeColorReduction.htm" />
   <HelpKINode Title="SurfaceNakedEdgeApplyPattern property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeApplyPattern.htm" />
   <HelpKINode Title="SurfaceNakedEdgeColor property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColor.htm" />
+  <HelpKINode Title="SurfaceNakedEdgeColorReductionPercent property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorReductionPercent.htm" />
   <HelpKINode Title="SurfaceNakedEdgeColorUsage property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeColorUsage.htm" />
   <HelpKINode Title="SurfaceNakedEdgeThickness property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeThickness.htm" />
   <HelpKINode Title="SurfaceNakedEdgeThicknessScale property" Url="html/P_Rhino_Display_DisplayPipelineAttributes_SurfaceNakedEdgeThicknessScale.htm" />
@@ -32349,6 +32451,7 @@
   <HelpKINode Title="Texture.Texture constructor" Url="html/Overload_Rhino_DocObjects_Texture__ctor.htm" />
   <HelpKINode Title="Texture.TextureCombineMode property" Url="html/P_Rhino_DocObjects_Texture_TextureCombineMode.htm" />
   <HelpKINode Title="Texture.TextureType property" Url="html/P_Rhino_DocObjects_Texture_TextureType.htm" />
+  <HelpKINode Title="Texture.TreatAsLinear property" Url="html/P_Rhino_DocObjects_Texture_TreatAsLinear.htm" />
   <HelpKINode Title="Texture.UvwTransform property" Url="html/P_Rhino_DocObjects_Texture_UvwTransform.htm" />
   <HelpKINode Title="Texture.WcsBoxProjected property" Url="html/P_Rhino_DocObjects_Texture_WcsBoxProjected.htm" />
   <HelpKINode Title="Texture.WcsProjected property" Url="html/P_Rhino_DocObjects_Texture_WcsProjected.htm" />
@@ -32509,8 +32612,8 @@
   <HelpKINode Title="TextureRenderHash method" Url="html/Overload_Rhino_Render_Decal_TextureRenderHash.htm" />
   <HelpKINode Title="TextureRenderHashFlags enumeration" Url="html/T_Rhino_Render_TextureRenderHashFlags.htm" />
   <HelpKINode Title="TextureRotation property">
-    <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_GroundPlane_TextureRotation.htm" />
     <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureRotation.htm" />
+    <HelpKINode Title="GroundPlane.TextureRotation Property " Url="html/P_Rhino_Render_GroundPlane_TextureRotation.htm" />
   </HelpKINode>
   <HelpKINode Title="Textures enumeration member" Url="html/T_Rhino_PlugIns_RenderPlugIn_RenderFeature.htm" />
   <HelpKINode Title="TextureScale property" Url="html/P_Rhino_Render_ChangeQueue_GroundPlane_TextureScale.htm" />
@@ -32636,6 +32739,7 @@
   </HelpKINode>
   <HelpKINode Title="Title enumeration member" Url="html/T_Rhino_UI_Fonts_Size.htm" />
   <HelpKINode Title="Title property">
+    <HelpKINode Title="File3mfWriteOptions.Title Property " Url="html/P_Rhino_FileIO_File3mfWriteOptions_Title.htm" />
     <HelpKINode Title="GetColorEventArgs.Title Property " Url="html/P_Rhino_UI_GetColorEventArgs_Title.htm" />
     <HelpKINode Title="Notification.Title Property " Url="html/P_Rhino_Runtime_Notifications_Notification_Title.htm" />
     <HelpKINode Title="OpenFileDialog.Title Property " Url="html/P_Rhino_UI_OpenFileDialog_Title.htm" />
@@ -32701,6 +32805,7 @@
     <HelpKINode Title="CommandAliasList.ToDictionary Method " Url="html/M_Rhino_ApplicationSettings_CommandAliasList_ToDictionary.htm" />
     <HelpKINode Title="File3dsReadOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_File3dsReadOptions_ToDictionary.htm" />
     <HelpKINode Title="File3dsWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_File3dsWriteOptions_ToDictionary.htm" />
+    <HelpKINode Title="File3mfWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_File3mfWriteOptions_ToDictionary.htm" />
     <HelpKINode Title="FileAiReadOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileAiReadOptions_ToDictionary.htm" />
     <HelpKINode Title="FileAiWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileAiWriteOptions_ToDictionary.htm" />
     <HelpKINode Title="FileAmfWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileAmfWriteOptions_ToDictionary.htm" />
@@ -32736,6 +32841,7 @@
     <HelpKINode Title="FileTxtReadOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileTxtReadOptions_ToDictionary.htm" />
     <HelpKINode Title="FileTxtWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileTxtWriteOptions_ToDictionary.htm" />
     <HelpKINode Title="FileUdoWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileUdoWriteOptions_ToDictionary.htm" />
+    <HelpKINode Title="FileUsdWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileUsdWriteOptions_ToDictionary.htm" />
     <HelpKINode Title="FileVdaWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileVdaWriteOptions_ToDictionary.htm" />
     <HelpKINode Title="FileVrmlWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileVrmlWriteOptions_ToDictionary.htm" />
     <HelpKINode Title="FileX3dvWriteOptions.ToDictionary Method " Url="html/M_Rhino_FileIO_FileX3dvWriteOptions_ToDictionary.htm" />
@@ -33227,6 +33333,7 @@
     <HelpKINode Title="Transform.Transpose Method " Url="html/M_Rhino_Geometry_Transform_Transpose.htm" />
   </HelpKINode>
   <HelpKINode Title="TransposeTextureCoordinates method" Url="html/M_Rhino_Geometry_Collections_MeshTextureCoordinateList_TransposeTextureCoordinates.htm" />
+  <HelpKINode Title="TreatAsLinear property" Url="html/P_Rhino_DocObjects_Texture_TreatAsLinear.htm" />
   <HelpKINode Title="Tree enumeration member">
     <HelpKINode Title="IRhRdkThumbnailList_Modes Enumeration" Url="html/T_Rhino_UI_Controls_ThumbnailUI_IRhRdkThumbnailList_Modes.htm" />
     <HelpKINode Title="Modes Enumeration" Url="html/T_Rhino_Render_DataSources_Modes.htm" />
@@ -33710,11 +33817,11 @@
     <HelpKINode Title="UndoRedoEventArgs.UndoSerialNumber Property " Url="html/P_Rhino_Commands_UndoRedoEventArgs_UndoSerialNumber.htm" />
   </HelpKINode>
   <HelpKINode Title="Unfriendly enumeration member" Url="html/T_Rhino_Geometry_SubDFriendlyKnotType.htm" />
+  <HelpKINode Title="Ungroup method" Url="html/M_Rhino_Render_RenderContent_Ungroup.htm" />
   <HelpKINode Title="UnGroup method">
     <HelpKINode Title="LightManagerSupport.UnGroup Method " Url="html/M_Rhino_Render_LightManagerSupport_UnGroup.htm" />
     <HelpKINode Title="LightManagerSupportClient.UnGroup Method " Url="html/M_Rhino_Render_LightManagerSupportClient_UnGroup.htm" />
   </HelpKINode>
-  <HelpKINode Title="Ungroup method" Url="html/M_Rhino_Render_RenderContent_Ungroup.htm" />
   <HelpKINode Title="UngroupRecursive method" Url="html/M_Rhino_Render_RenderContent_UngroupRecursive.htm" />
   <HelpKINode Title="UnhandledThreadException method" Url="html/M_Rhino_Runtime_HostUtils_UnhandledThreadException.htm" />
   <HelpKINode Title="UnhighlightAllSubObjects method" Url="html/M_Rhino_DocObjects_RhinoObject_UnhighlightAllSubObjects.htm" />
@@ -33962,6 +34069,7 @@
   <HelpKINode Title="UpdateProgressMeter method" Url="html/Overload_Rhino_UI_StatusBar_UpdateProgressMeter.htm" />
   <HelpKINode Title="UpdateResultArray method" Url="html/M_Rhino_DocObjects_ReplayHistoryData_UpdateResultArray.htm" />
   <HelpKINode Title="UpdatesAndStatisticsStatus property" Url="html/P_Rhino_RhinoApp_UpdatesAndStatisticsStatus.htm" />
+  <HelpKINode Title="UpdateSurfaceMeshCache method" Url="html/M_Rhino_Geometry_SubD_UpdateSurfaceMeshCache.htm" />
   <HelpKINode Title="UpdateToAngularDimension method" Url="html/M_Rhino_DocObjects_ReplayHistoryResult_UpdateToAngularDimension.htm" />
   <HelpKINode Title="UpdateToArc method" Url="html/M_Rhino_DocObjects_ReplayHistoryResult_UpdateToArc.htm" />
   <HelpKINode Title="UpdateToBrep method" Url="html/M_Rhino_DocObjects_ReplayHistoryResult_UpdateToBrep.htm" />
@@ -34219,8 +34327,8 @@
   <HelpKINode Title="Utilities.ShowIncompatibleTextures property" Url="html/P_Rhino_Render_Utilities_ShowIncompatibleTextures.htm" />
   <HelpKINode Title="Utilities.ShowIORMenu method" Url="html/M_Rhino_Render_Utilities_ShowIORMenu.htm" />
   <HelpKINode Title="Utility enumeration member" Url="html/T_Rhino_PlugIns_PlugInType.htm" />
-  <HelpKINode Title="UUID method" Url="html/M_Rhino_UI_Controls_ThumbnailUI_IRhRdkThumbnailList_UUID.htm" />
   <HelpKINode Title="Uuid method" Url="html/M_Rhino_UI_Controls_ContentUI_Uuid.htm" />
+  <HelpKINode Title="UUID method" Url="html/M_Rhino_UI_Controls_ThumbnailUI_IRhRdkThumbnailList_UUID.htm" />
   <HelpKINode Title="UV enumeration member">
     <HelpKINode Title="DecalMapping Enumeration" Url="html/T_Rhino_Render_DecalMapping.htm" />
     <HelpKINode Title="GetSphere.MeshSphereStyle Enumeration" Url="html/T_Rhino_Input_Custom_GetSphere_MeshSphereStyle.htm" />
@@ -34590,11 +34698,11 @@
   </HelpKINode>
   <HelpKINode Title="VerticalAlignment property" Url="html/P_Rhino_Display_Text3d_VerticalAlignment.htm" />
   <HelpKINode Title="VerticalCrossCube enumeration member" Url="html/T_Rhino_Render_TextureEnvironmentMappingMode.htm" />
+  <HelpKINode Title="VerticalCrossCubeMap enumeration member" Url="html/T_Rhino_DocObjects_Environment_BackgroundProjections.htm" />
   <HelpKINode Title="VerticalCrossCubemap enumeration member">
     <HelpKINode Title="SimulatedEnvironment.BackgroundProjections Enumeration" Url="html/T_Rhino_Render_SimulatedEnvironment_BackgroundProjections.htm" />
     <HelpKINode Title="SimulatedTexture.EnvironmentMappingModes Enumeration" Url="html/T_Rhino_Render_SimulatedTexture_EnvironmentMappingModes.htm" />
   </HelpKINode>
-  <HelpKINode Title="VerticalCrossCubeMap enumeration member" Url="html/T_Rhino_DocObjects_Environment_BackgroundProjections.htm" />
   <HelpKINode Title="VerticalDirectionCount property" Url="html/P_Rhino_Input_Custom_GetTorus_VerticalDirectionCount.htm" />
   <HelpKINode Title="VerticalDirectionMinimumCount property" Url="html/P_Rhino_Input_Custom_GetTorus_VerticalDirectionMinimumCount.htm" />
   <HelpKINode Title="VerticalScale property" Url="html/P_Rhino_Display_ViewCaptureSettings_VerticalScale.htm" />
@@ -35395,6 +35503,7 @@
     <HelpKINode Title="DracoCompression.Write Method " Url="html/M_Rhino_FileIO_DracoCompression_Write.htm" />
     <HelpKINode Title="File3dm.Write Method " Url="html/Overload_Rhino_FileIO_File3dm_Write.htm" />
     <HelpKINode Title="File3ds.Write Method " Url="html/M_Rhino_FileIO_File3ds_Write.htm" />
+    <HelpKINode Title="File3mf.Write Method " Url="html/M_Rhino_FileIO_File3mf_Write.htm" />
     <HelpKINode Title="FileAi.Write Method " Url="html/M_Rhino_FileIO_FileAi_Write.htm" />
     <HelpKINode Title="FileAmf.Write Method " Url="html/M_Rhino_FileIO_FileAmf_Write.htm" />
     <HelpKINode Title="FileCd.Write Method " Url="html/M_Rhino_FileIO_FileCd_Write.htm" />
@@ -35417,6 +35526,7 @@
     <HelpKINode Title="FileStp.Write Method " Url="html/M_Rhino_FileIO_FileStp_Write.htm" />
     <HelpKINode Title="FileTxt.Write Method " Url="html/M_Rhino_FileIO_FileTxt_Write.htm" />
     <HelpKINode Title="FileUdo.Write Method " Url="html/M_Rhino_FileIO_FileUdo_Write.htm" />
+    <HelpKINode Title="FileUsd.Write Method " Url="html/M_Rhino_FileIO_FileUsd_Write.htm" />
     <HelpKINode Title="FileVda.Write Method " Url="html/M_Rhino_FileIO_FileVda_Write.htm" />
     <HelpKINode Title="FileVrml.Write Method " Url="html/M_Rhino_FileIO_FileVrml_Write.htm" />
     <HelpKINode Title="FileX3dv.Write Method " Url="html/M_Rhino_FileIO_FileX3dv_Write.htm" />
