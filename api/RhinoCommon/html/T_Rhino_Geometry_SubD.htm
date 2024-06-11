@@ -55,7 +55,7 @@
             Clear all cached evaluation information (meshes, surface points, bounding boxes, ...) 
             that depends on edge tags, vertex tags, and the location of vertex control points.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_SubD_ComponentFromComponentIndex.htm">ComponentFromComponentIndex</a></td><td><div class="summary">
-            Returns a SubDComponent, eithere a SubDEdge, SubDFace, or SubDVertex, from a component index.
+            Returns a SubDComponent, either a SubDEdge, SubDFace, or SubDVertex, from a component index.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_GeometryBase_ComponentIndex.htm">ComponentIndex</a></td><td><div class="summary">
             If this piece of geometry is a component in something larger, like a BrepEdge
             in a Brep, then this function returns the component index.
@@ -116,10 +116,10 @@
             Constructs a deep (full) copy of this object.
             </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_SubD_DuplicateEdgeCurves.htm">DuplicateEdgeCurves<span id="LSTEA738C36_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA738C36_11?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a></td><td><div class="summary">
             Gets Nurbs form of all edges in this SubD, with clamped knots.
-            NB: Updates the SubD evaluation cache before getting the edges.
+            NB: Does not update the SubD evaluation cache before getting the edges.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_SubD_DuplicateEdgeCurves_1.htm">DuplicateEdgeCurves(Boolean, Boolean, Boolean, Boolean, Boolean, Boolean)</a></td><td><div class="summary">
             Gets Nurbs form of edges in this SubD.
-            NB: Updates the SubD evaluation cache before getting the edges.
+            NB: Does not update the SubD evaluation cache before getting the edges.
             </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_GeometryBase_DuplicateShallow.htm">DuplicateShallow</a></td><td><div class="summary">
             Constructs a light copy of this object. By "light", it is meant that the same
             underlying data is used until something is done to attempt to change it. For example,
@@ -224,4 +224,4 @@
               - <a href="M_Rhino_Geometry_SubDEdge_ToNurbsCurve.htm">ToNurbsCurve(Boolean)</a>, and
               - <a href="M_Rhino_Geometry_Mesh_CreateFromSubD.htm">CreateFromSubD(SubD, Int32)</a>.
             The density of the mesh cache is <a href="M_Rhino_Geometry_SubDDisplayParameters_Default.htm">Default<span id="LSTEA738C36_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEA738C36_32?cs=()|vb=|cpp=()|nu=()|fs=()");</script></a>.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.7.24134.03000 (2024-05-13)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.8.24163.12480 (2024-06-11)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
