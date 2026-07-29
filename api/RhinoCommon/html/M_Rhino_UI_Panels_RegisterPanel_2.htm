@@ -23,7 +23,7 @@
 	<span class="parameter">panelType</span> <span class="keyword">As</span> <span class="identifier">PanelType</span>
 )</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script><h4 class="subHeading">Parameters</h4><dl><dt><span class="parameter">plugIn</span></dt><dd>Type: <a href="T_Rhino_PlugIns_PlugIn.htm">Rhino.PlugIns<span id="LST388CE032_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>PlugIn</a><br />
             Plug-in this panel is associated with
-            </dd><dt><span class="parameter">type</span></dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">System<span id="LST388CE032_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Type</a><br />
+            </dd><dt><span class="parameter">type</span></dt><dd>Type: <span class="nolink">System<span id="LST388CE032_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Type</span><br />
             Class type to construct when a panel is shown.  If your class is
             derived from Eto.Forms.Control it will work on both the Mac and
             Windows version of Rhino.  In addition Windows Rhino will support any
@@ -31,25 +31,25 @@
             derived from System.Windows.FrameworkElement.  Mac Rhino will also
             support classes that are derived from NsView.  In addition to the
             type requirements the class must have a public constructor with no
-            parameters or a constructor with a single uint that represents the 
+            parameters or a constructor with a single uint that represents the
             document serial number and have a GuidAttribute applied with a
             unique Id.  n Windows there is only one panel created which gets
             recycled for each new document.  On the Mac a panel will be created
             for each open document and destroyed when the document closes.  In
-            certain situations in Mac Rhino a a panel may get created and
+            certain situations in Mac Rhino a panel may get created and
             destroyed multiple times when opening/closing a panel while editing a
             document.
-            </dd><dt><span class="parameter">caption</span></dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">System<span id="LST388CE032_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</a><br />
+            </dd><dt><span class="parameter">caption</span></dt><dd>Type: <span class="nolink">System<span id="LST388CE032_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</span><br />
             Displays in the panel tab on Windows or at the top of the modeless
             window on Mac.
-            </dd><dt><span class="parameter">iconAssembly</span></dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.reflection.assembly" target="_blank" rel="noopener noreferrer">System.Reflection<span id="LST388CE032_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Assembly</a><br />
+            </dd><dt><span class="parameter">iconAssembly</span></dt><dd>Type: <span class="nolink">System.Reflection<span id="LST388CE032_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>Assembly</span><br />
             Assembly conataining the iconResourceId, if null it is assumed the
             iconResourceId is a starndard Rhino resource and the Rhino.UI assembly
             will be used.
-            assembly will be used 
-            </dd><dt><span class="parameter">iconResourceId</span></dt><dd>Type: <a href="https://docs.microsoft.com/dotnet/api/system.string" target="_blank" rel="noopener noreferrer">System<span id="LST388CE032_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</a><br />
+            assembly will be used
+            </dd><dt><span class="parameter">iconResourceId</span></dt><dd>Type: <span class="nolink">System<span id="LST388CE032_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_5?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>String</span><br />
             The resource Id string used to load the panel icon from the iconAssembly.
             On Windows the panel may be displayed using the icon, caption or both.
             On Mac the icon will be used and the caption will be the tool-tip.
             </dd><dt><span class="parameter">panelType</span></dt><dd>Type: <a href="T_Rhino_UI_PanelType.htm">Rhino.UI<span id="LST388CE032_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST388CE032_6?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>PanelType</a><br />
-            See <a href="T_Rhino_UI_PanelType.htm">PanelType</a></dd></dl></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_UI_Panels.htm">Panels Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_UI_Panels_RegisterPanel.htm">RegisterPanel Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.33.26188.13000 (2026-07-07)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            See <a href="T_Rhino_UI_PanelType.htm">PanelType</a></dd></dl></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID2RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="T_Rhino_UI_Panels.htm">Panels Class</a></div><div class="seeAlsoStyle"><a href="Overload_Rhino_UI_Panels_RegisterPanel.htm">RegisterPanel Overload</a></div><div class="seeAlsoStyle"><a href="N_Rhino_UI.htm">Rhino.UI Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 9.0.26209.18300 (2026-07-28)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

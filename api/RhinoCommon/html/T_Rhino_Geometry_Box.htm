@@ -15,7 +15,9 @@
             <p>The orientation plane of the Box is coincident with the 
             World XY plane.</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box__ctor_1.htm">Box(Box)</a></td><td><div class="summary">Copy constructor.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box__ctor_2.htm">Box(Plane, BoundingBox)</a></td><td><div class="summary">
-            Initializes a world aligned box from a base plane and a bounding box.
+            Initializes a box from a base plane and a world-aligned bounding box.
+            The box will use basePlane for its Plane, and the X, Y, and Z intervals
+            of boundingbox as its X, Y, and Z intervals.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box__ctor_3.htm">Box(Plane, GeometryBase)</a></td><td><div class="summary">
             Initializes a box that contains a generic piece of geometry.
             This box will be aligned with an arbitrary plane.
@@ -26,7 +28,7 @@
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Geometry_Box_Area.htm">Area</a></td><td><div class="summary">
-            Gets the total surface area of this box.
+            Gets the total surface area of this box, or <a href="F_Rhino_RhinoMath_UnsetValue.htm">UnsetValue</a> for an invalid box.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Geometry_Box_BoundingBox.htm">BoundingBox</a></td><td><div class="summary">
             Gets the world axis aligned Bounding box for this oriented box.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Geometry_Box_Center.htm">Center</a></td><td><div class="summary">
@@ -41,7 +43,7 @@
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Rhino_Geometry_Box_Unset.htm">Unset</a></td><td><div class="summary">
             Gets a Box whose base plane and axis dimensions are all Unset.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Geometry_Box_Volume.htm">Volume</a></td><td><div class="summary">
-            Gets the total volume of this box.
+            Gets the total volume of this box, or <a href="F_Rhino_RhinoMath_UnsetValue.htm">UnsetValue</a> for an invalid box.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Rhino_Geometry_Box_X.htm">X</a></td><td><div class="summary">
             Gets or sets the Interval that describes the dimension of the 
             Box along the orientation plane X-Axis. Otherwise known as the Width of the Box.
@@ -53,29 +55,40 @@
             Box along the orientation plane Z-Axis. Otherwise known as the Height of the Box.
             </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID4RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
 								 
-							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_ClosestPoint.htm">ClosestPoint(Point3d)</a></td><td><div class="summary">
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Clone.htm">Clone</a></td><td><div class="summary">
+            Returns a deep copy of this instance.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_ClosestPoint.htm">ClosestPoint(Point3d)</a></td><td><div class="summary">
             Finds the closest point on or in the Box. The box should be Valid for this to work.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_ClosestPoint_1.htm">ClosestPoint(Point3d, Boolean)</a></td><td><div class="summary">
             Finds the closest point on or in the Box. The box should be Valid for this to work.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Contains.htm">Contains(BoundingBox)</a></td><td><div class="summary">
-            Test a bounding box for Box inclusion. This is the same as calling Contains(box,false)
+            Determines whether a BoundingBox is inside this Box, including its boundary.
+            This is the same as calling Contains(box,false).
+            Invalid boxes contain nothing. Invalid bounding boxes are never contained.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Contains_2.htm">Contains(Box)</a></td><td><div class="summary">
-            Test a box for Box inclusion. This is the same as calling Contains(box,false)
+            Determines whether a Box is inside this Box, including its boundary.
+            This is the same as calling Contains(box,false).
+            Invalid boxes contain nothing. Invalid boxes are never contained.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Contains_4.htm">Contains(Point3d)</a></td><td><div class="summary">
-            Determines whether a point is included in this box. This is the same as calling Contains(point,false)
+            Determines whether a point is inside this Box, including its boundary.
+            This is the same as calling Contains(point,false).
+            Invalid boxes contain nothing. Invalid points are never contained.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Contains_1.htm">Contains(BoundingBox, Boolean)</a></td><td><div class="summary">
-            Test a bounding box for Box inclusion.
+            Determines whether a BoundingBox is inside this Box (strict inclusion, if strict is true).
+            Invalid boxes contain nothing. Invalid bounding boxes are never contained.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Contains_3.htm">Contains(Box, Boolean)</a></td><td><div class="summary">
-            Test a box for Box inclusion.
+            Determines whether a Box is inside this Box (strict inclusion, if strict is true).
+            Invalid boxes contain nothing. Invalid boxes are never contained.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Contains_5.htm">Contains(Point3d, Boolean)</a></td><td><div class="summary">
-            Determines whether a point is included in this box. 
+            Determines whether a point is (strictly, if strict is true) inside this Box.
+            Invalid boxes contain nothing. Invalid points are never contained.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_EpsilonEquals.htm">EpsilonEquals</a></td><td><div class="summary">
-            Check that all values in other are within epsilon of the values in this
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.valuetype.equals#system-valuetype-equals(system-object)" target="_blank" rel="noopener noreferrer">Equals</a></td><td><div class="summary">Indicates whether this instance and a specified object are equal.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_FurthestPoint.htm">FurthestPoint</a></td><td><div class="summary">
-            Finds the furthest point on the Box. The Box should be Valid for this to work properly.
+            Check that all values in Box other are within epsilon of the values in this Box.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">Equals</span></td><td><div class="summary">Indicates whether this instance and a specified object are equal.</div> (Inherited from <span class="nolink">ValueType</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_FurthestPoint.htm">FurthestPoint</a></td><td><div class="summary">
+            Finds the furthest point on the boundary of this Box. The Box should be Valid for this to work properly.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_GetCorners.htm">GetCorners</a></td><td><div class="summary">
-            Gets an array of the 8 corner points of this box.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.valuetype.gethashcode#system-valuetype-gethashcode" target="_blank" rel="noopener noreferrer">GetHashCode</a></td><td><div class="summary">Returns the hash code for this instance.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.object.gettype#system-object-gettype" target="_blank" rel="noopener noreferrer">GetType</a></td><td><div class="summary">Gets the <a href="https://docs.microsoft.com/dotnet/api/system.type" target="_blank" rel="noopener noreferrer">Type</a> of the current instance.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.object" target="_blank" rel="noopener noreferrer">Object</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Inflate.htm">Inflate(Double)</a></td><td><div class="summary">
+            Gets an array of the 8 corner points of this box, or an empty array if this box is not valid.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Returns the hash code for this instance.</div> (Inherited from <span class="nolink">ValueType</span>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetType</span></td><td><div class="summary">Gets the <span class="nolink">Type</span> of the current instance.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Inflate.htm">Inflate(Double)</a></td><td><div class="summary">
             Inflates the box by a given offset in each direction.
             Inflating with negative amounts may result in decreasing boxes. 
             InValid boxes cannot be inflated.
@@ -83,21 +96,24 @@
             Inflates the box by a given offset in each direction.
             Inflating with negative amounts may result in decreasing boxes.
             InValid boxes cannot be inflated.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_MakeValid.htm">MakeValid</a></td><td><div class="summary">
-            Attempts to make the Box valid. This is not always possible.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_MakeValid.htm">MakeValid</a></td><td> <strong>Obsolete. </strong><div class="summary">
+            DO NOT USE THIS FUNCTION
+            If some of the box's values (Plane origin or axis, intervals bounds) are unset, do nothing.
+            Else, make the Box valid by reversing the non-increasing intervals of this box.
+            This is almost never what you want because it only makes <a href="P_Rhino_Geometry_Box_Empty.htm">Empty</a> boxes not empty and with non-zero length.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_PointAt.htm">PointAt</a></td><td><div class="summary">
-            Evaluates the box volume at the given unitized parameters.
-            <p>The box has idealized side length of 1x1x1.</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_RepositionBasePlane.htm">RepositionBasePlane</a></td><td><div class="summary">
+            Evaluates the box at the given unitized parameters.
+            <p>The box is parametrized with a side length of 1x1x1.</p></div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_RepositionBasePlane.htm">RepositionBasePlane</a></td><td><div class="summary">
             Repositions the origin of the Base plane for this box without affecting 
             the physical dimensions.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_ToBrep.htm">ToBrep</a></td><td><div class="summary">
             Constructs a brep representation of this box.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_ToExtrusion.htm">ToExtrusion</a></td><td><div class="summary">
             Constructs an extrusion representation of this box.
-            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="https://docs.microsoft.com/dotnet/api/system.valuetype.tostring#system-valuetype-tostring" target="_blank" rel="noopener noreferrer">ToString</a></td><td><div class="summary">Returns the fully qualified type name of this instance.</div> (Inherited from <a href="https://docs.microsoft.com/dotnet/api/system.valuetype" target="_blank" rel="noopener noreferrer">ValueType</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Transform.htm">Transform</a></td><td><div class="summary">
-            Transforms this Box using a Transformation matrix. If the Transform does not preserve 
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">ToString</span></td><td><div class="summary">Returns the fully qualified type name of this instance.</div> (Inherited from <span class="nolink">ValueType</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Transform.htm">Transform</a></td><td><div class="summary">
+            Transforms this Box using a Transformation matrix. If the Transform is not a 
             Similarity, the dimensions of the resulting box cannot be trusted.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Box_Union.htm">Union</a></td><td><div class="summary">
             Constructs a union between this Box and the given point. 
             This grows the box in directions so it contains the point.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID5RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 8.33.26188.13000 (2026-07-07)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID5RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 9.0.26209.18300 (2026-07-28)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
