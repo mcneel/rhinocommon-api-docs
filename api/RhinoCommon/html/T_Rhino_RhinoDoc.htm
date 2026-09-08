@@ -212,6 +212,13 @@
             Opens a 3DM file into a new headless RhinoDoc.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_RhinoDoc_OpenHeadless_1.htm">OpenHeadless(String, ArchivableDictionary)</a></td><td><div class="summary">
             Opens a file into a new headless RhinoDoc.
+            </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_RhinoDoc_OpenInteractive.htm">OpenInteractive</a></td><td><div class="summary">
+            Opens a 3dm file and makes it the active document. If called on
+            windows the active document will be saved and closed and the new
+            document will be opened and become the active document.  If called
+            on the Mac the file will be opened in a new document window. This
+            function is interactive in that it will ask you if you want to open
+            a document as read only if it is already open in a different process
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/CodeExample.png" alt="Code example" title="Code example" /></td><td><a href="M_Rhino_RhinoDoc_Purge.htm">Purge(PurgeFilter)</a></td><td><div class="summary">
             Purges unused table objects from this document, the same way the Purge command does.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_RhinoDoc_Purge_1.htm">Purge(PurgeFilter, Boolean)</a></td><td><div class="summary">
@@ -223,8 +230,8 @@
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_RhinoDoc_PurgeObjectHistory_2.htm">PurgeObjectHistory(Int32<span id="LSTDD64D770_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTDD64D770_16?cpp=%");</script>)</a></td><td><div class="summary">
             Purges the history records of every object in this document.
             </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Rhino_RhinoDoc_ReadFile.htm">ReadFile</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_RhinoDoc_ReadFileVersion.htm">ReadFileVersion</a></td><td><div class="summary">
-            Returns the file version of the current document.
-            Use this function to determine which version of Rhino last saved the document.
+            Returns the major version of Rhino that wrote the .3dm file this document was read from.
+            Values from referenced or merged files are not reported.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_RhinoDoc_Redo.htm">Redo</a></td><td><div class="summary"> Redo the last action that was "undone" </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_RhinoDoc_RenderMeshes.htm">RenderMeshes</a></td><td><div class="summary">
             Returns a set of non-object custom render primitives for this document.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_RhinoDoc_Save.htm">Save</a></td><td><div class="summary">
@@ -348,4 +355,4 @@
             Raised after a worksession reference model has been attached to or
             detached from a document. The document state already reflects the
             change at the time the event fires.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino.htm">Rhino Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 9.0.26244.12300 (2026-09-01)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino.htm">Rhino Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 9.0.26251.12300 (2026-09-08)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

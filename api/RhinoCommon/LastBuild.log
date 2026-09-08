@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj" started="9/1/2026 6:41:57 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj" started="9/8/2026 3:59:53 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
@@ -29,18 +29,18 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0295
+</plugIn>    Last step completed in 00:00:00.0247
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.2570
+    Last step completed in 00:00:00.2624
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-14407cc8-b2d7-4519-beb1-ddaa5c8e9e7e.proj]
-Build started 9/1/2026 6:42:00 PM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-26ed5fab-6d7c-41c4-b471-dd4e930536aa.proj]
+Build started 9/8/2026 3:59:56 PM.
 
-Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-14407cc8-b2d7-4519-beb1-ddaa5c8e9e7e.proj&quot; on node 1 (default targets).
+Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-26ed5fab-6d7c-41c4-b471-dd4e930536aa.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -48,17 +48,17 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection.Metadata (System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-14407cc8-b2d7-4519-beb1-ddaa5c8e9e7e.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.Immutable (System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-14407cc8-b2d7-4519-beb1-ddaa5c8e9e7e.proj]
-  Wrote information on 39 namespaces, 1509 types, and 19152 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection.Metadata (System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-26ed5fab-6d7c-41c4-b471-dd4e930536aa.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.Immutable (System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-26ed5fab-6d7c-41c4-b471-dd4e930536aa.proj]
+  Wrote information on 39 namespaces, 1513 types, and 19222 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-14407cc8-b2d7-4519-beb1-ddaa5c8e9e7e.proj&quot; (default targets).
-    Last step completed in 00:00:04.9376
+Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-26ed5fab-6d7c-41c4-b471-dd4e930536aa.proj&quot; (default targets).
+    Last step completed in 00:00:05.3784
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:02.8352
+    Last step completed in 00:00:03.2154
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -378,12 +378,17 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Display_DisplayModeDescription_Dispose_1 generated for M:Rhino.Display.DisplayModeDescription.Dispose(System.Boolean)
     Unique name M_Rhino_Display_DisplayModeDescription_ImportFromFile_1 generated for M:Rhino.Display.DisplayModeDescription.ImportFromFile(System.String,System.Boolean)
     Unique name M_Rhino_Display_DisplayPen_FromLinetype_1 generated for M:Rhino.Display.DisplayPen.FromLinetype(Rhino.DocObjects.Linetype,System.Drawing.Color,System.Double)
-    Unique name M_Rhino_Display_DisplayPipeline_Draw2dLine_1 generated for M:Rhino.Display.DisplayPipeline.Draw2dLine(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.Color,System.Single)
-    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_1 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point2d,System.Boolean,System.Int32)
-    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_2 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point2d,System.Boolean,System.Int32,System.String)
-    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_3 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,System.Boolean)
-    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_4 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,System.Boolean,System.Int32)
-    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_5 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,System.Boolean,System.Int32,System.String)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dLine_1 generated for M:Rhino.Display.DisplayPipeline.Draw2dLine(System.Drawing.Point,System.Drawing.Point,System.Drawing.Color,System.Single)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dLine_2 generated for M:Rhino.Display.DisplayPipeline.Draw2dLine(System.Drawing.PointF,System.Drawing.PointF,Rhino.Display.DisplayPen)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dLine_3 generated for M:Rhino.Display.DisplayPipeline.Draw2dLine(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.Color,System.Single)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dPolyline_1 generated for M:Rhino.Display.DisplayPipeline.Draw2dPolyline(Rhino.Geometry.Point2f[],Rhino.Display.DisplayPen,System.Boolean)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_1 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point2d,System.Boolean)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_2 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point2d,System.Boolean,System.Int32)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_3 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point2d,System.Boolean,System.Int32,System.String)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_4 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,Rhino.DocObjects.TextHorizontalAlignment,Rhino.DocObjects.TextVerticalAlignment,System.Single,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_5 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,System.Boolean)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_6 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,System.Boolean,System.Int32)
+    Unique name M_Rhino_Display_DisplayPipeline_Draw2dText_7 generated for M:Rhino.Display.DisplayPipeline.Draw2dText(System.String,System.Drawing.Color,Rhino.Geometry.Point3d,System.Boolean,System.Int32,System.String)
     Unique name M_Rhino_Display_DisplayPipeline_Draw3dText_1 generated for M:Rhino.Display.DisplayPipeline.Draw3dText(Rhino.Display.Text3d,System.Drawing.Color,Rhino.Geometry.Plane)
     Unique name M_Rhino_Display_DisplayPipeline_Draw3dText_2 generated for M:Rhino.Display.DisplayPipeline.Draw3dText(Rhino.Display.Text3d,System.Drawing.Color,Rhino.Geometry.Point3d)
     Unique name M_Rhino_Display_DisplayPipeline_Draw3dText_3 generated for M:Rhino.Display.DisplayPipeline.Draw3dText(System.String,System.Drawing.Color,Rhino.Geometry.Plane,System.Double,System.String)
@@ -394,6 +399,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Display_DisplayPipeline_DrawArrow_1 generated for M:Rhino.Display.DisplayPipeline.DrawArrow(Rhino.Geometry.Line,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawArrow_2 generated for M:Rhino.Display.DisplayPipeline.DrawArrow(Rhino.Geometry.Line,System.Drawing.Color,System.Double,System.Double)
     Unique name M_Rhino_Display_DisplayPipeline_DrawArrows_1 generated for M:Rhino.Display.DisplayPipeline.DrawArrows(System.Collections.Generic.IEnumerable{Rhino.Geometry.Line},System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawBitmap_1 generated for M:Rhino.Display.DisplayPipeline.DrawBitmap(Rhino.Display.DisplayBitmap,System.Int32,System.Int32,System.Int32,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawBox_1 generated for M:Rhino.Display.DisplayPipeline.DrawBox(Rhino.Geometry.BoundingBox,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawBox_2 generated for M:Rhino.Display.DisplayPipeline.DrawBox(Rhino.Geometry.Box,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawBox_3 generated for M:Rhino.Display.DisplayPipeline.DrawBox(Rhino.Geometry.Box,System.Drawing.Color,System.Int32)
@@ -414,7 +420,9 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Display_DisplayPipeline_DrawDot_4 generated for M:Rhino.Display.DisplayPipeline.DrawDot(System.Single,System.Single,System.String,System.Drawing.Color,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawDottedLine_1 generated for M:Rhino.Display.DisplayPipeline.DrawDottedLine(Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawDraftAnglePreview_1 generated for M:Rhino.Display.DisplayPipeline.DrawDraftAnglePreview(Rhino.Geometry.Mesh,System.Drawing.Color)
-    Unique name M_Rhino_Display_DisplayPipeline_DrawEmapPreview_1 generated for M:Rhino.Display.DisplayPipeline.DrawEmapPreview(Rhino.Geometry.Mesh,System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawEmapPreview_1 generated for M:Rhino.Display.DisplayPipeline.DrawEmapPreview(Rhino.Geometry.Brep,System.Drawing.Color,Rhino.ApplicationSettings.EmapAnalysisSettingsState)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawEmapPreview_2 generated for M:Rhino.Display.DisplayPipeline.DrawEmapPreview(Rhino.Geometry.Mesh,System.Drawing.Color)
+    Unique name M_Rhino_Display_DisplayPipeline_DrawEmapPreview_3 generated for M:Rhino.Display.DisplayPipeline.DrawEmapPreview(Rhino.Geometry.Mesh,System.Drawing.Color,Rhino.ApplicationSettings.EmapAnalysisSettingsState)
     Unique name M_Rhino_Display_DisplayPipeline_DrawExtrusionWires_1 generated for M:Rhino.Display.DisplayPipeline.DrawExtrusionWires(Rhino.Geometry.Extrusion,System.Drawing.Color,System.Int32)
     Unique name M_Rhino_Display_DisplayPipeline_DrawGradientHatch_1 generated for M:Rhino.Display.DisplayPipeline.DrawGradientHatch(Rhino.Geometry.Hatch,System.Collections.Generic.IEnumerable{Rhino.Display.ColorStop},Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Boolean,System.Single,System.Single,System.Drawing.Color)
     Unique name M_Rhino_Display_DisplayPipeline_DrawGradientHatch_2 generated for M:Rhino.Display.DisplayPipeline.DrawGradientHatch(Rhino.Geometry.Hatch,System.Drawing.Color,System.Drawing.Color,Rhino.Geometry.Point3d,Rhino.Geometry.Point3d,System.Boolean,System.Single,System.Drawing.Color)
@@ -628,6 +636,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_DocObjects_Custom_CustomGripObject_Dispose_1 generated for M:Rhino.DocObjects.Custom.CustomGripObject.Dispose(System.Boolean)
     Unique name M_Rhino_DocObjects_Custom_CustomMeshObject__ctor_1 generated for M:Rhino.DocObjects.Custom.CustomMeshObject.#ctor(Rhino.Geometry.Mesh)
     Unique name M_Rhino_DocObjects_Custom_CustomMeshObject_Dispose_1 generated for M:Rhino.DocObjects.Custom.CustomMeshObject.Dispose(System.Boolean)
+    Unique name M_Rhino_DocObjects_Custom_CustomObjectGrips__ctor_1 generated for M:Rhino.DocObjects.Custom.CustomObjectGrips.#ctor(Rhino.DocObjects.Custom.CustomObjectGripsType)
     Unique name M_Rhino_DocObjects_Custom_CustomObjectGrips_Dispose_1 generated for M:Rhino.DocObjects.Custom.CustomObjectGrips.Dispose(System.Boolean)
     Unique name M_Rhino_DocObjects_Custom_CustomPointObject__ctor_1 generated for M:Rhino.DocObjects.Custom.CustomPointObject.#ctor(Rhino.Geometry.Point)
     Unique name M_Rhino_DocObjects_Custom_CustomPointObject_Dispose_1 generated for M:Rhino.DocObjects.Custom.CustomPointObject.Dispose(System.Boolean)
@@ -659,6 +668,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_3 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Add(System.String,System.String,Rhino.Geometry.Point3d,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.IEnumerable{Rhino.DocObjects.ObjectAttributes},System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_4 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Add(System.String,System.String,System.String,System.String,Rhino.Geometry.Point3d,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.IEnumerable{Rhino.DocObjects.ObjectAttributes})
     Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Add_5 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Add(System.String,System.String,System.String,System.String,Rhino.Geometry.Point3d,System.Collections.Generic.IEnumerable{Rhino.Geometry.GeometryBase},System.Collections.Generic.IEnumerable{Rhino.DocObjects.ObjectAttributes},System.Boolean)
+    Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_CreateFromFile_1 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.CreateFromFile(System.String,System.String,System.String,System.String,System.String,Rhino.DocObjects.InstanceDefinitionUpdateType,Rhino.DocObjects.InstanceDefinitionLayerStyle,Rhino.DocObjects.InstanceDefinitionNameConflictResolution,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Delete_1 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Delete(System.Int32,System.Boolean,System.Boolean)
     Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Find_1 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Find(System.String)
     Unique name M_Rhino_DocObjects_Tables_InstanceDefinitionTable_Find_2 generated for M:Rhino.DocObjects.Tables.InstanceDefinitionTable.Find(System.String,System.Boolean)
@@ -1130,6 +1140,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Geometry_BoundingBox_Contains_2 generated for M:Rhino.Geometry.BoundingBox.Contains(Rhino.Geometry.Point3d)
     Unique name M_Rhino_Geometry_BoundingBox_Contains_3 generated for M:Rhino.Geometry.BoundingBox.Contains(Rhino.Geometry.Point3d,System.Boolean)
     Unique name M_Rhino_Geometry_BoundingBox_Inflate_1 generated for M:Rhino.Geometry.BoundingBox.Inflate(System.Double,System.Double,System.Double)
+    Unique name M_Rhino_Geometry_BoundingBox_IsDisjoint_1 generated for M:Rhino.Geometry.BoundingBox.IsDisjoint(Rhino.Geometry.BoundingBox,System.Double)
     Unique name M_Rhino_Geometry_BoundingBox_Union_1 generated for M:Rhino.Geometry.BoundingBox.Union(Rhino.Geometry.BoundingBox,Rhino.Geometry.BoundingBox)
     Unique name M_Rhino_Geometry_BoundingBox_Union_2 generated for M:Rhino.Geometry.BoundingBox.Union(Rhino.Geometry.BoundingBox,Rhino.Geometry.Point3d)
     Unique name M_Rhino_Geometry_BoundingBox_Union_3 generated for M:Rhino.Geometry.BoundingBox.Union(Rhino.Geometry.Point3d)
@@ -1218,6 +1229,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Geometry_Brep_SplitDisjointPieces_1 generated for M:Rhino.Geometry.Brep.SplitDisjointPieces(Rhino.Geometry.Brep,System.Collections.Generic.List{System.Int32[]}@)
     Unique name M_Rhino_Geometry_Brep_Trim_1 generated for M:Rhino.Geometry.Brep.Trim(Rhino.Geometry.Plane,System.Double)
     Unique name M_Rhino_Geometry_Brep_TryGetExtrusion_1 generated for M:Rhino.Geometry.Brep.TryGetExtrusion(Rhino.Geometry.Extrusion@,System.Double)
+    Unique name M_Rhino_Geometry_Brep_WireCut_1 generated for M:Rhino.Geometry.Brep.WireCut(System.Collections.Generic.IEnumerable{Rhino.Geometry.Curve},Rhino.Geometry.Vector3d,System.Double,System.Boolean,System.Double,System.Boolean,Rhino.Geometry.Brep[]@,Rhino.Geometry.Brep[]@)
     Unique name M_Rhino_Geometry_Brep_CurveConstraint__ctor_1 generated for M:Rhino.Geometry.Brep.CurveConstraint.#ctor(Rhino.Geometry.Curve,Rhino.Geometry.Continuity)
     Unique name M_Rhino_Geometry_Brep_VariationalPatchSettings__ctor_1 generated for M:Rhino.Geometry.Brep.VariationalPatchSettings.#ctor(Rhino.RhinoDoc)
     Unique name M_Rhino_Geometry_BrepEdge_SetEdgeCurve_1 generated for M:Rhino.Geometry.BrepEdge.SetEdgeCurve(System.Int32,Rhino.Geometry.Interval)
@@ -1977,6 +1989,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Geometry_Intersect_Intersection_LineBox_1 generated for M:Rhino.Geometry.Intersect.Intersection.LineBox(Rhino.Geometry.Line,Rhino.Geometry.Box,System.Double,Rhino.Geometry.Interval@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_LineLine_1 generated for M:Rhino.Geometry.Intersect.Intersection.LineLine(Rhino.Geometry.Line,Rhino.Geometry.Line,System.Double@,System.Double@,System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshLine_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshLine(Rhino.Geometry.Mesh,Rhino.Geometry.Line,System.Int32[]@)
+    Unique name M_Rhino_Geometry_Intersect_Intersection_MeshMeshPredicate_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshMeshPredicate(System.Collections.Generic.IEnumerable{Rhino.Geometry.Mesh},System.Double,System.Int32[]@,Rhino.FileIO.TextLog)
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshPlane_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshPlane(Rhino.Geometry.Mesh,Rhino.Geometry.Intersect.MeshIntersectionCache,Rhino.Geometry.Plane,System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshPlane_2 generated for M:Rhino.Geometry.Intersect.Intersection.MeshPlane(Rhino.Geometry.Mesh,Rhino.Geometry.Intersect.MeshIntersectionCache,System.Collections.Generic.IEnumerable{Rhino.Geometry.Plane},System.Double)
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshPlane_3 generated for M:Rhino.Geometry.Intersect.Intersection.MeshPlane(Rhino.Geometry.Mesh,Rhino.Geometry.Intersect.MeshIntersectionCache,System.Collections.Generic.IEnumerable{Rhino.Geometry.Plane},System.Double,System.Boolean)
@@ -2594,6 +2607,8 @@ Adding topic filenames to API members...
     Unique name M_Rhino_UI_UserInterfaceGrid__ctor_1 generated for M:Rhino.UI.UserInterfaceGrid.#ctor(System.Int32)
     Unique name M_Rhino_UI_UserInterfaceGrid_SetPadding_1 generated for M:Rhino.UI.UserInterfaceGrid.SetPadding(System.Double,System.Double,System.Double,System.Double)
     Unique name M_Rhino_UI_UserInterfaceLabel__ctor_1 generated for M:Rhino.UI.UserInterfaceLabel.#ctor(System.String)
+    Unique name M_Rhino_UI_UserInterfaceRadioButton__ctor_1 generated for M:Rhino.UI.UserInterfaceRadioButton.#ctor(System.String)
+    Unique name M_Rhino_UI_UserInterfaceRadioButton__ctor_2 generated for M:Rhino.UI.UserInterfaceRadioButton.#ctor(System.String,System.Int32)
     Unique name M_Rhino_UI_UserInterfaceTextBox__ctor_1 generated for M:Rhino.UI.UserInterfaceTextBox.#ctor(System.String)
     Unique name M_Rhino_UI_Controls_ExpandableContentUI_AddSection_1 generated for M:Rhino.UI.Controls.ExpandableContentUI.AddSection(Rhino.UI.Controls.ICollapsibleSection,Rhino.UI.Controls.IRdkViewModel)
     Unique name M_Rhino_UI_Controls_FactoryBase_Register_1 generated for M:Rhino.UI.Controls.FactoryBase.Register(Rhino.PlugIns.PlugIn)
@@ -2604,40 +2619,40 @@ Adding topic filenames to API members...
     Unique name M_Rhino_UI_Gumball_GumballDisplayConduit_UpdateGumball_1 generated for M:Rhino.UI.Gumball.GumballDisplayConduit.UpdateGumball(Rhino.Geometry.Point3d,Rhino.Geometry.Line)
     Unique name M_Rhino_UI_Gumball_GumballObject_Dispose_1 generated for M:Rhino.UI.Gumball.GumballObject.Dispose(System.Boolean)
     Unique name M_Rhino_UI_Gumball_GumballObject_SetFromBoundingBox_1 generated for M:Rhino.UI.Gumball.GumballObject.SetFromBoundingBox(Rhino.Geometry.Plane,Rhino.Geometry.BoundingBox)
-    Last step completed in 00:00:10.0731
+    Last step completed in 00:00:09.7476
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.6549
+    Last step completed in 00:00:00.6316
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:01.2119
+    Last step completed in 00:00:01.1003
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
 
-    Last step completed in 00:00:03.5331
+    Last step completed in 00:00:03.5905
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0036
+    Last step completed in 00:00:00.0038
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0010
+    Last step completed in 00:00:00.0008
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.2150
+    Last step completed in 00:00:01.3987
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.9461
+    Last step completed in 00:00:00.9662
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2645,12 +2660,12 @@ D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Worki
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0185
+    Last step completed in 00:00:00.0204
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 9/1/2026 6:42:25 PM.
+Build started 9/8/2026 4:00:22 PM.
 
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
@@ -2659,21 +2674,21 @@ BuildTopics:
   Loading configuration...
   ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\bozo\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
-  Processed 20806 topic(s)
+  Processed 20886 topic(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:03:59.6081
+    Last step completed in 00:03:56.8049
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1384
+    Last step completed in 00:00:00.2338
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
 
-    Last step completed in 00:00:18.3897
+    Last step completed in 00:00:18.5868
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2817,11 +2832,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00.9398
+    Last step completed in 00:00:00.9375
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.1399
+    Last step completed in 00:00:00.1420
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -2837,11 +2852,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 25 minutes, 16 seconds
+  Compile time: 22 minutes, 9 seconds
   
-  20,808	Topics
+  20,888	Topics
   
-  280,486	Local links
+  281,712	Local links
   
   0	Internet links
   
@@ -2851,18 +2866,18 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 19,371,594 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 19,475,682 bytes
   
-  Compression decreased file by 158,610,231 bytes.
+  Compression decreased file by 159,285,516 bytes.
   
-    Last step completed in 00:25:17.2889
+    Last step completed in 00:22:10.9527
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:20.9963
+</plugIn>    Last step completed in 00:00:20.7870
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2917,16 +2932,16 @@ Copied 23500 files
 Copied 24000 files
 Copied 24500 files
 Copied 25000 files
-Copied 25035 files for the website content
-    Last step completed in 00:00:24.1796
+Copied 25130 files for the website content
+    Last step completed in 00:00:24.2680
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:10.4932
+    Last step completed in 00:00:11.1357
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/1/2026 7:12:57 PM.  Total time: 00:31:00.7650
+Build completed successfully at 9/8/2026 4:27:46 PM.  Total time: 00:27:53.2747
 
 </buildStep>
 </shfbBuild>
