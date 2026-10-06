@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj" started="9/29/2026 4:19:09 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\helpdocs.shfbproj" started="10/6/2026 3:54:18 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
@@ -29,18 +29,18 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0239
+</plugIn>    Last step completed in 00:00:00.0291
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:00.2787
+    Last step completed in 00:00:00.3175
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-56257ca1-94ac-4d1f-8ec2-42a8f4634cf2.proj]
-Build started 9/29/2026 4:19:12 PM.
+[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-27f1c37c-a7be-4141-98b6-9cd630099444.proj]
+Build started 10/6/2026 3:54:21 PM.
 
-Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-56257ca1-94ac-4d1f-8ec2-42a8f4634cf2.proj&quot; on node 1 (default targets).
+Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-27f1c37c-a7be-4141-98b6-9cd630099444.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -48,17 +48,17 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 1 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection.Metadata (System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-56257ca1-94ac-4d1f-8ec2-42a8f4634cf2.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.Immutable (System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-56257ca1-94ac-4d1f-8ec2-42a8f4634cf2.proj]
-  Wrote information on 39 namespaces, 1522 types, and 19383 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection.Metadata (System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-27f1c37c-a7be-4141-98b6-9cd630099444.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Collections.Immutable (System.Collections.Immutable, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by RhinoCommon [D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-27f1c37c-a7be-4141-98b6-9cd630099444.proj]
+  Wrote information on 39 namespaces, 1521 types, and 19376 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-56257ca1-94ac-4d1f-8ec2-42a8f4634cf2.proj&quot; (default targets).
-    Last step completed in 00:00:04.8624
+Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\GenerateRefInfo-27f1c37c-a7be-4141-98b6-9cd630099444.proj&quot; (default targets).
+    Last step completed in 00:00:05.2604
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:02.8792
+    Last step completed in 00:00:03.2701
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -2012,7 +2012,7 @@ Adding topic filenames to API members...
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveBrep_2 generated for M:Rhino.Geometry.Intersect.Intersection.CurveBrep(Rhino.Geometry.Curve,Rhino.Geometry.Brep,System.Double,System.Double,System.Double[]@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveSurface_1 generated for M:Rhino.Geometry.Intersect.Intersection.CurveSurface(Rhino.Geometry.Curve,Rhino.Geometry.Surface,System.Double,System.Double)
     Unique name M_Rhino_Geometry_Intersect_Intersection_CurveSurfaceValidate_1 generated for M:Rhino.Geometry.Intersect.Intersection.CurveSurfaceValidate(Rhino.Geometry.Curve,Rhino.Geometry.Surface,System.Double,System.Double,System.Int32[]@,Rhino.FileIO.TextLog@)
-    Unique name M_Rhino_Geometry_Intersect_Intersection_GeometryPlane_1 generated for M:Rhino.Geometry.Intersect.Intersection.GeometryPlane(Rhino.Geometry.GeometryBase,Rhino.Geometry.Plane,System.Double,System.Boolean,System.Boolean,Rhino.RhinoDoc,Rhino.Geometry.Transform,Rhino.Geometry.Intersect.PlaneIntersectionCache,System.Threading.CancellationToken,Rhino.Geometry.Curve[]@,Rhino.Geometry.Point3d[]@)
+    Unique name M_Rhino_Geometry_Intersect_Intersection_GeometryPlane_1 generated for M:Rhino.Geometry.Intersect.Intersection.GeometryPlane(Rhino.Geometry.GeometryBase,Rhino.Geometry.Plane,System.Double,System.Boolean,System.Boolean,System.Boolean,Rhino.RhinoDoc,Rhino.Geometry.Transform,Rhino.Geometry.Intersect.PlaneIntersectionCache,System.Threading.CancellationToken,Rhino.Geometry.Curve[]@,Rhino.Geometry.Point3d[]@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_LineBox_1 generated for M:Rhino.Geometry.Intersect.Intersection.LineBox(Rhino.Geometry.Line,Rhino.Geometry.Box,System.Double,Rhino.Geometry.Interval@)
     Unique name M_Rhino_Geometry_Intersect_Intersection_LineLine_1 generated for M:Rhino.Geometry.Intersect.Intersection.LineLine(Rhino.Geometry.Line,Rhino.Geometry.Line,System.Double@,System.Double@,System.Double,System.Boolean)
     Unique name M_Rhino_Geometry_Intersect_Intersection_MeshLine_1 generated for M:Rhino.Geometry.Intersect.Intersection.MeshLine(Rhino.Geometry.Mesh,Rhino.Geometry.Line,System.Int32[]@)
@@ -2594,13 +2594,8 @@ Adding topic filenames to API members...
     Unique name M_Rhino_UI_Localization_LocalizeCommandOptionName_1 generated for M:Rhino.UI.Localization.LocalizeCommandOptionName(System.String,System.Int32,System.Int32)
     Unique name M_Rhino_UI_Localization_LocalizeCommandOptionName_2 generated for M:Rhino.UI.Localization.LocalizeCommandOptionName(System.String,System.Object,System.Int32)
     Unique name M_Rhino_UI_Localization_LocalizeCommandOptionValue_1 generated for M:Rhino.UI.Localization.LocalizeCommandOptionValue(System.String,System.Object,System.Int32)
-    Unique name M_Rhino_UI_Localization_LocalizeString_1 generated for M:Rhino.UI.Localization.LocalizeString(Rhino.UI.LocalizedStringHandler@,System.Object,System.Int32,System.String)
-    Unique name M_Rhino_UI_Localization_LocalizeString_2 generated for M:Rhino.UI.Localization.LocalizeString(System.String,System.Int32)
-    Unique name M_Rhino_UI_Localization_LocalizeString_3 generated for M:Rhino.UI.Localization.LocalizeString(System.String,System.Int32,System.Int32)
-    Unique name M_Rhino_UI_Localization_LocalizeString_4 generated for M:Rhino.UI.Localization.LocalizeString(System.String,System.Object,System.Int32)
-    Unique name M_Rhino_UI_LocalizedStringHandler_AppendFormatted__1_1 generated for M:Rhino.UI.LocalizedStringHandler.AppendFormatted``1(``0,System.Int32)
-    Unique name M_Rhino_UI_LocalizedStringHandler_AppendFormatted__1_2 generated for M:Rhino.UI.LocalizedStringHandler.AppendFormatted``1(``0,System.Int32,System.String)
-    Unique name M_Rhino_UI_LocalizedStringHandler_AppendFormatted__1_3 generated for M:Rhino.UI.LocalizedStringHandler.AppendFormatted``1(``0,System.String)
+    Unique name M_Rhino_UI_Localization_LocalizeString_1 generated for M:Rhino.UI.Localization.LocalizeString(System.String,System.Int32,System.Int32)
+    Unique name M_Rhino_UI_Localization_LocalizeString_2 generated for M:Rhino.UI.Localization.LocalizeString(System.String,System.Object,System.Int32)
     Unique name M_Rhino_UI_MouseState_IsMouseOver_1 generated for M:Rhino.UI.MouseState.IsMouseOver(Rhino.Geometry.Line)
     Unique name M_Rhino_UI_MouseState_IsMouseOver_2 generated for M:Rhino.UI.MouseState.IsMouseOver(Rhino.Geometry.Point3d)
     Unique name M_Rhino_UI_NamedColorList__ctor_1 generated for M:Rhino.UI.NamedColorList.#ctor(System.String,System.Collections.Generic.IEnumerable{Rhino.UI.NamedColor})
@@ -2657,26 +2652,26 @@ Adding topic filenames to API members...
     Unique name M_Rhino_UI_Gumball_GumballDisplayConduit_UpdateGumball_1 generated for M:Rhino.UI.Gumball.GumballDisplayConduit.UpdateGumball(Rhino.Geometry.Point3d,Rhino.Geometry.Line)
     Unique name M_Rhino_UI_Gumball_GumballObject_Dispose_1 generated for M:Rhino.UI.Gumball.GumballObject.Dispose(System.Boolean)
     Unique name M_Rhino_UI_Gumball_GumballObject_SetFromBoundingBox_1 generated for M:Rhino.UI.Gumball.GumballObject.SetFromBoundingBox(Rhino.Geometry.Plane,Rhino.Geometry.BoundingBox)
-    Last step completed in 00:00:10.7493
+    Last step completed in 00:00:11.4531
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.6791
+    Last step completed in 00:00:00.7503
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:01.1866
+    Last step completed in 00:00:01.0952
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
 
-    Last step completed in 00:00:03.2657
+    Last step completed in 00:00:03.3122
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0034
+    Last step completed in 00:00:00.0033
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
@@ -2685,12 +2680,12 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.2929
+    Last step completed in 00:00:01.1661
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.9818
+    Last step completed in 00:00:00.8284
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -2698,12 +2693,12 @@ D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Worki
   Updating reference topic configurations.
     Replacing default configuration for &#39;Code Block Component&#39; with the custom configuration
   No conceptual content.  Removing conceptual content components.
-    Last step completed in 00:00:00.0180
+    Last step completed in 00:00:00.0173
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 9/29/2026 4:19:38 PM.
+Build started 10/6/2026 3:54:48 PM.
 
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
@@ -2712,21 +2707,21 @@ BuildTopics:
   Loading configuration...
   ResolveReferenceLinksComponent: The member ID URL cache &#39;C:\Users\bozo\AppData\Local\EWSoftware\Sandcastle Help File Builder\Cache\MemberIdUrl.cache&#39; does not exist yet.  All IDs will be looked up in this build which will slow it down.
   Processing topics...
-  Processed 21093 topic(s)
+  Processed 21083 topic(s)
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 5 of 30.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:04:04.9963
+    Last step completed in 00:03:59.4641
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1996
+    Last step completed in 00:00:00.1863
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
 
-    Last step completed in 00:00:16.5512
+    Last step completed in 00:00:15.7582
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -2870,11 +2865,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:00.9603
+    Last step completed in 00:00:00.9274
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.4378
+    Last step completed in 00:00:00.1359
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -2890,11 +2885,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 21 minutes, 25 seconds
+  Compile time: 21 minutes, 22 seconds
   
-  21,095	Topics
+  21,085	Topics
   
-  284,664	Local links
+  284,573	Local links
   
   0	Internet links
   
@@ -2904,18 +2899,18 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 19,708,522 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\DotNetSDK\rhinocommon\dotnet\Help\Working\Output\HtmlHelp1\RhinoCommon.chm, 19,692,876 bytes
   
-  Compression decreased file by 160,905,296 bytes.
+  Compression decreased file by 160,840,279 bytes.
   
-    Last step completed in 00:21:26.0116
+    Last step completed in 00:21:23.5001
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:19.2894
+</plugIn>    Last step completed in 00:00:19.3140
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -2970,16 +2965,16 @@ Copied 23500 files
 Copied 24000 files
 Copied 24500 files
 Copied 25000 files
-Copied 25382 files for the website content
-    Last step completed in 00:00:18.3345
+Copied 25369 files for the website content
+    Last step completed in 00:00:19.3546
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:09.4861
+    Last step completed in 00:00:09.3786
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 9/29/2026 4:46:14 PM.  Total time: 00:27:05.1418
+Build completed successfully at 10/6/2026 4:21:16 PM.  Total time: 00:26:58.2529
 
 </buildStep>
 </shfbBuild>
