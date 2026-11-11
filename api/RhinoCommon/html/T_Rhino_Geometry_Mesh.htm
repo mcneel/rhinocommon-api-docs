@@ -344,13 +344,19 @@
             Aligned Bounding box solver. Gets the world axis aligned bounding box for the transformed geometry.
             </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_GeometryBase_GetBoundingBox_1.htm">GetBoundingBox(Plane, Box<span id="LSTEC3142AA_111"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTEC3142AA_111?cpp=%");</script>)</a></td><td><div class="summary">
             Aligned Bounding box solver. Gets the plane aligned bounding box.
-            </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates_1.htm">GetCachedTextureCoordinates(Guid)</a></td><td><div class="summary">
+            </div> (Inherited from <a href="T_Rhino_Geometry_GeometryBase.htm">GeometryBase</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates_2.htm">GetCachedTextureCoordinates(Guid)</a></td><td><div class="summary">
             Call this method to get cached texture coordinates for a texture
             mapping with the specified Id.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates.htm">GetCachedTextureCoordinates(RhinoObject, Texture)</a></td><td><div class="summary">
              Returns cached texture coordinate set based on the texture.
              Make sure to set up cached texture coordinates for all textures in the material first by calling
               SetCachedTextureCoordinatesFromMaterial(RhinoObject rhinoObject, Rhino.DocObjects.Material material)
+            
+             If this function returns null then there are no texture coordinates available.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetCachedTextureCoordinates_1.htm">GetCachedTextureCoordinates(File3dm, Guid, Texture)</a></td><td><div class="summary">
+             Returns cached texture coordinate set based on the texture.
+             Make sure to set up cached texture coordinates for all textures in the material first by calling
+              SetCachedTextureCoordinatesFromMaterial(File3dm file, Guid objectId, Rhino.DocObjects.Material material)
             
              If this function returns null then there are no texture coordinates available.
              </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><span class="nolink">GetHashCode</span></td><td><div class="summary">Serves as the default hash function.</div> (Inherited from <span class="nolink">Object</span>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_GetNakedEdgePointStatus.htm">GetNakedEdgePointStatus</a></td><td><div class="summary">
@@ -513,13 +519,23 @@
             Split a mesh with itself.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetCachedTextureCoordinates.htm">SetCachedTextureCoordinates</a></td><td><div class="summary">
             Set cached texture coordinates using the specified mapping.
-            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetCachedTextureCoordinatesFromMaterial.htm">SetCachedTextureCoordinatesFromMaterial</a></td><td><div class="summary">
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetCachedTextureCoordinatesFromMaterial.htm">SetCachedTextureCoordinatesFromMaterial(RhinoObject, Material)</a></td><td><div class="summary">
              Sets up cached texture coordinate set for each texture in the material.
              Textures in the Material define which mapping channels are used and
              the RhinoObject defines what texture mapping is used for each mapping channel.
              After this method is called all necessary texture coordinate sets are cached
              and correct texture coordinates for each texture can be fetched using
               GetCachedTextureCoordinates(RhinoObject rhinoObject, Rhino.DocObjects.Texture texture)
+            
+             If any texture coordinates are already cached they will not be re-computed.
+             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetCachedTextureCoordinatesFromMaterial_1.htm">SetCachedTextureCoordinatesFromMaterial(File3dm, Guid, Material)</a></td><td><div class="summary">
+             Sets up cached texture coordinate set for each texture in the material.
+             Textures in the Material define which mapping channels are used and
+             the object with the specified id in the file defines what texture mapping
+             is used for each mapping channel.
+             After this method is called all necessary texture coordinate sets are cached
+             and correct texture coordinates for each texture can be fetched using
+              GetCachedTextureCoordinates(File3dm file, Guid objectId, Rhino.DocObjects.Texture texture)
             
              If any texture coordinates are already cached they will not be re-computed.
              </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_SetSurfaceParametersFromTextureCoordinates.htm">SetSurfaceParametersFromTextureCoordinates</a></td><td><div class="summary">
@@ -653,4 +669,4 @@
             Constructs new mesh from the current one, with edge softening applied to it.
             </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Rhino_Geometry_Mesh_WithShutLining.htm">WithShutLining</a></td><td><div class="summary">
             Constructs new mesh from the current one, with shut lining applied to it.
-            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 9.0.26300.09400 (2026-10-27)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+            </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Rhino_Geometry.htm">Rhino.Geometry Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Rhino 9.1.26314.09000 (2026-11-10)<br />Copyright © 2009-2026 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/rhino-developer" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
